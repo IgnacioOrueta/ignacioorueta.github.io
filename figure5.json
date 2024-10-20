@@ -209,7 +209,7 @@
       "frame": "group",
       "subtitleColor": "rgb(148, 148, 148)"
   },
-  "width": "container",
+  "width": "500",
   "$schema": "https://vega.github.io/schema/vega-lite/v5.8.0.json",
   "datasets": {
       "data-d2253d4dd194827c40faefc03277bb7d": [

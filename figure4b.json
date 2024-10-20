@@ -1,0 +1,92 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "data": {
+    "values": [
+      {
+        "date": 1262304000000,
+        "victimization": 0.307,
+        "victimizationPercentage": 30.7
+      },
+      {
+        "date": 1356998400000,
+        "victimization": 0.228,
+        "victimizationPercentage": 22.8
+      },
+      {
+        "date": 1451606400000,
+        "victimization": 0.273,
+        "victimizationPercentage": 27.3
+      }
+    ]
+  },
+  "title": {
+    "text": "Delinquency",
+    "fontSize": 60,
+    "color": "darkblue",
+    "subtitle": "Victimization (Percentage of households that were victims of crime in 12 months)",
+    "subtitleColor": "darkblue",
+    "subtitleFontSize": 15
+  },
+  "width": 500,
+  "height": 320,
+  "layer": [
+    {
+      "mark": {"type": "bar", "size": 110},
+      "encoding": {
+        "x": {
+          "field": "date",
+          "type": "temporal",
+          "axis": {
+            "title": "",
+            "format": "%Y",
+            "labelAngle": 0,
+            "values": ["2010", "2013", "2016"],
+            "grid": false,
+            "labelFontSize": 20,
+            "labelColor": {
+              "condition": {
+                "test": "datum.value === 1356998400000",
+                "value": "darkblue"
+              },
+              "value": "black"
+            }
+          }
+        },
+        "y": {
+          "field": "victimization",
+          "type": "quantitative",
+          "axis": {"title": "", "labels": false, "grid": false, "domain": false}
+        },
+        "color": {
+          "condition": {
+            "test": "datum.date === 1356998400000",
+            "value": "darkblue"
+          },
+          "value": "red"
+        }
+      }
+    },
+    {
+      "mark": {
+        "type": "text",
+        "align": "center",
+        "baseline": "middle",
+        "dy": 115,
+        "size": 40,
+        "fontWeight": "bold",
+        "color": "white"
+      },
+      "encoding": {
+        "x": {"field": "date", "type": "temporal"},
+        "y": {"field": "victimization", "type": "quantitative"},
+        "text": {
+          "field": "victimizationPercentage",
+          "type": "quantitative",
+          "format": ".1f",
+          "formatType": "number"
+        }
+      }
+    }
+  ],
+  "config": {"view": {"stroke": null}}
+}
