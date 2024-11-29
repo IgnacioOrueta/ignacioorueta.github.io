@@ -1,0 +1,3336 @@
+year,country,ISO3,hs_eci_rank
+2000,Afghanistan,AFG,72
+2000,Albania,ALB,75
+2000,Algeria,DZA,126
+2000,Angola,AGO,142
+2000,Azerbaijan,AZE,71
+2000,Argentina,ARG,45
+2000,Australia,AUS,56
+2000,Austria,AUT,7
+2000,Bahrain,BHR,82
+2000,Bangladesh,BGD,123
+2000,Armenia,ARM,28
+2000,Belgium,BEL,15
+2000,Bolivia,BOL,90
+2000,Bosnia and Herzegovina,BIH,58
+2000,Botswana,BWA,107
+2000,Brazil,BRA,30
+2000,Bulgaria,BGR,44
+2000,Myanmar,MMR,133
+2000,Belarus,BLR,33
+2000,Cambodia,KHM,127
+2000,Cameroon,CMR,137
+2000,Canada,CAN,25
+2000,Sri Lanka,LKA,115
+2000,Chad,TCD,105
+2000,Chile,CHL,64
+2000,China,CHN,36
+2000,Taiwan,TWN,11
+2000,Colombia,COL,55
+2000,Republic of the Congo,COG,143
+2000,Democratic Republic of the Congo,COD,125
+2000,Costa Rica,CRI,68
+2000,Croatia,HRV,34
+2000,Cuba,CUB,92
+2000,Cyprus,CYP,54
+2000,Czechia,CZE,14
+2000,Benin,BEN,119
+2000,Denmark,DNK,20
+2000,Dominican Republic,DOM,93
+2000,Ecuador,ECU,121
+2000,El Salvador,SLV,74
+2000,Equatorial Guinea,GNQ,145
+2000,Ethiopia,ETH,130
+2000,Estonia,EST,43
+2000,Finland,FIN,5
+2000,France,FRA,9
+2000,Gabon,GAB,122
+2000,Georgia,GEO,37
+2000,Germany,DEU,2
+2000,Ghana,GHA,129
+2000,Greece,GRC,57
+2000,Guatemala,GTM,96
+2000,Guinea,GIN,136
+2000,Haiti,HTI,128
+2000,Honduras,HND,108
+2000,Hong Kong,HKG,35
+2000,Hungary,HUN,23
+2000,India,IND,46
+2000,Indonesia,IDN,69
+2000,Iran,IRN,87
+2000,Iraq,IRQ,141
+2000,Ireland,IRL,10
+2000,Israel,ISR,16
+2000,Italy,ITA,13
+2000,Côte d'Ivoire,CIV,101
+2000,Jamaica,JAM,100
+2000,Japan,JPN,1
+2000,Kazakhstan,KAZ,65
+2000,Jordan,JOR,50
+2000,Kenya,KEN,88
+2000,South Korea,KOR,21
+2000,Kuwait,KWT,114
+2000,Kyrgyzstan,KGZ,51
+2000,Laos,LAO,134
+2000,Lebanon,LBN,53
+2000,Latvia,LVA,41
+2000,Liberia,LBR,84
+2000,Libya,LBY,97
+2000,Lithuania,LTU,60
+2000,Madagascar,MDG,117
+2000,Malawi,MWI,131
+2000,Malaysia,MYS,32
+2000,Mali,MLI,98
+2000,Mauritania,MRT,135
+2000,Mauritius,MUS,94
+2000,Mexico,MEX,29
+2000,Mongolia,MNG,99
+2000,Moldova,MDA,62
+2000,Morocco,MAR,103
+2000,Mozambique,MOZ,118
+2000,Oman,OMN,111
+2000,Namibia,NAM,91
+2000,Nepal,NPL,83
+2000,Netherlands,NLD,18
+2000,New Zealand,NZL,39
+2000,Nicaragua,NIC,113
+2000,Niger,NER,112
+2000,Nigeria,NGA,144
+2000,Norway,NOR,26
+2000,Pakistan,PAK,116
+2000,Panama,PAN,61
+2000,Papua New Guinea,PNG,139
+2000,Paraguay,PRY,104
+2000,Peru,PER,80
+2000,Philippines,PHL,73
+2000,Poland,POL,27
+2000,Portugal,PRT,38
+2000,Qatar,QAT,95
+2000,Romania,ROU,48
+2000,Russia,RUS,22
+2000,Rwanda,RWA,86
+2000,Saudi Arabia,SAU,47
+2000,Senegal,SEN,79
+2000,Serbia,SRB,67
+2000,Singapore,SGP,19
+2000,Slovakia,SVK,17
+2000,Vietnam,VNM,109
+2000,Slovenia,SVN,12
+2000,South Africa,ZAF,42
+2000,Zimbabwe,ZWE,89
+2000,Spain,ESP,24
+2000,Sudan,SDN,138
+2000,Eswatini,SWZ,40
+2000,Sweden,SWE,4
+2000,Switzerland,CHE,3
+2000,Tajikistan,TJK,102
+2000,Thailand,THA,49
+2000,Togo,TGO,110
+2000,Trinidad and Tobago,TTO,76
+2000,United Arab Emirates,ARE,78
+2000,Tunisia,TUN,70
+2000,Turkiye,TUR,59
+2000,Turkmenistan,TKM,120
+2000,Uganda,UGA,124
+2000,Ukraine,UKR,31
+2000,North Macedonia,MKD,66
+2000,Egypt,EGY,81
+2000,United Kingdom,GBR,6
+2000,Tanzania,TZA,132
+2000,United States of America,USA,8
+2000,Burkina Faso,BFA,77
+2000,Uruguay,URY,52
+2000,Uzbekistan,UZB,85
+2000,Venezuela,VEN,63
+2000,Yemen,YEM,140
+2000,Zambia,ZMB,106
+2001,Afghanistan,AFG,66
+2001,Albania,ALB,75
+2001,Algeria,DZA,90
+2001,Angola,AGO,142
+2001,Azerbaijan,AZE,106
+2001,Argentina,ARG,52
+2001,Australia,AUS,55
+2001,Austria,AUT,8
+2001,Bahrain,BHR,72
+2001,Bangladesh,BGD,119
+2001,Armenia,ARM,32
+2001,Belgium,BEL,14
+2001,Bolivia,BOL,105
+2001,Bosnia and Herzegovina,BIH,57
+2001,Botswana,BWA,100
+2001,Brazil,BRA,33
+2001,Bulgaria,BGR,44
+2001,Myanmar,MMR,139
+2001,Belarus,BLR,31
+2001,Cambodia,KHM,125
+2001,Cameroon,CMR,138
+2001,Canada,CAN,27
+2001,Sri Lanka,LKA,107
+2001,Chad,TCD,99
+2001,Chile,CHL,67
+2001,China,CHN,36
+2001,Taiwan,TWN,11
+2001,Colombia,COL,46
+2001,Republic of the Congo,COG,140
+2001,Democratic Republic of the Congo,COD,136
+2001,Costa Rica,CRI,62
+2001,Croatia,HRV,39
+2001,Cuba,CUB,93
+2001,Cyprus,CYP,53
+2001,Czechia,CZE,12
+2001,Benin,BEN,118
+2001,Denmark,DNK,20
+2001,Dominican Republic,DOM,84
+2001,Ecuador,ECU,110
+2001,El Salvador,SLV,76
+2001,Equatorial Guinea,GNQ,144
+2001,Ethiopia,ETH,120
+2001,Estonia,EST,37
+2001,Finland,FIN,5
+2001,France,FRA,10
+2001,Gabon,GAB,133
+2001,Georgia,GEO,38
+2001,Germany,DEU,2
+2001,Ghana,GHA,122
+2001,Greece,GRC,54
+2001,Guatemala,GTM,78
+2001,Guinea,GIN,137
+2001,Haiti,HTI,124
+2001,Honduras,HND,111
+2001,Hong Kong,HKG,34
+2001,Hungary,HUN,23
+2001,India,IND,50
+2001,Indonesia,IDN,74
+2001,Iran,IRN,97
+2001,Iraq,IRQ,126
+2001,Ireland,IRL,9
+2001,Israel,ISR,16
+2001,Italy,ITA,15
+2001,Côte d'Ivoire,CIV,102
+2001,Jamaica,JAM,95
+2001,Japan,JPN,1
+2001,Kazakhstan,KAZ,65
+2001,Jordan,JOR,49
+2001,Kenya,KEN,85
+2001,South Korea,KOR,21
+2001,Kuwait,KWT,81
+2001,Kyrgyzstan,KGZ,64
+2001,Laos,LAO,130
+2001,Lebanon,LBN,61
+2001,Latvia,LVA,43
+2001,Liberia,LBR,104
+2001,Libya,LBY,113
+2001,Lithuania,LTU,58
+2001,Madagascar,MDG,123
+2001,Malawi,MWI,135
+2001,Malaysia,MYS,29
+2001,Mali,MLI,88
+2001,Mauritania,MRT,127
+2001,Mauritius,MUS,77
+2001,Mexico,MEX,28
+2001,Mongolia,MNG,115
+2001,Moldova,MDA,68
+2001,Morocco,MAR,103
+2001,Mozambique,MOZ,132
+2001,Oman,OMN,92
+2001,Namibia,NAM,109
+2001,Nepal,NPL,94
+2001,Netherlands,NLD,17
+2001,New Zealand,NZL,40
+2001,Nicaragua,NIC,114
+2001,Niger,NER,91
+2001,Nigeria,NGA,145
+2001,Norway,NOR,25
+2001,Pakistan,PAK,117
+2001,Panama,PAN,63
+2001,Papua New Guinea,PNG,141
+2001,Paraguay,PRY,98
+2001,Peru,PER,80
+2001,Philippines,PHL,69
+2001,Poland,POL,26
+2001,Portugal,PRT,41
+2001,Qatar,QAT,87
+2001,Romania,ROU,45
+2001,Russia,RUS,22
+2001,Rwanda,RWA,129
+2001,Saudi Arabia,SAU,35
+2001,Senegal,SEN,86
+2001,Serbia,SRB,70
+2001,Singapore,SGP,19
+2001,Slovakia,SVK,18
+2001,Vietnam,VNM,96
+2001,Slovenia,SVN,13
+2001,South Africa,ZAF,51
+2001,Zimbabwe,ZWE,112
+2001,Spain,ESP,24
+2001,Sudan,SDN,143
+2001,Eswatini,SWZ,56
+2001,Sweden,SWE,4
+2001,Switzerland,CHE,3
+2001,Tajikistan,TJK,116
+2001,Thailand,THA,42
+2001,Togo,TGO,101
+2001,Trinidad and Tobago,TTO,59
+2001,United Arab Emirates,ARE,79
+2001,Tunisia,TUN,73
+2001,Turkiye,TUR,60
+2001,Turkmenistan,TKM,131
+2001,Uganda,UGA,121
+2001,Ukraine,UKR,30
+2001,North Macedonia,MKD,71
+2001,Egypt,EGY,82
+2001,United Kingdom,GBR,6
+2001,Tanzania,TZA,128
+2001,United States of America,USA,7
+2001,Burkina Faso,BFA,83
+2001,Uruguay,URY,47
+2001,Uzbekistan,UZB,89
+2001,Venezuela,VEN,48
+2001,Yemen,YEM,134
+2001,Zambia,ZMB,108
+2002,Afghanistan,AFG,82
+2002,Albania,ALB,84
+2002,Algeria,DZA,121
+2002,Angola,AGO,144
+2002,Azerbaijan,AZE,89
+2002,Argentina,ARG,50
+2002,Australia,AUS,54
+2002,Austria,AUT,7
+2002,Bahrain,BHR,74
+2002,Bangladesh,BGD,127
+2002,Armenia,ARM,34
+2002,Belgium,BEL,15
+2002,Bolivia,BOL,111
+2002,Bosnia and Herzegovina,BIH,51
+2002,Botswana,BWA,57
+2002,Brazil,BRA,31
+2002,Bulgaria,BGR,44
+2002,Myanmar,MMR,139
+2002,Belarus,BLR,28
+2002,Cambodia,KHM,132
+2002,Cameroon,CMR,134
+2002,Canada,CAN,25
+2002,Sri Lanka,LKA,109
+2002,Chad,TCD,60
+2002,Chile,CHL,73
+2002,China,CHN,36
+2002,Taiwan,TWN,10
+2002,Colombia,COL,48
+2002,Republic of the Congo,COG,141
+2002,Democratic Republic of the Congo,COD,136
+2002,Costa Rica,CRI,69
+2002,Croatia,HRV,38
+2002,Cuba,CUB,90
+2002,Cyprus,CYP,42
+2002,Czechia,CZE,11
+2002,Benin,BEN,115
+2002,Denmark,DNK,19
+2002,Dominican Republic,DOM,92
+2002,Ecuador,ECU,123
+2002,El Salvador,SLV,86
+2002,Equatorial Guinea,GNQ,145
+2002,Ethiopia,ETH,128
+2002,Estonia,EST,39
+2002,Finland,FIN,5
+2002,France,FRA,12
+2002,Gabon,GAB,116
+2002,Georgia,GEO,35
+2002,Germany,DEU,2
+2002,Ghana,GHA,135
+2002,Greece,GRC,45
+2002,Guatemala,GTM,85
+2002,Guinea,GIN,142
+2002,Haiti,HTI,125
+2002,Honduras,HND,106
+2002,Hong Kong,HKG,33
+2002,Hungary,HUN,22
+2002,India,IND,46
+2002,Indonesia,IDN,70
+2002,Iran,IRN,97
+2002,Iraq,IRQ,67
+2002,Ireland,IRL,8
+2002,Israel,ISR,17
+2002,Italy,ITA,14
+2002,Côte d'Ivoire,CIV,110
+2002,Jamaica,JAM,105
+2002,Japan,JPN,1
+2002,Kazakhstan,KAZ,68
+2002,Jordan,JOR,58
+2002,Kenya,KEN,107
+2002,South Korea,KOR,18
+2002,Kuwait,KWT,113
+2002,Kyrgyzstan,KGZ,62
+2002,Laos,LAO,131
+2002,Lebanon,LBN,53
+2002,Latvia,LVA,41
+2002,Liberia,LBR,64
+2002,Libya,LBY,103
+2002,Lithuania,LTU,55
+2002,Madagascar,MDG,126
+2002,Malawi,MWI,119
+2002,Malaysia,MYS,32
+2002,Mali,MLI,118
+2002,Mauritania,MRT,137
+2002,Mauritius,MUS,87
+2002,Mexico,MEX,27
+2002,Mongolia,MNG,117
+2002,Moldova,MDA,76
+2002,Morocco,MAR,100
+2002,Mozambique,MOZ,143
+2002,Oman,OMN,104
+2002,Namibia,NAM,83
+2002,Nepal,NPL,79
+2002,Netherlands,NLD,23
+2002,New Zealand,NZL,37
+2002,Nicaragua,NIC,120
+2002,Niger,NER,95
+2002,Nigeria,NGA,140
+2002,Norway,NOR,24
+2002,Pakistan,PAK,114
+2002,Panama,PAN,63
+2002,Papua New Guinea,PNG,138
+2002,Paraguay,PRY,98
+2002,Peru,PER,96
+2002,Philippines,PHL,59
+2002,Poland,POL,29
+2002,Portugal,PRT,40
+2002,Qatar,QAT,102
+2002,Romania,ROU,49
+2002,Russia,RUS,21
+2002,Rwanda,RWA,101
+2002,Saudi Arabia,SAU,77
+2002,Senegal,SEN,93
+2002,Serbia,SRB,66
+2002,Singapore,SGP,16
+2002,Slovakia,SVK,20
+2002,Vietnam,VNM,94
+2002,Slovenia,SVN,13
+2002,South Africa,ZAF,47
+2002,Zimbabwe,ZWE,72
+2002,Spain,ESP,26
+2002,Sudan,SDN,133
+2002,Eswatini,SWZ,71
+2002,Sweden,SWE,4
+2002,Switzerland,CHE,3
+2002,Tajikistan,TJK,112
+2002,Thailand,THA,43
+2002,Togo,TGO,99
+2002,Trinidad and Tobago,TTO,65
+2002,United Arab Emirates,ARE,78
+2002,Tunisia,TUN,80
+2002,Turkiye,TUR,61
+2002,Turkmenistan,TKM,124
+2002,Uganda,UGA,122
+2002,Ukraine,UKR,30
+2002,North Macedonia,MKD,75
+2002,Egypt,EGY,88
+2002,United Kingdom,GBR,6
+2002,Tanzania,TZA,130
+2002,United States of America,USA,9
+2002,Burkina Faso,BFA,108
+2002,Uruguay,URY,52
+2002,Uzbekistan,UZB,91
+2002,Venezuela,VEN,56
+2002,Yemen,YEM,129
+2002,Zambia,ZMB,81
+2003,Afghanistan,AFG,92
+2003,Albania,ALB,74
+2003,Algeria,DZA,114
+2003,Angola,AGO,143
+2003,Azerbaijan,AZE,94
+2003,Argentina,ARG,50
+2003,Australia,AUS,51
+2003,Austria,AUT,7
+2003,Bahrain,BHR,69
+2003,Bangladesh,BGD,121
+2003,Armenia,ARM,41
+2003,Belgium,BEL,16
+2003,Bolivia,BOL,106
+2003,Bosnia and Herzegovina,BIH,48
+2003,Botswana,BWA,107
+2003,Brazil,BRA,33
+2003,Bulgaria,BGR,44
+2003,Myanmar,MMR,135
+2003,Belarus,BLR,28
+2003,Cambodia,KHM,118
+2003,Cameroon,CMR,132
+2003,Canada,CAN,25
+2003,Sri Lanka,LKA,96
+2003,Chad,TCD,90
+2003,Chile,CHL,65
+2003,China,CHN,37
+2003,Taiwan,TWN,10
+2003,Colombia,COL,59
+2003,Republic of the Congo,COG,141
+2003,Democratic Republic of the Congo,COD,133
+2003,Costa Rica,CRI,64
+2003,Croatia,HRV,35
+2003,Cuba,CUB,75
+2003,Cyprus,CYP,52
+2003,Czechia,CZE,11
+2003,Benin,BEN,127
+2003,Denmark,DNK,17
+2003,Dominican Republic,DOM,88
+2003,Ecuador,ECU,113
+2003,El Salvador,SLV,76
+2003,Equatorial Guinea,GNQ,145
+2003,Ethiopia,ETH,125
+2003,Estonia,EST,38
+2003,Finland,FIN,5
+2003,France,FRA,13
+2003,Gabon,GAB,119
+2003,Georgia,GEO,43
+2003,Germany,DEU,2
+2003,Ghana,GHA,122
+2003,Greece,GRC,46
+2003,Guatemala,GTM,82
+2003,Guinea,GIN,144
+2003,Haiti,HTI,134
+2003,Honduras,HND,99
+2003,Hong Kong,HKG,31
+2003,Hungary,HUN,22
+2003,India,IND,49
+2003,Indonesia,IDN,71
+2003,Iran,IRN,101
+2003,Iraq,IRQ,100
+2003,Ireland,IRL,9
+2003,Israel,ISR,14
+2003,Italy,ITA,15
+2003,Côte d'Ivoire,CIV,108
+2003,Jamaica,JAM,105
+2003,Japan,JPN,1
+2003,Kazakhstan,KAZ,70
+2003,Jordan,JOR,62
+2003,Kenya,KEN,91
+2003,South Korea,KOR,20
+2003,Kuwait,KWT,120
+2003,Kyrgyzstan,KGZ,56
+2003,Laos,LAO,128
+2003,Lebanon,LBN,55
+2003,Latvia,LVA,36
+2003,Liberia,LBR,61
+2003,Libya,LBY,80
+2003,Lithuania,LTU,53
+2003,Madagascar,MDG,131
+2003,Malawi,MWI,137
+2003,Malaysia,MYS,32
+2003,Mali,MLI,112
+2003,Mauritania,MRT,117
+2003,Mauritius,MUS,84
+2003,Mexico,MEX,26
+2003,Mongolia,MNG,116
+2003,Moldova,MDA,68
+2003,Morocco,MAR,102
+2003,Mozambique,MOZ,124
+2003,Oman,OMN,140
+2003,Namibia,NAM,78
+2003,Nepal,NPL,83
+2003,Netherlands,NLD,23
+2003,New Zealand,NZL,34
+2003,Nicaragua,NIC,111
+2003,Niger,NER,81
+2003,Nigeria,NGA,142
+2003,Norway,NOR,21
+2003,Pakistan,PAK,103
+2003,Panama,PAN,72
+2003,Papua New Guinea,PNG,139
+2003,Paraguay,PRY,104
+2003,Peru,PER,93
+2003,Philippines,PHL,79
+2003,Poland,POL,29
+2003,Portugal,PRT,39
+2003,Qatar,QAT,97
+2003,Romania,ROU,45
+2003,Russia,RUS,24
+2003,Rwanda,RWA,126
+2003,Saudi Arabia,SAU,60
+2003,Senegal,SEN,87
+2003,Serbia,SRB,63
+2003,Singapore,SGP,19
+2003,Slovakia,SVK,18
+2003,Vietnam,VNM,98
+2003,Slovenia,SVN,12
+2003,South Africa,ZAF,42
+2003,Zimbabwe,ZWE,89
+2003,Spain,ESP,30
+2003,Sudan,SDN,136
+2003,Eswatini,SWZ,54
+2003,Sweden,SWE,4
+2003,Switzerland,CHE,3
+2003,Tajikistan,TJK,110
+2003,Thailand,THA,40
+2003,Togo,TGO,95
+2003,Trinidad and Tobago,TTO,73
+2003,United Arab Emirates,ARE,67
+2003,Tunisia,TUN,77
+2003,Turkiye,TUR,58
+2003,Turkmenistan,TKM,130
+2003,Uganda,UGA,115
+2003,Ukraine,UKR,27
+2003,North Macedonia,MKD,66
+2003,Egypt,EGY,85
+2003,United Kingdom,GBR,6
+2003,Tanzania,TZA,129
+2003,United States of America,USA,8
+2003,Burkina Faso,BFA,123
+2003,Uruguay,URY,57
+2003,Uzbekistan,UZB,86
+2003,Venezuela,VEN,47
+2003,Yemen,YEM,138
+2003,Zambia,ZMB,109
+2004,Afghanistan,AFG,93
+2004,Albania,ALB,80
+2004,Algeria,DZA,106
+2004,Angola,AGO,109
+2004,Azerbaijan,AZE,89
+2004,Argentina,ARG,54
+2004,Australia,AUS,58
+2004,Austria,AUT,7
+2004,Bahrain,BHR,59
+2004,Bangladesh,BGD,123
+2004,Armenia,ARM,45
+2004,Belgium,BEL,15
+2004,Bolivia,BOL,119
+2004,Bosnia and Herzegovina,BIH,40
+2004,Botswana,BWA,129
+2004,Brazil,BRA,41
+2004,Bulgaria,BGR,47
+2004,Myanmar,MMR,138
+2004,Belarus,BLR,25
+2004,Cambodia,KHM,135
+2004,Cameroon,CMR,142
+2004,Canada,CAN,27
+2004,Sri Lanka,LKA,98
+2004,Chad,TCD,120
+2004,Chile,CHL,72
+2004,China,CHN,33
+2004,Taiwan,TWN,10
+2004,Colombia,COL,68
+2004,Republic of the Congo,COG,144
+2004,Democratic Republic of the Congo,COD,139
+2004,Costa Rica,CRI,67
+2004,Croatia,HRV,31
+2004,Cuba,CUB,64
+2004,Cyprus,CYP,38
+2004,Czechia,CZE,11
+2004,Benin,BEN,130
+2004,Denmark,DNK,19
+2004,Dominican Republic,DOM,94
+2004,Ecuador,ECU,124
+2004,El Salvador,SLV,70
+2004,Equatorial Guinea,GNQ,128
+2004,Ethiopia,ETH,122
+2004,Estonia,EST,34
+2004,Finland,FIN,5
+2004,France,FRA,12
+2004,Gabon,GAB,103
+2004,Georgia,GEO,50
+2004,Germany,DEU,2
+2004,Ghana,GHA,133
+2004,Greece,GRC,48
+2004,Guatemala,GTM,82
+2004,Guinea,GIN,136
+2004,Haiti,HTI,132
+2004,Honduras,HND,99
+2004,Hong Kong,HKG,35
+2004,Hungary,HUN,22
+2004,India,IND,55
+2004,Indonesia,IDN,79
+2004,Iran,IRN,85
+2004,Iraq,IRQ,121
+2004,Ireland,IRL,13
+2004,Israel,ISR,18
+2004,Italy,ITA,16
+2004,Côte d'Ivoire,CIV,111
+2004,Jamaica,JAM,108
+2004,Japan,JPN,1
+2004,Kazakhstan,KAZ,74
+2004,Jordan,JOR,62
+2004,Kenya,KEN,96
+2004,South Korea,KOR,17
+2004,Kuwait,KWT,87
+2004,Kyrgyzstan,KGZ,66
+2004,Laos,LAO,131
+2004,Lebanon,LBN,53
+2004,Latvia,LVA,37
+2004,Liberia,LBR,46
+2004,Libya,LBY,88
+2004,Lithuania,LTU,44
+2004,Madagascar,MDG,125
+2004,Malawi,MWI,137
+2004,Malaysia,MYS,32
+2004,Mali,MLI,105
+2004,Mauritania,MRT,140
+2004,Mauritius,MUS,78
+2004,Mexico,MEX,29
+2004,Mongolia,MNG,116
+2004,Moldova,MDA,77
+2004,Morocco,MAR,102
+2004,Mozambique,MOZ,112
+2004,Oman,OMN,91
+2004,Namibia,NAM,83
+2004,Nepal,NPL,84
+2004,Netherlands,NLD,20
+2004,New Zealand,NZL,39
+2004,Nicaragua,NIC,113
+2004,Niger,NER,110
+2004,Nigeria,NGA,145
+2004,Norway,NOR,23
+2004,Pakistan,PAK,104
+2004,Panama,PAN,65
+2004,Papua New Guinea,PNG,143
+2004,Paraguay,PRY,100
+2004,Peru,PER,97
+2004,Philippines,PHL,73
+2004,Poland,POL,24
+2004,Portugal,PRT,36
+2004,Qatar,QAT,61
+2004,Romania,ROU,49
+2004,Russia,RUS,28
+2004,Rwanda,RWA,134
+2004,Saudi Arabia,SAU,51
+2004,Senegal,SEN,86
+2004,Serbia,SRB,69
+2004,Singapore,SGP,14
+2004,Slovakia,SVK,21
+2004,Vietnam,VNM,90
+2004,Slovenia,SVN,9
+2004,South Africa,ZAF,43
+2004,Zimbabwe,ZWE,92
+2004,Spain,ESP,26
+2004,Sudan,SDN,141
+2004,Eswatini,SWZ,52
+2004,Sweden,SWE,4
+2004,Switzerland,CHE,3
+2004,Tajikistan,TJK,101
+2004,Thailand,THA,42
+2004,Togo,TGO,107
+2004,Trinidad and Tobago,TTO,71
+2004,United Arab Emirates,ARE,60
+2004,Tunisia,TUN,75
+2004,Turkiye,TUR,57
+2004,Turkmenistan,TKM,115
+2004,Uganda,UGA,117
+2004,Ukraine,UKR,30
+2004,North Macedonia,MKD,76
+2004,Egypt,EGY,81
+2004,United Kingdom,GBR,6
+2004,Tanzania,TZA,118
+2004,United States of America,USA,8
+2004,Burkina Faso,BFA,127
+2004,Uruguay,URY,63
+2004,Uzbekistan,UZB,95
+2004,Venezuela,VEN,56
+2004,Yemen,YEM,126
+2004,Zambia,ZMB,114
+2005,Afghanistan,AFG,76
+2005,Albania,ALB,81
+2005,Algeria,DZA,87
+2005,Angola,AGO,138
+2005,Azerbaijan,AZE,96
+2005,Argentina,ARG,50
+2005,Australia,AUS,59
+2005,Austria,AUT,7
+2005,Bahrain,BHR,56
+2005,Bangladesh,BGD,117
+2005,Armenia,ARM,58
+2005,Belgium,BEL,19
+2005,Bolivia,BOL,114
+2005,Bosnia and Herzegovina,BIH,53
+2005,Botswana,BWA,108
+2005,Brazil,BRA,36
+2005,Bulgaria,BGR,48
+2005,Myanmar,MMR,133
+2005,Belarus,BLR,25
+2005,Cambodia,KHM,130
+2005,Cameroon,CMR,135
+2005,Canada,CAN,27
+2005,Sri Lanka,LKA,105
+2005,Chad,TCD,144
+2005,Chile,CHL,78
+2005,China,CHN,30
+2005,Taiwan,TWN,9
+2005,Colombia,COL,64
+2005,Republic of the Congo,COG,140
+2005,Democratic Republic of the Congo,COD,143
+2005,Costa Rica,CRI,65
+2005,Croatia,HRV,31
+2005,Cuba,CUB,57
+2005,Cyprus,CYP,38
+2005,Czechia,CZE,12
+2005,Benin,BEN,112
+2005,Denmark,DNK,21
+2005,Dominican Republic,DOM,92
+2005,Ecuador,ECU,118
+2005,El Salvador,SLV,83
+2005,Equatorial Guinea,GNQ,141
+2005,Ethiopia,ETH,127
+2005,Estonia,EST,35
+2005,Finland,FIN,5
+2005,France,FRA,14
+2005,Gabon,GAB,137
+2005,Georgia,GEO,69
+2005,Germany,DEU,2
+2005,Ghana,GHA,122
+2005,Greece,GRC,51
+2005,Guatemala,GTM,90
+2005,Guinea,GIN,136
+2005,Haiti,HTI,128
+2005,Honduras,HND,101
+2005,Hong Kong,HKG,34
+2005,Hungary,HUN,18
+2005,India,IND,55
+2005,Indonesia,IDN,77
+2005,Iran,IRN,88
+2005,Iraq,IRQ,115
+2005,Ireland,IRL,13
+2005,Israel,ISR,15
+2005,Italy,ITA,17
+2005,Côte d'Ivoire,CIV,110
+2005,Jamaica,JAM,106
+2005,Japan,JPN,1
+2005,Kazakhstan,KAZ,75
+2005,Jordan,JOR,60
+2005,Kenya,KEN,100
+2005,South Korea,KOR,16
+2005,Kuwait,KWT,61
+2005,Kyrgyzstan,KGZ,73
+2005,Laos,LAO,126
+2005,Lebanon,LBN,43
+2005,Latvia,LVA,41
+2005,Liberia,LBR,93
+2005,Libya,LBY,84
+2005,Lithuania,LTU,45
+2005,Madagascar,MDG,120
+2005,Malawi,MWI,132
+2005,Malaysia,MYS,32
+2005,Mali,MLI,124
+2005,Mauritania,MRT,142
+2005,Mauritius,MUS,82
+2005,Mexico,MEX,24
+2005,Mongolia,MNG,116
+2005,Moldova,MDA,68
+2005,Morocco,MAR,102
+2005,Mozambique,MOZ,131
+2005,Oman,OMN,91
+2005,Namibia,NAM,95
+2005,Nepal,NPL,85
+2005,Netherlands,NLD,22
+2005,New Zealand,NZL,40
+2005,Nicaragua,NIC,111
+2005,Niger,NER,80
+2005,Nigeria,NGA,145
+2005,Norway,NOR,23
+2005,Pakistan,PAK,104
+2005,Panama,PAN,70
+2005,Papua New Guinea,PNG,139
+2005,Paraguay,PRY,103
+2005,Peru,PER,97
+2005,Philippines,PHL,63
+2005,Poland,POL,28
+2005,Portugal,PRT,42
+2005,Qatar,QAT,71
+2005,Romania,ROU,47
+2005,Russia,RUS,26
+2005,Rwanda,RWA,89
+2005,Saudi Arabia,SAU,62
+2005,Senegal,SEN,86
+2005,Serbia,SRB,66
+2005,Singapore,SGP,10
+2005,Slovakia,SVK,20
+2005,Vietnam,VNM,98
+2005,Slovenia,SVN,11
+2005,South Africa,ZAF,44
+2005,Zimbabwe,ZWE,99
+2005,Spain,ESP,29
+2005,Sudan,SDN,134
+2005,Eswatini,SWZ,39
+2005,Sweden,SWE,4
+2005,Switzerland,CHE,3
+2005,Tajikistan,TJK,107
+2005,Thailand,THA,37
+2005,Togo,TGO,109
+2005,Trinidad and Tobago,TTO,54
+2005,United Arab Emirates,ARE,74
+2005,Tunisia,TUN,67
+2005,Turkiye,TUR,52
+2005,Turkmenistan,TKM,125
+2005,Uganda,UGA,113
+2005,Ukraine,UKR,33
+2005,North Macedonia,MKD,72
+2005,Egypt,EGY,79
+2005,United Kingdom,GBR,6
+2005,Tanzania,TZA,121
+2005,United States of America,USA,8
+2005,Burkina Faso,BFA,123
+2005,Uruguay,URY,49
+2005,Uzbekistan,UZB,94
+2005,Venezuela,VEN,46
+2005,Yemen,YEM,129
+2005,Zambia,ZMB,119
+2006,Afghanistan,AFG,105
+2006,Albania,ALB,86
+2006,Algeria,DZA,116
+2006,Angola,AGO,142
+2006,Azerbaijan,AZE,103
+2006,Argentina,ARG,50
+2006,Australia,AUS,64
+2006,Austria,AUT,7
+2006,Bahrain,BHR,56
+2006,Bangladesh,BGD,118
+2006,Armenia,ARM,59
+2006,Belgium,BEL,20
+2006,Bolivia,BOL,113
+2006,Bosnia and Herzegovina,BIH,49
+2006,Botswana,BWA,111
+2006,Brazil,BRA,41
+2006,Bulgaria,BGR,48
+2006,Myanmar,MMR,133
+2006,Belarus,BLR,25
+2006,Cambodia,KHM,128
+2006,Cameroon,CMR,132
+2006,Canada,CAN,31
+2006,Sri Lanka,LKA,97
+2006,Chad,TCD,145
+2006,Chile,CHL,77
+2006,China,CHN,32
+2006,Taiwan,TWN,9
+2006,Colombia,COL,60
+2006,Republic of the Congo,COG,143
+2006,Democratic Republic of the Congo,COD,135
+2006,Costa Rica,CRI,58
+2006,Croatia,HRV,33
+2006,Cuba,CUB,53
+2006,Cyprus,CYP,34
+2006,Czechia,CZE,11
+2006,Benin,BEN,114
+2006,Denmark,DNK,21
+2006,Dominican Republic,DOM,81
+2006,Ecuador,ECU,112
+2006,El Salvador,SLV,73
+2006,Equatorial Guinea,GNQ,137
+2006,Ethiopia,ETH,122
+2006,Estonia,EST,36
+2006,Finland,FIN,6
+2006,France,FRA,14
+2006,Gabon,GAB,134
+2006,Georgia,GEO,67
+2006,Germany,DEU,2
+2006,Ghana,GHA,120
+2006,Greece,GRC,54
+2006,Guatemala,GTM,76
+2006,Guinea,GIN,138
+2006,Haiti,HTI,124
+2006,Honduras,HND,95
+2006,Hong Kong,HKG,38
+2006,Hungary,HUN,16
+2006,India,IND,55
+2006,Indonesia,IDN,74
+2006,Iran,IRN,87
+2006,Iraq,IRQ,144
+2006,Ireland,IRL,15
+2006,Israel,ISR,17
+2006,Italy,ITA,19
+2006,Côte d'Ivoire,CIV,110
+2006,Jamaica,JAM,102
+2006,Japan,JPN,1
+2006,Kazakhstan,KAZ,66
+2006,Jordan,JOR,63
+2006,Kenya,KEN,88
+2006,South Korea,KOR,12
+2006,Kuwait,KWT,99
+2006,Kyrgyzstan,KGZ,70
+2006,Laos,LAO,127
+2006,Lebanon,LBN,46
+2006,Latvia,LVA,39
+2006,Liberia,LBR,108
+2006,Libya,LBY,90
+2006,Lithuania,LTU,45
+2006,Madagascar,MDG,115
+2006,Malawi,MWI,121
+2006,Malaysia,MYS,30
+2006,Mali,MLI,104
+2006,Mauritania,MRT,139
+2006,Mauritius,MUS,80
+2006,Mexico,MEX,24
+2006,Mongolia,MNG,129
+2006,Moldova,MDA,71
+2006,Morocco,MAR,94
+2006,Mozambique,MOZ,126
+2006,Oman,OMN,101
+2006,Namibia,NAM,98
+2006,Nepal,NPL,82
+2006,Netherlands,NLD,22
+2006,New Zealand,NZL,44
+2006,Nicaragua,NIC,119
+2006,Niger,NER,106
+2006,Nigeria,NGA,140
+2006,Norway,NOR,23
+2006,Pakistan,PAK,93
+2006,Panama,PAN,51
+2006,Papua New Guinea,PNG,141
+2006,Paraguay,PRY,100
+2006,Peru,PER,96
+2006,Philippines,PHL,62
+2006,Poland,POL,26
+2006,Portugal,PRT,43
+2006,Qatar,QAT,65
+2006,Romania,ROU,40
+2006,Russia,RUS,29
+2006,Rwanda,RWA,75
+2006,Saudi Arabia,SAU,57
+2006,Senegal,SEN,85
+2006,Serbia,SRB,42
+2006,Singapore,SGP,13
+2006,Slovakia,SVK,18
+2006,Vietnam,VNM,84
+2006,Slovenia,SVN,10
+2006,South Africa,ZAF,47
+2006,Zimbabwe,ZWE,89
+2006,Spain,ESP,28
+2006,Sudan,SDN,136
+2006,Eswatini,SWZ,27
+2006,Sweden,SWE,4
+2006,Switzerland,CHE,3
+2006,Tajikistan,TJK,123
+2006,Thailand,THA,37
+2006,Togo,TGO,109
+2006,Trinidad and Tobago,TTO,78
+2006,United Arab Emirates,ARE,68
+2006,Tunisia,TUN,69
+2006,Turkiye,TUR,52
+2006,Turkmenistan,TKM,130
+2006,Uganda,UGA,107
+2006,Ukraine,UKR,35
+2006,North Macedonia,MKD,79
+2006,Egypt,EGY,72
+2006,United Kingdom,GBR,5
+2006,Tanzania,TZA,117
+2006,United States of America,USA,8
+2006,Burkina Faso,BFA,131
+2006,Uruguay,URY,61
+2006,Uzbekistan,UZB,92
+2006,Venezuela,VEN,83
+2006,Yemen,YEM,125
+2006,Zambia,ZMB,91
+2007,Afghanistan,AFG,108
+2007,Albania,ALB,78
+2007,Algeria,DZA,112
+2007,Angola,AGO,137
+2007,Azerbaijan,AZE,99
+2007,Argentina,ARG,55
+2007,Australia,AUS,63
+2007,Austria,AUT,6
+2007,Bahrain,BHR,50
+2007,Bangladesh,BGD,119
+2007,Armenia,ARM,35
+2007,Belgium,BEL,18
+2007,Bolivia,BOL,121
+2007,Bosnia and Herzegovina,BIH,47
+2007,Botswana,BWA,106
+2007,Brazil,BRA,44
+2007,Bulgaria,BGR,49
+2007,Myanmar,MMR,132
+2007,Belarus,BLR,22
+2007,Cambodia,KHM,126
+2007,Cameroon,CMR,105
+2007,Canada,CAN,34
+2007,Sri Lanka,LKA,95
+2007,Chad,TCD,145
+2007,Chile,CHL,81
+2007,China,CHN,30
+2007,Taiwan,TWN,8
+2007,Colombia,COL,64
+2007,Republic of the Congo,COG,135
+2007,Democratic Republic of the Congo,COD,136
+2007,Costa Rica,CRI,62
+2007,Croatia,HRV,31
+2007,Cuba,CUB,86
+2007,Cyprus,CYP,29
+2007,Czechia,CZE,11
+2007,Benin,BEN,124
+2007,Denmark,DNK,20
+2007,Dominican Republic,DOM,74
+2007,Ecuador,ECU,104
+2007,El Salvador,SLV,69
+2007,Equatorial Guinea,GNQ,141
+2007,Ethiopia,ETH,123
+2007,Estonia,EST,36
+2007,Finland,FIN,5
+2007,France,FRA,14
+2007,Gabon,GAB,133
+2007,Georgia,GEO,65
+2007,Germany,DEU,2
+2007,Ghana,GHA,107
+2007,Greece,GRC,54
+2007,Guatemala,GTM,77
+2007,Guinea,GIN,142
+2007,Haiti,HTI,125
+2007,Honduras,HND,91
+2007,Hong Kong,HKG,39
+2007,Hungary,HUN,12
+2007,India,IND,57
+2007,Indonesia,IDN,71
+2007,Iran,IRN,110
+2007,Iraq,IRQ,144
+2007,Ireland,IRL,16
+2007,Israel,ISR,21
+2007,Italy,ITA,17
+2007,Côte d'Ivoire,CIV,117
+2007,Jamaica,JAM,89
+2007,Japan,JPN,1
+2007,Kazakhstan,KAZ,73
+2007,Jordan,JOR,58
+2007,Kenya,KEN,87
+2007,South Korea,KOR,15
+2007,Kuwait,KWT,113
+2007,Kyrgyzstan,KGZ,75
+2007,Laos,LAO,128
+2007,Lebanon,LBN,48
+2007,Latvia,LVA,41
+2007,Liberia,LBR,122
+2007,Libya,LBY,115
+2007,Lithuania,LTU,40
+2007,Madagascar,MDG,118
+2007,Malawi,MWI,131
+2007,Malaysia,MYS,32
+2007,Mali,MLI,102
+2007,Mauritania,MRT,143
+2007,Mauritius,MUS,84
+2007,Mexico,MEX,23
+2007,Mongolia,MNG,127
+2007,Moldova,MDA,61
+2007,Morocco,MAR,96
+2007,Mozambique,MOZ,134
+2007,Oman,OMN,92
+2007,Namibia,NAM,100
+2007,Nepal,NPL,80
+2007,Netherlands,NLD,24
+2007,New Zealand,NZL,46
+2007,Nicaragua,NIC,116
+2007,Niger,NER,82
+2007,Nigeria,NGA,138
+2007,Norway,NOR,28
+2007,Pakistan,PAK,98
+2007,Panama,PAN,53
+2007,Papua New Guinea,PNG,140
+2007,Paraguay,PRY,94
+2007,Peru,PER,93
+2007,Philippines,PHL,60
+2007,Poland,POL,25
+2007,Portugal,PRT,42
+2007,Qatar,QAT,66
+2007,Romania,ROU,38
+2007,Russia,RUS,45
+2007,Rwanda,RWA,90
+2007,Saudi Arabia,SAU,56
+2007,Senegal,SEN,76
+2007,Serbia,SRB,43
+2007,Singapore,SGP,13
+2007,Slovakia,SVK,19
+2007,Vietnam,VNM,79
+2007,Slovenia,SVN,9
+2007,South Africa,ZAF,51
+2007,Zimbabwe,ZWE,88
+2007,Spain,ESP,27
+2007,Sudan,SDN,139
+2007,Eswatini,SWZ,26
+2007,Sweden,SWE,4
+2007,Switzerland,CHE,3
+2007,Tajikistan,TJK,120
+2007,Thailand,THA,37
+2007,Togo,TGO,109
+2007,Trinidad and Tobago,TTO,85
+2007,United Arab Emirates,ARE,68
+2007,Tunisia,TUN,67
+2007,Turkiye,TUR,52
+2007,Turkmenistan,TKM,129
+2007,Uganda,UGA,114
+2007,Ukraine,UKR,33
+2007,North Macedonia,MKD,72
+2007,Egypt,EGY,70
+2007,United Kingdom,GBR,7
+2007,Tanzania,TZA,111
+2007,United States of America,USA,10
+2007,Burkina Faso,BFA,103
+2007,Uruguay,URY,59
+2007,Uzbekistan,UZB,101
+2007,Venezuela,VEN,83
+2007,Yemen,YEM,130
+2007,Zambia,ZMB,97
+2008,Afghanistan,AFG,74
+2008,Albania,ALB,56
+2008,Algeria,DZA,115
+2008,Angola,AGO,143
+2008,Azerbaijan,AZE,113
+2008,Argentina,ARG,52
+2008,Australia,AUS,73
+2008,Austria,AUT,9
+2008,Bahrain,BHR,55
+2008,Bangladesh,BGD,112
+2008,Armenia,ARM,54
+2008,Belgium,BEL,17
+2008,Bolivia,BOL,111
+2008,Bosnia and Herzegovina,BIH,44
+2008,Botswana,BWA,77
+2008,Brazil,BRA,48
+2008,Bulgaria,BGR,49
+2008,Myanmar,MMR,134
+2008,Belarus,BLR,22
+2008,Cambodia,KHM,120
+2008,Cameroon,CMR,124
+2008,Canada,CAN,38
+2008,Sri Lanka,LKA,93
+2008,Chad,TCD,145
+2008,Chile,CHL,83
+2008,China,CHN,27
+2008,Taiwan,TWN,10
+2008,Colombia,COL,63
+2008,Republic of the Congo,COG,144
+2008,Democratic Republic of the Congo,COD,136
+2008,Costa Rica,CRI,61
+2008,Croatia,HRV,30
+2008,Cuba,CUB,78
+2008,Cyprus,CYP,25
+2008,Czechia,CZE,8
+2008,Benin,BEN,128
+2008,Denmark,DNK,21
+2008,Dominican Republic,DOM,72
+2008,Ecuador,ECU,109
+2008,El Salvador,SLV,67
+2008,Equatorial Guinea,GNQ,131
+2008,Ethiopia,ETH,116
+2008,Estonia,EST,35
+2008,Finland,FIN,5
+2008,France,FRA,15
+2008,Gabon,GAB,132
+2008,Georgia,GEO,75
+2008,Germany,DEU,2
+2008,Ghana,GHA,103
+2008,Greece,GRC,60
+2008,Guatemala,GTM,82
+2008,Guinea,GIN,135
+2008,Haiti,HTI,126
+2008,Honduras,HND,102
+2008,Hong Kong,HKG,32
+2008,Hungary,HUN,16
+2008,India,IND,59
+2008,Indonesia,IDN,66
+2008,Iran,IRN,122
+2008,Iraq,IRQ,140
+2008,Ireland,IRL,11
+2008,Israel,ISR,20
+2008,Italy,ITA,18
+2008,Côte d'Ivoire,CIV,119
+2008,Jamaica,JAM,97
+2008,Japan,JPN,1
+2008,Kazakhstan,KAZ,86
+2008,Jordan,JOR,58
+2008,Kenya,KEN,81
+2008,South Korea,KOR,14
+2008,Kuwait,KWT,137
+2008,Kyrgyzstan,KGZ,71
+2008,Laos,LAO,125
+2008,Lebanon,LBN,47
+2008,Latvia,LVA,37
+2008,Liberia,LBR,94
+2008,Libya,LBY,133
+2008,Lithuania,LTU,39
+2008,Madagascar,MDG,121
+2008,Malawi,MWI,130
+2008,Malaysia,MYS,31
+2008,Mali,MLI,84
+2008,Mauritania,MRT,142
+2008,Mauritius,MUS,80
+2008,Mexico,MEX,26
+2008,Mongolia,MNG,123
+2008,Moldova,MDA,62
+2008,Morocco,MAR,90
+2008,Mozambique,MOZ,117
+2008,Oman,OMN,100
+2008,Namibia,NAM,69
+2008,Nepal,NPL,76
+2008,Netherlands,NLD,23
+2008,New Zealand,NZL,46
+2008,Nicaragua,NIC,106
+2008,Niger,NER,108
+2008,Nigeria,NGA,139
+2008,Norway,NOR,28
+2008,Pakistan,PAK,88
+2008,Panama,PAN,45
+2008,Papua New Guinea,PNG,138
+2008,Paraguay,PRY,101
+2008,Peru,PER,96
+2008,Philippines,PHL,57
+2008,Poland,POL,24
+2008,Portugal,PRT,42
+2008,Qatar,QAT,110
+2008,Romania,ROU,33
+2008,Russia,RUS,41
+2008,Rwanda,RWA,107
+2008,Saudi Arabia,SAU,70
+2008,Senegal,SEN,91
+2008,Serbia,SRB,43
+2008,Singapore,SGP,6
+2008,Slovakia,SVK,19
+2008,Vietnam,VNM,79
+2008,Slovenia,SVN,13
+2008,South Africa,ZAF,51
+2008,Zimbabwe,ZWE,89
+2008,Spain,ESP,29
+2008,Sudan,SDN,141
+2008,Eswatini,SWZ,36
+2008,Sweden,SWE,4
+2008,Switzerland,CHE,3
+2008,Tajikistan,TJK,114
+2008,Thailand,THA,34
+2008,Togo,TGO,92
+2008,Trinidad and Tobago,TTO,99
+2008,United Arab Emirates,ARE,85
+2008,Tunisia,TUN,64
+2008,Turkiye,TUR,50
+2008,Turkmenistan,TKM,127
+2008,Uganda,UGA,98
+2008,Ukraine,UKR,40
+2008,North Macedonia,MKD,68
+2008,Egypt,EGY,65
+2008,United Kingdom,GBR,7
+2008,Tanzania,TZA,105
+2008,United States of America,USA,12
+2008,Burkina Faso,BFA,118
+2008,Uruguay,URY,53
+2008,Uzbekistan,UZB,95
+2008,Venezuela,VEN,87
+2008,Yemen,YEM,129
+2008,Zambia,ZMB,104
+2009,Afghanistan,AFG,44
+2009,Albania,ALB,49
+2009,Algeria,DZA,130
+2009,Angola,AGO,120
+2009,Azerbaijan,AZE,123
+2009,Argentina,ARG,59
+2009,Australia,AUS,72
+2009,Austria,AUT,8
+2009,Bahrain,BHR,57
+2009,Bangladesh,BGD,113
+2009,Armenia,ARM,54
+2009,Belgium,BEL,18
+2009,Bolivia,BOL,117
+2009,Bosnia and Herzegovina,BIH,47
+2009,Botswana,BWA,68
+2009,Brazil,BRA,52
+2009,Bulgaria,BGR,53
+2009,Myanmar,MMR,139
+2009,Belarus,BLR,25
+2009,Cambodia,KHM,126
+2009,Cameroon,CMR,122
+2009,Canada,CAN,38
+2009,Sri Lanka,LKA,99
+2009,Chad,TCD,129
+2009,Chile,CHL,87
+2009,China,CHN,26
+2009,Taiwan,TWN,10
+2009,Colombia,COL,58
+2009,Republic of the Congo,COG,140
+2009,Democratic Republic of the Congo,COD,142
+2009,Costa Rica,CRI,66
+2009,Croatia,HRV,31
+2009,Cuba,CUB,67
+2009,Cyprus,CYP,28
+2009,Czechia,CZE,9
+2009,Benin,BEN,110
+2009,Denmark,DNK,21
+2009,Dominican Republic,DOM,80
+2009,Ecuador,ECU,111
+2009,El Salvador,SLV,74
+2009,Equatorial Guinea,GNQ,135
+2009,Ethiopia,ETH,108
+2009,Estonia,EST,34
+2009,Finland,FIN,7
+2009,France,FRA,15
+2009,Gabon,GAB,133
+2009,Georgia,GEO,71
+2009,Germany,DEU,3
+2009,Ghana,GHA,114
+2009,Greece,GRC,61
+2009,Guatemala,GTM,85
+2009,Guinea,GIN,141
+2009,Haiti,HTI,136
+2009,Honduras,HND,94
+2009,Hong Kong,HKG,33
+2009,Hungary,HUN,16
+2009,India,IND,63
+2009,Indonesia,IDN,79
+2009,Iran,IRN,128
+2009,Iraq,IRQ,132
+2009,Ireland,IRL,13
+2009,Israel,ISR,19
+2009,Italy,ITA,17
+2009,Côte d'Ivoire,CIV,124
+2009,Jamaica,JAM,78
+2009,Japan,JPN,1
+2009,Kazakhstan,KAZ,100
+2009,Jordan,JOR,64
+2009,Kenya,KEN,84
+2009,South Korea,KOR,14
+2009,Kuwait,KWT,115
+2009,Kyrgyzstan,KGZ,81
+2009,Laos,LAO,131
+2009,Lebanon,LBN,48
+2009,Latvia,LVA,36
+2009,Liberia,LBR,75
+2009,Libya,LBY,127
+2009,Lithuania,LTU,42
+2009,Madagascar,MDG,112
+2009,Malawi,MWI,138
+2009,Malaysia,MYS,27
+2009,Mali,MLI,109
+2009,Mauritania,MRT,143
+2009,Mauritius,MUS,77
+2009,Mexico,MEX,24
+2009,Mongolia,MNG,105
+2009,Moldova,MDA,69
+2009,Morocco,MAR,93
+2009,Mozambique,MOZ,107
+2009,Oman,OMN,102
+2009,Namibia,NAM,76
+2009,Nepal,NPL,89
+2009,Netherlands,NLD,22
+2009,New Zealand,NZL,55
+2009,Nicaragua,NIC,116
+2009,Niger,NER,134
+2009,Nigeria,NGA,137
+2009,Norway,NOR,30
+2009,Pakistan,PAK,92
+2009,Panama,PAN,40
+2009,Papua New Guinea,PNG,144
+2009,Paraguay,PRY,98
+2009,Peru,PER,96
+2009,Philippines,PHL,46
+2009,Poland,POL,23
+2009,Portugal,PRT,41
+2009,Qatar,QAT,91
+2009,Romania,ROU,32
+2009,Russia,RUS,43
+2009,Rwanda,RWA,88
+2009,Saudi Arabia,SAU,60
+2009,Senegal,SEN,90
+2009,Serbia,SRB,45
+2009,Singapore,SGP,4
+2009,Slovakia,SVK,20
+2009,Vietnam,VNM,82
+2009,Slovenia,SVN,11
+2009,South Africa,ZAF,51
+2009,Zimbabwe,ZWE,101
+2009,Spain,ESP,29
+2009,Sudan,SDN,145
+2009,Eswatini,SWZ,37
+2009,Sweden,SWE,5
+2009,Switzerland,CHE,2
+2009,Tajikistan,TJK,118
+2009,Thailand,THA,35
+2009,Togo,TGO,97
+2009,Trinidad and Tobago,TTO,86
+2009,United Arab Emirates,ARE,62
+2009,Tunisia,TUN,65
+2009,Turkiye,TUR,50
+2009,Turkmenistan,TKM,125
+2009,Uganda,UGA,95
+2009,Ukraine,UKR,39
+2009,North Macedonia,MKD,70
+2009,Egypt,EGY,73
+2009,United Kingdom,GBR,6
+2009,Tanzania,TZA,106
+2009,United States of America,USA,12
+2009,Burkina Faso,BFA,119
+2009,Uruguay,URY,56
+2009,Uzbekistan,UZB,103
+2009,Venezuela,VEN,83
+2009,Yemen,YEM,121
+2009,Zambia,ZMB,104
+2010,Afghanistan,AFG,66
+2010,Albania,ALB,97
+2010,Algeria,DZA,133
+2010,Angola,AGO,138
+2010,Azerbaijan,AZE,129
+2010,Argentina,ARG,55
+2010,Australia,AUS,78
+2010,Austria,AUT,8
+2010,Bahrain,BHR,61
+2010,Bangladesh,BGD,124
+2010,Armenia,ARM,62
+2010,Belgium,BEL,19
+2010,Bolivia,BOL,117
+2010,Bosnia and Herzegovina,BIH,48
+2010,Botswana,BWA,88
+2010,Brazil,BRA,47
+2010,Bulgaria,BGR,46
+2010,Myanmar,MMR,135
+2010,Belarus,BLR,25
+2010,Cambodia,KHM,122
+2010,Cameroon,CMR,118
+2010,Canada,CAN,32
+2010,Sri Lanka,LKA,109
+2010,Chad,TCD,67
+2010,Chile,CHL,82
+2010,China,CHN,26
+2010,Taiwan,TWN,10
+2010,Colombia,COL,56
+2010,Republic of the Congo,COG,139
+2010,Democratic Republic of the Congo,COD,136
+2010,Costa Rica,CRI,63
+2010,Croatia,HRV,28
+2010,Cuba,CUB,70
+2010,Cyprus,CYP,30
+2010,Czechia,CZE,7
+2010,Benin,BEN,130
+2010,Denmark,DNK,23
+2010,Dominican Republic,DOM,77
+2010,Ecuador,ECU,93
+2010,El Salvador,SLV,69
+2010,Equatorial Guinea,GNQ,132
+2010,Ethiopia,ETH,123
+2010,Estonia,EST,33
+2010,Finland,FIN,9
+2010,France,FRA,14
+2010,Gabon,GAB,108
+2010,Georgia,GEO,73
+2010,Germany,DEU,3
+2010,Ghana,GHA,110
+2010,Greece,GRC,60
+2010,Guatemala,GTM,83
+2010,Guinea,GIN,140
+2010,Haiti,HTI,134
+2010,Honduras,HND,98
+2010,Hong Kong,HKG,35
+2010,Hungary,HUN,15
+2010,India,IND,64
+2010,Indonesia,IDN,76
+2010,Iran,IRN,100
+2010,Iraq,IRQ,145
+2010,Ireland,IRL,16
+2010,Israel,ISR,17
+2010,Italy,ITA,22
+2010,Côte d'Ivoire,CIV,121
+2010,Jamaica,JAM,81
+2010,Japan,JPN,1
+2010,Kazakhstan,KAZ,106
+2010,Jordan,JOR,58
+2010,Kenya,KEN,86
+2010,South Korea,KOR,12
+2010,Kuwait,KWT,59
+2010,Kyrgyzstan,KGZ,91
+2010,Laos,LAO,125
+2010,Lebanon,LBN,49
+2010,Latvia,LVA,39
+2010,Liberia,LBR,99
+2010,Libya,LBY,115
+2010,Lithuania,LTU,38
+2010,Madagascar,MDG,116
+2010,Malawi,MWI,119
+2010,Malaysia,MYS,27
+2010,Mali,MLI,105
+2010,Mauritania,MRT,143
+2010,Mauritius,MUS,72
+2010,Mexico,MEX,20
+2010,Mongolia,MNG,131
+2010,Moldova,MDA,71
+2010,Morocco,MAR,101
+2010,Mozambique,MOZ,137
+2010,Oman,OMN,87
+2010,Namibia,NAM,85
+2010,Nepal,NPL,80
+2010,Netherlands,NLD,21
+2010,New Zealand,NZL,50
+2010,Nicaragua,NIC,120
+2010,Niger,NER,112
+2010,Nigeria,NGA,142
+2010,Norway,NOR,29
+2010,Pakistan,PAK,111
+2010,Panama,PAN,44
+2010,Papua New Guinea,PNG,141
+2010,Paraguay,PRY,95
+2010,Peru,PER,96
+2010,Philippines,PHL,41
+2010,Poland,POL,24
+2010,Portugal,PRT,43
+2010,Qatar,QAT,102
+2010,Romania,ROU,36
+2010,Russia,RUS,40
+2010,Rwanda,RWA,94
+2010,Saudi Arabia,SAU,45
+2010,Senegal,SEN,84
+2010,Serbia,SRB,42
+2010,Singapore,SGP,4
+2010,Slovakia,SVK,18
+2010,Vietnam,VNM,74
+2010,Slovenia,SVN,13
+2010,South Africa,ZAF,52
+2010,Zimbabwe,ZWE,114
+2010,Spain,ESP,31
+2010,Sudan,SDN,144
+2010,Eswatini,SWZ,54
+2010,Sweden,SWE,5
+2010,Switzerland,CHE,2
+2010,Tajikistan,TJK,127
+2010,Thailand,THA,34
+2010,Togo,TGO,103
+2010,Trinidad and Tobago,TTO,79
+2010,United Arab Emirates,ARE,53
+2010,Tunisia,TUN,65
+2010,Turkiye,TUR,51
+2010,Turkmenistan,TKM,128
+2010,Uganda,UGA,90
+2010,Ukraine,UKR,37
+2010,North Macedonia,MKD,68
+2010,Egypt,EGY,75
+2010,United Kingdom,GBR,6
+2010,Tanzania,TZA,113
+2010,United States of America,USA,11
+2010,Burkina Faso,BFA,104
+2010,Uruguay,URY,57
+2010,Uzbekistan,UZB,107
+2010,Venezuela,VEN,92
+2010,Yemen,YEM,126
+2010,Zambia,ZMB,89
+2011,Afghanistan,AFG,109
+2011,Albania,ALB,87
+2011,Algeria,DZA,140
+2011,Angola,AGO,128
+2011,Azerbaijan,AZE,104
+2011,Argentina,ARG,57
+2011,Australia,AUS,68
+2011,Austria,AUT,13
+2011,Bahrain,BHR,56
+2011,Bangladesh,BGD,126
+2011,Armenia,ARM,40
+2011,Belgium,BEL,17
+2011,Bolivia,BOL,111
+2011,Bosnia and Herzegovina,BIH,50
+2011,Botswana,BWA,100
+2011,Brazil,BRA,53
+2011,Bulgaria,BGR,45
+2011,Myanmar,MMR,138
+2011,Belarus,BLR,26
+2011,Cambodia,KHM,135
+2011,Cameroon,CMR,94
+2011,Canada,CAN,32
+2011,Sri Lanka,LKA,99
+2011,Chad,TCD,144
+2011,Chile,CHL,72
+2011,China,CHN,24
+2011,Taiwan,TWN,5
+2011,Colombia,COL,55
+2011,Republic of the Congo,COG,132
+2011,Democratic Republic of the Congo,COD,105
+2011,Costa Rica,CRI,58
+2011,Croatia,HRV,29
+2011,Cuba,CUB,71
+2011,Cyprus,CYP,36
+2011,Czechia,CZE,7
+2011,Benin,BEN,127
+2011,Denmark,DNK,22
+2011,Dominican Republic,DOM,79
+2011,Ecuador,ECU,112
+2011,El Salvador,SLV,70
+2011,Equatorial Guinea,GNQ,137
+2011,Ethiopia,ETH,131
+2011,Estonia,EST,28
+2011,Finland,FIN,9
+2011,France,FRA,14
+2011,Gabon,GAB,93
+2011,Georgia,GEO,65
+2011,Germany,DEU,3
+2011,Ghana,GHA,113
+2011,Greece,GRC,61
+2011,Guatemala,GTM,86
+2011,Guinea,GIN,141
+2011,Haiti,HTI,136
+2011,Honduras,HND,103
+2011,Hong Kong,HKG,35
+2011,Hungary,HUN,16
+2011,India,IND,62
+2011,Indonesia,IDN,78
+2011,Iran,IRN,110
+2011,Iraq,IRQ,145
+2011,Ireland,IRL,15
+2011,Israel,ISR,18
+2011,Italy,ITA,19
+2011,Côte d'Ivoire,CIV,118
+2011,Jamaica,JAM,77
+2011,Japan,JPN,1
+2011,Kazakhstan,KAZ,85
+2011,Jordan,JOR,59
+2011,Kenya,KEN,92
+2011,South Korea,KOR,12
+2011,Kuwait,KWT,88
+2011,Kyrgyzstan,KGZ,80
+2011,Laos,LAO,129
+2011,Lebanon,LBN,54
+2011,Latvia,LVA,37
+2011,Liberia,LBR,84
+2011,Libya,LBY,120
+2011,Lithuania,LTU,33
+2011,Madagascar,MDG,117
+2011,Malawi,MWI,122
+2011,Malaysia,MYS,25
+2011,Mali,MLI,102
+2011,Mauritania,MRT,134
+2011,Mauritius,MUS,76
+2011,Mexico,MEX,27
+2011,Mongolia,MNG,124
+2011,Moldova,MDA,74
+2011,Morocco,MAR,96
+2011,Mozambique,MOZ,130
+2011,Oman,OMN,90
+2011,Namibia,NAM,83
+2011,Nepal,NPL,81
+2011,Netherlands,NLD,21
+2011,New Zealand,NZL,52
+2011,Nicaragua,NIC,121
+2011,Niger,NER,106
+2011,Nigeria,NGA,139
+2011,Norway,NOR,30
+2011,Pakistan,PAK,108
+2011,Panama,PAN,42
+2011,Papua New Guinea,PNG,123
+2011,Paraguay,PRY,91
+2011,Peru,PER,89
+2011,Philippines,PHL,46
+2011,Poland,POL,23
+2011,Portugal,PRT,43
+2011,Qatar,QAT,75
+2011,Romania,ROU,41
+2011,Russia,RUS,39
+2011,Rwanda,RWA,101
+2011,Saudi Arabia,SAU,48
+2011,Senegal,SEN,95
+2011,Serbia,SRB,44
+2011,Singapore,SGP,6
+2011,Slovakia,SVK,20
+2011,Vietnam,VNM,73
+2011,Slovenia,SVN,11
+2011,South Africa,ZAF,49
+2011,Zimbabwe,ZWE,115
+2011,Spain,ESP,31
+2011,Sudan,SDN,143
+2011,Eswatini,SWZ,60
+2011,Sweden,SWE,4
+2011,Switzerland,CHE,2
+2011,Tajikistan,TJK,125
+2011,Thailand,THA,34
+2011,Togo,TGO,116
+2011,Trinidad and Tobago,TTO,69
+2011,United Arab Emirates,ARE,63
+2011,Tunisia,TUN,64
+2011,Turkiye,TUR,47
+2011,Turkmenistan,TKM,142
+2011,Uganda,UGA,97
+2011,Ukraine,UKR,38
+2011,North Macedonia,MKD,66
+2011,Egypt,EGY,67
+2011,United Kingdom,GBR,8
+2011,Tanzania,TZA,107
+2011,United States of America,USA,10
+2011,Burkina Faso,BFA,119
+2011,Uruguay,URY,51
+2011,Uzbekistan,UZB,114
+2011,Venezuela,VEN,82
+2011,Yemen,YEM,133
+2011,Zambia,ZMB,98
+2012,Afghanistan,AFG,111
+2012,Albania,ALB,85
+2012,Algeria,DZA,141
+2012,Angola,AGO,134
+2012,Azerbaijan,AZE,94
+2012,Argentina,ARG,63
+2012,Australia,AUS,73
+2012,Austria,AUT,12
+2012,Bahrain,BHR,61
+2012,Bangladesh,BGD,115
+2012,Armenia,ARM,46
+2012,Belgium,BEL,20
+2012,Bolivia,BOL,101
+2012,Bosnia and Herzegovina,BIH,47
+2012,Botswana,BWA,93
+2012,Brazil,BRA,53
+2012,Bulgaria,BGR,45
+2012,Myanmar,MMR,131
+2012,Belarus,BLR,30
+2012,Cambodia,KHM,125
+2012,Cameroon,CMR,114
+2012,Canada,CAN,37
+2012,Sri Lanka,LKA,95
+2012,Chad,TCD,143
+2012,Chile,CHL,83
+2012,China,CHN,22
+2012,Taiwan,TWN,9
+2012,Colombia,COL,58
+2012,Republic of the Congo,COG,117
+2012,Democratic Republic of the Congo,COD,137
+2012,Costa Rica,CRI,57
+2012,Croatia,HRV,27
+2012,Cuba,CUB,64
+2012,Cyprus,CYP,32
+2012,Czechia,CZE,6
+2012,Benin,BEN,124
+2012,Denmark,DNK,24
+2012,Dominican Republic,DOM,78
+2012,Ecuador,ECU,105
+2012,El Salvador,SLV,69
+2012,Equatorial Guinea,GNQ,132
+2012,Ethiopia,ETH,121
+2012,Estonia,EST,34
+2012,Finland,FIN,13
+2012,France,FRA,14
+2012,Gabon,GAB,112
+2012,Georgia,GEO,76
+2012,Germany,DEU,3
+2012,Ghana,GHA,109
+2012,Greece,GRC,59
+2012,Guatemala,GTM,82
+2012,Guinea,GIN,140
+2012,Haiti,HTI,118
+2012,Honduras,HND,86
+2012,Hong Kong,HKG,33
+2012,Hungary,HUN,15
+2012,India,IND,60
+2012,Indonesia,IDN,72
+2012,Iran,IRN,120
+2012,Iraq,IRQ,144
+2012,Ireland,IRL,17
+2012,Israel,ISR,18
+2012,Italy,ITA,19
+2012,Côte d'Ivoire,CIV,116
+2012,Jamaica,JAM,80
+2012,Japan,JPN,1
+2012,Kazakhstan,KAZ,79
+2012,Jordan,JOR,56
+2012,Kenya,KEN,87
+2012,South Korea,KOR,8
+2012,Kuwait,KWT,103
+2012,Kyrgyzstan,KGZ,74
+2012,Laos,LAO,126
+2012,Lebanon,LBN,48
+2012,Latvia,LVA,38
+2012,Liberia,LBR,107
+2012,Libya,LBY,145
+2012,Lithuania,LTU,35
+2012,Madagascar,MDG,123
+2012,Malawi,MWI,122
+2012,Malaysia,MYS,26
+2012,Mali,MLI,97
+2012,Mauritania,MRT,138
+2012,Mauritius,MUS,70
+2012,Mexico,MEX,25
+2012,Mongolia,MNG,135
+2012,Moldova,MDA,68
+2012,Morocco,MAR,99
+2012,Mozambique,MOZ,133
+2012,Oman,OMN,119
+2012,Namibia,NAM,75
+2012,Nepal,NPL,77
+2012,Netherlands,NLD,21
+2012,New Zealand,NZL,50
+2012,Nicaragua,NIC,108
+2012,Niger,NER,127
+2012,Nigeria,NGA,139
+2012,Norway,NOR,29
+2012,Pakistan,PAK,104
+2012,Panama,PAN,42
+2012,Papua New Guinea,PNG,110
+2012,Paraguay,PRY,91
+2012,Peru,PER,89
+2012,Philippines,PHL,44
+2012,Poland,POL,23
+2012,Portugal,PRT,39
+2012,Qatar,QAT,98
+2012,Romania,ROU,36
+2012,Russia,RUS,51
+2012,Rwanda,RWA,100
+2012,Saudi Arabia,SAU,52
+2012,Senegal,SEN,90
+2012,Serbia,SRB,43
+2012,Singapore,SGP,4
+2012,Slovakia,SVK,16
+2012,Vietnam,VNM,66
+2012,Slovenia,SVN,10
+2012,South Africa,ZAF,54
+2012,Zimbabwe,ZWE,106
+2012,Spain,ESP,31
+2012,Sudan,SDN,130
+2012,Eswatini,SWZ,65
+2012,Sweden,SWE,5
+2012,Switzerland,CHE,2
+2012,Tajikistan,TJK,136
+2012,Thailand,THA,28
+2012,Togo,TGO,92
+2012,Trinidad and Tobago,TTO,81
+2012,United Arab Emirates,ARE,40
+2012,Tunisia,TUN,55
+2012,Turkiye,TUR,49
+2012,Turkmenistan,TKM,142
+2012,Uganda,UGA,88
+2012,Ukraine,UKR,41
+2012,North Macedonia,MKD,67
+2012,Egypt,EGY,71
+2012,United Kingdom,GBR,7
+2012,Tanzania,TZA,96
+2012,United States of America,USA,11
+2012,Burkina Faso,BFA,113
+2012,Uruguay,URY,62
+2012,Uzbekistan,UZB,102
+2012,Venezuela,VEN,129
+2012,Yemen,YEM,128
+2012,Zambia,ZMB,84
+2013,Afghanistan,AFG,121
+2013,Albania,ALB,89
+2013,Algeria,DZA,137
+2013,Angola,AGO,127
+2013,Azerbaijan,AZE,118
+2013,Argentina,ARG,60
+2013,Australia,AUS,75
+2013,Austria,AUT,11
+2013,Bahrain,BHR,58
+2013,Bangladesh,BGD,119
+2013,Armenia,ARM,63
+2013,Belgium,BEL,16
+2013,Bolivia,BOL,117
+2013,Bosnia and Herzegovina,BIH,52
+2013,Botswana,BWA,101
+2013,Brazil,BRA,54
+2013,Bulgaria,BGR,42
+2013,Myanmar,MMR,131
+2013,Belarus,BLR,30
+2013,Cambodia,KHM,114
+2013,Cameroon,CMR,109
+2013,Canada,CAN,36
+2013,Sri Lanka,LKA,99
+2013,Chad,TCD,144
+2013,Chile,CHL,77
+2013,China,CHN,23
+2013,Taiwan,TWN,7
+2013,Colombia,COL,59
+2013,Republic of the Congo,COG,135
+2013,Democratic Republic of the Congo,COD,128
+2013,Costa Rica,CRI,49
+2013,Croatia,HRV,29
+2013,Cuba,CUB,67
+2013,Cyprus,CYP,46
+2013,Czechia,CZE,8
+2013,Benin,BEN,111
+2013,Denmark,DNK,22
+2013,Dominican Republic,DOM,84
+2013,Ecuador,ECU,110
+2013,El Salvador,SLV,65
+2013,Equatorial Guinea,GNQ,139
+2013,Ethiopia,ETH,124
+2013,Estonia,EST,34
+2013,Finland,FIN,13
+2013,France,FRA,15
+2013,Gabon,GAB,112
+2013,Georgia,GEO,74
+2013,Germany,DEU,3
+2013,Ghana,GHA,100
+2013,Greece,GRC,61
+2013,Guatemala,GTM,82
+2013,Guinea,GIN,115
+2013,Haiti,HTI,123
+2013,Honduras,HND,102
+2013,Hong Kong,HKG,28
+2013,Hungary,HUN,14
+2013,India,IND,56
+2013,Indonesia,IDN,73
+2013,Iran,IRN,78
+2013,Iraq,IRQ,145
+2013,Ireland,IRL,17
+2013,Israel,ISR,19
+2013,Italy,ITA,20
+2013,Côte d'Ivoire,CIV,107
+2013,Jamaica,JAM,91
+2013,Japan,JPN,1
+2013,Kazakhstan,KAZ,92
+2013,Jordan,JOR,62
+2013,Kenya,KEN,87
+2013,South Korea,KOR,5
+2013,Kuwait,KWT,86
+2013,Kyrgyzstan,KGZ,68
+2013,Laos,LAO,125
+2013,Lebanon,LBN,51
+2013,Latvia,LVA,38
+2013,Liberia,LBR,95
+2013,Libya,LBY,138
+2013,Lithuania,LTU,35
+2013,Madagascar,MDG,120
+2013,Malawi,MWI,130
+2013,Malaysia,MYS,24
+2013,Mali,MLI,133
+2013,Mauritania,MRT,143
+2013,Mauritius,MUS,79
+2013,Mexico,MEX,26
+2013,Mongolia,MNG,132
+2013,Moldova,MDA,66
+2013,Morocco,MAR,105
+2013,Mozambique,MOZ,134
+2013,Oman,OMN,98
+2013,Namibia,NAM,76
+2013,Nepal,NPL,80
+2013,Netherlands,NLD,21
+2013,New Zealand,NZL,50
+2013,Nicaragua,NIC,113
+2013,Niger,NER,136
+2013,Nigeria,NGA,142
+2013,Norway,NOR,32
+2013,Pakistan,PAK,104
+2013,Panama,PAN,40
+2013,Papua New Guinea,PNG,140
+2013,Paraguay,PRY,90
+2013,Peru,PER,94
+2013,Philippines,PHL,39
+2013,Poland,POL,25
+2013,Portugal,PRT,43
+2013,Qatar,QAT,71
+2013,Romania,ROU,37
+2013,Russia,RUS,45
+2013,Rwanda,RWA,96
+2013,Saudi Arabia,SAU,27
+2013,Senegal,SEN,88
+2013,Serbia,SRB,44
+2013,Singapore,SGP,4
+2013,Slovakia,SVK,18
+2013,Vietnam,VNM,69
+2013,Slovenia,SVN,10
+2013,South Africa,ZAF,48
+2013,Zimbabwe,ZWE,108
+2013,Spain,ESP,33
+2013,Sudan,SDN,122
+2013,Eswatini,SWZ,53
+2013,Sweden,SWE,6
+2013,Switzerland,CHE,2
+2013,Tajikistan,TJK,129
+2013,Thailand,THA,31
+2013,Togo,TGO,97
+2013,Trinidad and Tobago,TTO,81
+2013,United Arab Emirates,ARE,64
+2013,Tunisia,TUN,57
+2013,Turkiye,TUR,47
+2013,Turkmenistan,TKM,141
+2013,Uganda,UGA,93
+2013,Ukraine,UKR,41
+2013,North Macedonia,MKD,70
+2013,Egypt,EGY,72
+2013,United Kingdom,GBR,9
+2013,Tanzania,TZA,106
+2013,United States of America,USA,12
+2013,Burkina Faso,BFA,116
+2013,Uruguay,URY,55
+2013,Uzbekistan,UZB,103
+2013,Venezuela,VEN,83
+2013,Yemen,YEM,126
+2013,Zambia,ZMB,85
+2014,Afghanistan,AFG,115
+2014,Albania,ALB,89
+2014,Algeria,DZA,136
+2014,Angola,AGO,142
+2014,Azerbaijan,AZE,126
+2014,Argentina,ARG,63
+2014,Australia,AUS,84
+2014,Austria,AUT,10
+2014,Bahrain,BHR,46
+2014,Bangladesh,BGD,125
+2014,Armenia,ARM,70
+2014,Belgium,BEL,19
+2014,Bolivia,BOL,131
+2014,Bosnia and Herzegovina,BIH,48
+2014,Botswana,BWA,102
+2014,Brazil,BRA,56
+2014,Bulgaria,BGR,44
+2014,Myanmar,MMR,139
+2014,Belarus,BLR,33
+2014,Cambodia,KHM,111
+2014,Cameroon,CMR,108
+2014,Canada,CAN,36
+2014,Sri Lanka,LKA,91
+2014,Chad,TCD,144
+2014,Chile,CHL,79
+2014,China,CHN,21
+2014,Taiwan,TWN,8
+2014,Colombia,COL,61
+2014,Republic of the Congo,COG,130
+2014,Democratic Republic of the Congo,COD,141
+2014,Costa Rica,CRI,49
+2014,Croatia,HRV,35
+2014,Cuba,CUB,87
+2014,Cyprus,CYP,42
+2014,Czechia,CZE,7
+2014,Benin,BEN,99
+2014,Denmark,DNK,24
+2014,Dominican Republic,DOM,76
+2014,Ecuador,ECU,123
+2014,El Salvador,SLV,64
+2014,Equatorial Guinea,GNQ,143
+2014,Ethiopia,ETH,122
+2014,Estonia,EST,27
+2014,Finland,FIN,11
+2014,France,FRA,15
+2014,Gabon,GAB,95
+2014,Georgia,GEO,74
+2014,Germany,DEU,3
+2014,Ghana,GHA,105
+2014,Greece,GRC,62
+2014,Guatemala,GTM,80
+2014,Guinea,GIN,138
+2014,Haiti,HTI,129
+2014,Honduras,HND,81
+2014,Hong Kong,HKG,34
+2014,Hungary,HUN,14
+2014,India,IND,53
+2014,Indonesia,IDN,68
+2014,Iran,IRN,77
+2014,Iraq,IRQ,145
+2014,Ireland,IRL,17
+2014,Israel,ISR,20
+2014,Italy,ITA,18
+2014,Côte d'Ivoire,CIV,109
+2014,Jamaica,JAM,82
+2014,Japan,JPN,1
+2014,Kazakhstan,KAZ,67
+2014,Jordan,JOR,59
+2014,Kenya,KEN,98
+2014,South Korea,KOR,5
+2014,Kuwait,KWT,101
+2014,Kyrgyzstan,KGZ,83
+2014,Laos,LAO,116
+2014,Lebanon,LBN,55
+2014,Latvia,LVA,37
+2014,Liberia,LBR,120
+2014,Libya,LBY,137
+2014,Lithuania,LTU,32
+2014,Madagascar,MDG,121
+2014,Malawi,MWI,94
+2014,Malaysia,MYS,26
+2014,Mali,MLI,128
+2014,Mauritania,MRT,114
+2014,Mauritius,MUS,71
+2014,Mexico,MEX,25
+2014,Mongolia,MNG,135
+2014,Moldova,MDA,73
+2014,Morocco,MAR,104
+2014,Mozambique,MOZ,127
+2014,Oman,OMN,88
+2014,Namibia,NAM,75
+2014,Nepal,NPL,72
+2014,Netherlands,NLD,22
+2014,New Zealand,NZL,51
+2014,Nicaragua,NIC,118
+2014,Niger,NER,113
+2014,Nigeria,NGA,132
+2014,Norway,NOR,29
+2014,Pakistan,PAK,106
+2014,Panama,PAN,39
+2014,Papua New Guinea,PNG,140
+2014,Paraguay,PRY,96
+2014,Peru,PER,100
+2014,Philippines,PHL,38
+2014,Poland,POL,23
+2014,Portugal,PRT,43
+2014,Qatar,QAT,78
+2014,Romania,ROU,31
+2014,Russia,RUS,52
+2014,Rwanda,RWA,107
+2014,Saudi Arabia,SAU,41
+2014,Senegal,SEN,92
+2014,Serbia,SRB,45
+2014,Singapore,SGP,6
+2014,Slovakia,SVK,16
+2014,Vietnam,VNM,65
+2014,Slovenia,SVN,12
+2014,South Africa,ZAF,50
+2014,Zimbabwe,ZWE,112
+2014,Spain,ESP,30
+2014,Sudan,SDN,134
+2014,Eswatini,SWZ,57
+2014,Sweden,SWE,4
+2014,Switzerland,CHE,2
+2014,Tajikistan,TJK,110
+2014,Thailand,THA,28
+2014,Togo,TGO,97
+2014,Trinidad and Tobago,TTO,93
+2014,United Arab Emirates,ARE,60
+2014,Tunisia,TUN,54
+2014,Turkiye,TUR,47
+2014,Turkmenistan,TKM,133
+2014,Uganda,UGA,90
+2014,Ukraine,UKR,40
+2014,North Macedonia,MKD,66
+2014,Egypt,EGY,69
+2014,United Kingdom,GBR,9
+2014,Tanzania,TZA,119
+2014,United States of America,USA,13
+2014,Burkina Faso,BFA,117
+2014,Uruguay,URY,58
+2014,Uzbekistan,UZB,85
+2014,Venezuela,VEN,103
+2014,Yemen,YEM,124
+2014,Zambia,ZMB,86
+2015,Afghanistan,AFG,132
+2015,Albania,ALB,101
+2015,Algeria,DZA,145
+2015,Angola,AGO,121
+2015,Azerbaijan,AZE,116
+2015,Argentina,ARG,62
+2015,Australia,AUS,74
+2015,Austria,AUT,10
+2015,Bahrain,BHR,51
+2015,Bangladesh,BGD,122
+2015,Armenia,ARM,64
+2015,Belgium,BEL,18
+2015,Bolivia,BOL,119
+2015,Bosnia and Herzegovina,BIH,54
+2015,Botswana,BWA,96
+2015,Brazil,BRA,48
+2015,Bulgaria,BGR,44
+2015,Myanmar,MMR,138
+2015,Belarus,BLR,37
+2015,Cambodia,KHM,105
+2015,Cameroon,CMR,103
+2015,Canada,CAN,36
+2015,Sri Lanka,LKA,92
+2015,Chad,TCD,140
+2015,Chile,CHL,81
+2015,China,CHN,26
+2015,Taiwan,TWN,5
+2015,Colombia,COL,60
+2015,Republic of the Congo,COG,133
+2015,Democratic Republic of the Congo,COD,131
+2015,Costa Rica,CRI,50
+2015,Croatia,HRV,34
+2015,Cuba,CUB,107
+2015,Cyprus,CYP,43
+2015,Czechia,CZE,11
+2015,Benin,BEN,111
+2015,Denmark,DNK,24
+2015,Dominican Republic,DOM,75
+2015,Ecuador,ECU,117
+2015,El Salvador,SLV,66
+2015,Equatorial Guinea,GNQ,137
+2015,Ethiopia,ETH,115
+2015,Estonia,EST,29
+2015,Finland,FIN,13
+2015,France,FRA,14
+2015,Gabon,GAB,85
+2015,Georgia,GEO,77
+2015,Germany,DEU,3
+2015,Ghana,GHA,100
+2015,Greece,GRC,63
+2015,Guatemala,GTM,80
+2015,Guinea,GIN,129
+2015,Haiti,HTI,134
+2015,Honduras,HND,94
+2015,Hong Kong,HKG,31
+2015,Hungary,HUN,15
+2015,India,IND,53
+2015,Indonesia,IDN,68
+2015,Iran,IRN,76
+2015,Iraq,IRQ,142
+2015,Ireland,IRL,17
+2015,Israel,ISR,16
+2015,Italy,ITA,19
+2015,Côte d'Ivoire,CIV,99
+2015,Jamaica,JAM,86
+2015,Japan,JPN,1
+2015,Kazakhstan,KAZ,89
+2015,Jordan,JOR,61
+2015,Kenya,KEN,87
+2015,South Korea,KOR,6
+2015,Kuwait,KWT,91
+2015,Kyrgyzstan,KGZ,65
+2015,Laos,LAO,114
+2015,Lebanon,LBN,45
+2015,Latvia,LVA,39
+2015,Liberia,LBR,127
+2015,Libya,LBY,128
+2015,Lithuania,LTU,33
+2015,Madagascar,MDG,120
+2015,Malawi,MWI,95
+2015,Malaysia,MYS,25
+2015,Mali,MLI,109
+2015,Mauritania,MRT,136
+2015,Mauritius,MUS,71
+2015,Mexico,MEX,22
+2015,Mongolia,MNG,130
+2015,Moldova,MDA,78
+2015,Morocco,MAR,110
+2015,Mozambique,MOZ,126
+2015,Oman,OMN,88
+2015,Namibia,NAM,79
+2015,Nepal,NPL,82
+2015,Netherlands,NLD,21
+2015,New Zealand,NZL,49
+2015,Nicaragua,NIC,124
+2015,Niger,NER,141
+2015,Nigeria,NGA,135
+2015,Norway,NOR,28
+2015,Pakistan,PAK,102
+2015,Panama,PAN,42
+2015,Papua New Guinea,PNG,144
+2015,Paraguay,PRY,90
+2015,Peru,PER,93
+2015,Philippines,PHL,38
+2015,Poland,POL,23
+2015,Portugal,PRT,40
+2015,Qatar,QAT,72
+2015,Romania,ROU,30
+2015,Russia,RUS,58
+2015,Rwanda,RWA,83
+2015,Saudi Arabia,SAU,35
+2015,Senegal,SEN,98
+2015,Serbia,SRB,41
+2015,Singapore,SGP,4
+2015,Slovakia,SVK,20
+2015,Vietnam,VNM,70
+2015,Slovenia,SVN,12
+2015,South Africa,ZAF,59
+2015,Zimbabwe,ZWE,108
+2015,Spain,ESP,32
+2015,Sudan,SDN,139
+2015,Eswatini,SWZ,57
+2015,Sweden,SWE,7
+2015,Switzerland,CHE,2
+2015,Tajikistan,TJK,123
+2015,Thailand,THA,27
+2015,Togo,TGO,106
+2015,Trinidad and Tobago,TTO,69
+2015,United Arab Emirates,ARE,55
+2015,Tunisia,TUN,56
+2015,Turkiye,TUR,47
+2015,Turkmenistan,TKM,143
+2015,Uganda,UGA,97
+2015,Ukraine,UKR,46
+2015,North Macedonia,MKD,67
+2015,Egypt,EGY,73
+2015,United Kingdom,GBR,9
+2015,Tanzania,TZA,112
+2015,United States of America,USA,8
+2015,Burkina Faso,BFA,125
+2015,Uruguay,URY,52
+2015,Uzbekistan,UZB,104
+2015,Venezuela,VEN,113
+2015,Yemen,YEM,118
+2015,Zambia,ZMB,84
+2016,Afghanistan,AFG,139
+2016,Albania,ALB,94
+2016,Algeria,DZA,114
+2016,Angola,AGO,121
+2016,Azerbaijan,AZE,117
+2016,Argentina,ARG,68
+2016,Australia,AUS,72
+2016,Austria,AUT,9
+2016,Bahrain,BHR,54
+2016,Bangladesh,BGD,129
+2016,Armenia,ARM,69
+2016,Belgium,BEL,19
+2016,Bolivia,BOL,125
+2016,Bosnia and Herzegovina,BIH,48
+2016,Botswana,BWA,100
+2016,Brazil,BRA,52
+2016,Bulgaria,BGR,42
+2016,Myanmar,MMR,130
+2016,Belarus,BLR,34
+2016,Cambodia,KHM,99
+2016,Cameroon,CMR,124
+2016,Canada,CAN,36
+2016,Sri Lanka,LKA,92
+2016,Chad,TCD,145
+2016,Chile,CHL,82
+2016,China,CHN,25
+2016,Taiwan,TWN,6
+2016,Colombia,COL,62
+2016,Republic of the Congo,COG,102
+2016,Democratic Republic of the Congo,COD,138
+2016,Costa Rica,CRI,57
+2016,Croatia,HRV,32
+2016,Cuba,CUB,65
+2016,Cyprus,CYP,43
+2016,Czechia,CZE,7
+2016,Benin,BEN,96
+2016,Denmark,DNK,23
+2016,Dominican Republic,DOM,75
+2016,Ecuador,ECU,119
+2016,El Salvador,SLV,64
+2016,Equatorial Guinea,GNQ,141
+2016,Ethiopia,ETH,120
+2016,Estonia,EST,29
+2016,Finland,FIN,13
+2016,France,FRA,16
+2016,Gabon,GAB,93
+2016,Georgia,GEO,79
+2016,Germany,DEU,3
+2016,Ghana,GHA,111
+2016,Greece,GRC,60
+2016,Guatemala,GTM,80
+2016,Guinea,GIN,137
+2016,Haiti,HTI,135
+2016,Honduras,HND,98
+2016,Hong Kong,HKG,31
+2016,Hungary,HUN,15
+2016,India,IND,51
+2016,Indonesia,IDN,71
+2016,Iran,IRN,77
+2016,Iraq,IRQ,144
+2016,Ireland,IRL,14
+2016,Israel,ISR,17
+2016,Italy,ITA,18
+2016,Côte d'Ivoire,CIV,112
+2016,Jamaica,JAM,84
+2016,Japan,JPN,1
+2016,Kazakhstan,KAZ,78
+2016,Jordan,JOR,66
+2016,Kenya,KEN,89
+2016,South Korea,KOR,5
+2016,Kuwait,KWT,74
+2016,Kyrgyzstan,KGZ,63
+2016,Laos,LAO,109
+2016,Lebanon,LBN,53
+2016,Latvia,LVA,38
+2016,Liberia,LBR,110
+2016,Libya,LBY,118
+2016,Lithuania,LTU,35
+2016,Madagascar,MDG,131
+2016,Malawi,MWI,134
+2016,Malaysia,MYS,22
+2016,Mali,MLI,91
+2016,Mauritania,MRT,140
+2016,Mauritius,MUS,81
+2016,Mexico,MEX,24
+2016,Mongolia,MNG,116
+2016,Moldova,MDA,83
+2016,Morocco,MAR,106
+2016,Mozambique,MOZ,127
+2016,Oman,OMN,86
+2016,Namibia,NAM,90
+2016,Nepal,NPL,85
+2016,Netherlands,NLD,21
+2016,New Zealand,NZL,49
+2016,Nicaragua,NIC,123
+2016,Niger,NER,115
+2016,Nigeria,NGA,142
+2016,Norway,NOR,30
+2016,Pakistan,PAK,107
+2016,Panama,PAN,45
+2016,Papua New Guinea,PNG,143
+2016,Paraguay,PRY,101
+2016,Peru,PER,105
+2016,Philippines,PHL,37
+2016,Poland,POL,26
+2016,Portugal,PRT,41
+2016,Qatar,QAT,73
+2016,Romania,ROU,28
+2016,Russia,RUS,47
+2016,Rwanda,RWA,97
+2016,Saudi Arabia,SAU,39
+2016,Senegal,SEN,95
+2016,Serbia,SRB,40
+2016,Singapore,SGP,4
+2016,Slovakia,SVK,20
+2016,Vietnam,VNM,76
+2016,Slovenia,SVN,12
+2016,South Africa,ZAF,58
+2016,Zimbabwe,ZWE,126
+2016,Spain,ESP,33
+2016,Sudan,SDN,136
+2016,Eswatini,SWZ,50
+2016,Sweden,SWE,8
+2016,Switzerland,CHE,2
+2016,Tajikistan,TJK,113
+2016,Thailand,THA,27
+2016,Togo,TGO,103
+2016,Trinidad and Tobago,TTO,67
+2016,United Arab Emirates,ARE,59
+2016,Tunisia,TUN,55
+2016,Turkiye,TUR,46
+2016,Turkmenistan,TKM,128
+2016,Uganda,UGA,88
+2016,Ukraine,UKR,44
+2016,North Macedonia,MKD,61
+2016,Egypt,EGY,70
+2016,United Kingdom,GBR,10
+2016,Tanzania,TZA,122
+2016,United States of America,USA,11
+2016,Burkina Faso,BFA,133
+2016,Uruguay,URY,56
+2016,Uzbekistan,UZB,104
+2016,Venezuela,VEN,108
+2016,Yemen,YEM,132
+2016,Zambia,ZMB,87
+2017,Afghanistan,AFG,127
+2017,Albania,ALB,87
+2017,Algeria,DZA,113
+2017,Angola,AGO,139
+2017,Azerbaijan,AZE,130
+2017,Argentina,ARG,68
+2017,Australia,AUS,83
+2017,Austria,AUT,9
+2017,Bahrain,BHR,40
+2017,Bangladesh,BGD,120
+2017,Armenia,ARM,80
+2017,Belgium,BEL,18
+2017,Bolivia,BOL,124
+2017,Bosnia and Herzegovina,BIH,49
+2017,Botswana,BWA,91
+2017,Brazil,BRA,56
+2017,Bulgaria,BGR,45
+2017,Myanmar,MMR,126
+2017,Belarus,BLR,32
+2017,Cambodia,KHM,89
+2017,Cameroon,CMR,117
+2017,Canada,CAN,35
+2017,Sri Lanka,LKA,85
+2017,Chad,TCD,145
+2017,Chile,CHL,81
+2017,China,CHN,22
+2017,Taiwan,TWN,5
+2017,Colombia,COL,55
+2017,Republic of the Congo,COG,93
+2017,Democratic Republic of the Congo,COD,134
+2017,Costa Rica,CRI,60
+2017,Croatia,HRV,33
+2017,Cuba,CUB,94
+2017,Cyprus,CYP,42
+2017,Czechia,CZE,7
+2017,Benin,BEN,106
+2017,Denmark,DNK,25
+2017,Dominican Republic,DOM,73
+2017,Ecuador,ECU,118
+2017,El Salvador,SLV,61
+2017,Equatorial Guinea,GNQ,138
+2017,Ethiopia,ETH,119
+2017,Estonia,EST,29
+2017,Finland,FIN,11
+2017,France,FRA,17
+2017,Gabon,GAB,102
+2017,Georgia,GEO,71
+2017,Germany,DEU,3
+2017,Ghana,GHA,111
+2017,Greece,GRC,59
+2017,Guatemala,GTM,82
+2017,Guinea,GIN,142
+2017,Haiti,HTI,115
+2017,Honduras,HND,95
+2017,Hong Kong,HKG,30
+2017,Hungary,HUN,16
+2017,India,IND,50
+2017,Indonesia,IDN,67
+2017,Iran,IRN,76
+2017,Iraq,IRQ,137
+2017,Ireland,IRL,14
+2017,Israel,ISR,15
+2017,Italy,ITA,19
+2017,Côte d'Ivoire,CIV,100
+2017,Jamaica,JAM,86
+2017,Japan,JPN,1
+2017,Kazakhstan,KAZ,84
+2017,Jordan,JOR,66
+2017,Kenya,KEN,96
+2017,South Korea,KOR,6
+2017,Kuwait,KWT,72
+2017,Kyrgyzstan,KGZ,70
+2017,Laos,LAO,114
+2017,Lebanon,LBN,52
+2017,Latvia,LVA,38
+2017,Liberia,LBR,97
+2017,Libya,LBY,123
+2017,Lithuania,LTU,34
+2017,Madagascar,MDG,135
+2017,Malawi,MWI,121
+2017,Malaysia,MYS,23
+2017,Mali,MLI,101
+2017,Mauritania,MRT,143
+2017,Mauritius,MUS,77
+2017,Mexico,MEX,28
+2017,Mongolia,MNG,128
+2017,Moldova,MDA,78
+2017,Morocco,MAR,107
+2017,Mozambique,MOZ,132
+2017,Oman,OMN,79
+2017,Namibia,NAM,92
+2017,Nepal,NPL,74
+2017,Netherlands,NLD,24
+2017,New Zealand,NZL,53
+2017,Nicaragua,NIC,129
+2017,Niger,NER,110
+2017,Nigeria,NGA,141
+2017,Norway,NOR,31
+2017,Pakistan,PAK,105
+2017,Panama,PAN,46
+2017,Papua New Guinea,PNG,144
+2017,Paraguay,PRY,88
+2017,Peru,PER,103
+2017,Philippines,PHL,37
+2017,Poland,POL,21
+2017,Portugal,PRT,43
+2017,Qatar,QAT,75
+2017,Romania,ROU,27
+2017,Russia,RUS,48
+2017,Rwanda,RWA,104
+2017,Saudi Arabia,SAU,39
+2017,Senegal,SEN,99
+2017,Serbia,SRB,41
+2017,Singapore,SGP,4
+2017,Slovakia,SVK,20
+2017,Vietnam,VNM,63
+2017,Slovenia,SVN,12
+2017,South Africa,ZAF,58
+2017,Zimbabwe,ZWE,122
+2017,Spain,ESP,36
+2017,Sudan,SDN,140
+2017,Eswatini,SWZ,65
+2017,Sweden,SWE,8
+2017,Switzerland,CHE,2
+2017,Tajikistan,TJK,109
+2017,Thailand,THA,26
+2017,Togo,TGO,112
+2017,Trinidad and Tobago,TTO,69
+2017,United Arab Emirates,ARE,51
+2017,Tunisia,TUN,54
+2017,Turkiye,TUR,44
+2017,Turkmenistan,TKM,133
+2017,Uganda,UGA,108
+2017,Ukraine,UKR,47
+2017,North Macedonia,MKD,62
+2017,Egypt,EGY,64
+2017,United Kingdom,GBR,10
+2017,Tanzania,TZA,125
+2017,United States of America,USA,13
+2017,Burkina Faso,BFA,131
+2017,Uruguay,URY,57
+2017,Uzbekistan,UZB,90
+2017,Venezuela,VEN,116
+2017,Yemen,YEM,136
+2017,Zambia,ZMB,98
+2018,Afghanistan,AFG,129
+2018,Albania,ALB,88
+2018,Algeria,DZA,137
+2018,Angola,AGO,139
+2018,Azerbaijan,AZE,127
+2018,Argentina,ARG,77
+2018,Australia,AUS,92
+2018,Austria,AUT,9
+2018,Bahrain,BHR,48
+2018,Bangladesh,BGD,117
+2018,Armenia,ARM,76
+2018,Belgium,BEL,20
+2018,Bolivia,BOL,125
+2018,Bosnia and Herzegovina,BIH,45
+2018,Botswana,BWA,107
+2018,Brazil,BRA,58
+2018,Bulgaria,BGR,41
+2018,Myanmar,MMR,114
+2018,Belarus,BLR,31
+2018,Cambodia,KHM,83
+2018,Cameroon,CMR,132
+2018,Canada,CAN,39
+2018,Sri Lanka,LKA,91
+2018,Chad,TCD,145
+2018,Chile,CHL,82
+2018,China,CHN,22
+2018,Taiwan,TWN,6
+2018,Colombia,COL,56
+2018,Republic of the Congo,COG,128
+2018,Democratic Republic of the Congo,COD,143
+2018,Costa Rica,CRI,55
+2018,Croatia,HRV,34
+2018,Cuba,CUB,93
+2018,Cyprus,CYP,46
+2018,Czechia,CZE,7
+2018,Benin,BEN,85
+2018,Denmark,DNK,27
+2018,Dominican Republic,DOM,70
+2018,Ecuador,ECU,118
+2018,El Salvador,SLV,68
+2018,Equatorial Guinea,GNQ,144
+2018,Ethiopia,ETH,116
+2018,Estonia,EST,30
+2018,Finland,FIN,12
+2018,France,FRA,17
+2018,Gabon,GAB,102
+2018,Georgia,GEO,65
+2018,Germany,DEU,5
+2018,Ghana,GHA,119
+2018,Greece,GRC,63
+2018,Guatemala,GTM,80
+2018,Guinea,GIN,134
+2018,Haiti,HTI,122
+2018,Honduras,HND,86
+2018,Hong Kong,HKG,29
+2018,Hungary,HUN,15
+2018,India,IND,44
+2018,Indonesia,IDN,66
+2018,Iran,IRN,79
+2018,Iraq,IRQ,142
+2018,Ireland,IRL,13
+2018,Israel,ISR,16
+2018,Italy,ITA,18
+2018,Côte d'Ivoire,CIV,108
+2018,Jamaica,JAM,84
+2018,Japan,JPN,1
+2018,Kazakhstan,KAZ,81
+2018,Jordan,JOR,71
+2018,Kenya,KEN,87
+2018,South Korea,KOR,4
+2018,Kuwait,KWT,94
+2018,Kyrgyzstan,KGZ,73
+2018,Laos,LAO,111
+2018,Lebanon,LBN,51
+2018,Latvia,LVA,38
+2018,Liberia,LBR,120
+2018,Libya,LBY,138
+2018,Lithuania,LTU,32
+2018,Madagascar,MDG,130
+2018,Malawi,MWI,112
+2018,Malaysia,MYS,21
+2018,Mali,MLI,95
+2018,Mauritania,MRT,133
+2018,Mauritius,MUS,69
+2018,Mexico,MEX,26
+2018,Mongolia,MNG,123
+2018,Moldova,MDA,78
+2018,Morocco,MAR,100
+2018,Mozambique,MOZ,131
+2018,Oman,OMN,105
+2018,Namibia,NAM,90
+2018,Nepal,NPL,75
+2018,Netherlands,NLD,23
+2018,New Zealand,NZL,49
+2018,Nicaragua,NIC,113
+2018,Niger,NER,106
+2018,Nigeria,NGA,141
+2018,Norway,NOR,35
+2018,Pakistan,PAK,98
+2018,Panama,PAN,47
+2018,Papua New Guinea,PNG,140
+2018,Paraguay,PRY,101
+2018,Peru,PER,96
+2018,Philippines,PHL,33
+2018,Poland,POL,24
+2018,Portugal,PRT,40
+2018,Qatar,QAT,61
+2018,Romania,ROU,28
+2018,Russia,RUS,54
+2018,Rwanda,RWA,109
+2018,Saudi Arabia,SAU,36
+2018,Senegal,SEN,99
+2018,Serbia,SRB,42
+2018,Singapore,SGP,3
+2018,Slovakia,SVK,19
+2018,Vietnam,VNM,62
+2018,Slovenia,SVN,11
+2018,South Africa,ZAF,59
+2018,Zimbabwe,ZWE,126
+2018,Spain,ESP,37
+2018,Sudan,SDN,136
+2018,Eswatini,SWZ,67
+2018,Sweden,SWE,8
+2018,Switzerland,CHE,2
+2018,Tajikistan,TJK,103
+2018,Thailand,THA,25
+2018,Togo,TGO,110
+2018,Trinidad and Tobago,TTO,74
+2018,United Arab Emirates,ARE,52
+2018,Tunisia,TUN,53
+2018,Turkiye,TUR,43
+2018,Turkmenistan,TKM,121
+2018,Uganda,UGA,104
+2018,Ukraine,UKR,50
+2018,North Macedonia,MKD,57
+2018,Egypt,EGY,72
+2018,United Kingdom,GBR,10
+2018,Tanzania,TZA,64
+2018,United States of America,USA,14
+2018,Burkina Faso,BFA,115
+2018,Uruguay,URY,60
+2018,Uzbekistan,UZB,97
+2018,Venezuela,VEN,124
+2018,Yemen,YEM,135
+2018,Zambia,ZMB,89
+2019,Afghanistan,AFG,120
+2019,Albania,ALB,87
+2019,Algeria,DZA,122
+2019,Angola,AGO,131
+2019,Azerbaijan,AZE,107
+2019,Argentina,ARG,73
+2019,Australia,AUS,89
+2019,Austria,AUT,10
+2019,Bahrain,BHR,47
+2019,Bangladesh,BGD,117
+2019,Armenia,ARM,69
+2019,Belgium,BEL,20
+2019,Bolivia,BOL,113
+2019,Bosnia and Herzegovina,BIH,40
+2019,Botswana,BWA,98
+2019,Brazil,BRA,61
+2019,Bulgaria,BGR,43
+2019,Myanmar,MMR,128
+2019,Belarus,BLR,31
+2019,Cambodia,KHM,100
+2019,Cameroon,CMR,135
+2019,Canada,CAN,39
+2019,Sri Lanka,LKA,91
+2019,Chad,TCD,139
+2019,Chile,CHL,85
+2019,China,CHN,21
+2019,Taiwan,TWN,5
+2019,Colombia,COL,63
+2019,Republic of the Congo,COG,118
+2019,Democratic Republic of the Congo,COD,124
+2019,Costa Rica,CRI,52
+2019,Croatia,HRV,32
+2019,Cuba,CUB,111
+2019,Cyprus,CYP,45
+2019,Czechia,CZE,8
+2019,Benin,BEN,109
+2019,Denmark,DNK,26
+2019,Dominican Republic,DOM,75
+2019,Ecuador,ECU,126
+2019,El Salvador,SLV,65
+2019,Equatorial Guinea,GNQ,145
+2019,Ethiopia,ETH,119
+2019,Estonia,EST,30
+2019,Finland,FIN,16
+2019,France,FRA,17
+2019,Gabon,GAB,130
+2019,Georgia,GEO,68
+2019,Germany,DEU,6
+2019,Ghana,GHA,114
+2019,Greece,GRC,59
+2019,Guatemala,GTM,83
+2019,Guinea,GIN,137
+2019,Haiti,HTI,125
+2019,Honduras,HND,93
+2019,Hong Kong,HKG,27
+2019,Hungary,HUN,14
+2019,India,IND,48
+2019,Indonesia,IDN,67
+2019,Iran,IRN,71
+2019,Iraq,IRQ,144
+2019,Ireland,IRL,13
+2019,Israel,ISR,15
+2019,Italy,ITA,19
+2019,Côte d'Ivoire,CIV,121
+2019,Jamaica,JAM,76
+2019,Japan,JPN,1
+2019,Kazakhstan,KAZ,78
+2019,Jordan,JOR,64
+2019,Kenya,KEN,84
+2019,South Korea,KOR,3
+2019,Kuwait,KWT,81
+2019,Kyrgyzstan,KGZ,79
+2019,Laos,LAO,103
+2019,Lebanon,LBN,50
+2019,Latvia,LVA,37
+2019,Liberia,LBR,136
+2019,Libya,LBY,141
+2019,Lithuania,LTU,33
+2019,Madagascar,MDG,133
+2019,Malawi,MWI,123
+2019,Malaysia,MYS,22
+2019,Mali,MLI,82
+2019,Mauritania,MRT,142
+2019,Mauritius,MUS,74
+2019,Mexico,MEX,28
+2019,Mongolia,MNG,127
+2019,Moldova,MDA,77
+2019,Morocco,MAR,95
+2019,Mozambique,MOZ,129
+2019,Oman,OMN,92
+2019,Namibia,NAM,90
+2019,Nepal,NPL,80
+2019,Netherlands,NLD,23
+2019,New Zealand,NZL,55
+2019,Nicaragua,NIC,112
+2019,Niger,NER,94
+2019,Nigeria,NGA,143
+2019,Norway,NOR,36
+2019,Pakistan,PAK,96
+2019,Panama,PAN,46
+2019,Papua New Guinea,PNG,138
+2019,Paraguay,PRY,88
+2019,Peru,PER,101
+2019,Philippines,PHL,35
+2019,Poland,POL,24
+2019,Portugal,PRT,42
+2019,Qatar,QAT,70
+2019,Romania,ROU,25
+2019,Russia,RUS,51
+2019,Rwanda,RWA,104
+2019,Saudi Arabia,SAU,34
+2019,Senegal,SEN,105
+2019,Serbia,SRB,41
+2019,Singapore,SGP,4
+2019,Slovakia,SVK,18
+2019,Vietnam,VNM,62
+2019,Slovenia,SVN,9
+2019,South Africa,ZAF,54
+2019,Zimbabwe,ZWE,115
+2019,Spain,ESP,38
+2019,Sudan,SDN,132
+2019,Eswatini,SWZ,58
+2019,Sweden,SWE,7
+2019,Switzerland,CHE,2
+2019,Tajikistan,TJK,102
+2019,Thailand,THA,29
+2019,Togo,TGO,110
+2019,Trinidad and Tobago,TTO,60
+2019,United Arab Emirates,ARE,57
+2019,Tunisia,TUN,53
+2019,Turkiye,TUR,44
+2019,Turkmenistan,TKM,116
+2019,Uganda,UGA,99
+2019,Ukraine,UKR,49
+2019,North Macedonia,MKD,56
+2019,Egypt,EGY,72
+2019,United Kingdom,GBR,11
+2019,Tanzania,TZA,108
+2019,United States of America,USA,12
+2019,Burkina Faso,BFA,106
+2019,Uruguay,URY,66
+2019,Uzbekistan,UZB,97
+2019,Venezuela,VEN,134
+2019,Yemen,YEM,140
+2019,Zambia,ZMB,86
+2020,Afghanistan,AFG,128
+2020,Albania,ALB,82
+2020,Algeria,DZA,117
+2020,Angola,AGO,114
+2020,Azerbaijan,AZE,111
+2020,Argentina,ARG,74
+2020,Australia,AUS,81
+2020,Austria,AUT,7
+2020,Bahrain,BHR,36
+2020,Bangladesh,BGD,120
+2020,Armenia,ARM,73
+2020,Belgium,BEL,21
+2020,Bolivia,BOL,108
+2020,Bosnia and Herzegovina,BIH,44
+2020,Botswana,BWA,100
+2020,Brazil,BRA,62
+2020,Bulgaria,BGR,40
+2020,Myanmar,MMR,122
+2020,Belarus,BLR,35
+2020,Cambodia,KHM,88
+2020,Cameroon,CMR,125
+2020,Canada,CAN,41
+2020,Sri Lanka,LKA,89
+2020,Chad,TCD,144
+2020,Chile,CHL,83
+2020,China,CHN,23
+2020,Taiwan,TWN,4
+2020,Colombia,COL,64
+2020,Republic of the Congo,COG,137
+2020,Democratic Republic of the Congo,COD,140
+2020,Costa Rica,CRI,58
+2020,Croatia,HRV,32
+2020,Cuba,CUB,131
+2020,Cyprus,CYP,47
+2020,Czechia,CZE,8
+2020,Benin,BEN,93
+2020,Denmark,DNK,27
+2020,Dominican Republic,DOM,68
+2020,Ecuador,ECU,134
+2020,El Salvador,SLV,70
+2020,Equatorial Guinea,GNQ,135
+2020,Ethiopia,ETH,121
+2020,Estonia,EST,30
+2020,Finland,FIN,15
+2020,France,FRA,17
+2020,Gabon,GAB,115
+2020,Georgia,GEO,78
+2020,Germany,DEU,5
+2020,Ghana,GHA,112
+2020,Greece,GRC,54
+2020,Guatemala,GTM,86
+2020,Guinea,GIN,143
+2020,Haiti,HTI,126
+2020,Honduras,HND,97
+2020,Hong Kong,HKG,22
+2020,Hungary,HUN,16
+2020,India,IND,48
+2020,Indonesia,IDN,69
+2020,Iran,IRN,63
+2020,Iraq,IRQ,96
+2020,Ireland,IRL,13
+2020,Israel,ISR,14
+2020,Italy,ITA,19
+2020,Côte d'Ivoire,CIV,118
+2020,Jamaica,JAM,84
+2020,Japan,JPN,1
+2020,Kazakhstan,KAZ,85
+2020,Jordan,JOR,67
+2020,Kenya,KEN,94
+2020,South Korea,KOR,6
+2020,Kuwait,KWT,66
+2020,Kyrgyzstan,KGZ,76
+2020,Laos,LAO,103
+2020,Lebanon,LBN,52
+2020,Latvia,LVA,39
+2020,Liberia,LBR,145
+2020,Libya,LBY,109
+2020,Lithuania,LTU,33
+2020,Madagascar,MDG,132
+2020,Malawi,MWI,133
+2020,Malaysia,MYS,20
+2020,Mali,MLI,138
+2020,Mauritania,MRT,136
+2020,Mauritius,MUS,80
+2020,Mexico,MEX,25
+2020,Mongolia,MNG,113
+2020,Moldova,MDA,75
+2020,Morocco,MAR,91
+2020,Mozambique,MOZ,130
+2020,Oman,OMN,79
+2020,Namibia,NAM,92
+2020,Nepal,NPL,77
+2020,Netherlands,NLD,24
+2020,New Zealand,NZL,55
+2020,Nicaragua,NIC,123
+2020,Niger,NER,106
+2020,Nigeria,NGA,142
+2020,Norway,NOR,31
+2020,Pakistan,PAK,95
+2020,Panama,PAN,45
+2020,Papua New Guinea,PNG,139
+2020,Paraguay,PRY,90
+2020,Peru,PER,107
+2020,Philippines,PHL,34
+2020,Poland,POL,28
+2020,Portugal,PRT,42
+2020,Qatar,QAT,65
+2020,Romania,ROU,29
+2020,Russia,RUS,49
+2020,Rwanda,RWA,101
+2020,Saudi Arabia,SAU,37
+2020,Senegal,SEN,98
+2020,Serbia,SRB,43
+2020,Singapore,SGP,3
+2020,Slovakia,SVK,18
+2020,Vietnam,VNM,59
+2020,Slovenia,SVN,12
+2020,South Africa,ZAF,60
+2020,Zimbabwe,ZWE,119
+2020,Spain,ESP,38
+2020,Sudan,SDN,141
+2020,Eswatini,SWZ,51
+2020,Sweden,SWE,10
+2020,Switzerland,CHE,2
+2020,Tajikistan,TJK,104
+2020,Thailand,THA,26
+2020,Togo,TGO,110
+2020,Trinidad and Tobago,TTO,56
+2020,United Arab Emirates,ARE,57
+2020,Tunisia,TUN,53
+2020,Turkiye,TUR,46
+2020,Turkmenistan,TKM,116
+2020,Uganda,UGA,102
+2020,Ukraine,UKR,50
+2020,North Macedonia,MKD,61
+2020,Egypt,EGY,72
+2020,United Kingdom,GBR,11
+2020,Tanzania,TZA,127
+2020,United States of America,USA,9
+2020,Burkina Faso,BFA,99
+2020,Uruguay,URY,71
+2020,Uzbekistan,UZB,87
+2020,Venezuela,VEN,124
+2020,Yemen,YEM,129
+2020,Zambia,ZMB,105
+2021,Afghanistan,AFG,128
+2021,Albania,ALB,79
+2021,Algeria,DZA,114
+2021,Angola,AGO,137
+2021,Azerbaijan,AZE,110
+2021,Argentina,ARG,82
+2021,Australia,AUS,97
+2021,Austria,AUT,9
+2021,Bahrain,BHR,39
+2021,Bangladesh,BGD,104
+2021,Armenia,ARM,74
+2021,Belgium,BEL,23
+2021,Bolivia,BOL,123
+2021,Bosnia and Herzegovina,BIH,43
+2021,Botswana,BWA,122
+2021,Brazil,BRA,68
+2021,Bulgaria,BGR,38
+2021,Myanmar,MMR,109
+2021,Belarus,BLR,33
+2021,Cambodia,KHM,78
+2021,Cameroon,CMR,129
+2021,Canada,CAN,41
+2021,Sri Lanka,LKA,86
+2021,Chad,TCD,143
+2021,Chile,CHL,87
+2021,China,CHN,17
+2021,Taiwan,TWN,6
+2021,Colombia,COL,58
+2021,Republic of the Congo,COG,135
+2021,Democratic Republic of the Congo,COD,145
+2021,Costa Rica,CRI,54
+2021,Croatia,HRV,34
+2021,Cuba,CUB,103
+2021,Cyprus,CYP,48
+2021,Czechia,CZE,7
+2021,Benin,BEN,108
+2021,Denmark,DNK,27
+2021,Dominican Republic,DOM,62
+2021,Ecuador,ECU,115
+2021,El Salvador,SLV,63
+2021,Equatorial Guinea,GNQ,141
+2021,Ethiopia,ETH,120
+2021,Estonia,EST,29
+2021,Finland,FIN,13
+2021,France,FRA,18
+2021,Gabon,GAB,83
+2021,Georgia,GEO,72
+2021,Germany,DEU,5
+2021,Ghana,GHA,98
+2021,Greece,GRC,51
+2021,Guatemala,GTM,75
+2021,Guinea,GIN,144
+2021,Haiti,HTI,117
+2021,Honduras,HND,96
+2021,Hong Kong,HKG,21
+2021,Hungary,HUN,16
+2021,India,IND,46
+2021,Indonesia,IDN,65
+2021,Iran,IRN,69
+2021,Iraq,IRQ,106
+2021,Ireland,IRL,14
+2021,Israel,ISR,15
+2021,Italy,ITA,19
+2021,Côte d'Ivoire,CIV,126
+2021,Jamaica,JAM,85
+2021,Japan,JPN,1
+2021,Kazakhstan,KAZ,95
+2021,Jordan,JOR,66
+2021,Kenya,KEN,90
+2021,South Korea,KOR,4
+2021,Kuwait,KWT,81
+2021,Kyrgyzstan,KGZ,77
+2021,Laos,LAO,93
+2021,Lebanon,LBN,55
+2021,Latvia,LVA,44
+2021,Liberia,LBR,138
+2021,Libya,LBY,136
+2021,Lithuania,LTU,31
+2021,Madagascar,MDG,116
+2021,Malawi,MWI,101
+2021,Malaysia,MYS,22
+2021,Mali,MLI,113
+2021,Mauritania,MRT,140
+2021,Mauritius,MUS,67
+2021,Mexico,MEX,28
+2021,Mongolia,MNG,133
+2021,Moldova,MDA,70
+2021,Morocco,MAR,89
+2021,Mozambique,MOZ,130
+2021,Oman,OMN,88
+2021,Namibia,NAM,105
+2021,Nepal,NPL,80
+2021,Netherlands,NLD,24
+2021,New Zealand,NZL,57
+2021,Nicaragua,NIC,119
+2021,Niger,NER,125
+2021,Nigeria,NGA,142
+2021,Norway,NOR,40
+2021,Pakistan,PAK,94
+2021,Panama,PAN,73
+2021,Papua New Guinea,PNG,131
+2021,Paraguay,PRY,92
+2021,Peru,PER,99
+2021,Philippines,PHL,32
+2021,Poland,POL,30
+2021,Portugal,PRT,42
+2021,Qatar,QAT,84
+2021,Romania,ROU,25
+2021,Russia,RUS,49
+2021,Rwanda,RWA,107
+2021,Saudi Arabia,SAU,35
+2021,Senegal,SEN,102
+2021,Serbia,SRB,37
+2021,Singapore,SGP,2
+2021,Slovakia,SVK,20
+2021,Vietnam,VNM,52
+2021,Slovenia,SVN,11
+2021,South Africa,ZAF,60
+2021,Zimbabwe,ZWE,112
+2021,Spain,ESP,36
+2021,Sudan,SDN,134
+2021,Eswatini,SWZ,53
+2021,Sweden,SWE,10
+2021,Switzerland,CHE,3
+2021,Tajikistan,TJK,118
+2021,Thailand,THA,26
+2021,Togo,TGO,124
+2021,Trinidad and Tobago,TTO,64
+2021,United Arab Emirates,ARE,61
+2021,Tunisia,TUN,50
+2021,Turkiye,TUR,45
+2021,Turkmenistan,TKM,132
+2021,Uganda,UGA,91
+2021,Ukraine,UKR,47
+2021,North Macedonia,MKD,56
+2021,Egypt,EGY,71
+2021,United Kingdom,GBR,8
+2021,Tanzania,TZA,121
+2021,United States of America,USA,12
+2021,Burkina Faso,BFA,111
+2021,Uruguay,URY,59
+2021,Uzbekistan,UZB,76
+2021,Venezuela,VEN,127
+2021,Yemen,YEM,139
+2021,Zambia,ZMB,100
+2022,Afghanistan,AFG,133
+2022,Albania,ALB,85
+2022,Algeria,DZA,103
+2022,Angola,AGO,95
+2022,Azerbaijan,AZE,119
+2022,Argentina,ARG,81
+2022,Australia,AUS,91
+2022,Austria,AUT,9
+2022,Bahrain,BHR,45
+2022,Bangladesh,BGD,108
+2022,Armenia,ARM,46
+2022,Belgium,BEL,24
+2022,Bolivia,BOL,122
+2022,Bosnia and Herzegovina,BIH,42
+2022,Botswana,BWA,120
+2022,Brazil,BRA,61
+2022,Bulgaria,BGR,34
+2022,Myanmar,MMR,116
+2022,Belarus,BLR,36
+2022,Cambodia,KHM,84
+2022,Cameroon,CMR,136
+2022,Canada,CAN,40
+2022,Sri Lanka,LKA,87
+2022,Chad,TCD,145
+2022,Chile,CHL,88
+2022,China,CHN,18
+2022,Taiwan,TWN,6
+2022,Colombia,COL,60
+2022,Republic of the Congo,COG,144
+2022,Democratic Republic of the Congo,COD,142
+2022,Costa Rica,CRI,56
+2022,Croatia,HRV,33
+2022,Cuba,CUB,127
+2022,Cyprus,CYP,50
+2022,Czechia,CZE,8
+2022,Benin,BEN,93
+2022,Denmark,DNK,27
+2022,Dominican Republic,DOM,64
+2022,Ecuador,ECU,117
+2022,El Salvador,SLV,67
+2022,Equatorial Guinea,GNQ,135
+2022,Ethiopia,ETH,118
+2022,Estonia,EST,28
+2022,Finland,FIN,14
+2022,France,FRA,20
+2022,Gabon,GAB,130
+2022,Georgia,GEO,65
+2022,Germany,DEU,5
+2022,Ghana,GHA,86
+2022,Greece,GRC,53
+2022,Guatemala,GTM,77
+2022,Guinea,GIN,111
+2022,Haiti,HTI,128
+2022,Honduras,HND,105
+2022,Hong Kong,HKG,22
+2022,Hungary,HUN,16
+2022,India,IND,44
+2022,Indonesia,IDN,70
+2022,Iran,IRN,75
+2022,Iraq,IRQ,129
+2022,Ireland,IRL,11
+2022,Israel,ISR,15
+2022,Italy,ITA,17
+2022,Côte d'Ivoire,CIV,110
+2022,Jamaica,JAM,80
+2022,Japan,JPN,1
+2022,Kazakhstan,KAZ,79
+2022,Jordan,JOR,69
+2022,Kenya,KEN,90
+2022,South Korea,KOR,4
+2022,Kuwait,KWT,96
+2022,Kyrgyzstan,KGZ,78
+2022,Laos,LAO,104
+2022,Lebanon,LBN,47
+2022,Latvia,LVA,39
+2022,Liberia,LBR,132
+2022,Libya,LBY,138
+2022,Lithuania,LTU,31
+2022,Madagascar,MDG,134
+2022,Malawi,MWI,107
+2022,Malaysia,MYS,21
+2022,Mali,MLI,113
+2022,Mauritania,MRT,137
+2022,Mauritius,MUS,63
+2022,Mexico,MEX,29
+2022,Mongolia,MNG,139
+2022,Moldova,MDA,66
+2022,Morocco,MAR,92
+2022,Mozambique,MOZ,140
+2022,Oman,OMN,82
+2022,Namibia,NAM,102
+2022,Nepal,NPL,83
+2022,Netherlands,NLD,23
+2022,New Zealand,NZL,49
+2022,Nicaragua,NIC,115
+2022,Niger,NER,112
+2022,Nigeria,NGA,143
+2022,Norway,NOR,48
+2022,Pakistan,PAK,89
+2022,Panama,PAN,72
+2022,Papua New Guinea,PNG,141
+2022,Paraguay,PRY,97
+2022,Peru,PER,101
+2022,Philippines,PHL,32
+2022,Poland,POL,30
+2022,Portugal,PRT,41
+2022,Qatar,QAT,76
+2022,Romania,ROU,26
+2022,Russia,RUS,68
+2022,Rwanda,RWA,100
+2022,Saudi Arabia,SAU,38
+2022,Senegal,SEN,98
+2022,Serbia,SRB,37
+2022,Singapore,SGP,3
+2022,Slovakia,SVK,19
+2022,Vietnam,VNM,52
+2022,Slovenia,SVN,12
+2022,South Africa,ZAF,62
+2022,Zimbabwe,ZWE,126
+2022,Spain,ESP,35
+2022,Sudan,SDN,131
+2022,Eswatini,SWZ,58
+2022,Sweden,SWE,10
+2022,Switzerland,CHE,2
+2022,Tajikistan,TJK,123
+2022,Thailand,THA,25
+2022,Togo,TGO,121
+2022,Trinidad and Tobago,TTO,73
+2022,United Arab Emirates,ARE,57
+2022,Tunisia,TUN,54
+2022,Turkiye,TUR,43
+2022,Turkmenistan,TKM,114
+2022,Uganda,UGA,106
+2022,Ukraine,UKR,51
+2022,North Macedonia,MKD,55
+2022,Egypt,EGY,74
+2022,United Kingdom,GBR,7
+2022,Tanzania,TZA,124
+2022,United States of America,USA,13
+2022,Burkina Faso,BFA,94
+2022,Uruguay,URY,59
+2022,Uzbekistan,UZB,71
+2022,Venezuela,VEN,109
+2022,Yemen,YEM,125
+2022,Zambia,ZMB,99
