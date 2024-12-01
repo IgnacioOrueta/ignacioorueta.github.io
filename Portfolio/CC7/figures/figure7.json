@@ -1,9 +1,9 @@
 {
   "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
   "title": {
-    "text": "Economic Complexity of countries",
+    "text": "Change in Economic Complexity Index from 1993 to 2022",
     "subtitle": [
-      "Ranking of countries, 2023",
+      "Ranking of countries, 2022",
       "Source: The Harvard Atlas of Economic Complexity",
       ""
     ],
@@ -12,23 +12,28 @@
     "subtitleFontWeight": "lighter",
     "anchor": "middle"
   },
-  "description": "2021 World Bank data, GDP per capita in current international $ and converted to purchasing power parity. Grey countries have missing data.",
-  "data": {
-    "url": "https://raw.githubusercontent.com/EconomicsObservatory/courses/main/datasets/advanced/map_world.geojson",
-    "format": {"property": "features"}
+  "description": "2022 World Bank data, GDP per capita in current international $ and converted to purchasing power parity. Grey countries have missing data.",
+  "data": { 
+    "url": "https://raw.githubusercontent.com/IgnacioOrueta/ignacioorueta.github.io/refs/heads/main/Portfolio/CC7/map_data2022.csv"
   },
   "width": 600,
   "height": 330,
+  
   "transform": [
     {
-      "lookup": "properties.ISO3",
+      "lookup": "ISO3",
       "from": {
-        "key": "ISO3",
-        "fields": ["country", "value"],
+        "key": "properties.ISO3",
+        "fields": ["type", "geometry", "properties"],
         "data": {
-          "url": "https://raw.githubusercontent.com/EconomicsObservatory/courses/main/datasets/advanced/global_gdp_perCapita_2021.csv"
+          "url": "https://raw.githubusercontent.com/EconomicsObservatory/courses/main/datasets/advanced/map_world.geojson",
+          "format": {"property": "features"}
         }
       }
+    },
+    {
+      "calculate": "datum.hs_eci_rank + (datum.hs_eci_rank == 1 ? 'st' : datum.hs_eci_rank == 2 ? 'nd' : datum.hs_eci_rank == 3 ? 'rd' : 'th')",
+      "as": "rank_with_suffix"
     }
   ],
   "projection": {
@@ -36,18 +41,35 @@
     "scale": 125,
     "translate": [285, 180]
   },
-  "mark": {"type": "geoshape", "stroke": "white", "strokeWidth": 0.3},
+  "mark": {
+    "type": "geoshape",
+    "stroke": "white",
+    "strokeWidth": 0.3
+  },
   "encoding": {
     "color": {
-      "condition": {"value": "lightgrey", "test": "!datum['value']"},
-      "field": "value",
+      "condition": {
+        "value": "lightgrey",
+        "test": "!datum['hs_eci_rank']"
+      },
+      "field": "hs_eci_rank",
       "type": "quantitative",
-      "legend": {"title": "", "format": "$,d"},
-      "scale": {"type": "log", "scheme": "viridis", "reverse": false}
+      "legend": {
+        "title": "Ranking",
+        "format": "d",
+        "direction": "vertical"
+      },
+      "scale": {
+        "type": "linear",
+        "domain": [10, 120],
+        "nice": true,
+        "scheme": "viridis",
+        "reverse": true
+      } 
     },
     "tooltip": [
       {"field": "country", "title": "Country"},
-      {"field": "value", "title": "Value", "format": "$,d"}
+      {"field": "rank_with_suffix", "title": "Ranking"}
     ]
   }
 }
