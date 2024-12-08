@@ -1,0 +1,1730 @@
+{
+  "data": [
+    {
+      "branchvalues": "total",
+      "customdata": [
+        [
+          "88"
+        ],
+        [
+          "35"
+        ],
+        [
+          "76"
+        ],
+        [
+          "05"
+        ],
+        [
+          "15"
+        ],
+        [
+          "01"
+        ],
+        [
+          "(?)"
+        ],
+        [
+          "93"
+        ],
+        [
+          "42"
+        ],
+        [
+          "22"
+        ],
+        [
+          "57"
+        ],
+        [
+          "69"
+        ],
+        [
+          "10"
+        ],
+        [
+          "38"
+        ],
+        [
+          "91"
+        ],
+        [
+          "18"
+        ],
+        [
+          "09"
+        ],
+        [
+          "74"
+        ],
+        [
+          "45"
+        ],
+        [
+          "52"
+        ],
+        [
+          "04"
+        ],
+        [
+          "85"
+        ],
+        [
+          "33"
+        ],
+        [
+          "36"
+        ],
+        [
+          "(?)"
+        ],
+        [
+          "67"
+        ],
+        [
+          "31"
+        ],
+        [
+          "03"
+        ],
+        [
+          "23"
+        ],
+        [
+          "64"
+        ],
+        [
+          "08"
+        ],
+        [
+          "94"
+        ],
+        [
+          "43"
+        ],
+        [
+          "70"
+        ],
+        [
+          "65"
+        ],
+        [
+          "28"
+        ],
+        [
+          "72"
+        ],
+        [
+          "73"
+        ],
+        [
+          "13"
+        ],
+        [
+          "78"
+        ],
+        [
+          "84"
+        ],
+        [
+          "54"
+        ],
+        [
+          "55"
+        ],
+        [
+          "46"
+        ],
+        [
+          "02"
+        ],
+        [
+          "16"
+        ],
+        [
+          "83"
+        ],
+        [
+          "81"
+        ],
+        [
+          "27"
+        ],
+        [
+          "21"
+        ],
+        [
+          "96"
+        ],
+        [
+          "92"
+        ],
+        [
+          "71"
+        ],
+        [
+          "75"
+        ],
+        [
+          "12"
+        ],
+        [
+          "90"
+        ],
+        [
+          "26"
+        ],
+        [
+          "29"
+        ],
+        [
+          "48"
+        ],
+        [
+          "30"
+        ],
+        [
+          "39"
+        ],
+        [
+          "19"
+        ],
+        [
+          "20"
+        ],
+        [
+          "49"
+        ],
+        [
+          "11"
+        ],
+        [
+          "47"
+        ],
+        [
+          "41"
+        ],
+        [
+          "40"
+        ],
+        [
+          "25"
+        ],
+        [
+          "89"
+        ],
+        [
+          "34"
+        ],
+        [
+          "68"
+        ],
+        [
+          "17"
+        ],
+        [
+          "32"
+        ],
+        [
+          "59"
+        ],
+        [
+          "63"
+        ],
+        [
+          "80"
+        ],
+        [
+          "24"
+        ],
+        [
+          "82"
+        ],
+        [
+          "95"
+        ],
+        [
+          "06"
+        ],
+        [
+          "66"
+        ],
+        [
+          "53"
+        ],
+        [
+          "07"
+        ],
+        [
+          "87"
+        ],
+        [
+          "56"
+        ],
+        [
+          "44"
+        ],
+        [
+          "51"
+        ],
+        [
+          "97"
+        ],
+        [
+          "79"
+        ],
+        [
+          "(?)"
+        ]
+      ],
+      "domain": {
+        "x": [
+          0.0,
+          1.0
+        ],
+        "y": [
+          0.0,
+          1.0
+        ]
+      },
+      "hovertemplate": "\u003cb\u003e%{hovertext}\u003c\u002fb\u003e\u003cbr\u003e\u003cbr\u003elabels=%{label}\u003cbr\u003epercent_fobvalue=%{value}\u003cbr\u003eparent=%{parent}\u003cbr\u003eid=%{id}\u003cbr\u003eHS2=%{customdata[0]}\u003cextra\u003e\u003c\u002fextra\u003e",
+      "hovertext": [
+        "Aircraft, spacecraft, and parts thereof",
+        "Albuminoidal substances; modified starches; glues; enzymes",
+        "Aluminium and articles thereof",
+        "Animal originated products; not elsewhere specified or included",
+        "Animal, vegetable or microbial fats and oils and their cleavage products; prepared edible fats; animal or vegetable waxes",
+        "Animals; live",
+        "(?)",
+        "Arms and ammunition; parts and accessories thereof",
+        "Articles of leather; saddlery and harness; travel goods, handbags and similar containers; articles of animal gut (other than silk-worm gut)",
+        "Beverages, spirits and vinegar",
+        "Carpets and other textile floor coverings",
+        "Ceramic products",
+        "Cereals",
+        "Chemical products n.e.c.",
+        "Clocks and watches and parts thereof",
+        "Cocoa and cocoa preparations",
+        "Coffee, tea, mate and spices",
+        "Copper and articles thereof",
+        "Cork and articles of cork",
+        "Cotton",
+        "Dairy produce; birds' eggs; natural honey; edible products of animal origin, not elsewhere specified or included",
+        "Electrical machinery and equipment and parts thereof; sound recorders and reproducers; television image and sound recorders and reproducers, parts and accessories of such articles",
+        "Essential oils and resinoids; perfumery, cosmetic or toilet preparations",
+        "Explosives; pyrotechnic products; matches; pyrophoric alloys; certain combustible preparations",
+        "(?)",
+        "Feathers and down, prepared; and articles made of feather or of down; artificial flowers; articles of human hair",
+        "Fertilizers",
+        "Fish and crustaceans, molluscs and other aquatic invertebrates",
+        "Food industries, residues and wastes thereof; prepared animal fodder",
+        "Footwear; gaiters and the like; parts of such articles",
+        "Fruit and nuts, edible; peel of citrus fruit or melons",
+        "Furniture; bedding, mattresses, mattress supports, cushions and similar stuffed furnishings; lamps and lighting fittings, n.e.c.; illuminated signs, illuminated name-plates and the like; prefabricated buildings",
+        "Furskins and artificial fur; manufactures thereof",
+        "Glass and glassware",
+        "Headgear and parts thereof",
+        "Inorganic chemicals; organic and inorganic compounds of precious metals; of rare earth metals, of radio-active elements and of isotopes",
+        "Iron and steel",
+        "Iron or steel articles",
+        "Lac; gums, resins and other vegetable saps and extracts",
+        "Lead and articles thereof",
+        "Machinery and mechanical appliances, boilers, nuclear reactors; parts thereof",
+        "Man-made filaments; strip and the like of man-made textile materials",
+        "Man-made staple fibres",
+        "Manufactures of straw, esparto or other plaiting materials; basketware and wickerwork",
+        "Meat and edible meat offal",
+        "Meat, fish, crustaceans, molluscs or other aquatic invertebrates, or insects; preparations thereof",
+        "Metal; miscellaneous products of base metal",
+        "Metals; n.e.c., cermets and articles thereof",
+        "Mineral fuels, mineral oils and products of their distillation; bituminous substances; mineral waxes",
+        "Miscellaneous edible preparations",
+        "Miscellaneous manufactured articles",
+        "Musical instruments; parts and accessories of such articles",
+        "Natural, cultured pearls; precious, semi-precious stones; precious metals, metals clad with precious metal, and articles thereof; imitation jewellery; coin",
+        "Nickel and articles thereof",
+        "Oil seeds and oleaginous fruits; miscellaneous grains, seeds and fruit, industrial or medicinal plants; straw and fodder",
+        "Optical, photographic, cinematographic, measuring, checking, medical or surgical instruments and apparatus; parts and accessories",
+        "Ores, slag and ash",
+        "Organic chemicals",
+        "Paper and paperboard; articles of paper pulp, of paper or paperboard",
+        "Pharmaceutical products",
+        "Plastics and articles thereof",
+        "Preparations of cereals, flour, starch or milk; pastrycooks' products",
+        "Preparations of vegetables, fruit, nuts or other parts of plants",
+        "Printed books, newspapers, pictures and other products of the printing industry; manuscripts, typescripts and plans",
+        "Products of the milling industry; malt, starches, inulin, wheat gluten",
+        "Pulp of wood or other fibrous cellulosic material; recovered (waste and scrap) paper or paperboard",
+        "Raw hides and skins (other than furskins) and leather",
+        "Rubber and articles thereof",
+        "Salt; sulphur; earths, stone; plastering materials, lime and cement",
+        "Ships, boats and floating structures",
+        "Soap, organic surface-active agents; washing, lubricating, polishing or scouring preparations; artificial or prepared waxes, candles and similar articles, modelling pastes, dental waxes and dental preparations with a basis of plaster",
+        "Stone, plaster, cement, asbestos, mica or similar materials; articles thereof",
+        "Sugars and sugar confectionery",
+        "Tanning or dyeing extracts; tannins and their derivatives; dyes, pigments and other colouring matter; paints, varnishes; putty, other mastics; inks",
+        "Textile fabrics; impregnated, coated, covered or laminated; textile articles of a kind suitable for industrial use",
+        "Textiles, made up articles; sets; worn clothing and worn textile articles; rags",
+        "Tin; articles thereof",
+        "Tobacco and manufactured tobacco substitutes; products, whether or not containing nicotine, intended for inhalation without combustion; other nicotine containing products intended for the intake of nicotine into the human body",
+        "Tools, implements, cutlery, spoons and forks, of base metal; parts thereof, of base metal",
+        "Toys, games and sports requisites; parts and accessories thereof",
+        "Trees and other plants, live; bulbs, roots and the like; cut flowers and ornamental foliage",
+        "Umbrellas, sun umbrellas, walking-sticks, seat sticks, whips, riding crops; and parts thereof",
+        "Vegetable textile fibres; paper yarn and woven fabrics of paper yarn",
+        "Vegetables and certain roots and tubers; edible",
+        "Vehicles; other than railway or tramway rolling stock, and parts and accessories thereof",
+        "Wadding, felt and nonwovens, special yarns; twine, cordage, ropes and cables and articles thereof",
+        "Wood and articles of wood; wood charcoal",
+        "Wool, fine or coarse animal hair; horsehair yarn and woven fabric",
+        "Works of art; collectors' pieces and antiques",
+        "Zinc and articles thereof",
+        "(?)"
+      ],
+      "ids": [
+        "2023\u002fAircraft, spacecraft, and parts thereof",
+        "2023\u002fAlbuminoidal substances",
+        "2023\u002fAluminium and articles thereof",
+        "2023\u002fAnimal originated products",
+        "2023\u002fAnimal, vegetable or microbial fats and oils and their cleavage products",
+        "2023\u002fAnimals",
+        "2023\u002fApparel and clothing accessories",
+        "2023\u002fArms and ammunition",
+        "2023\u002fArticles of leather",
+        "2023\u002fBeverages, spirits and vinegar",
+        "2023\u002fCarpets and other textile floor coverings",
+        "2023\u002fCeramic products",
+        "2023\u002fCereals",
+        "2023\u002fChemical products n.e.c.",
+        "2023\u002fClocks and watches and parts thereof",
+        "2023\u002fCocoa and cocoa preparations",
+        "2023\u002fCoffee, tea, mate and spices",
+        "2023\u002fCopper and articles thereof",
+        "2023\u002fCork and articles of cork",
+        "2023\u002fCotton",
+        "2023\u002fDairy produce",
+        "2023\u002fElectrical machinery and equipment and parts thereof",
+        "2023\u002fEssential oils and resinoids",
+        "2023\u002fExplosives",
+        "2023\u002fFabrics",
+        "2023\u002fFeathers and down, prepared",
+        "2023\u002fFertilizers",
+        "2023\u002fFish and crustaceans, molluscs and other aquatic invertebrates",
+        "2023\u002fFood industries, residues and wastes thereof",
+        "2023\u002fFootwear",
+        "2023\u002fFruit and nuts, edible",
+        "2023\u002fFurniture",
+        "2023\u002fFurskins and artificial fur",
+        "2023\u002fGlass and glassware",
+        "2023\u002fHeadgear and parts thereof",
+        "2023\u002fInorganic chemicals",
+        "2023\u002fIron and steel",
+        "2023\u002fIron or steel articles",
+        "2023\u002fLac",
+        "2023\u002fLead and articles thereof",
+        "2023\u002fMachinery and mechanical appliances, boilers, nuclear reactors",
+        "2023\u002fMan-made filaments",
+        "2023\u002fMan-made staple fibres",
+        "2023\u002fManufactures of straw, esparto or other plaiting materials",
+        "2023\u002fMeat and edible meat offal",
+        "2023\u002fMeat, fish, crustaceans, molluscs or other aquatic invertebrates, or insects",
+        "2023\u002fMetal",
+        "2023\u002fMetals",
+        "2023\u002fMineral fuels, mineral oils and products of their distillation",
+        "2023\u002fMiscellaneous edible preparations",
+        "2023\u002fMiscellaneous manufactured articles",
+        "2023\u002fMusical instruments",
+        "2023\u002fNatural, cultured pearls",
+        "2023\u002fNickel and articles thereof",
+        "2023\u002fOil seeds and oleaginous fruits",
+        "2023\u002fOptical, photographic, cinematographic, measuring, checking, medical or surgical instruments and apparatus",
+        "2023\u002fOres, slag and ash",
+        "2023\u002fOrganic chemicals",
+        "2023\u002fPaper and paperboard",
+        "2023\u002fPharmaceutical products",
+        "2023\u002fPlastics and articles thereof",
+        "2023\u002fPreparations of cereals, flour, starch or milk",
+        "2023\u002fPreparations of vegetables, fruit, nuts or other parts of plants",
+        "2023\u002fPrinted books, newspapers, pictures and other products of the printing industry",
+        "2023\u002fProducts of the milling industry",
+        "2023\u002fPulp of wood or other fibrous cellulosic material",
+        "2023\u002fRaw hides and skins (other than furskins) and leather",
+        "2023\u002fRubber and articles thereof",
+        "2023\u002fSalt",
+        "2023\u002fShips, boats and floating structures",
+        "2023\u002fSoap, organic surface-active agents",
+        "2023\u002fStone, plaster, cement, asbestos, mica or similar materials",
+        "2023\u002fSugars and sugar confectionery",
+        "2023\u002fTanning or dyeing extracts",
+        "2023\u002fTextile fabrics",
+        "2023\u002fTextiles, made up articles",
+        "2023\u002fTin",
+        "2023\u002fTobacco and manufactured tobacco substitutes",
+        "2023\u002fTools, implements, cutlery, spoons and forks, of base metal",
+        "2023\u002fToys, games and sports requisites",
+        "2023\u002fTrees and other plants, live",
+        "2023\u002fUmbrellas, sun umbrellas, walking-sticks, seat sticks, whips, riding crops",
+        "2023\u002fVegetable textile fibres",
+        "2023\u002fVegetables and certain roots and tubers",
+        "2023\u002fVehicles",
+        "2023\u002fWadding, felt and nonwovens, special yarns",
+        "2023\u002fWood and articles of wood",
+        "2023\u002fWool, fine or coarse animal hair",
+        "2023\u002fWorks of art",
+        "2023\u002fZinc and articles thereof",
+        "2023"
+      ],
+      "labels": [
+        "Aircraft, spacecraft, and parts thereof",
+        "Albuminoidal substances",
+        "Aluminium and articles thereof",
+        "Animal originated products",
+        "Animal, vegetable or microbial fats and oils and their cleavage products",
+        "Animals",
+        "Apparel and clothing accessories",
+        "Arms and ammunition",
+        "Articles of leather",
+        "Beverages, spirits and vinegar",
+        "Carpets and other textile floor coverings",
+        "Ceramic products",
+        "Cereals",
+        "Chemical products n.e.c.",
+        "Clocks and watches and parts thereof",
+        "Cocoa and cocoa preparations",
+        "Coffee, tea, mate and spices",
+        "Copper and articles thereof",
+        "Cork and articles of cork",
+        "Cotton",
+        "Dairy produce",
+        "Electrical machinery and equipment and parts thereof",
+        "Essential oils and resinoids",
+        "Explosives",
+        "Fabrics",
+        "Feathers and down, prepared",
+        "Fertilizers",
+        "Fish and crustaceans, molluscs and other aquatic invertebrates",
+        "Food industries, residues and wastes thereof",
+        "Footwear",
+        "Fruit and nuts, edible",
+        "Furniture",
+        "Furskins and artificial fur",
+        "Glass and glassware",
+        "Headgear and parts thereof",
+        "Inorganic chemicals",
+        "Iron and steel",
+        "Iron or steel articles",
+        "Lac",
+        "Lead and articles thereof",
+        "Machinery and mechanical appliances, boilers, nuclear reactors",
+        "Man-made filaments",
+        "Man-made staple fibres",
+        "Manufactures of straw, esparto or other plaiting materials",
+        "Meat and edible meat offal",
+        "Meat, fish, crustaceans, molluscs or other aquatic invertebrates, or insects",
+        "Metal",
+        "Metals",
+        "Mineral fuels, mineral oils and products of their distillation",
+        "Miscellaneous edible preparations",
+        "Miscellaneous manufactured articles",
+        "Musical instruments",
+        "Natural, cultured pearls",
+        "Nickel and articles thereof",
+        "Oil seeds and oleaginous fruits",
+        "Optical, photographic, cinematographic, measuring, checking, medical or surgical instruments and apparatus",
+        "Ores, slag and ash",
+        "Organic chemicals",
+        "Paper and paperboard",
+        "Pharmaceutical products",
+        "Plastics and articles thereof",
+        "Preparations of cereals, flour, starch or milk",
+        "Preparations of vegetables, fruit, nuts or other parts of plants",
+        "Printed books, newspapers, pictures and other products of the printing industry",
+        "Products of the milling industry",
+        "Pulp of wood or other fibrous cellulosic material",
+        "Raw hides and skins (other than furskins) and leather",
+        "Rubber and articles thereof",
+        "Salt",
+        "Ships, boats and floating structures",
+        "Soap, organic surface-active agents",
+        "Stone, plaster, cement, asbestos, mica or similar materials",
+        "Sugars and sugar confectionery",
+        "Tanning or dyeing extracts",
+        "Textile fabrics",
+        "Textiles, made up articles",
+        "Tin",
+        "Tobacco and manufactured tobacco substitutes",
+        "Tools, implements, cutlery, spoons and forks, of base metal",
+        "Toys, games and sports requisites",
+        "Trees and other plants, live",
+        "Umbrellas, sun umbrellas, walking-sticks, seat sticks, whips, riding crops",
+        "Vegetable textile fibres",
+        "Vegetables and certain roots and tubers",
+        "Vehicles",
+        "Wadding, felt and nonwovens, special yarns",
+        "Wood and articles of wood",
+        "Wool, fine or coarse animal hair",
+        "Works of art",
+        "Zinc and articles thereof",
+        "2023"
+      ],
+      "marker": {
+        "colors": [
+          "#FF97FF",
+          "#FECB52",
+          "#636efa",
+          "#EF553B",
+          "#00cc96",
+          "#ab63fa",
+          "#FFA15A",
+          "#19d3f3",
+          "#FF6692",
+          "#B6E880",
+          "#FF97FF",
+          "#FECB52",
+          "#636efa",
+          "#EF553B",
+          "#00cc96",
+          "#ab63fa",
+          "#FFA15A",
+          "#19d3f3",
+          "#FF6692",
+          "#B6E880",
+          "#FF97FF",
+          "#FECB52",
+          "#636efa",
+          "#EF553B",
+          "#FFA15A",
+          "#00cc96",
+          "#ab63fa",
+          "#FFA15A",
+          "#19d3f3",
+          "#FF6692",
+          "#B6E880",
+          "#FF97FF",
+          "#FECB52",
+          "#636efa",
+          "#EF553B",
+          "#00cc96",
+          "#ab63fa",
+          "#FFA15A",
+          "#19d3f3",
+          "#FF6692",
+          "#B6E880",
+          "#FF97FF",
+          "#FECB52",
+          "#636efa",
+          "#EF553B",
+          "#00cc96",
+          "#ab63fa",
+          "#FFA15A",
+          "#19d3f3",
+          "#FF6692",
+          "#B6E880",
+          "#FF97FF",
+          "#FECB52",
+          "#636efa",
+          "#EF553B",
+          "#00cc96",
+          "#ab63fa",
+          "#FFA15A",
+          "#19d3f3",
+          "#FF6692",
+          "#B6E880",
+          "#FF97FF",
+          "#FECB52",
+          "#636efa",
+          "#EF553B",
+          "#00cc96",
+          "#ab63fa",
+          "#FFA15A",
+          "#19d3f3",
+          "#FF6692",
+          "#B6E880",
+          "#FF97FF",
+          "#FECB52",
+          "#636efa",
+          "#EF553B",
+          "#00cc96",
+          "#ab63fa",
+          "#FFA15A",
+          "#19d3f3",
+          "#FF6692",
+          "#B6E880",
+          "#FF97FF",
+          "#FECB52",
+          "#636efa",
+          "#EF553B",
+          "#00cc96",
+          "#ab63fa",
+          "#FFA15A",
+          "#19d3f3",
+          "#FF6692",
+          "#FFA15A"
+        ],
+        "line": {
+          "width": 0
+        }
+      },
+      "name": "",
+      "parents": [
+        "2023",
+        "2023",
+        "2023",
+        "2023",
+        "2023",
+        "2023",
+        "2023",
+        "2023",
+        "2023",
+        "2023",
+        "2023",
+        "2023",
+        "2023",
+        "2023",
+        "2023",
+        "2023",
+        "2023",
+        "2023",
+        "2023",
+        "2023",
+        "2023",
+        "2023",
+        "2023",
+        "2023",
+        "2023",
+        "2023",
+        "2023",
+        "2023",
+        "2023",
+        "2023",
+        "2023",
+        "2023",
+        "2023",
+        "2023",
+        "2023",
+        "2023",
+        "2023",
+        "2023",
+        "2023",
+        "2023",
+        "2023",
+        "2023",
+        "2023",
+        "2023",
+        "2023",
+        "2023",
+        "2023",
+        "2023",
+        "2023",
+        "2023",
+        "2023",
+        "2023",
+        "2023",
+        "2023",
+        "2023",
+        "2023",
+        "2023",
+        "2023",
+        "2023",
+        "2023",
+        "2023",
+        "2023",
+        "2023",
+        "2023",
+        "2023",
+        "2023",
+        "2023",
+        "2023",
+        "2023",
+        "2023",
+        "2023",
+        "2023",
+        "2023",
+        "2023",
+        "2023",
+        "2023",
+        "2023",
+        "2023",
+        "2023",
+        "2023",
+        "2023",
+        "2023",
+        "2023",
+        "2023",
+        "2023",
+        "2023",
+        "2023",
+        "2023",
+        "2023",
+        "2023",
+        ""
+      ],
+      "values": [
+        0.00022884324736096134,
+        0.0003472037021966839,
+        0.0019056391206190685,
+        0.0002605983002915724,
+        0.004181210211151261,
+        0.00015628554686278152,
+        0.002355529504483386,
+        6.018599928285972e-06,
+        0.0004631663083323736,
+        0.012330240143117711,
+        0.00013458932481458103,
+        8.364122692345804e-06,
+        0.0007368086473419896,
+        0.0012173234397934642,
+        9.345246829671599e-05,
+        0.00022733364979012142,
+        1.6322935323224366e-05,
+        0.29371510765292036,
+        0.00014825906726093825,
+        5.101019394052695e-06,
+        0.0015622129552495733,
+        0.0042251168869595155,
+        0.0006127977325562732,
+        0.0004368999140033974,
+        0.00013514365100483636,
+        1.1812903660621705e-05,
+        0.004568541089831156,
+        0.058204980714214864,
+        0.008640690058411829,
+        7.890053679300454e-08,
+        0.09223754547047303,
+        0.0001550127501616973,
+        3.5850966769799926e-09,
+        3.989912857122387e-05,
+        1.8969949756014754e-05,
+        0.13449915429326503,
+        0.0043085560870169464,
+        0.0005780438202597307,
+        0.0012639633703875302,
+        0.00013144278562879686,
+        0.0033636165004651605,
+        0.000305407824021842,
+        0.00011746650782443252,
+        1.5117926936677035e-06,
+        0.01792457325571033,
+        0.004051490214277026,
+        0.0001267735952244635,
+        0.00031986247920129916,
+        0.01397681692604805,
+        0.0019082873180939275,
+        0.00021803066627415724,
+        3.074241648183316e-06,
+        0.012082536524146058,
+        2.2535152890871812e-07,
+        0.006866454091070085,
+        0.001021391115785223,
+        0.24685567879976278,
+        0.006347292580024515,
+        0.003373699341449069,
+        0.00010669690622299502,
+        0.005200978630567749,
+        0.0024982442821698246,
+        0.012536403694759408,
+        0.00013249373288274407,
+        0.0016516230195854,
+        0.02142248043078133,
+        0.00022837639544230135,
+        9.006294284201181e-05,
+        0.001627215270747646,
+        0.00014641979889857962,
+        0.00013456019411153225,
+        0.00037140382789623233,
+        0.00028252708229509996,
+        0.0002162089605355985,
+        1.1523370488168176e-05,
+        0.0005638366342018798,
+        1.444195480717445e-06,
+        0.0002114432127861991,
+        0.00018666587105793986,
+        0.0005984643630696155,
+        0.0007328884497107925,
+        1.8452340038602092e-05,
+        2.800927365460748e-07,
+        0.0004345948150447202,
+        8.32657648791496e-05,
+        9.092475660788542e-05,
+        0.0009754170859236708,
+        0.0003563858551837228,
+        4.2736248300260634e-05,
+        1.3529590485036722e-05,
+        0.9999999999999999
+      ],
+      "type": "treemap",
+      "textfont": {
+        "size": 20
+      },
+      "textinfo": "label+percent entry"
+    }
+  ],
+  "layout": {
+    "template": {
+      "data": {
+        "histogram2dcontour": [
+          {
+            "type": "histogram2dcontour",
+            "colorbar": {
+              "outlinewidth": 0,
+              "ticks": ""
+            },
+            "colorscale": [
+              [
+                0.0,
+                "#0d0887"
+              ],
+              [
+                0.1111111111111111,
+                "#46039f"
+              ],
+              [
+                0.2222222222222222,
+                "#7201a8"
+              ],
+              [
+                0.3333333333333333,
+                "#9c179e"
+              ],
+              [
+                0.4444444444444444,
+                "#bd3786"
+              ],
+              [
+                0.5555555555555556,
+                "#d8576b"
+              ],
+              [
+                0.6666666666666666,
+                "#ed7953"
+              ],
+              [
+                0.7777777777777778,
+                "#fb9f3a"
+              ],
+              [
+                0.8888888888888888,
+                "#fdca26"
+              ],
+              [
+                1.0,
+                "#f0f921"
+              ]
+            ]
+          }
+        ],
+        "choropleth": [
+          {
+            "type": "choropleth",
+            "colorbar": {
+              "outlinewidth": 0,
+              "ticks": ""
+            }
+          }
+        ],
+        "histogram2d": [
+          {
+            "type": "histogram2d",
+            "colorbar": {
+              "outlinewidth": 0,
+              "ticks": ""
+            },
+            "colorscale": [
+              [
+                0.0,
+                "#0d0887"
+              ],
+              [
+                0.1111111111111111,
+                "#46039f"
+              ],
+              [
+                0.2222222222222222,
+                "#7201a8"
+              ],
+              [
+                0.3333333333333333,
+                "#9c179e"
+              ],
+              [
+                0.4444444444444444,
+                "#bd3786"
+              ],
+              [
+                0.5555555555555556,
+                "#d8576b"
+              ],
+              [
+                0.6666666666666666,
+                "#ed7953"
+              ],
+              [
+                0.7777777777777778,
+                "#fb9f3a"
+              ],
+              [
+                0.8888888888888888,
+                "#fdca26"
+              ],
+              [
+                1.0,
+                "#f0f921"
+              ]
+            ]
+          }
+        ],
+        "heatmap": [
+          {
+            "type": "heatmap",
+            "colorbar": {
+              "outlinewidth": 0,
+              "ticks": ""
+            },
+            "colorscale": [
+              [
+                0.0,
+                "#0d0887"
+              ],
+              [
+                0.1111111111111111,
+                "#46039f"
+              ],
+              [
+                0.2222222222222222,
+                "#7201a8"
+              ],
+              [
+                0.3333333333333333,
+                "#9c179e"
+              ],
+              [
+                0.4444444444444444,
+                "#bd3786"
+              ],
+              [
+                0.5555555555555556,
+                "#d8576b"
+              ],
+              [
+                0.6666666666666666,
+                "#ed7953"
+              ],
+              [
+                0.7777777777777778,
+                "#fb9f3a"
+              ],
+              [
+                0.8888888888888888,
+                "#fdca26"
+              ],
+              [
+                1.0,
+                "#f0f921"
+              ]
+            ]
+          }
+        ],
+        "heatmapgl": [
+          {
+            "type": "heatmapgl",
+            "colorbar": {
+              "outlinewidth": 0,
+              "ticks": ""
+            },
+            "colorscale": [
+              [
+                0.0,
+                "#0d0887"
+              ],
+              [
+                0.1111111111111111,
+                "#46039f"
+              ],
+              [
+                0.2222222222222222,
+                "#7201a8"
+              ],
+              [
+                0.3333333333333333,
+                "#9c179e"
+              ],
+              [
+                0.4444444444444444,
+                "#bd3786"
+              ],
+              [
+                0.5555555555555556,
+                "#d8576b"
+              ],
+              [
+                0.6666666666666666,
+                "#ed7953"
+              ],
+              [
+                0.7777777777777778,
+                "#fb9f3a"
+              ],
+              [
+                0.8888888888888888,
+                "#fdca26"
+              ],
+              [
+                1.0,
+                "#f0f921"
+              ]
+            ]
+          }
+        ],
+        "contourcarpet": [
+          {
+            "type": "contourcarpet",
+            "colorbar": {
+              "outlinewidth": 0,
+              "ticks": ""
+            }
+          }
+        ],
+        "contour": [
+          {
+            "type": "contour",
+            "colorbar": {
+              "outlinewidth": 0,
+              "ticks": ""
+            },
+            "colorscale": [
+              [
+                0.0,
+                "#0d0887"
+              ],
+              [
+                0.1111111111111111,
+                "#46039f"
+              ],
+              [
+                0.2222222222222222,
+                "#7201a8"
+              ],
+              [
+                0.3333333333333333,
+                "#9c179e"
+              ],
+              [
+                0.4444444444444444,
+                "#bd3786"
+              ],
+              [
+                0.5555555555555556,
+                "#d8576b"
+              ],
+              [
+                0.6666666666666666,
+                "#ed7953"
+              ],
+              [
+                0.7777777777777778,
+                "#fb9f3a"
+              ],
+              [
+                0.8888888888888888,
+                "#fdca26"
+              ],
+              [
+                1.0,
+                "#f0f921"
+              ]
+            ]
+          }
+        ],
+        "surface": [
+          {
+            "type": "surface",
+            "colorbar": {
+              "outlinewidth": 0,
+              "ticks": ""
+            },
+            "colorscale": [
+              [
+                0.0,
+                "#0d0887"
+              ],
+              [
+                0.1111111111111111,
+                "#46039f"
+              ],
+              [
+                0.2222222222222222,
+                "#7201a8"
+              ],
+              [
+                0.3333333333333333,
+                "#9c179e"
+              ],
+              [
+                0.4444444444444444,
+                "#bd3786"
+              ],
+              [
+                0.5555555555555556,
+                "#d8576b"
+              ],
+              [
+                0.6666666666666666,
+                "#ed7953"
+              ],
+              [
+                0.7777777777777778,
+                "#fb9f3a"
+              ],
+              [
+                0.8888888888888888,
+                "#fdca26"
+              ],
+              [
+                1.0,
+                "#f0f921"
+              ]
+            ]
+          }
+        ],
+        "mesh3d": [
+          {
+            "type": "mesh3d",
+            "colorbar": {
+              "outlinewidth": 0,
+              "ticks": ""
+            }
+          }
+        ],
+        "scatter": [
+          {
+            "fillpattern": {
+              "fillmode": "overlay",
+              "size": 10,
+              "solidity": 0.2
+            },
+            "type": "scatter"
+          }
+        ],
+        "parcoords": [
+          {
+            "type": "parcoords",
+            "line": {
+              "colorbar": {
+                "outlinewidth": 0,
+                "ticks": ""
+              }
+            }
+          }
+        ],
+        "scatterpolargl": [
+          {
+            "type": "scatterpolargl",
+            "marker": {
+              "colorbar": {
+                "outlinewidth": 0,
+                "ticks": ""
+              }
+            }
+          }
+        ],
+        "bar": [
+          {
+            "error_x": {
+              "color": "#2a3f5f"
+            },
+            "error_y": {
+              "color": "#2a3f5f"
+            },
+            "marker": {
+              "line": {
+                "color": "#E5ECF6",
+                "width": 0.5
+              },
+              "pattern": {
+                "fillmode": "overlay",
+                "size": 10,
+                "solidity": 0.2
+              }
+            },
+            "type": "bar"
+          }
+        ],
+        "scattergeo": [
+          {
+            "type": "scattergeo",
+            "marker": {
+              "colorbar": {
+                "outlinewidth": 0,
+                "ticks": ""
+              }
+            }
+          }
+        ],
+        "scatterpolar": [
+          {
+            "type": "scatterpolar",
+            "marker": {
+              "colorbar": {
+                "outlinewidth": 0,
+                "ticks": ""
+              }
+            }
+          }
+        ],
+        "histogram": [
+          {
+            "marker": {
+              "pattern": {
+                "fillmode": "overlay",
+                "size": 10,
+                "solidity": 0.2
+              }
+            },
+            "type": "histogram"
+          }
+        ],
+        "scattergl": [
+          {
+            "type": "scattergl",
+            "marker": {
+              "colorbar": {
+                "outlinewidth": 0,
+                "ticks": ""
+              }
+            }
+          }
+        ],
+        "scatter3d": [
+          {
+            "type": "scatter3d",
+            "line": {
+              "colorbar": {
+                "outlinewidth": 0,
+                "ticks": ""
+              }
+            },
+            "marker": {
+              "colorbar": {
+                "outlinewidth": 0,
+                "ticks": ""
+              }
+            }
+          }
+        ],
+        "scattermapbox": [
+          {
+            "type": "scattermapbox",
+            "marker": {
+              "colorbar": {
+                "outlinewidth": 0,
+                "ticks": ""
+              }
+            }
+          }
+        ],
+        "scatterternary": [
+          {
+            "type": "scatterternary",
+            "marker": {
+              "colorbar": {
+                "outlinewidth": 0,
+                "ticks": ""
+              }
+            }
+          }
+        ],
+        "scattercarpet": [
+          {
+            "type": "scattercarpet",
+            "marker": {
+              "colorbar": {
+                "outlinewidth": 0,
+                "ticks": ""
+              }
+            }
+          }
+        ],
+        "carpet": [
+          {
+            "aaxis": {
+              "endlinecolor": "#2a3f5f",
+              "gridcolor": "white",
+              "linecolor": "white",
+              "minorgridcolor": "white",
+              "startlinecolor": "#2a3f5f"
+            },
+            "baxis": {
+              "endlinecolor": "#2a3f5f",
+              "gridcolor": "white",
+              "linecolor": "white",
+              "minorgridcolor": "white",
+              "startlinecolor": "#2a3f5f"
+            },
+            "type": "carpet"
+          }
+        ],
+        "table": [
+          {
+            "cells": {
+              "fill": {
+                "color": "#EBF0F8"
+              },
+              "line": {
+                "color": "white"
+              }
+            },
+            "header": {
+              "fill": {
+                "color": "#C8D4E3"
+              },
+              "line": {
+                "color": "white"
+              }
+            },
+            "type": "table"
+          }
+        ],
+        "barpolar": [
+          {
+            "marker": {
+              "line": {
+                "color": "#E5ECF6",
+                "width": 0.5
+              },
+              "pattern": {
+                "fillmode": "overlay",
+                "size": 10,
+                "solidity": 0.2
+              }
+            },
+            "type": "barpolar"
+          }
+        ],
+        "pie": [
+          {
+            "automargin": true,
+            "type": "pie"
+          }
+        ]
+      },
+      "layout": {
+        "autotypenumbers": "strict",
+        "colorway": [
+          "#636efa",
+          "#EF553B",
+          "#00cc96",
+          "#ab63fa",
+          "#FFA15A",
+          "#19d3f3",
+          "#FF6692",
+          "#B6E880",
+          "#FF97FF",
+          "#FECB52"
+        ],
+        "font": {
+          "color": "#2a3f5f"
+        },
+        "hovermode": "closest",
+        "hoverlabel": {
+          "align": "left"
+        },
+        "paper_bgcolor": "white",
+        "plot_bgcolor": "#E5ECF6",
+        "polar": {
+          "bgcolor": "#E5ECF6",
+          "angularaxis": {
+            "gridcolor": "white",
+            "linecolor": "white",
+            "ticks": ""
+          },
+          "radialaxis": {
+            "gridcolor": "white",
+            "linecolor": "white",
+            "ticks": ""
+          }
+        },
+        "ternary": {
+          "bgcolor": "#E5ECF6",
+          "aaxis": {
+            "gridcolor": "white",
+            "linecolor": "white",
+            "ticks": ""
+          },
+          "baxis": {
+            "gridcolor": "white",
+            "linecolor": "white",
+            "ticks": ""
+          },
+          "caxis": {
+            "gridcolor": "white",
+            "linecolor": "white",
+            "ticks": ""
+          }
+        },
+        "coloraxis": {
+          "colorbar": {
+            "outlinewidth": 0,
+            "ticks": ""
+          }
+        },
+        "colorscale": {
+          "sequential": [
+            [
+              0.0,
+              "#0d0887"
+            ],
+            [
+              0.1111111111111111,
+              "#46039f"
+            ],
+            [
+              0.2222222222222222,
+              "#7201a8"
+            ],
+            [
+              0.3333333333333333,
+              "#9c179e"
+            ],
+            [
+              0.4444444444444444,
+              "#bd3786"
+            ],
+            [
+              0.5555555555555556,
+              "#d8576b"
+            ],
+            [
+              0.6666666666666666,
+              "#ed7953"
+            ],
+            [
+              0.7777777777777778,
+              "#fb9f3a"
+            ],
+            [
+              0.8888888888888888,
+              "#fdca26"
+            ],
+            [
+              1.0,
+              "#f0f921"
+            ]
+          ],
+          "sequentialminus": [
+            [
+              0.0,
+              "#0d0887"
+            ],
+            [
+              0.1111111111111111,
+              "#46039f"
+            ],
+            [
+              0.2222222222222222,
+              "#7201a8"
+            ],
+            [
+              0.3333333333333333,
+              "#9c179e"
+            ],
+            [
+              0.4444444444444444,
+              "#bd3786"
+            ],
+            [
+              0.5555555555555556,
+              "#d8576b"
+            ],
+            [
+              0.6666666666666666,
+              "#ed7953"
+            ],
+            [
+              0.7777777777777778,
+              "#fb9f3a"
+            ],
+            [
+              0.8888888888888888,
+              "#fdca26"
+            ],
+            [
+              1.0,
+              "#f0f921"
+            ]
+          ],
+          "diverging": [
+            [
+              0,
+              "#8e0152"
+            ],
+            [
+              0.1,
+              "#c51b7d"
+            ],
+            [
+              0.2,
+              "#de77ae"
+            ],
+            [
+              0.3,
+              "#f1b6da"
+            ],
+            [
+              0.4,
+              "#fde0ef"
+            ],
+            [
+              0.5,
+              "#f7f7f7"
+            ],
+            [
+              0.6,
+              "#e6f5d0"
+            ],
+            [
+              0.7,
+              "#b8e186"
+            ],
+            [
+              0.8,
+              "#7fbc41"
+            ],
+            [
+              0.9,
+              "#4d9221"
+            ],
+            [
+              1,
+              "#276419"
+            ]
+          ]
+        },
+        "xaxis": {
+          "gridcolor": "white",
+          "linecolor": "white",
+          "ticks": "",
+          "title": {
+            "standoff": 15
+          },
+          "zerolinecolor": "white",
+          "automargin": true,
+          "zerolinewidth": 2
+        },
+        "yaxis": {
+          "gridcolor": "white",
+          "linecolor": "white",
+          "ticks": "",
+          "title": {
+            "standoff": 15
+          },
+          "zerolinecolor": "white",
+          "automargin": true,
+          "zerolinewidth": 2
+        },
+        "scene": {
+          "xaxis": {
+            "backgroundcolor": "#E5ECF6",
+            "gridcolor": "white",
+            "linecolor": "white",
+            "showbackground": true,
+            "ticks": "",
+            "zerolinecolor": "white",
+            "gridwidth": 2
+          },
+          "yaxis": {
+            "backgroundcolor": "#E5ECF6",
+            "gridcolor": "white",
+            "linecolor": "white",
+            "showbackground": true,
+            "ticks": "",
+            "zerolinecolor": "white",
+            "gridwidth": 2
+          },
+          "zaxis": {
+            "backgroundcolor": "#E5ECF6",
+            "gridcolor": "white",
+            "linecolor": "white",
+            "showbackground": true,
+            "ticks": "",
+            "zerolinecolor": "white",
+            "gridwidth": 2
+          }
+        },
+        "shapedefaults": {
+          "line": {
+            "color": "#2a3f5f"
+          }
+        },
+        "annotationdefaults": {
+          "arrowcolor": "#2a3f5f",
+          "arrowhead": 0,
+          "arrowwidth": 1
+        },
+        "geo": {
+          "bgcolor": "white",
+          "landcolor": "#E5ECF6",
+          "subunitcolor": "white",
+          "showland": true,
+          "showlakes": true,
+          "lakecolor": "white"
+        },
+        "title": {
+          "x": 0.05
+        },
+        "mapbox": {
+          "style": "light"
+        }
+      }
+    },
+    "legend": {
+      "tracegroupgap": 0
+    },
+    "margin": {
+      "t": 100,
+      "l": 25,
+      "r": 25,
+      "b": 25
+    },
+    "title": {
+      "font": {
+        "size": 24
+      },
+      "text": "Chilean Exports for 2023",
+      "y": 0.95,
+      "x": 0.5,
+      "xanchor": "center",
+      "yanchor": "top"
+    },
+    "annotations": [
+      {
+        "font": {
+          "size": 20
+        },
+        "showarrow": false,
+        "text": "% of total FOB value exported",
+        "x": 0.5,
+        "xref": "paper",
+        "y": 1.15,
+        "yref": "paper"
+      },
+      {
+        "font": {
+          "size": 100
+        },
+        "showarrow": false,
+        "text": "Source: Comtrade API",
+        "x": 0,
+        "xref": "paper",
+        "y": -0.4,
+        "yref": "paper"
+      }
+    ],
+    "showlegend": true,
+    "xaxis": {
+      "showgrid": false
+    },
+    "yaxis": {
+      "showgrid": false
+    }
+  }
+}

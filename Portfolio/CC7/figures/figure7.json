@@ -1,0 +1,71 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "title": {
+    "text": "Which countries became more complex after the formation of the EU?",
+    "subtitle": [
+      "Variation in the ECI ranking for each country, from 1995 to 2022",
+      "Source: The Harvard Atlas of Economic Complexity",
+      ""
+    ],
+    "fontSize": 16,
+    "subtitleFontSize": 12,
+    "subtitleFontWeight": "lighter",
+    "anchor": "middle"
+  },
+  "description": "2022 World Bank data, GDP per capita in current international $ and converted to purchasing power parity. Grey countries have missing data.",
+  "data": { 
+    "url": "https://raw.githubusercontent.com/IgnacioOrueta/ignacioorueta.github.io/refs/heads/main/Portfolio/CC7/data/complexity_eu.csv"
+  },
+  "width": 470,
+  "height": 330,
+  "transform": [
+    {
+      "lookup": "ISO3",
+      "from": {
+        "key": "properties.ISO3",
+        "fields": ["type", "geometry", "properties"],
+        "data": {
+          "url": "https://raw.githubusercontent.com/leakyMirror/map-of-europe/refs/heads/master/GeoJSON/europe.geojson",
+          "format": {"property": "features"}
+        }
+      }
+    },
+    {
+"calculate": "format(datum.hs_eci_rank_1995_2022, '.1f') + '%'",
+      "as": "hs_eci_rank_1995_2022_formatted"
+    }
+  ],
+  "mark": {
+    "type": "geoshape",
+    "stroke": "white",
+    "strokeWidth": 0.3
+  },
+  "encoding": {
+    "color": {
+      "condition": {
+        "value": "lightgrey",
+        "test": "!datum['hs_eci_rank_1995_2022']"
+      },
+      "field": "hs_eci_rank_1995_2022",
+      "type": "quantitative",
+      "legend": {
+        "title": "Change",
+        "format": "2d",
+        "direction": "vertical"
+      },
+      "scale": {
+        "type": "linear",
+        "nice": true,
+        "scheme": "greenblue",
+        "reverse": true
+      } 
+    },
+    "tooltip": [
+      {"field": "country", "title": "Country"},
+      {
+        "field": "hs_eci_rank_1995_2022",
+        "title": "Change"
+      }
+    ]
+  }
+}
