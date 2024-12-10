@@ -14,7 +14,7 @@
   },
   "description": "2022 World Bank data, GDP per capita in current international $ and converted to purchasing power parity. Grey countries have missing data.",
   "data": { 
-    "url": "https://raw.githubusercontent.com/IgnacioOrueta/ignacioorueta.github.io/refs/heads/main/Portfolio/CC8/map_data.csv"
+    "url": "https://raw.githubusercontent.com/IgnacioOrueta/ignacioorueta.github.io/refs/heads/main/Portfolio/CC8/data/map_data.csv"            
   },
   "width": 600,
   "height": 400,
