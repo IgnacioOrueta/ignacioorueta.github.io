@@ -69,7 +69,7 @@
     },
     "tooltip": [
       {"field": "country", "title": "Country"},
-      {"field": "growth_proj_formatted", "title": "Annual growth (%)"
+      {"field": "growth_proj_formatted", "title": "Expected annual growth (%)"
       }
     ]
   }
