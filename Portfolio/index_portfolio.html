@@ -1,0 +1,503 @@
+<html>  
+  <head>
+    <script src="https://cdn.jsdelivr.net/npm/vega@5"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vega-lite@5"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vega-embed@6"></script>
+
+
+    <title>Ignacio's Portfolio</title>
+    <meta name="viewport" content="width=device-width, initial-scale=0.8">
+    <link rel="stylesheet" href="css/main.bundle.css">
+    <script src="https://kit.fontawesome.com/4e5a72c756.js"></script>
+    
+    <style>
+      .hero-body {
+            background: #151515 url('https://raw.githubusercontent.com/IgnacioOrueta/ignacioorueta.github.io/main/Portfolio/img/20170718150501_IMG_1464.JPG') no-repeat center center;
+            background-size: cover;
+            position: relative;
+            height: 80vh; 
+            width:100%; 
+            display: flex;
+            justify-content: center; /* Centers horizontally */
+            align-items: flex-end; /* Aligns to the bottom */
+      }
+
+      .hero-body-overlay {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: #111111;
+        opacity: .50;
+      }
+          
+      .title-container {
+            background-color: rgba(6, 5, 5, 0.8); /* White background with transparency */
+            padding: 80px;
+            border-radius: 40px;
+            margin-top: 20px; /* Adjust the top margin */
+            margin-bottom: 0px; /* Adjust the bottom margin */
+            margin-left: 20px; /* Adjust the left margin */
+            margin-right: 20px; /* Adjust the right margin */
+            grid-template-columns: 5fr 1fr;
+            
+      }    
+              
+      /* These are several changes that I did to the original template from: */
+      .title.is-1 {
+        margin-top: 20px; /* Adjust the top margin */
+        margin-bottom: 20px; /* Adjust the bottom margin */
+        margin-left: 40px; /* Adjust the left margin */
+        margin-right: 40px; /* Adjust the right margin */
+        text-align: center; /* Justify text */
+      }
+      .title.is-2 {
+        margin-top: 0px; /* Adjust the top margin */
+        margin-bottom: 10px; /* Adjust the bottom margin */
+        margin-left: 40px; /* Adjust the left margin */
+        margin-right: 40px; /* Adjust the right margin */
+        text-align: center; /* Justify text */
+        font-size: 1.8em;
+
+      }
+      .title.is-3 {
+          text-align: center;
+          font-size: 1.6em;
+      }
+      .title.is-4 {
+        margin-top: 0px; /* Adjust the top margin */
+        margin-bottom: 10px; /* Adjust the bottom margin */
+        margin-left: 0px; /* Adjust the left margin */
+        margin-right: 0px; /* Adjust the right margin */
+        text-align: center; /* Justify text */
+        font-size: 1.4em;
+
+      }
+      .title.is-5 {
+            margin-left: 140px;
+            margin-right: 100px;
+            margin-top: 0px; /* Adjust the bottom margin */
+            margin-bottom: 0px; /* Adjust the bottom margin */
+            text-align: justify; /* Justify text */
+            line-height: 1.3; /* Adjust the line spacing */
+            font-size: 1.2em;
+      }
+      .title.is-6 {
+            margin-left: 140px;
+            margin-right: 200px;
+            margin-top: 10px; /* Adjust the bottom margin */
+            margin-bottom: 20px; /* Adjust the bottom margin */
+            text-align: justify; /* Justify text */
+            line-height: 1.3; /* Adjust the line spacing */
+            font-size: 1.1em;
+      }
+
+     /* For charts in the right*/
+      .title.is-5_left {
+        margin-left: 260px;
+        margin-right: 0px;
+        margin-top: 10px; /* Adjust the bottom margin */
+        margin-bottom: 0px; /* Adjust the bottom margin */
+        text-align: justify; /* Justify text */
+        line-height: 1.3; /* Adjust the line spacing */
+        font-size: 1.2em;
+        width: 30%;  
+      }
+      .title.is-6_left {
+        margin-left: 260px;
+        margin-right: 0px;
+        margin-top: 30px; /* Adjust the bottom margin */
+        margin-bottom: 0px; /* Adjust the bottom margin */
+        text-align: justify; /* Justify text */
+        line-height: 1.3; /* Adjust the line spacing  */
+        font-size: 1.1em;
+        width: 30%;      
+      }
+      .figure_right  {
+        margin-left:  770px; /* Adjust the left margin */
+        margin-right: 20px; /* Adjust the right margin */
+        margin-top: -170px; /* Adjust the top margin */
+        margin-bottom: 0px; /* Adjust the bottom margin */
+        width: 160%;
+      }
+
+      .figure_right10  {
+        margin-left:  750px; /* Adjust the left margin */
+        margin-right: 20px; /* Adjust the right margin */
+        margin-top: -390px; /* Adjust the top margin */
+        margin-bottom: 0px; /* Adjust the bottom margin */
+        width: 160%;
+      }
+
+      #chartGrid {
+                  display: flex;
+      }   
+      .section {  /*Margins for all sections */
+            margin-left: 150px;
+            margin-right: 150px;
+      }
+      .figure-container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: row;
+      }
+
+    </style>
+
+  </head>
+
+  <body> 
+
+    <section class="hero is-primary">
+      <div class="hero-body">
+        <div class="container">
+          <div class="columns has-text-centered">
+            <div class="column title-container">
+              <h1 class="title is-1">
+                Coding Challenges
+                <br><br>
+              </h1>
+              <h2 class="subtitle">
+              Portfolio (20%)
+              </h2>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section">
+            <div class="title is-5">
+              <!-- This is a paragraph, it's the main way to display text on a web page -->
+                <p><a href="../index.html">Return to main page</a><p>
+                <p><a href="../Project/index_project.html">Go to project</a><p>
+            </div>                  
+    </section> 
+              
+              <!-- We're organising the page into sections, with each section containing a chart, title and a description -->
+    <section class="section">       
+          
+          <h2 class="title is-2">
+            CC1 Hosting. Display charts in your own site 
+          </h2>
+                <p class="title is-4"> <!-- This is a paragraph, it's the main way to display text on a web page -->
+                    Setting my own Github account and live page using GitHub pages, and adding 2 charts to the webpage. 
+                </p>
+          <br>      
+          <div class="figure-container"> 
+            <figure id="Location1"></figure> <!-- we give it an id so we can put a vega-lite graph here with VegaEmbed -->
+            <figure id="Location1b" ></figure> <!-- we give it an id so we can put a vega-lite graph here with VegaEmbed -->
+          </div>
+    </section>
+    
+        <!-- We're organising the page into sections, with each section containing a chart, title and a description -->
+    <section class="section">
+              <h2 class="title is-2">CC2 Building. Create your own visualizations
+              </h2>
+                <h3 class="title is-4">
+                  Setting up an account on the Economic Observatory Data Hub and building two separate charts using the "create" tool.            
+                </h3>
+                <br>
+          <div class="figure-container"> 
+            <figure id="Location2"></figure> <!-- we give it an id so we can put a vega-lite graph here with VegaEmbed -->
+            <figure id="Location2b"></figure> <!-- we give it an id so we can put a vega-lite graph here with VegaEmbed -->
+          </div>
+    </section>
+    
+            <!-- We're organising the page into sections, with each section containing a chart, title and a description -->
+        <section class="section">
+          <h2 class="title is-2">
+            CC3. Debating. Use a visualization in economic/policy commentary
+          </h2>
+              <p class="title is-4">
+                Producing two charts that support or refute a topic discussed at the Festival of Economics.
+              </p>
+              <br>
+              
+              <h3 class="title is-5"> <!-- We have added a class to the header called "small" which we can use to style it in the CSS -->
+                Under-performing: How can we boost Britain’s low productivity?
+              </h3>
+
+              <p class="title is-6"> 
+                As data shows, productivity's growth in Great Britain has not been the same after the 2008 Subprime crisis. 
+                On the other hand, GDP growth appears to have a declining trend. These two charts support the notion that Britain's economy is performing below its historical trends.
+              </p>
+            
+                <div class="figure-container">
+                  <figure id="Location3"></figure> <!-- we give it an id so we can put a vega-lite graph here with VegaEmbed -->
+                  <figure id="Location3b"></figure> <!-- we give it an id so we can put a vega-lite graph here with VegaEmbed -->
+                </div>
+        </section>
+            
+        <section class="section">
+          <h2 class="title is-2">
+            CC4. Replication. Re-create, then improve, someone else's chart
+          </h2>
+                    <p class="title is-4">
+                        Finding a chart that a journalist, think tank, television channel or company has used and to improve it.
+                    </p>
+                    <br>
+                    <h3 class="title is-5"> <!-- We have added a class to the header called "small" which we can use to style it in the CSS -->
+                        Misleading information in the 2017 Chilean presidential elections
+                    </h3>
+              
+                    <p class="title is-6">
+                      In the 2017 presidential debate, the 2 times Chilean president, Sebastián Piñera, 
+                      presented a graph with which he sought to demonstrate that victimization had decreased during his previous administration.
+                      However, the graph sparked controversy due to the misleading scale of the bars. 
+                      According to the bar representing 22.8% (in blue) appeared to be one-third the size of the bar representing 30.7%,
+                       whereas, in reality, one-third of 30.7% is approximately 10.2%. This distortion aimed to exaggerate the differences between the bars. 
+                      <br> <br>
+                      To address this issue, I have recreated the chart on the right with accurately proportioned bars to reflect the true differences in values.
+                    </p>
+                    <!--
+                    <p> The second is an omission that affects the interpretation of the graph. The chart compares the value of 2013 with the one of 2010 and 2016 (30.7% and 27.3% respectively), 
+                        but it does not appear the value of victimization for 2011, registered in the second year of his government. According to the survey used to elaborate this chart, that value corresponds to 31.1%.
+                    </p>
+                    -->
+              <div class="figure-container">
+                <img src="CC4/figures/figure4.png" alt="Misleading graph from 2017 Chilean presidential elections" width="600" height="400">
+                <figure id="Location4b"></figure> <!-- we give it an id so we can put a vega-lite graph here with VegaEmbed -->
+              </div>
+            </section>
+    
+        <section class="section">
+          <h2 class="title is-2">
+            CC5. Scraper. Implement a data scraper of your own
+          </h2> 
+         
+            <p class="title is-4">
+              Scraping a website through one of the presented methods in class (pandas read_html or beautifulsoup).
+            </p>
+
+          <br>
+          <h3 class="title is-5"> <!-- We have added a class to the header called "small" which we can use to style it in the CSS -->
+            About COMTRADE data: 
+          </h3>
+          
+          <p class="title is-6">
+            For this challenge, I connected to the <a href="https://comtradedeveloper.un.org/" target="_blank">COMTRADE API</a> to download information of exports of my home country, Chile. 
+            The COMTRADE data has very granular information on the value of what each country exports/imports, divided by country of destiny, product, and period (years or months). 
+            This is very useful to analyze trade tendencies and evaluate Economic Complexities of countries, something that I will do in my <a href="../Project/index_project.html" target="_blank">Project</a>.
+          </p>
+
+          <h3 class="title is-5"> <!-- We have added a class to the header called "small" which we can use to style it in the CSS -->
+            About the graph: 
+          </h3>
+          
+          <p class="title is-6">
+            The graph shows the main destination of Chilean exports. Surprisingly, China represents 40% of all exports, while USA is in the second place, with only 15%.
+            This shows how dependent Chile on China's economy and growth. 
+          </p>
+            
+          <iframe src="CC5/figures/figure5.html" width="100%" height="500px"></iframe> 
+        </section>  
+            
+        <section class="section">
+          <h2 class="title is-2">
+            CC6. Loops. Build a dashboard
+          </h2>
+            <p class="title is-4">
+              Using the ONS API to batch download nine different series as JSON files using a loop.
+            </p>
+            <br>
+
+              <p class="title is-6">
+                The graph shows different measures of labour productivity, hourly income, weekly worked hours and the employment rate for the UK over the last decades. 
+                The data is available through the <a href="https://developer.ons.gov.uk/" target="_blank">ONS API</a>.                  
+              </p>
+
+            <div class="figure-container"> 
+              <figure id="Location6_1"></figure> <!-- we give it an id so we can put a vega-lite graph here with VegaEmbed -->
+              <figure id="Location6_2"></figure> <!-- we give it an id so we can put a vega-lite graph here with VegaEmbed -->
+              <figure id="Location6_3"></figure> <!-- we give it an id so we can put a vega-lite graph here with VegaEmbed -->
+            </div>
+          
+            <div class="figure-container"> 
+              <figure id="Location6_4"></figure> <!-- we give it an id so we can put a vega-lite graph here with VegaEmbed -->
+              <figure id="Location6_5"></figure> <!-- we give it an id so we can put a vega-lite graph here with VegaEmbed -->
+              <figure id="Location6_6"></figure> <!-- we give it an id so we can put a vega-lite graph here with VegaEmbed -->
+            </div>
+
+            <div class="figure-container"> 
+              <figure id="Location6_7"></figure> <!-- we give it an id so we can put a vega-lite graph here with VegaEmbed -->
+              <figure id="Location6_8"></figure> <!-- we give it an id so we can put a vega-lite graph here with VegaEmbed -->
+                <figure id="Location6_9"></figure> <!-- we give it an id so we can put a vega-lite graph here with VegaEmbed -->
+            </div>                 
+        </section> 
+    
+        <section class="section">
+          <h2 class="title is-2">CC7. Maps. Base maps and choropleths</h2>
+            <h3 class="title is-4">
+                Producing two maps and embedding them into my portfolio page.
+            </h3>
+            <br>
+
+            <p class="title is-6">
+              In this exercise, I analyzed Economic Complexity Data from the <a href=https://atlas.cid.harvard.edu  target="_blank">Harvard Atlas of Economic Complexity</a>. 
+              On one hand, the left chart shows how the Complexity of EU economies performed after the formation of EU in 1993 (the first value available is 1995). 
+                          
+              Then, the right chart shows countries' growth projections for the next decade, based on the Economic Complexity Index (ECI).
+              This identifies those countries whose economic complexity exceeds expectations based on its income level.
+              It is worth mentioning that the ECI has been shown to do better than any other single measure in predicting growth <a href=https://atlas.cid.harvard.edu/growth-projections  target="_blank">(Atlas, 2022)</a>.
+            </p>    
+
+            <div class="figure-container"> 
+              <figure id="Location7"></figure> <!-- we give it an id so we can put a vega-lite graph here with VegaEmbed -->
+              <figure id="Location7b"></figure> <!-- we give it an id so we can put a vega-lite graph here with VegaEmbed -->
+            </div> 
+        </section>    
+    
+        <section class="section">
+          <h2 class="title is-2">CC8. Analytics charts</h2>
+            <p class="title is-4">
+              Producing two charts that use advanced analytics.
+            </p>
+            <br>
+            <div class="figure-container"> 
+              <figure id="Location8"></figure> <!-- we give it an id so we can put a vega-lite graph here with VegaEmbed -->
+              <figure id="Location8b"></figure> <!-- we give it an id so we can put a vega-lite graph here with VegaEmbed -->
+            </div>
+          </section>    
+    
+        <section class="section">
+          <h2 class="title is-2">CC9. Big Data. Extracting a story from millions of prices</h2>
+                <h3 class="title is-4">
+                  Producing two charts using the UK price data  provided in class.
+                </h3>
+                <br>
+                <h3 class="title is-5_left">
+                  a) UK prices during the war
+                </h3>    
+                <p class="title is-6_left"> 
+                  In this exercise, I analyzed UK MicroData on food prices to assess the extent of price increases in products highly affected by the Russian invasion of Ukraine. As observed, the war has had a significant and lasting impact on this sample of products in the UK.
+                </p>
+                  <figure id="Location9" class="figure_right"></figure> <!-- we give it an id so we can put a vega-lite graph here with VegaEmbed -->
+                  <br>
+
+                <h3 class="title is-5_left">
+                   b) The price of a breakfast in the UK
+                </h3>    
+                <p class="title is-6_left"> 
+                  On the other hand, I also analyzed UK MicroData, but this time to track the evolution of a typical breakfast.
+                  The data shows that Brexit did not significantly impact the prices of the selected ingredients. 
+                  However, there is a clear correlation between the onset of the Ukraine-Russia conflict and the rise in these prices.
+                </p>  
+                <figure id="Location9b" class="figure_right"></figure> <!-- we give it an id so we can put a vega-lite graph here with VegaEmbed -->
+        </section>    
+
+    
+        <section class="section">
+              <h2 class="title is-2">CC10. Option 2. Interactive Visualizations</h2>
+                    <p class="title is-4">
+                        Producing two visualizations that have Interactive elements.
+                    </p>
+                    <br>
+              <h3 class="title is-5_left">
+                a) Economies' Complexity and Income
+              </h3>    
+              <p class="title is-6_left"> 
+                In this challenge, I examined the relationship between Economic Complexity and the most common economic aggregate measure to compare income across countries: GDP per capita, adjusted by Purchase Power Parity (PPP).  
+                The chart shows a significant correlation, were more complex economies are associated with higher income levels across all years for which data is available. 
+                <br><br>
+                Additionally, it is noteworthy that there are clear clusters by continent in the X and Y coordinates, a pattern that remains consistent over time.
+                This clustering can be more clearly observed by clicking each continent's name. Feel free to click the continents or move the year selector to interact with the chart. 
+              </p>
+              <figure id="Location10" class="figure_right10"></figure> <!-- we give it an id so we can put a vega-lite graph here with VegaEmbed -->
+              <br>
+
+              <h3 class="title is-5">
+                 b) Export matrix of a Complex economy
+              </h3>    
+              <p class="title is-6"> 
+                To illustrate a complex economy, the treemap below shows the top 5 countries with the most complex exports.
+                Top complex countries have diversified export matrices, with products that are relatively more difficult to elaborate, and that fewer countries can produce. 
+                Thus, these countries possess a collective know how across various products, allowing them to engage in global trade without relying on a single commodity.
+              </p>  
+              <iframe src="CC10/figures/figure10b.html" width="100%" height="500px"></iframe> 
+          
+        </section>    
+    
+      <!-- Do you want to add more sections? -->
+          <!-- Try copying pasting the section above -->
+          <!-- You'll need to change the id of the figure "<figure id="Location3"... -->
+          <!-- ... and add a new variable for the graph spec in the script at the bottom of the page -->
+
+
+      <!-- This is a script, it's a way to run JavaScript code on the page -->
+      <script>
+          // This is a comment in JavaScript - it's a different language to HTML and CSS
+
+          let figure1_spec   = "CC1/figures/figure1.json"; // We're storing the URL of the graph we want to display in a variable
+        let figure1b_spec  = "CC1/figures/figure1b.json"; // We're storing the URL of the graph we want to display in a variable
+        let figure2_spec   = "CC2/figures/figure2.json"; // We're storing the URL of the graph we want to display in a variable
+        let figure2b_spec  = "CC2/figures/figure2b.json"; // We're storing the URL of the graph we want to display in a variable
+        let figure3_spec   = "CC3/figures/figure3.json"; // We're storing the URL of the graph we want to display in a variable
+        let figure3b_spec  = "CC3/figures/figure3b.json"; // We're storing the URL of the graph we want to display in a variable
+        let figure4_spec   = "CC4/figures/figure4.png"; // We're storing the URL of the graph we want to display in a variable
+        let figure4b_spec  = "CC4/figures/figure4b.json"; // We're storing the URL of the graph we want to display in a variable
+        let figure5_spec   = "CC5/figures/figure5.html"; // We're storing the URL of the graph we want to display in a variable
+        let figure6_1_spec = "CC6/figures/figure6_1.json"; // We're storing the URL of the graph we want to display in a variable  
+        let figure6_2_spec = "CC6/figures/figure6_2.json"; // We're storing the URL of the graph we want to display in a variable
+        let figure6_3_spec = "CC6/figures/figure6_3.json"; // We're storing the URL of the graph we want to display in a variable
+        let figure6_4_spec = "CC6/figures/figure6_4.json"; // We're storing the URL of the graph we want to display in a variable
+        let figure6_5_spec = "CC6/figures/figure6_5.json"; // We're storing the URL of the graph we want to display in a variable
+        let figure6_6_spec = "CC6/figures/figure6_6.json"; // We're storing the URL of the graph we want to display in a variable
+        let figure6_7_spec = "CC6/figures/figure6_7.json"; // We're storing the URL of the graph we want to display in a variable
+        let figure6_8_spec = "CC6/figures/figure6_8.json"; // We're storing the URL of the graph we want to display in a variable
+        let figure6_9_spec = "CC6/figures/figure6_9.json"; // We're storing the URL of the graph we want to display in a variable
+        let figure7_spec   = "CC7/figures/figure7.json"; // We're storing the URL of the graph we want to display in a variable
+        let figure7b_spec   = "CC7/figures/figure7b.json"; // We're storing the URL of the graph we want to display in a variable
+        let figure8_spec   = "CC8/figures/figure8.json"; // We're storing the URL of the graph we want to display in a variable
+        let figure8b_spec   = "CC8/figures/figure8b.json"; // We're storing the URL of the graph we want to display in a variable
+        let figure9_spec   = "CC9/figures/figure9.json"; // We're storing the URL of the graph we want to display in a variable
+        let figure9b_spec   = "CC9/figures/figure9b.json"; // We're storing the URL of the graph we want to display in a variable
+        let figure10_spec  = "CC10/figures/figure10.json"; // We're storing the URL of the graph we want to display in a variable
+        let figure10b_spec = "CC10/figures/figure10b.json"; // We're storing the URL of the graph we want to display in a variable
+ //       let figure10c_spec  = "CC10/figures/figure10c.json"; // We're storing the URL of the graph we want to display in a variable
+ //       let figure10d_spec = "CC10/figures/figure10d.json"; // We're storing the URL of the graph we want to display in a variable
+        // You should have a spec for a graph in this same folder. Just specify its name here, e.g. let figure_1_spec = "chart1.json"
+
+        vegaEmbed('#Location1', figure1_spec) // We're using the vegaEmbed function to put a graph in the element with id figure_1
+        vegaEmbed('#Location1b', figure1b_spec) // We're using the vegaEmbed function to put a graph in the element with id figure_1b
+        vegaEmbed('#Location2', figure2_spec) // We're using the vegaEmbed function to put a graph in the element with id figure_2
+        vegaEmbed('#Location2b', figure2b_spec) // We're using the vegaEmbed function to put a graph in the element with id figure_2b
+        vegaEmbed('#Location3', figure3_spec) // We're using the vegaEmbed function to put a graph in the element with id figure_3
+        vegaEmbed('#Location3b', figure3b_spec) // We're using the vegaEmbed function to put a graph in the element with id figure_3b
+        vegaEmbed('#Location4', figure4_spec) // We're using the vegaEmbed function to put a graph in the element with id figure_4
+        vegaEmbed('#Location4b', figure4b_spec) // We're using the vegaEmbed function to put a graph in the element with id figure_4
+        vegaEmbed('#Location5', figure5_spec) // We're using the vegaEmbed function to put a graph in the element with id figure_5
+        vegaEmbed('#Location6_1', figure6_1_spec) // We're using the vegaEmbed function to put a graph in the element with id figure_6
+        vegaEmbed('#Location6_2', figure6_2_spec) // We're using the vegaEmbed function to put a graph in the element with id figure_6
+        vegaEmbed('#Location6_3', figure6_3_spec) // We're using the vegaEmbed function to put a graph in the element with id figure_6
+        vegaEmbed('#Location6_4', figure6_4_spec) // We're using the vegaEmbed function to put a graph in the element with id figure_6
+        vegaEmbed('#Location6_5', figure6_5_spec) // We're using the vegaEmbed function to put a graph in the element with id figure_6
+        vegaEmbed('#Location6_6', figure6_6_spec) // We're using the vegaEmbed function to put a graph in the element with id figure_6
+        vegaEmbed('#Location6_7', figure6_7_spec) // We're using the vegaEmbed function to put a graph in the element with id figure_6
+        vegaEmbed('#Location6_8', figure6_8_spec) // We're using the vegaEmbed function to put a graph in the element with id figure_6
+        vegaEmbed('#Location6_9', figure6_9_spec) // We're using the vegaEmbed function to put a graph in the element with id figure_6
+        vegaEmbed('#Location7', figure7_spec) // We'r e using the vegaEmbed function to put a graph in the element with id figure_7
+        vegaEmbed('#Location7b', figure7b_spec) // We're using the vegaEmbed function to put a graph in the element with id figure_7
+        vegaEmbed('#Location8', figure8_spec) // We're using the vegaEmbed function to put a graph in the element with id figure_8
+        vegaEmbed('#Location8b', figure8b_spec) // We're using the vegaEmbed function to put a graph in the element with id figure_8
+        vegaEmbed('#Location9', figure9_spec) // We're using the vegaEmbed function to put a graph in the element with id figure_9
+        vegaEmbed('#Location9b', figure9b_spec) // We're using the vegaEmbed function to put a graph in the element with id figure_9
+        vegaEmbed('#Location10', figure10_spec) // We're using the vegaEmbed function to put a graph in the element with id figure_10
+        vegaEmbed('#Location10b', figure10b_spec) // We're using the vegaEmbed function to put a graph in the element with id figure_10
+  //      vegaEmbed('#Location10b', figure10b_spec) // We're using the vegaEmbed function to put a graph in the element with id figure_10b
+  //      vegaEmbed('#Location10c', figure10c_spec) // We're using the vegaEmbed function to put a graph in the element with id figure_10
+  //      vegaEmbed('#Location10d', figure10d_spec) // We're using the vegaEmbed function to put a graph in the element with id figure_10b
+
+          // Do you want to add more graphs?
+          // try defining a new variable for figure_3_spec, adding VegaEmbed for Location3, and adding a new section in the HTML
+          // e.g. 
+          // let figure_3_spec = ...
+          // vegaEmbed('#Location3', figure_3_spec)
+          //Credits to  Mark Macneil (2019)
+
+      </script>
+  </body>
+
+</html>

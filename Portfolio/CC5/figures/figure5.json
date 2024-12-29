@@ -1,0 +1,4684 @@
+<<<<<<< HEAD
+{
+  "data": [
+    {
+      "branchvalues": "total",
+      "customdata": [
+        [
+          "Africa"
+        ],
+        [
+          "Africa"
+        ],
+        [
+          "Asia"
+        ],
+        [
+          "Africa"
+        ],
+        [
+          "Europe"
+        ],
+        [
+          "Africa"
+        ],
+        [
+          "Asia"
+        ],
+        [
+          "Africa"
+        ],
+        [
+          "North America"
+        ],
+        [
+          "Asia"
+        ],
+        [
+          "Asia"
+        ],
+        [
+          "Asia"
+        ],
+        [
+          "Asia"
+        ],
+        [
+          "Africa"
+        ],
+        [
+          "Africa"
+        ],
+        [
+          "North America"
+        ],
+        [
+          "Africa"
+        ],
+        [
+          "Africa"
+        ],
+        [
+          "Asia"
+        ],
+        [
+          "Asia"
+        ],
+        [
+          "Africa"
+        ],
+        [
+          "Europe"
+        ],
+        [
+          "North America"
+        ],
+        [
+          "Europe"
+        ],
+        [
+          "Europe"
+        ],
+        [
+          "Africa"
+        ],
+        [
+          "Africa"
+        ],
+        [
+          "Africa"
+        ],
+        [
+          "Asia"
+        ],
+        [
+          "Africa"
+        ],
+        [
+          "North America"
+        ],
+        [
+          "Oceania"
+        ],
+        [
+          "Africa"
+        ],
+        [
+          "Europe"
+        ],
+        [
+          "Europe"
+        ],
+        [
+          "North America"
+        ],
+        [
+          "Asia"
+        ],
+        [
+          "North America"
+        ],
+        [
+          "Oceania"
+        ],
+        [
+          "Europe"
+        ],
+        [
+          "Asia"
+        ],
+        [
+          "Asia"
+        ],
+        [
+          "Europe"
+        ],
+        [
+          "Asia"
+        ],
+        [
+          "Asia"
+        ],
+        [
+          "Asia"
+        ],
+        [
+          "North America"
+        ],
+        [
+          "Europe"
+        ],
+        [
+          "Asia"
+        ],
+        [
+          "Europe"
+        ],
+        [
+          "Europe"
+        ],
+        [
+          "Europe"
+        ],
+        [
+          "Europe"
+        ],
+        [
+          "Asia"
+        ],
+        [
+          "North America"
+        ],
+        [
+          "Africa"
+        ],
+        [
+          "South America"
+        ],
+        [
+          "Africa"
+        ],
+        [
+          "Asia"
+        ],
+        [
+          "Europe"
+        ],
+        [
+          "Africa"
+        ],
+        [
+          "North America"
+        ],
+        [
+          "South America"
+        ],
+        [
+          "Asia"
+        ],
+        [
+          "Asia"
+        ],
+        [
+          "Africa"
+        ],
+        [
+          "Africa"
+        ],
+        [
+          "South America"
+        ],
+        [
+          "Europe"
+        ],
+        [
+          "Europe"
+        ],
+        [
+          "Oceania"
+        ],
+        [
+          "Asia"
+        ],
+        [
+          "North America"
+        ],
+        [
+          "North America"
+        ],
+        [
+          "Asia"
+        ],
+        [
+          "North America"
+        ],
+        [
+          "North America"
+        ],
+        [
+          "Europe"
+        ],
+        [
+          "Oceania"
+        ],
+        [
+          "North America"
+        ],
+        [
+          "Asia"
+        ],
+        [
+          "North America"
+        ],
+        [
+          "North America"
+        ],
+        [
+          "Europe"
+        ],
+        [
+          "Asia"
+        ],
+        [
+          "Europe"
+        ],
+        [
+          "Europe"
+        ],
+        [
+          "Europe"
+        ],
+        [
+          "South America"
+        ],
+        [
+          "Oceania"
+        ],
+        [
+          "Africa"
+        ],
+        [
+          "Europe"
+        ],
+        [
+          "North America"
+        ],
+        [
+          "South America"
+        ],
+        [
+          "Asia"
+        ],
+        [
+          "Asia"
+        ],
+        [
+          "North America"
+        ],
+        [
+          "Europe"
+        ],
+        [
+          "Africa"
+        ],
+        [
+          "Africa"
+        ],
+        [
+          "Asia"
+        ],
+        [
+          "Asia"
+        ],
+        [
+          "North America"
+        ],
+        [
+          "Europe"
+        ],
+        [
+          "Europe"
+        ],
+        [
+          "Europe"
+        ],
+        [
+          "Asia"
+        ],
+        [
+          "Africa"
+        ],
+        [
+          "South America"
+        ],
+        [
+          "Europe"
+        ],
+        [
+          "Europe"
+        ],
+        [
+          "Europe"
+        ],
+        [
+          "Asia"
+        ],
+        [
+          "North America"
+        ],
+        [
+          "Africa"
+        ],
+        [
+          "North America"
+        ],
+        [
+          "Oceania"
+        ],
+        [
+          "Other"
+        ],
+        [
+          "Europe"
+        ],
+        [
+          "Africa"
+        ],
+        [
+          "Asia"
+        ],
+        [
+          "Africa"
+        ],
+        [
+          "Africa"
+        ],
+        [
+          "North America"
+        ],
+        [
+          "North America"
+        ],
+        [
+          "North America"
+        ],
+        [
+          "Asia"
+        ],
+        [
+          "Europe"
+        ],
+        [
+          "Europe"
+        ],
+        [
+          "Africa"
+        ],
+        [
+          "Oceania"
+        ],
+        [
+          "Asia"
+        ],
+        [
+          "Oceania"
+        ],
+        [
+          "Africa"
+        ],
+        [
+          "Asia"
+        ],
+        [
+          "North America"
+        ],
+        [
+          "Europe"
+        ],
+        [
+          "Europe"
+        ],
+        [
+          "Asia"
+        ],
+        [
+          "Europe"
+        ],
+        [
+          "North America"
+        ],
+        [
+          "Africa"
+        ],
+        [
+          "Oceania"
+        ],
+        [
+          "Europe"
+        ],
+        [
+          "Asia"
+        ],
+        [
+          "Asia"
+        ],
+        [
+          "Asia"
+        ],
+        [
+          "Africa"
+        ],
+        [
+          "Asia"
+        ],
+        [
+          "South America"
+        ],
+        [
+          "Africa"
+        ],
+        [
+          "Asia"
+        ],
+        [
+          "South America"
+        ],
+        [
+          "North America"
+        ],
+        [
+          "Oceania"
+        ],
+        [
+          "Asia"
+        ],
+        [
+          "Europe"
+        ],
+        [
+          "Asia"
+        ],
+        [
+          "Oceania"
+        ],
+        [
+          "Africa"
+        ],
+        [
+          "Europe"
+        ],
+        [
+          "Europe"
+        ],
+        [
+          "Asia"
+        ],
+        [
+          "Europe"
+        ],
+        [
+          "North America"
+        ],
+        [
+          "North America"
+        ],
+        [
+          "Asia"
+        ],
+        [
+          "Africa"
+        ],
+        [
+          "North America"
+        ],
+        [
+          "Africa"
+        ],
+        [
+          "Europe"
+        ],
+        [
+          "Africa"
+        ],
+        [
+          "Africa"
+        ],
+        [
+          "South America"
+        ],
+        [
+          "Africa"
+        ],
+        [
+          "South America"
+        ],
+        [
+          "Africa"
+        ],
+        [
+          "South America"
+        ],
+        [
+          "Oceania"
+        ]
+      ],
+      "domain": {
+        "x": [
+          0.0,
+          1.0
+        ],
+        "y": [
+          0.0,
+          1.0
+        ]
+      },
+      "hovertemplate": "Country: %{label}\u003cbr\u003eContinent: %{customdata[0]}\u003cextra\u003e\u003c\u002fextra\u003e\u003cbr\u003eShare of exports:%{value:.1%}",
+      "ids": [
+        "Zambia",
+        "Kenya",
+        "Israel",
+        "Mozambique",
+        "Bulgaria",
+        "Cabo Verde",
+        "Mongolia",
+        "Cameroon",
+        "Mexico",
+        "China",
+        "China, Hong Kong SAR",
+        "Maldives",
+        "Malaysia",
+        "Madagascar",
+        "Libya",
+        "Cuba",
+        "Liberia",
+        "Djibouti",
+        "Lao People's Dem. Rep.",
+        "Kyrgyzstan",
+        "Niger",
+        "Estonia",
+        "Nicaragua",
+        "Sweden",
+        "Germany",
+        "Algeria",
+        "United Rep. of Tanzania",
+        "Angola",
+        "United Arab Emirates",
+        "Uganda",
+        "Turks and Caicos Isds",
+        "Tonga",
+        "Ethiopia",
+        "Denmark",
+        "Slovakia",
+        "Belize",
+        "India",
+        "Saint Vincent and the Grenadines",
+        "Samoa",
+        "Finland",
+        "Yemen",
+        "Iraq",
+        "Italy",
+        "Kazakhstan",
+        "Jordan",
+        "Iran",
+        "Haiti",
+        "Holy See (Vatican City State)",
+        "Japan",
+        "Hungary",
+        "Ireland",
+        "Malta",
+        "Lithuania",
+        "Uzbekistan",
+        "Trinidad and Tobago",
+        "Togo",
+        "Suriname",
+        "Sierra Leone",
+        "Saudi Arabia",
+        "San Marino",
+        "Lesotho",
+        "Saint Lucia",
+        "Paraguay",
+        "Oman",
+        "Myanmar",
+        "Morocco",
+        "Mauritania",
+        "Guyana",
+        "Luxembourg",
+        "Poland",
+        "Guam",
+        "Afghanistan",
+        "Jamaica",
+        "Canada",
+        "Brunei Darussalam",
+        "Costa Rica",
+        "Br. Virgin Isds",
+        "Bosnia Herzegovina",
+        "FS Micronesia",
+        "Bahamas",
+        "Azerbaijan",
+        "Cayman Isds",
+        "Antigua and Barbuda",
+        "Austria",
+        "Sri Lanka",
+        "Albania",
+        "Andorra",
+        "Ukraine",
+        "Brazil",
+        "N. Mariana Isds",
+        "Botswana",
+        "Greece",
+        "USA",
+        "Peru",
+        "Philippines",
+        "Qatar",
+        "Saint Kitts and Nevis",
+        "Belgium",
+        "Mauritius",
+        "Senegal",
+        "Singapore",
+        "T\u00fcrkiye",
+        "Aruba",
+        "Slovenia",
+        "Spain",
+        "Portugal",
+        "Bangladesh",
+        "Nigeria",
+        "Ecuador",
+        "France",
+        "Iceland",
+        "Latvia",
+        "Lebanon",
+        "Dominica",
+        "Egypt",
+        "Honduras",
+        "Fiji",
+        "Fr. South Antarctic Terr.",
+        "Croatia",
+        "Guinea",
+        "Kuwait",
+        "Congo",
+        "Malawi",
+        "Guatemala",
+        "Cura\u00e7ao",
+        "Barbados",
+        "Bahrain",
+        "Russian Federation",
+        "Romania",
+        "Mali",
+        "French Polynesia",
+        "Thailand",
+        "Australia",
+        "Tunisia",
+        "Georgia",
+        "Anguilla",
+        "United Kingdom",
+        "Gibraltar",
+        "Indonesia",
+        "Rep. of Moldova",
+        "Grenada",
+        "Dem. Rep. of the Congo",
+        "New Zealand",
+        "Czechia",
+        "Other Asia, nes",
+        "Nepal",
+        "Cyprus",
+        "Namibia",
+        "Rep. of Korea",
+        "Bolivia (Plurinational State of)",
+        "Burkina Faso",
+        "Cambodia",
+        "Colombia",
+        "Bermuda",
+        "Cook Isds",
+        "Armenia",
+        "Netherlands",
+        "Viet Nam",
+        "New Caledonia",
+        "Gabon",
+        "Switzerland",
+        "Norway",
+        "China, Macao SAR",
+        "North Macedonia",
+        "El Salvador",
+        "Dominican Rep.",
+        "Pakistan",
+        "Equatorial Guinea",
+        "Panama",
+        "Ghana",
+        "Belarus",
+        "C\u00f4te d'Ivoire",
+        "Benin",
+        "Uruguay",
+        "Central African Rep.",
+        "Venezuela",
+        "South Africa",
+        "Argentina",
+        "Papua New Guinea"
+      ],
+      "labels": [
+        "Zambia",
+        "Kenya",
+        "Israel",
+        "Mozambique",
+        "Bulgaria",
+        "Cabo Verde",
+        "Mongolia",
+        "Cameroon",
+        "Mexico",
+        "China",
+        "China, Hong Kong SAR",
+        "Maldives",
+        "Malaysia",
+        "Madagascar",
+        "Libya",
+        "Cuba",
+        "Liberia",
+        "Djibouti",
+        "Lao People's Dem. Rep.",
+        "Kyrgyzstan",
+        "Niger",
+        "Estonia",
+        "Nicaragua",
+        "Sweden",
+        "Germany",
+        "Algeria",
+        "United Rep. of Tanzania",
+        "Angola",
+        "United Arab Emirates",
+        "Uganda",
+        "Turks and Caicos Isds",
+        "Tonga",
+        "Ethiopia",
+        "Denmark",
+        "Slovakia",
+        "Belize",
+        "India",
+        "Saint Vincent and the Grenadines",
+        "Samoa",
+        "Finland",
+        "Yemen",
+        "Iraq",
+        "Italy",
+        "Kazakhstan",
+        "Jordan",
+        "Iran",
+        "Haiti",
+        "Holy See (Vatican City State)",
+        "Japan",
+        "Hungary",
+        "Ireland",
+        "Malta",
+        "Lithuania",
+        "Uzbekistan",
+        "Trinidad and Tobago",
+        "Togo",
+        "Suriname",
+        "Sierra Leone",
+        "Saudi Arabia",
+        "San Marino",
+        "Lesotho",
+        "Saint Lucia",
+        "Paraguay",
+        "Oman",
+        "Myanmar",
+        "Morocco",
+        "Mauritania",
+        "Guyana",
+        "Luxembourg",
+        "Poland",
+        "Guam",
+        "Afghanistan",
+        "Jamaica",
+        "Canada",
+        "Brunei Darussalam",
+        "Costa Rica",
+        "Br. Virgin Isds",
+        "Bosnia Herzegovina",
+        "FS Micronesia",
+        "Bahamas",
+        "Azerbaijan",
+        "Cayman Isds",
+        "Antigua and Barbuda",
+        "Austria",
+        "Sri Lanka",
+        "Albania",
+        "Andorra",
+        "Ukraine",
+        "Brazil",
+        "N. Mariana Isds",
+        "Botswana",
+        "Greece",
+        "USA",
+        "Peru",
+        "Philippines",
+        "Qatar",
+        "Saint Kitts and Nevis",
+        "Belgium",
+        "Mauritius",
+        "Senegal",
+        "Singapore",
+        "T\u00fcrkiye",
+        "Aruba",
+        "Slovenia",
+        "Spain",
+        "Portugal",
+        "Bangladesh",
+        "Nigeria",
+        "Ecuador",
+        "France",
+        "Iceland",
+        "Latvia",
+        "Lebanon",
+        "Dominica",
+        "Egypt",
+        "Honduras",
+        "Fiji",
+        "Fr. South Antarctic Terr.",
+        "Croatia",
+        "Guinea",
+        "Kuwait",
+        "Congo",
+        "Malawi",
+        "Guatemala",
+        "Cura\u00e7ao",
+        "Barbados",
+        "Bahrain",
+        "Russian Federation",
+        "Romania",
+        "Mali",
+        "French Polynesia",
+        "Thailand",
+        "Australia",
+        "Tunisia",
+        "Georgia",
+        "Anguilla",
+        "United Kingdom",
+        "Gibraltar",
+        "Indonesia",
+        "Rep. of Moldova",
+        "Grenada",
+        "Dem. Rep. of the Congo",
+        "New Zealand",
+        "Czechia",
+        "Other Asia, nes",
+        "Nepal",
+        "Cyprus",
+        "Namibia",
+        "Rep. of Korea",
+        "Bolivia (Plurinational State of)",
+        "Burkina Faso",
+        "Cambodia",
+        "Colombia",
+        "Bermuda",
+        "Cook Isds",
+        "Armenia",
+        "Netherlands",
+        "Viet Nam",
+        "New Caledonia",
+        "Gabon",
+        "Switzerland",
+        "Norway",
+        "China, Macao SAR",
+        "North Macedonia",
+        "El Salvador",
+        "Dominican Rep.",
+        "Pakistan",
+        "Equatorial Guinea",
+        "Panama",
+        "Ghana",
+        "Belarus",
+        "C\u00f4te d'Ivoire",
+        "Benin",
+        "Uruguay",
+        "Central African Rep.",
+        "Venezuela",
+        "South Africa",
+        "Argentina",
+        "Papua New Guinea"
+      ],
+      "marker": {
+        "colors": [
+          "#E15759",
+          "#E15759",
+          "#4E79A7",
+          "#E15759",
+          "#59A14F",
+          "#E15759",
+          "#4E79A7",
+          "#E15759",
+          "#76B7B2",
+          "#4E79A7",
+          "#4E79A7",
+          "#4E79A7",
+          "#4E79A7",
+          "#E15759",
+          "#E15759",
+          "#76B7B2",
+          "#E15759",
+          "#E15759",
+          "#4E79A7",
+          "#4E79A7",
+          "#E15759",
+          "#59A14F",
+          "#76B7B2",
+          "#59A14F",
+          "#59A14F",
+          "#E15759",
+          "#E15759",
+          "#E15759",
+          "#4E79A7",
+          "#E15759",
+          "#76B7B2",
+          "#F28E2B",
+          "#E15759",
+          "#59A14F",
+          "#59A14F",
+          "#76B7B2",
+          "#4E79A7",
+          "#76B7B2",
+          "#F28E2B",
+          "#59A14F",
+          "#4E79A7",
+          "#4E79A7",
+          "#59A14F",
+          "#4E79A7",
+          "#4E79A7",
+          "#4E79A7",
+          "#76B7B2",
+          "#59A14F",
+          "#4E79A7",
+          "#59A14F",
+          "#59A14F",
+          "#59A14F",
+          "#59A14F",
+          "#4E79A7",
+          "#76B7B2",
+          "#E15759",
+          "#FF9DA7",
+          "#E15759",
+          "#4E79A7",
+          "#59A14F",
+          "#E15759",
+          "#76B7B2",
+          "#FF9DA7",
+          "#4E79A7",
+          "#4E79A7",
+          "#E15759",
+          "#E15759",
+          "#FF9DA7",
+          "#59A14F",
+          "#59A14F",
+          "#F28E2B",
+          "#4E79A7",
+          "#76B7B2",
+          "#76B7B2",
+          "#4E79A7",
+          "#76B7B2",
+          "#76B7B2",
+          "#59A14F",
+          "#F28E2B",
+          "#76B7B2",
+          "#4E79A7",
+          "#76B7B2",
+          "#76B7B2",
+          "#59A14F",
+          "#4E79A7",
+          "#59A14F",
+          "#59A14F",
+          "#59A14F",
+          "#FF9DA7",
+          "#F28E2B",
+          "#E15759",
+          "#59A14F",
+          "#76B7B2",
+          "#FF9DA7",
+          "#4E79A7",
+          "#4E79A7",
+          "#76B7B2",
+          "#59A14F",
+          "#E15759",
+          "#E15759",
+          "#4E79A7",
+          "#4E79A7",
+          "#76B7B2",
+          "#59A14F",
+          "#59A14F",
+          "#59A14F",
+          "#4E79A7",
+          "#E15759",
+          "#FF9DA7",
+          "#59A14F",
+          "#59A14F",
+          "#59A14F",
+          "#4E79A7",
+          "#76B7B2",
+          "#E15759",
+          "#76B7B2",
+          "#F28E2B",
+          "#FF6692",
+          "#59A14F",
+          "#E15759",
+          "#4E79A7",
+          "#E15759",
+          "#E15759",
+          "#76B7B2",
+          "#76B7B2",
+          "#76B7B2",
+          "#4E79A7",
+          "#59A14F",
+          "#59A14F",
+          "#E15759",
+          "#F28E2B",
+          "#4E79A7",
+          "#F28E2B",
+          "#E15759",
+          "#4E79A7",
+          "#76B7B2",
+          "#59A14F",
+          "#59A14F",
+          "#4E79A7",
+          "#59A14F",
+          "#76B7B2",
+          "#E15759",
+          "#F28E2B",
+          "#59A14F",
+          "#4E79A7",
+          "#4E79A7",
+          "#4E79A7",
+          "#E15759",
+          "#4E79A7",
+          "#FF9DA7",
+          "#E15759",
+          "#4E79A7",
+          "#FF9DA7",
+          "#76B7B2",
+          "#F28E2B",
+          "#4E79A7",
+          "#59A14F",
+          "#4E79A7",
+          "#F28E2B",
+          "#E15759",
+          "#59A14F",
+          "#59A14F",
+          "#4E79A7",
+          "#59A14F",
+          "#76B7B2",
+          "#76B7B2",
+          "#4E79A7",
+          "#E15759",
+          "#76B7B2",
+          "#E15759",
+          "#59A14F",
+          "#E15759",
+          "#E15759",
+          "#FF9DA7",
+          "#E15759",
+          "#FF9DA7",
+          "#E15759",
+          "#FF9DA7",
+          "#F28E2B"
+        ],
+        "line": {
+          "width": 1
+        }
+      },
+      "name": "",
+      "parents": [
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "values": [
+        1.8539026037438688e-05,
+        2.320241416283222e-05,
+        0.001359172653021262,
+        8.96901992092886e-06,
+        0.0018184915111869042,
+        2.6696012897049806e-06,
+        2.552140750048534e-05,
+        0.0001313845133205678,
+        0.01843974689119483,
+        0.39447010432577556,
+        0.0005108151412966558,
+        3.788137264421774e-06,
+        0.003203253749232286,
+        9.315670713635275e-07,
+        3.259832219542016e-05,
+        0.0002085447216976512,
+        1.880102311385367e-05,
+        1.6701756269504892e-07,
+        3.1033971737700686e-06,
+        3.748922428882719e-05,
+        6.669419060431645e-06,
+        8.336364158031036e-05,
+        0.00032332616606307,
+        0.001517113676655427,
+        0.010711402623022476,
+        8.280350605680054e-05,
+        0.00010902740725492356,
+        4.910040893132932e-06,
+        0.0018874870062184279,
+        4.889821802335893e-07,
+        8.167898265008762e-06,
+        5.477497490602612e-06,
+        1.2604468768672174e-06,
+        0.0018823184038753219,
+        1.5999419815428007e-05,
+        2.655450557406531e-05,
+        0.015861271563539114,
+        1.951219419543096e-06,
+        4.023821851388877e-06,
+        0.0008242346711461334,
+        1.3711270885068733e-06,
+        3.6780909672203114e-05,
+        0.008921187756840438,
+        0.0002738616547264808,
+        3.2621793946377594e-05,
+        2.559780061043437e-05,
+        2.5883718374071654e-05,
+        2.792828501004674e-06,
+        0.07165952534668613,
+        9.937855949299835e-05,
+        0.0005807450129484445,
+        2.1499665587033116e-05,
+        0.00047072275559929003,
+        1.2877160577116236e-07,
+        0.0002358364188551006,
+        1.814099937674616e-05,
+        3.0057452041915022e-05,
+        5.833602331200214e-07,
+        0.0007720883139886176,
+        1.4876436401252015e-06,
+        2.4602075985831514e-07,
+        1.0085601779944661e-05,
+        0.005612143166780542,
+        6.953943868165552e-05,
+        1.848749211481498e-05,
+        0.0003993198541518762,
+        1.3496246003726432e-05,
+        1.8943261827958547e-05,
+        6.214131959039539e-06,
+        0.0012132292472325217,
+        1.1051458344095299e-06,
+        2.3063585520983992e-07,
+        0.00024285042135779232,
+        0.013979608318414903,
+        6.527711833354366e-06,
+        0.0031892933144330973,
+        2.2789719652566166e-06,
+        5.416885617444286e-06,
+        8.77767095015652e-06,
+        8.068440448778106e-06,
+        2.6975020254914904e-05,
+        9.324333540326667e-07,
+        7.76729417084252e-06,
+        0.00012915148555796486,
+        6.36266998101626e-05,
+        4.547979578391929e-06,
+        1.1800684200212444e-06,
+        0.00016584831040523726,
+        0.04507566909636167,
+        2.8196381699856723e-06,
+        4.4727829752299046e-08,
+        0.0005572188089398466,
+        0.15070941742555563,
+        0.016484532096970147,
+        0.0027787707335157545,
+        7.322608333833963e-05,
+        8.721003016845461e-07,
+        0.010032978269266414,
+        1.0090805732837519e-05,
+        2.00246611565178e-05,
+        0.0009016107639668779,
+        0.0014205551536659153,
+        1.1559415086273422e-05,
+        2.267948962014021e-05,
+        0.012608573391467143,
+        0.000568217973593044,
+        0.0004250948236145247,
+        0.001496194987536322,
+        0.006132170061474326,
+        0.010374793875671794,
+        5.636200273346384e-05,
+        0.0001403860977109062,
+        5.1137947028725786e-05,
+        2.8861760650409963e-06,
+        0.00011830222500019241,
+        0.0005357671483330317,
+        7.814901744504986e-06,
+        4.458401214557217e-06,
+        1.591285390662502e-05,
+        6.691502995816473e-06,
+        0.00010056734804175885,
+        4.713426127496569e-05,
+        2.6902131734001144e-07,
+        0.0019876996960329616,
+        4.273281260793531e-06,
+        2.305207286542214e-05,
+        0.0015734610423286347,
+        0.004853073432442658,
+        0.00010458914080024513,
+        3.880272742676821e-06,
+        1.83744607706569e-05,
+        0.006803848568678778,
+        0.00215407913308437,
+        5.123852214008901e-06,
+        4.693892775783972e-05,
+        0.001196469032625113,
+        0.004803515688462132,
+        1.3117255104408259e-06,
+        0.0016345246981257194,
+        1.9551465269137965e-05,
+        7.258967598719315e-06,
+        1.5744622467459702e-06,
+        0.000617854054897763,
+        0.00018971839054447508,
+        0.01272894128189641,
+        2.1585843653666402e-06,
+        0.0001268579500560355,
+        3.142368991745382e-06,
+        0.06341668401755668,
+        0.015023824515636282,
+        0.00034282345515316886,
+        0.0003991977762047744,
+        0.007417889634424485,
+        2.129408985552092e-06,
+        2.585017568286376e-07,
+        4.316518742227978e-05,
+        0.01703351195809847,
+        0.003386180937032097,
+        5.125620045386944e-06,
+        4.96655651254465e-06,
+        0.0071140736092369745,
+        0.0008912193385345378,
+        4.930850700629492e-07,
+        3.2687827867815077e-06,
+        0.0006794204770617689,
+        0.001666291450979806,
+        0.00016275302486301854,
+        7.38180275446344e-06,
+        0.0022491939402047327,
+        0.00025518911016687726,
+        0.00017224510570340668,
+        0.0011639519631535741,
+        1.5588481760398136e-05,
+        0.0016197705893568164,
+        3.2476778316044807e-07,
+        0.000852757615489399,
+        0.0011452407016647739,
+        0.009291623015265153,
+        5.802336901322917e-07
+      ],
+      "type": "treemap",
+      "textfont": {
+        "size": 20
+      },
+      "textinfo": "label+percent entry"
+    }
+  ],
+  "layout": {
+    "template": {
+      "data": {
+        "histogram2dcontour": [
+          {
+            "type": "histogram2dcontour",
+            "colorbar": {
+              "outlinewidth": 0,
+              "ticks": ""
+            },
+            "colorscale": [
+              [
+                0.0,
+                "#0d0887"
+              ],
+              [
+                0.1111111111111111,
+                "#46039f"
+              ],
+              [
+                0.2222222222222222,
+                "#7201a8"
+              ],
+              [
+                0.3333333333333333,
+                "#9c179e"
+              ],
+              [
+                0.4444444444444444,
+                "#bd3786"
+              ],
+              [
+                0.5555555555555556,
+                "#d8576b"
+              ],
+              [
+                0.6666666666666666,
+                "#ed7953"
+              ],
+              [
+                0.7777777777777778,
+                "#fb9f3a"
+              ],
+              [
+                0.8888888888888888,
+                "#fdca26"
+              ],
+              [
+                1.0,
+                "#f0f921"
+              ]
+            ]
+          }
+        ],
+        "choropleth": [
+          {
+            "type": "choropleth",
+            "colorbar": {
+              "outlinewidth": 0,
+              "ticks": ""
+            }
+          }
+        ],
+        "histogram2d": [
+          {
+            "type": "histogram2d",
+            "colorbar": {
+              "outlinewidth": 0,
+              "ticks": ""
+            },
+            "colorscale": [
+              [
+                0.0,
+                "#0d0887"
+              ],
+              [
+                0.1111111111111111,
+                "#46039f"
+              ],
+              [
+                0.2222222222222222,
+                "#7201a8"
+              ],
+              [
+                0.3333333333333333,
+                "#9c179e"
+              ],
+              [
+                0.4444444444444444,
+                "#bd3786"
+              ],
+              [
+                0.5555555555555556,
+                "#d8576b"
+              ],
+              [
+                0.6666666666666666,
+                "#ed7953"
+              ],
+              [
+                0.7777777777777778,
+                "#fb9f3a"
+              ],
+              [
+                0.8888888888888888,
+                "#fdca26"
+              ],
+              [
+                1.0,
+                "#f0f921"
+              ]
+            ]
+          }
+        ],
+        "heatmap": [
+          {
+            "type": "heatmap",
+            "colorbar": {
+              "outlinewidth": 0,
+              "ticks": ""
+            },
+            "colorscale": [
+              [
+                0.0,
+                "#0d0887"
+              ],
+              [
+                0.1111111111111111,
+                "#46039f"
+              ],
+              [
+                0.2222222222222222,
+                "#7201a8"
+              ],
+              [
+                0.3333333333333333,
+                "#9c179e"
+              ],
+              [
+                0.4444444444444444,
+                "#bd3786"
+              ],
+              [
+                0.5555555555555556,
+                "#d8576b"
+              ],
+              [
+                0.6666666666666666,
+                "#ed7953"
+              ],
+              [
+                0.7777777777777778,
+                "#fb9f3a"
+              ],
+              [
+                0.8888888888888888,
+                "#fdca26"
+              ],
+              [
+                1.0,
+                "#f0f921"
+              ]
+            ]
+          }
+        ],
+        "heatmapgl": [
+          {
+            "type": "heatmapgl",
+            "colorbar": {
+              "outlinewidth": 0,
+              "ticks": ""
+            },
+            "colorscale": [
+              [
+                0.0,
+                "#0d0887"
+              ],
+              [
+                0.1111111111111111,
+                "#46039f"
+              ],
+              [
+                0.2222222222222222,
+                "#7201a8"
+              ],
+              [
+                0.3333333333333333,
+                "#9c179e"
+              ],
+              [
+                0.4444444444444444,
+                "#bd3786"
+              ],
+              [
+                0.5555555555555556,
+                "#d8576b"
+              ],
+              [
+                0.6666666666666666,
+                "#ed7953"
+              ],
+              [
+                0.7777777777777778,
+                "#fb9f3a"
+              ],
+              [
+                0.8888888888888888,
+                "#fdca26"
+              ],
+              [
+                1.0,
+                "#f0f921"
+              ]
+            ]
+          }
+        ],
+        "contourcarpet": [
+          {
+            "type": "contourcarpet",
+            "colorbar": {
+              "outlinewidth": 0,
+              "ticks": ""
+            }
+          }
+        ],
+        "contour": [
+          {
+            "type": "contour",
+            "colorbar": {
+              "outlinewidth": 0,
+              "ticks": ""
+            },
+            "colorscale": [
+              [
+                0.0,
+                "#0d0887"
+              ],
+              [
+                0.1111111111111111,
+                "#46039f"
+              ],
+              [
+                0.2222222222222222,
+                "#7201a8"
+              ],
+              [
+                0.3333333333333333,
+                "#9c179e"
+              ],
+              [
+                0.4444444444444444,
+                "#bd3786"
+              ],
+              [
+                0.5555555555555556,
+                "#d8576b"
+              ],
+              [
+                0.6666666666666666,
+                "#ed7953"
+              ],
+              [
+                0.7777777777777778,
+                "#fb9f3a"
+              ],
+              [
+                0.8888888888888888,
+                "#fdca26"
+              ],
+              [
+                1.0,
+                "#f0f921"
+              ]
+            ]
+          }
+        ],
+        "surface": [
+          {
+            "type": "surface",
+            "colorbar": {
+              "outlinewidth": 0,
+              "ticks": ""
+            },
+            "colorscale": [
+              [
+                0.0,
+                "#0d0887"
+              ],
+              [
+                0.1111111111111111,
+                "#46039f"
+              ],
+              [
+                0.2222222222222222,
+                "#7201a8"
+              ],
+              [
+                0.3333333333333333,
+                "#9c179e"
+              ],
+              [
+                0.4444444444444444,
+                "#bd3786"
+              ],
+              [
+                0.5555555555555556,
+                "#d8576b"
+              ],
+              [
+                0.6666666666666666,
+                "#ed7953"
+              ],
+              [
+                0.7777777777777778,
+                "#fb9f3a"
+              ],
+              [
+                0.8888888888888888,
+                "#fdca26"
+              ],
+              [
+                1.0,
+                "#f0f921"
+              ]
+            ]
+          }
+        ],
+        "mesh3d": [
+          {
+            "type": "mesh3d",
+            "colorbar": {
+              "outlinewidth": 0,
+              "ticks": ""
+            }
+          }
+        ],
+        "scatter": [
+          {
+            "fillpattern": {
+              "fillmode": "overlay",
+              "size": 10,
+              "solidity": 0.2
+            },
+            "type": "scatter"
+          }
+        ],
+        "parcoords": [
+          {
+            "type": "parcoords",
+            "line": {
+              "colorbar": {
+                "outlinewidth": 0,
+                "ticks": ""
+              }
+            }
+          }
+        ],
+        "scatterpolargl": [
+          {
+            "type": "scatterpolargl",
+            "marker": {
+              "colorbar": {
+                "outlinewidth": 0,
+                "ticks": ""
+              }
+            }
+          }
+        ],
+        "bar": [
+          {
+            "error_x": {
+              "color": "#2a3f5f"
+            },
+            "error_y": {
+              "color": "#2a3f5f"
+            },
+            "marker": {
+              "line": {
+                "color": "#E5ECF6",
+                "width": 0.5
+              },
+              "pattern": {
+                "fillmode": "overlay",
+                "size": 10,
+                "solidity": 0.2
+              }
+            },
+            "type": "bar"
+          }
+        ],
+        "scattergeo": [
+          {
+            "type": "scattergeo",
+            "marker": {
+              "colorbar": {
+                "outlinewidth": 0,
+                "ticks": ""
+              }
+            }
+          }
+        ],
+        "scatterpolar": [
+          {
+            "type": "scatterpolar",
+            "marker": {
+              "colorbar": {
+                "outlinewidth": 0,
+                "ticks": ""
+              }
+            }
+          }
+        ],
+        "histogram": [
+          {
+            "marker": {
+              "pattern": {
+                "fillmode": "overlay",
+                "size": 10,
+                "solidity": 0.2
+              }
+            },
+            "type": "histogram"
+          }
+        ],
+        "scattergl": [
+          {
+            "type": "scattergl",
+            "marker": {
+              "colorbar": {
+                "outlinewidth": 0,
+                "ticks": ""
+              }
+            }
+          }
+        ],
+        "scatter3d": [
+          {
+            "type": "scatter3d",
+            "line": {
+              "colorbar": {
+                "outlinewidth": 0,
+                "ticks": ""
+              }
+            },
+            "marker": {
+              "colorbar": {
+                "outlinewidth": 0,
+                "ticks": ""
+              }
+            }
+          }
+        ],
+        "scattermapbox": [
+          {
+            "type": "scattermapbox",
+            "marker": {
+              "colorbar": {
+                "outlinewidth": 0,
+                "ticks": ""
+              }
+            }
+          }
+        ],
+        "scatterternary": [
+          {
+            "type": "scatterternary",
+            "marker": {
+              "colorbar": {
+                "outlinewidth": 0,
+                "ticks": ""
+              }
+            }
+          }
+        ],
+        "scattercarpet": [
+          {
+            "type": "scattercarpet",
+            "marker": {
+              "colorbar": {
+                "outlinewidth": 0,
+                "ticks": ""
+              }
+            }
+          }
+        ],
+        "carpet": [
+          {
+            "aaxis": {
+              "endlinecolor": "#2a3f5f",
+              "gridcolor": "white",
+              "linecolor": "white",
+              "minorgridcolor": "white",
+              "startlinecolor": "#2a3f5f"
+            },
+            "baxis": {
+              "endlinecolor": "#2a3f5f",
+              "gridcolor": "white",
+              "linecolor": "white",
+              "minorgridcolor": "white",
+              "startlinecolor": "#2a3f5f"
+            },
+            "type": "carpet"
+          }
+        ],
+        "table": [
+          {
+            "cells": {
+              "fill": {
+                "color": "#EBF0F8"
+              },
+              "line": {
+                "color": "white"
+              }
+            },
+            "header": {
+              "fill": {
+                "color": "#C8D4E3"
+              },
+              "line": {
+                "color": "white"
+              }
+            },
+            "type": "table"
+          }
+        ],
+        "barpolar": [
+          {
+            "marker": {
+              "line": {
+                "color": "#E5ECF6",
+                "width": 0.5
+              },
+              "pattern": {
+                "fillmode": "overlay",
+                "size": 10,
+                "solidity": 0.2
+              }
+            },
+            "type": "barpolar"
+          }
+        ],
+        "pie": [
+          {
+            "automargin": true,
+            "type": "pie"
+          }
+        ]
+      },
+      "layout": {
+        "autotypenumbers": "strict",
+        "colorway": [
+          "#636efa",
+          "#EF553B",
+          "#00cc96",
+          "#ab63fa",
+          "#FFA15A",
+          "#19d3f3",
+          "#FF6692",
+          "#B6E880",
+          "#FF97FF",
+          "#FECB52"
+        ],
+        "font": {
+          "color": "#2a3f5f"
+        },
+        "hovermode": "closest",
+        "hoverlabel": {
+          "align": "left"
+        },
+        "paper_bgcolor": "white",
+        "plot_bgcolor": "#E5ECF6",
+        "polar": {
+          "bgcolor": "#E5ECF6",
+          "angularaxis": {
+            "gridcolor": "white",
+            "linecolor": "white",
+            "ticks": ""
+          },
+          "radialaxis": {
+            "gridcolor": "white",
+            "linecolor": "white",
+            "ticks": ""
+          }
+        },
+        "ternary": {
+          "bgcolor": "#E5ECF6",
+          "aaxis": {
+            "gridcolor": "white",
+            "linecolor": "white",
+            "ticks": ""
+          },
+          "baxis": {
+            "gridcolor": "white",
+            "linecolor": "white",
+            "ticks": ""
+          },
+          "caxis": {
+            "gridcolor": "white",
+            "linecolor": "white",
+            "ticks": ""
+          }
+        },
+        "coloraxis": {
+          "colorbar": {
+            "outlinewidth": 0,
+            "ticks": ""
+          }
+        },
+        "colorscale": {
+          "sequential": [
+            [
+              0.0,
+              "#0d0887"
+            ],
+            [
+              0.1111111111111111,
+              "#46039f"
+            ],
+            [
+              0.2222222222222222,
+              "#7201a8"
+            ],
+            [
+              0.3333333333333333,
+              "#9c179e"
+            ],
+            [
+              0.4444444444444444,
+              "#bd3786"
+            ],
+            [
+              0.5555555555555556,
+              "#d8576b"
+            ],
+            [
+              0.6666666666666666,
+              "#ed7953"
+            ],
+            [
+              0.7777777777777778,
+              "#fb9f3a"
+            ],
+            [
+              0.8888888888888888,
+              "#fdca26"
+            ],
+            [
+              1.0,
+              "#f0f921"
+            ]
+          ],
+          "sequentialminus": [
+            [
+              0.0,
+              "#0d0887"
+            ],
+            [
+              0.1111111111111111,
+              "#46039f"
+            ],
+            [
+              0.2222222222222222,
+              "#7201a8"
+            ],
+            [
+              0.3333333333333333,
+              "#9c179e"
+            ],
+            [
+              0.4444444444444444,
+              "#bd3786"
+            ],
+            [
+              0.5555555555555556,
+              "#d8576b"
+            ],
+            [
+              0.6666666666666666,
+              "#ed7953"
+            ],
+            [
+              0.7777777777777778,
+              "#fb9f3a"
+            ],
+            [
+              0.8888888888888888,
+              "#fdca26"
+            ],
+            [
+              1.0,
+              "#f0f921"
+            ]
+          ],
+          "diverging": [
+            [
+              0,
+              "#8e0152"
+            ],
+            [
+              0.1,
+              "#c51b7d"
+            ],
+            [
+              0.2,
+              "#de77ae"
+            ],
+            [
+              0.3,
+              "#f1b6da"
+            ],
+            [
+              0.4,
+              "#fde0ef"
+            ],
+            [
+              0.5,
+              "#f7f7f7"
+            ],
+            [
+              0.6,
+              "#e6f5d0"
+            ],
+            [
+              0.7,
+              "#b8e186"
+            ],
+            [
+              0.8,
+              "#7fbc41"
+            ],
+            [
+              0.9,
+              "#4d9221"
+            ],
+            [
+              1,
+              "#276419"
+            ]
+          ]
+        },
+        "xaxis": {
+          "gridcolor": "white",
+          "linecolor": "white",
+          "ticks": "",
+          "title": {
+            "standoff": 15
+          },
+          "zerolinecolor": "white",
+          "automargin": true,
+          "zerolinewidth": 2
+        },
+        "yaxis": {
+          "gridcolor": "white",
+          "linecolor": "white",
+          "ticks": "",
+          "title": {
+            "standoff": 15
+          },
+          "zerolinecolor": "white",
+          "automargin": true,
+          "zerolinewidth": 2
+        },
+        "scene": {
+          "xaxis": {
+            "backgroundcolor": "#E5ECF6",
+            "gridcolor": "white",
+            "linecolor": "white",
+            "showbackground": true,
+            "ticks": "",
+            "zerolinecolor": "white",
+            "gridwidth": 2
+          },
+          "yaxis": {
+            "backgroundcolor": "#E5ECF6",
+            "gridcolor": "white",
+            "linecolor": "white",
+            "showbackground": true,
+            "ticks": "",
+            "zerolinecolor": "white",
+            "gridwidth": 2
+          },
+          "zaxis": {
+            "backgroundcolor": "#E5ECF6",
+            "gridcolor": "white",
+            "linecolor": "white",
+            "showbackground": true,
+            "ticks": "",
+            "zerolinecolor": "white",
+            "gridwidth": 2
+          }
+        },
+        "shapedefaults": {
+          "line": {
+            "color": "#2a3f5f"
+          }
+        },
+        "annotationdefaults": {
+          "arrowcolor": "#2a3f5f",
+          "arrowhead": 0,
+          "arrowwidth": 1
+        },
+        "geo": {
+          "bgcolor": "white",
+          "landcolor": "#E5ECF6",
+          "subunitcolor": "white",
+          "showland": true,
+          "showlakes": true,
+          "lakecolor": "white"
+        },
+        "title": {
+          "x": 0.05
+        },
+        "mapbox": {
+          "style": "light"
+        }
+      }
+    },
+    "legend": {
+      "tracegroupgap": 0
+    },
+    "margin": {
+      "t": 100,
+      "l": 25,
+      "r": 25,
+      "b": 25
+    },
+    "title": {
+      "font": {
+        "size": 24
+      },
+      "text": " Where did Chilean Exports go in 2023?",
+      "y": 0.95,
+      "x": 0.5,
+      "xanchor": "center",
+      "yanchor": "top"
+    },
+    "annotations": [
+      {
+        "font": {
+          "size": 20
+        },
+        "showarrow": false,
+        "text": "% of total FOB value exported",
+        "x": 0.5,
+        "xref": "paper",
+        "y": 1.15,
+        "yref": "paper"
+      },
+      {
+        "font": {
+          "size": 100
+        },
+        "showarrow": false,
+        "text": "Source: COMTRADE API",
+        "x": 0,
+        "xref": "paper",
+        "y": -0.4,
+        "yref": "paper"
+      }
+    ],
+    "showlegend": true,
+    "xaxis": {
+      "showgrid": false
+    },
+    "yaxis": {
+      "showgrid": false
+    }
+  }
+=======
+{
+  "data": [
+    {
+      "branchvalues": "total",
+      "customdata": [
+        [
+          "Africa"
+        ],
+        [
+          "Africa"
+        ],
+        [
+          "Asia"
+        ],
+        [
+          "Africa"
+        ],
+        [
+          "Europe"
+        ],
+        [
+          "Africa"
+        ],
+        [
+          "Asia"
+        ],
+        [
+          "Africa"
+        ],
+        [
+          "North America"
+        ],
+        [
+          "Asia"
+        ],
+        [
+          "Asia"
+        ],
+        [
+          "Asia"
+        ],
+        [
+          "Asia"
+        ],
+        [
+          "Africa"
+        ],
+        [
+          "Africa"
+        ],
+        [
+          "North America"
+        ],
+        [
+          "Africa"
+        ],
+        [
+          "Africa"
+        ],
+        [
+          "Asia"
+        ],
+        [
+          "Asia"
+        ],
+        [
+          "Africa"
+        ],
+        [
+          "Europe"
+        ],
+        [
+          "North America"
+        ],
+        [
+          "Europe"
+        ],
+        [
+          "Europe"
+        ],
+        [
+          "Africa"
+        ],
+        [
+          "Africa"
+        ],
+        [
+          "Africa"
+        ],
+        [
+          "Asia"
+        ],
+        [
+          "Africa"
+        ],
+        [
+          "North America"
+        ],
+        [
+          "Oceania"
+        ],
+        [
+          "Africa"
+        ],
+        [
+          "Europe"
+        ],
+        [
+          "Europe"
+        ],
+        [
+          "North America"
+        ],
+        [
+          "Asia"
+        ],
+        [
+          "North America"
+        ],
+        [
+          "Oceania"
+        ],
+        [
+          "Europe"
+        ],
+        [
+          "Asia"
+        ],
+        [
+          "Asia"
+        ],
+        [
+          "Europe"
+        ],
+        [
+          "Asia"
+        ],
+        [
+          "Asia"
+        ],
+        [
+          "Asia"
+        ],
+        [
+          "North America"
+        ],
+        [
+          "Europe"
+        ],
+        [
+          "Asia"
+        ],
+        [
+          "Europe"
+        ],
+        [
+          "Europe"
+        ],
+        [
+          "Europe"
+        ],
+        [
+          "Europe"
+        ],
+        [
+          "Asia"
+        ],
+        [
+          "North America"
+        ],
+        [
+          "Africa"
+        ],
+        [
+          "South America"
+        ],
+        [
+          "Africa"
+        ],
+        [
+          "Asia"
+        ],
+        [
+          "Europe"
+        ],
+        [
+          "Africa"
+        ],
+        [
+          "North America"
+        ],
+        [
+          "South America"
+        ],
+        [
+          "Asia"
+        ],
+        [
+          "Asia"
+        ],
+        [
+          "Africa"
+        ],
+        [
+          "Africa"
+        ],
+        [
+          "South America"
+        ],
+        [
+          "Europe"
+        ],
+        [
+          "Europe"
+        ],
+        [
+          "Oceania"
+        ],
+        [
+          "Asia"
+        ],
+        [
+          "North America"
+        ],
+        [
+          "North America"
+        ],
+        [
+          "Asia"
+        ],
+        [
+          "North America"
+        ],
+        [
+          "North America"
+        ],
+        [
+          "Europe"
+        ],
+        [
+          "Oceania"
+        ],
+        [
+          "North America"
+        ],
+        [
+          "Asia"
+        ],
+        [
+          "North America"
+        ],
+        [
+          "North America"
+        ],
+        [
+          "Europe"
+        ],
+        [
+          "Asia"
+        ],
+        [
+          "Europe"
+        ],
+        [
+          "Europe"
+        ],
+        [
+          "Europe"
+        ],
+        [
+          "South America"
+        ],
+        [
+          "Oceania"
+        ],
+        [
+          "Africa"
+        ],
+        [
+          "Europe"
+        ],
+        [
+          "North America"
+        ],
+        [
+          "South America"
+        ],
+        [
+          "Asia"
+        ],
+        [
+          "Asia"
+        ],
+        [
+          "North America"
+        ],
+        [
+          "Europe"
+        ],
+        [
+          "Africa"
+        ],
+        [
+          "Africa"
+        ],
+        [
+          "Asia"
+        ],
+        [
+          "Asia"
+        ],
+        [
+          "North America"
+        ],
+        [
+          "Europe"
+        ],
+        [
+          "Europe"
+        ],
+        [
+          "Europe"
+        ],
+        [
+          "Asia"
+        ],
+        [
+          "Africa"
+        ],
+        [
+          "South America"
+        ],
+        [
+          "Europe"
+        ],
+        [
+          "Europe"
+        ],
+        [
+          "Europe"
+        ],
+        [
+          "Asia"
+        ],
+        [
+          "North America"
+        ],
+        [
+          "Africa"
+        ],
+        [
+          "North America"
+        ],
+        [
+          "Oceania"
+        ],
+        [
+          "Other"
+        ],
+        [
+          "Europe"
+        ],
+        [
+          "Africa"
+        ],
+        [
+          "Asia"
+        ],
+        [
+          "Africa"
+        ],
+        [
+          "Africa"
+        ],
+        [
+          "North America"
+        ],
+        [
+          "North America"
+        ],
+        [
+          "North America"
+        ],
+        [
+          "Asia"
+        ],
+        [
+          "Europe"
+        ],
+        [
+          "Europe"
+        ],
+        [
+          "Africa"
+        ],
+        [
+          "Oceania"
+        ],
+        [
+          "Asia"
+        ],
+        [
+          "Oceania"
+        ],
+        [
+          "Africa"
+        ],
+        [
+          "Asia"
+        ],
+        [
+          "North America"
+        ],
+        [
+          "Europe"
+        ],
+        [
+          "Europe"
+        ],
+        [
+          "Asia"
+        ],
+        [
+          "Europe"
+        ],
+        [
+          "North America"
+        ],
+        [
+          "Africa"
+        ],
+        [
+          "Oceania"
+        ],
+        [
+          "Europe"
+        ],
+        [
+          "Asia"
+        ],
+        [
+          "Asia"
+        ],
+        [
+          "Asia"
+        ],
+        [
+          "Africa"
+        ],
+        [
+          "Asia"
+        ],
+        [
+          "South America"
+        ],
+        [
+          "Africa"
+        ],
+        [
+          "Asia"
+        ],
+        [
+          "South America"
+        ],
+        [
+          "North America"
+        ],
+        [
+          "Oceania"
+        ],
+        [
+          "Asia"
+        ],
+        [
+          "Europe"
+        ],
+        [
+          "Asia"
+        ],
+        [
+          "Oceania"
+        ],
+        [
+          "Africa"
+        ],
+        [
+          "Europe"
+        ],
+        [
+          "Europe"
+        ],
+        [
+          "Asia"
+        ],
+        [
+          "Europe"
+        ],
+        [
+          "North America"
+        ],
+        [
+          "North America"
+        ],
+        [
+          "Asia"
+        ],
+        [
+          "Africa"
+        ],
+        [
+          "North America"
+        ],
+        [
+          "Africa"
+        ],
+        [
+          "Europe"
+        ],
+        [
+          "Africa"
+        ],
+        [
+          "Africa"
+        ],
+        [
+          "South America"
+        ],
+        [
+          "Africa"
+        ],
+        [
+          "South America"
+        ],
+        [
+          "Africa"
+        ],
+        [
+          "South America"
+        ],
+        [
+          "Oceania"
+        ]
+      ],
+      "domain": {
+        "x": [
+          0.0,
+          1.0
+        ],
+        "y": [
+          0.0,
+          1.0
+        ]
+      },
+      "hovertemplate": "Country: %{label}\u003cbr\u003eContinent: %{customdata[0]}\u003cextra\u003e\u003c\u002fextra\u003e\u003cbr\u003eShare of exports:%{value:.1%}",
+      "ids": [
+        "Zambia",
+        "Kenya",
+        "Israel",
+        "Mozambique",
+        "Bulgaria",
+        "Cabo Verde",
+        "Mongolia",
+        "Cameroon",
+        "Mexico",
+        "China",
+        "China, Hong Kong SAR",
+        "Maldives",
+        "Malaysia",
+        "Madagascar",
+        "Libya",
+        "Cuba",
+        "Liberia",
+        "Djibouti",
+        "Lao People's Dem. Rep.",
+        "Kyrgyzstan",
+        "Niger",
+        "Estonia",
+        "Nicaragua",
+        "Sweden",
+        "Germany",
+        "Algeria",
+        "United Rep. of Tanzania",
+        "Angola",
+        "United Arab Emirates",
+        "Uganda",
+        "Turks and Caicos Isds",
+        "Tonga",
+        "Ethiopia",
+        "Denmark",
+        "Slovakia",
+        "Belize",
+        "India",
+        "Saint Vincent and the Grenadines",
+        "Samoa",
+        "Finland",
+        "Yemen",
+        "Iraq",
+        "Italy",
+        "Kazakhstan",
+        "Jordan",
+        "Iran",
+        "Haiti",
+        "Holy See (Vatican City State)",
+        "Japan",
+        "Hungary",
+        "Ireland",
+        "Malta",
+        "Lithuania",
+        "Uzbekistan",
+        "Trinidad and Tobago",
+        "Togo",
+        "Suriname",
+        "Sierra Leone",
+        "Saudi Arabia",
+        "San Marino",
+        "Lesotho",
+        "Saint Lucia",
+        "Paraguay",
+        "Oman",
+        "Myanmar",
+        "Morocco",
+        "Mauritania",
+        "Guyana",
+        "Luxembourg",
+        "Poland",
+        "Guam",
+        "Afghanistan",
+        "Jamaica",
+        "Canada",
+        "Brunei Darussalam",
+        "Costa Rica",
+        "Br. Virgin Isds",
+        "Bosnia Herzegovina",
+        "FS Micronesia",
+        "Bahamas",
+        "Azerbaijan",
+        "Cayman Isds",
+        "Antigua and Barbuda",
+        "Austria",
+        "Sri Lanka",
+        "Albania",
+        "Andorra",
+        "Ukraine",
+        "Brazil",
+        "N. Mariana Isds",
+        "Botswana",
+        "Greece",
+        "USA",
+        "Peru",
+        "Philippines",
+        "Qatar",
+        "Saint Kitts and Nevis",
+        "Belgium",
+        "Mauritius",
+        "Senegal",
+        "Singapore",
+        "T\u00fcrkiye",
+        "Aruba",
+        "Slovenia",
+        "Spain",
+        "Portugal",
+        "Bangladesh",
+        "Nigeria",
+        "Ecuador",
+        "France",
+        "Iceland",
+        "Latvia",
+        "Lebanon",
+        "Dominica",
+        "Egypt",
+        "Honduras",
+        "Fiji",
+        "Fr. South Antarctic Terr.",
+        "Croatia",
+        "Guinea",
+        "Kuwait",
+        "Congo",
+        "Malawi",
+        "Guatemala",
+        "Cura\u00e7ao",
+        "Barbados",
+        "Bahrain",
+        "Russian Federation",
+        "Romania",
+        "Mali",
+        "French Polynesia",
+        "Thailand",
+        "Australia",
+        "Tunisia",
+        "Georgia",
+        "Anguilla",
+        "United Kingdom",
+        "Gibraltar",
+        "Indonesia",
+        "Rep. of Moldova",
+        "Grenada",
+        "Dem. Rep. of the Congo",
+        "New Zealand",
+        "Czechia",
+        "Other Asia, nes",
+        "Nepal",
+        "Cyprus",
+        "Namibia",
+        "Rep. of Korea",
+        "Bolivia (Plurinational State of)",
+        "Burkina Faso",
+        "Cambodia",
+        "Colombia",
+        "Bermuda",
+        "Cook Isds",
+        "Armenia",
+        "Netherlands",
+        "Viet Nam",
+        "New Caledonia",
+        "Gabon",
+        "Switzerland",
+        "Norway",
+        "China, Macao SAR",
+        "North Macedonia",
+        "El Salvador",
+        "Dominican Rep.",
+        "Pakistan",
+        "Equatorial Guinea",
+        "Panama",
+        "Ghana",
+        "Belarus",
+        "C\u00f4te d'Ivoire",
+        "Benin",
+        "Uruguay",
+        "Central African Rep.",
+        "Venezuela",
+        "South Africa",
+        "Argentina",
+        "Papua New Guinea"
+      ],
+      "labels": [
+        "Zambia",
+        "Kenya",
+        "Israel",
+        "Mozambique",
+        "Bulgaria",
+        "Cabo Verde",
+        "Mongolia",
+        "Cameroon",
+        "Mexico",
+        "China",
+        "China, Hong Kong SAR",
+        "Maldives",
+        "Malaysia",
+        "Madagascar",
+        "Libya",
+        "Cuba",
+        "Liberia",
+        "Djibouti",
+        "Lao People's Dem. Rep.",
+        "Kyrgyzstan",
+        "Niger",
+        "Estonia",
+        "Nicaragua",
+        "Sweden",
+        "Germany",
+        "Algeria",
+        "United Rep. of Tanzania",
+        "Angola",
+        "United Arab Emirates",
+        "Uganda",
+        "Turks and Caicos Isds",
+        "Tonga",
+        "Ethiopia",
+        "Denmark",
+        "Slovakia",
+        "Belize",
+        "India",
+        "Saint Vincent and the Grenadines",
+        "Samoa",
+        "Finland",
+        "Yemen",
+        "Iraq",
+        "Italy",
+        "Kazakhstan",
+        "Jordan",
+        "Iran",
+        "Haiti",
+        "Holy See (Vatican City State)",
+        "Japan",
+        "Hungary",
+        "Ireland",
+        "Malta",
+        "Lithuania",
+        "Uzbekistan",
+        "Trinidad and Tobago",
+        "Togo",
+        "Suriname",
+        "Sierra Leone",
+        "Saudi Arabia",
+        "San Marino",
+        "Lesotho",
+        "Saint Lucia",
+        "Paraguay",
+        "Oman",
+        "Myanmar",
+        "Morocco",
+        "Mauritania",
+        "Guyana",
+        "Luxembourg",
+        "Poland",
+        "Guam",
+        "Afghanistan",
+        "Jamaica",
+        "Canada",
+        "Brunei Darussalam",
+        "Costa Rica",
+        "Br. Virgin Isds",
+        "Bosnia Herzegovina",
+        "FS Micronesia",
+        "Bahamas",
+        "Azerbaijan",
+        "Cayman Isds",
+        "Antigua and Barbuda",
+        "Austria",
+        "Sri Lanka",
+        "Albania",
+        "Andorra",
+        "Ukraine",
+        "Brazil",
+        "N. Mariana Isds",
+        "Botswana",
+        "Greece",
+        "USA",
+        "Peru",
+        "Philippines",
+        "Qatar",
+        "Saint Kitts and Nevis",
+        "Belgium",
+        "Mauritius",
+        "Senegal",
+        "Singapore",
+        "T\u00fcrkiye",
+        "Aruba",
+        "Slovenia",
+        "Spain",
+        "Portugal",
+        "Bangladesh",
+        "Nigeria",
+        "Ecuador",
+        "France",
+        "Iceland",
+        "Latvia",
+        "Lebanon",
+        "Dominica",
+        "Egypt",
+        "Honduras",
+        "Fiji",
+        "Fr. South Antarctic Terr.",
+        "Croatia",
+        "Guinea",
+        "Kuwait",
+        "Congo",
+        "Malawi",
+        "Guatemala",
+        "Cura\u00e7ao",
+        "Barbados",
+        "Bahrain",
+        "Russian Federation",
+        "Romania",
+        "Mali",
+        "French Polynesia",
+        "Thailand",
+        "Australia",
+        "Tunisia",
+        "Georgia",
+        "Anguilla",
+        "United Kingdom",
+        "Gibraltar",
+        "Indonesia",
+        "Rep. of Moldova",
+        "Grenada",
+        "Dem. Rep. of the Congo",
+        "New Zealand",
+        "Czechia",
+        "Other Asia, nes",
+        "Nepal",
+        "Cyprus",
+        "Namibia",
+        "Rep. of Korea",
+        "Bolivia (Plurinational State of)",
+        "Burkina Faso",
+        "Cambodia",
+        "Colombia",
+        "Bermuda",
+        "Cook Isds",
+        "Armenia",
+        "Netherlands",
+        "Viet Nam",
+        "New Caledonia",
+        "Gabon",
+        "Switzerland",
+        "Norway",
+        "China, Macao SAR",
+        "North Macedonia",
+        "El Salvador",
+        "Dominican Rep.",
+        "Pakistan",
+        "Equatorial Guinea",
+        "Panama",
+        "Ghana",
+        "Belarus",
+        "C\u00f4te d'Ivoire",
+        "Benin",
+        "Uruguay",
+        "Central African Rep.",
+        "Venezuela",
+        "South Africa",
+        "Argentina",
+        "Papua New Guinea"
+      ],
+      "marker": {
+        "colors": [
+          "#E15759",
+          "#E15759",
+          "#4E79A7",
+          "#E15759",
+          "#59A14F",
+          "#E15759",
+          "#4E79A7",
+          "#E15759",
+          "#76B7B2",
+          "#4E79A7",
+          "#4E79A7",
+          "#4E79A7",
+          "#4E79A7",
+          "#E15759",
+          "#E15759",
+          "#76B7B2",
+          "#E15759",
+          "#E15759",
+          "#4E79A7",
+          "#4E79A7",
+          "#E15759",
+          "#59A14F",
+          "#76B7B2",
+          "#59A14F",
+          "#59A14F",
+          "#E15759",
+          "#E15759",
+          "#E15759",
+          "#4E79A7",
+          "#E15759",
+          "#76B7B2",
+          "#F28E2B",
+          "#E15759",
+          "#59A14F",
+          "#59A14F",
+          "#76B7B2",
+          "#4E79A7",
+          "#76B7B2",
+          "#F28E2B",
+          "#59A14F",
+          "#4E79A7",
+          "#4E79A7",
+          "#59A14F",
+          "#4E79A7",
+          "#4E79A7",
+          "#4E79A7",
+          "#76B7B2",
+          "#59A14F",
+          "#4E79A7",
+          "#59A14F",
+          "#59A14F",
+          "#59A14F",
+          "#59A14F",
+          "#4E79A7",
+          "#76B7B2",
+          "#E15759",
+          "#FF9DA7",
+          "#E15759",
+          "#4E79A7",
+          "#59A14F",
+          "#E15759",
+          "#76B7B2",
+          "#FF9DA7",
+          "#4E79A7",
+          "#4E79A7",
+          "#E15759",
+          "#E15759",
+          "#FF9DA7",
+          "#59A14F",
+          "#59A14F",
+          "#F28E2B",
+          "#4E79A7",
+          "#76B7B2",
+          "#76B7B2",
+          "#4E79A7",
+          "#76B7B2",
+          "#76B7B2",
+          "#59A14F",
+          "#F28E2B",
+          "#76B7B2",
+          "#4E79A7",
+          "#76B7B2",
+          "#76B7B2",
+          "#59A14F",
+          "#4E79A7",
+          "#59A14F",
+          "#59A14F",
+          "#59A14F",
+          "#FF9DA7",
+          "#F28E2B",
+          "#E15759",
+          "#59A14F",
+          "#76B7B2",
+          "#FF9DA7",
+          "#4E79A7",
+          "#4E79A7",
+          "#76B7B2",
+          "#59A14F",
+          "#E15759",
+          "#E15759",
+          "#4E79A7",
+          "#4E79A7",
+          "#76B7B2",
+          "#59A14F",
+          "#59A14F",
+          "#59A14F",
+          "#4E79A7",
+          "#E15759",
+          "#FF9DA7",
+          "#59A14F",
+          "#59A14F",
+          "#59A14F",
+          "#4E79A7",
+          "#76B7B2",
+          "#E15759",
+          "#76B7B2",
+          "#F28E2B",
+          "#FF6692",
+          "#59A14F",
+          "#E15759",
+          "#4E79A7",
+          "#E15759",
+          "#E15759",
+          "#76B7B2",
+          "#76B7B2",
+          "#76B7B2",
+          "#4E79A7",
+          "#59A14F",
+          "#59A14F",
+          "#E15759",
+          "#F28E2B",
+          "#4E79A7",
+          "#F28E2B",
+          "#E15759",
+          "#4E79A7",
+          "#76B7B2",
+          "#59A14F",
+          "#59A14F",
+          "#4E79A7",
+          "#59A14F",
+          "#76B7B2",
+          "#E15759",
+          "#F28E2B",
+          "#59A14F",
+          "#4E79A7",
+          "#4E79A7",
+          "#4E79A7",
+          "#E15759",
+          "#4E79A7",
+          "#FF9DA7",
+          "#E15759",
+          "#4E79A7",
+          "#FF9DA7",
+          "#76B7B2",
+          "#F28E2B",
+          "#4E79A7",
+          "#59A14F",
+          "#4E79A7",
+          "#F28E2B",
+          "#E15759",
+          "#59A14F",
+          "#59A14F",
+          "#4E79A7",
+          "#59A14F",
+          "#76B7B2",
+          "#76B7B2",
+          "#4E79A7",
+          "#E15759",
+          "#76B7B2",
+          "#E15759",
+          "#59A14F",
+          "#E15759",
+          "#E15759",
+          "#FF9DA7",
+          "#E15759",
+          "#FF9DA7",
+          "#E15759",
+          "#FF9DA7",
+          "#F28E2B"
+        ],
+        "line": {
+          "width": 1
+        }
+      },
+      "name": "",
+      "parents": [
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "values": [
+        1.8539026037438688e-05,
+        2.320241416283222e-05,
+        0.001359172653021262,
+        8.96901992092886e-06,
+        0.0018184915111869042,
+        2.6696012897049806e-06,
+        2.552140750048534e-05,
+        0.0001313845133205678,
+        0.01843974689119483,
+        0.39447010432577556,
+        0.0005108151412966558,
+        3.788137264421774e-06,
+        0.003203253749232286,
+        9.315670713635275e-07,
+        3.259832219542016e-05,
+        0.0002085447216976512,
+        1.880102311385367e-05,
+        1.6701756269504892e-07,
+        3.1033971737700686e-06,
+        3.748922428882719e-05,
+        6.669419060431645e-06,
+        8.336364158031036e-05,
+        0.00032332616606307,
+        0.001517113676655427,
+        0.010711402623022476,
+        8.280350605680054e-05,
+        0.00010902740725492356,
+        4.910040893132932e-06,
+        0.0018874870062184279,
+        4.889821802335893e-07,
+        8.167898265008762e-06,
+        5.477497490602612e-06,
+        1.2604468768672174e-06,
+        0.0018823184038753219,
+        1.5999419815428007e-05,
+        2.655450557406531e-05,
+        0.015861271563539114,
+        1.951219419543096e-06,
+        4.023821851388877e-06,
+        0.0008242346711461334,
+        1.3711270885068733e-06,
+        3.6780909672203114e-05,
+        0.008921187756840438,
+        0.0002738616547264808,
+        3.2621793946377594e-05,
+        2.559780061043437e-05,
+        2.5883718374071654e-05,
+        2.792828501004674e-06,
+        0.07165952534668613,
+        9.937855949299835e-05,
+        0.0005807450129484445,
+        2.1499665587033116e-05,
+        0.00047072275559929003,
+        1.2877160577116236e-07,
+        0.0002358364188551006,
+        1.814099937674616e-05,
+        3.0057452041915022e-05,
+        5.833602331200214e-07,
+        0.0007720883139886176,
+        1.4876436401252015e-06,
+        2.4602075985831514e-07,
+        1.0085601779944661e-05,
+        0.005612143166780542,
+        6.953943868165552e-05,
+        1.848749211481498e-05,
+        0.0003993198541518762,
+        1.3496246003726432e-05,
+        1.8943261827958547e-05,
+        6.214131959039539e-06,
+        0.0012132292472325217,
+        1.1051458344095299e-06,
+        2.3063585520983992e-07,
+        0.00024285042135779232,
+        0.013979608318414903,
+        6.527711833354366e-06,
+        0.0031892933144330973,
+        2.2789719652566166e-06,
+        5.416885617444286e-06,
+        8.77767095015652e-06,
+        8.068440448778106e-06,
+        2.6975020254914904e-05,
+        9.324333540326667e-07,
+        7.76729417084252e-06,
+        0.00012915148555796486,
+        6.36266998101626e-05,
+        4.547979578391929e-06,
+        1.1800684200212444e-06,
+        0.00016584831040523726,
+        0.04507566909636167,
+        2.8196381699856723e-06,
+        4.4727829752299046e-08,
+        0.0005572188089398466,
+        0.15070941742555563,
+        0.016484532096970147,
+        0.0027787707335157545,
+        7.322608333833963e-05,
+        8.721003016845461e-07,
+        0.010032978269266414,
+        1.0090805732837519e-05,
+        2.00246611565178e-05,
+        0.0009016107639668779,
+        0.0014205551536659153,
+        1.1559415086273422e-05,
+        2.267948962014021e-05,
+        0.012608573391467143,
+        0.000568217973593044,
+        0.0004250948236145247,
+        0.001496194987536322,
+        0.006132170061474326,
+        0.010374793875671794,
+        5.636200273346384e-05,
+        0.0001403860977109062,
+        5.1137947028725786e-05,
+        2.8861760650409963e-06,
+        0.00011830222500019241,
+        0.0005357671483330317,
+        7.814901744504986e-06,
+        4.458401214557217e-06,
+        1.591285390662502e-05,
+        6.691502995816473e-06,
+        0.00010056734804175885,
+        4.713426127496569e-05,
+        2.6902131734001144e-07,
+        0.0019876996960329616,
+        4.273281260793531e-06,
+        2.305207286542214e-05,
+        0.0015734610423286347,
+        0.004853073432442658,
+        0.00010458914080024513,
+        3.880272742676821e-06,
+        1.83744607706569e-05,
+        0.006803848568678778,
+        0.00215407913308437,
+        5.123852214008901e-06,
+        4.693892775783972e-05,
+        0.001196469032625113,
+        0.004803515688462132,
+        1.3117255104408259e-06,
+        0.0016345246981257194,
+        1.9551465269137965e-05,
+        7.258967598719315e-06,
+        1.5744622467459702e-06,
+        0.000617854054897763,
+        0.00018971839054447508,
+        0.01272894128189641,
+        2.1585843653666402e-06,
+        0.0001268579500560355,
+        3.142368991745382e-06,
+        0.06341668401755668,
+        0.015023824515636282,
+        0.00034282345515316886,
+        0.0003991977762047744,
+        0.007417889634424485,
+        2.129408985552092e-06,
+        2.585017568286376e-07,
+        4.316518742227978e-05,
+        0.01703351195809847,
+        0.003386180937032097,
+        5.125620045386944e-06,
+        4.96655651254465e-06,
+        0.0071140736092369745,
+        0.0008912193385345378,
+        4.930850700629492e-07,
+        3.2687827867815077e-06,
+        0.0006794204770617689,
+        0.001666291450979806,
+        0.00016275302486301854,
+        7.38180275446344e-06,
+        0.0022491939402047327,
+        0.00025518911016687726,
+        0.00017224510570340668,
+        0.0011639519631535741,
+        1.5588481760398136e-05,
+        0.0016197705893568164,
+        3.2476778316044807e-07,
+        0.000852757615489399,
+        0.0011452407016647739,
+        0.009291623015265153,
+        5.802336901322917e-07
+      ],
+      "type": "treemap",
+      "textfont": {
+        "size": 20
+      },
+      "textinfo": "label+percent entry"
+    }
+  ],
+  "layout": {
+    "template": {
+      "data": {
+        "histogram2dcontour": [
+          {
+            "type": "histogram2dcontour",
+            "colorbar": {
+              "outlinewidth": 0,
+              "ticks": ""
+            },
+            "colorscale": [
+              [
+                0.0,
+                "#0d0887"
+              ],
+              [
+                0.1111111111111111,
+                "#46039f"
+              ],
+              [
+                0.2222222222222222,
+                "#7201a8"
+              ],
+              [
+                0.3333333333333333,
+                "#9c179e"
+              ],
+              [
+                0.4444444444444444,
+                "#bd3786"
+              ],
+              [
+                0.5555555555555556,
+                "#d8576b"
+              ],
+              [
+                0.6666666666666666,
+                "#ed7953"
+              ],
+              [
+                0.7777777777777778,
+                "#fb9f3a"
+              ],
+              [
+                0.8888888888888888,
+                "#fdca26"
+              ],
+              [
+                1.0,
+                "#f0f921"
+              ]
+            ]
+          }
+        ],
+        "choropleth": [
+          {
+            "type": "choropleth",
+            "colorbar": {
+              "outlinewidth": 0,
+              "ticks": ""
+            }
+          }
+        ],
+        "histogram2d": [
+          {
+            "type": "histogram2d",
+            "colorbar": {
+              "outlinewidth": 0,
+              "ticks": ""
+            },
+            "colorscale": [
+              [
+                0.0,
+                "#0d0887"
+              ],
+              [
+                0.1111111111111111,
+                "#46039f"
+              ],
+              [
+                0.2222222222222222,
+                "#7201a8"
+              ],
+              [
+                0.3333333333333333,
+                "#9c179e"
+              ],
+              [
+                0.4444444444444444,
+                "#bd3786"
+              ],
+              [
+                0.5555555555555556,
+                "#d8576b"
+              ],
+              [
+                0.6666666666666666,
+                "#ed7953"
+              ],
+              [
+                0.7777777777777778,
+                "#fb9f3a"
+              ],
+              [
+                0.8888888888888888,
+                "#fdca26"
+              ],
+              [
+                1.0,
+                "#f0f921"
+              ]
+            ]
+          }
+        ],
+        "heatmap": [
+          {
+            "type": "heatmap",
+            "colorbar": {
+              "outlinewidth": 0,
+              "ticks": ""
+            },
+            "colorscale": [
+              [
+                0.0,
+                "#0d0887"
+              ],
+              [
+                0.1111111111111111,
+                "#46039f"
+              ],
+              [
+                0.2222222222222222,
+                "#7201a8"
+              ],
+              [
+                0.3333333333333333,
+                "#9c179e"
+              ],
+              [
+                0.4444444444444444,
+                "#bd3786"
+              ],
+              [
+                0.5555555555555556,
+                "#d8576b"
+              ],
+              [
+                0.6666666666666666,
+                "#ed7953"
+              ],
+              [
+                0.7777777777777778,
+                "#fb9f3a"
+              ],
+              [
+                0.8888888888888888,
+                "#fdca26"
+              ],
+              [
+                1.0,
+                "#f0f921"
+              ]
+            ]
+          }
+        ],
+        "heatmapgl": [
+          {
+            "type": "heatmapgl",
+            "colorbar": {
+              "outlinewidth": 0,
+              "ticks": ""
+            },
+            "colorscale": [
+              [
+                0.0,
+                "#0d0887"
+              ],
+              [
+                0.1111111111111111,
+                "#46039f"
+              ],
+              [
+                0.2222222222222222,
+                "#7201a8"
+              ],
+              [
+                0.3333333333333333,
+                "#9c179e"
+              ],
+              [
+                0.4444444444444444,
+                "#bd3786"
+              ],
+              [
+                0.5555555555555556,
+                "#d8576b"
+              ],
+              [
+                0.6666666666666666,
+                "#ed7953"
+              ],
+              [
+                0.7777777777777778,
+                "#fb9f3a"
+              ],
+              [
+                0.8888888888888888,
+                "#fdca26"
+              ],
+              [
+                1.0,
+                "#f0f921"
+              ]
+            ]
+          }
+        ],
+        "contourcarpet": [
+          {
+            "type": "contourcarpet",
+            "colorbar": {
+              "outlinewidth": 0,
+              "ticks": ""
+            }
+          }
+        ],
+        "contour": [
+          {
+            "type": "contour",
+            "colorbar": {
+              "outlinewidth": 0,
+              "ticks": ""
+            },
+            "colorscale": [
+              [
+                0.0,
+                "#0d0887"
+              ],
+              [
+                0.1111111111111111,
+                "#46039f"
+              ],
+              [
+                0.2222222222222222,
+                "#7201a8"
+              ],
+              [
+                0.3333333333333333,
+                "#9c179e"
+              ],
+              [
+                0.4444444444444444,
+                "#bd3786"
+              ],
+              [
+                0.5555555555555556,
+                "#d8576b"
+              ],
+              [
+                0.6666666666666666,
+                "#ed7953"
+              ],
+              [
+                0.7777777777777778,
+                "#fb9f3a"
+              ],
+              [
+                0.8888888888888888,
+                "#fdca26"
+              ],
+              [
+                1.0,
+                "#f0f921"
+              ]
+            ]
+          }
+        ],
+        "surface": [
+          {
+            "type": "surface",
+            "colorbar": {
+              "outlinewidth": 0,
+              "ticks": ""
+            },
+            "colorscale": [
+              [
+                0.0,
+                "#0d0887"
+              ],
+              [
+                0.1111111111111111,
+                "#46039f"
+              ],
+              [
+                0.2222222222222222,
+                "#7201a8"
+              ],
+              [
+                0.3333333333333333,
+                "#9c179e"
+              ],
+              [
+                0.4444444444444444,
+                "#bd3786"
+              ],
+              [
+                0.5555555555555556,
+                "#d8576b"
+              ],
+              [
+                0.6666666666666666,
+                "#ed7953"
+              ],
+              [
+                0.7777777777777778,
+                "#fb9f3a"
+              ],
+              [
+                0.8888888888888888,
+                "#fdca26"
+              ],
+              [
+                1.0,
+                "#f0f921"
+              ]
+            ]
+          }
+        ],
+        "mesh3d": [
+          {
+            "type": "mesh3d",
+            "colorbar": {
+              "outlinewidth": 0,
+              "ticks": ""
+            }
+          }
+        ],
+        "scatter": [
+          {
+            "fillpattern": {
+              "fillmode": "overlay",
+              "size": 10,
+              "solidity": 0.2
+            },
+            "type": "scatter"
+          }
+        ],
+        "parcoords": [
+          {
+            "type": "parcoords",
+            "line": {
+              "colorbar": {
+                "outlinewidth": 0,
+                "ticks": ""
+              }
+            }
+          }
+        ],
+        "scatterpolargl": [
+          {
+            "type": "scatterpolargl",
+            "marker": {
+              "colorbar": {
+                "outlinewidth": 0,
+                "ticks": ""
+              }
+            }
+          }
+        ],
+        "bar": [
+          {
+            "error_x": {
+              "color": "#2a3f5f"
+            },
+            "error_y": {
+              "color": "#2a3f5f"
+            },
+            "marker": {
+              "line": {
+                "color": "#E5ECF6",
+                "width": 0.5
+              },
+              "pattern": {
+                "fillmode": "overlay",
+                "size": 10,
+                "solidity": 0.2
+              }
+            },
+            "type": "bar"
+          }
+        ],
+        "scattergeo": [
+          {
+            "type": "scattergeo",
+            "marker": {
+              "colorbar": {
+                "outlinewidth": 0,
+                "ticks": ""
+              }
+            }
+          }
+        ],
+        "scatterpolar": [
+          {
+            "type": "scatterpolar",
+            "marker": {
+              "colorbar": {
+                "outlinewidth": 0,
+                "ticks": ""
+              }
+            }
+          }
+        ],
+        "histogram": [
+          {
+            "marker": {
+              "pattern": {
+                "fillmode": "overlay",
+                "size": 10,
+                "solidity": 0.2
+              }
+            },
+            "type": "histogram"
+          }
+        ],
+        "scattergl": [
+          {
+            "type": "scattergl",
+            "marker": {
+              "colorbar": {
+                "outlinewidth": 0,
+                "ticks": ""
+              }
+            }
+          }
+        ],
+        "scatter3d": [
+          {
+            "type": "scatter3d",
+            "line": {
+              "colorbar": {
+                "outlinewidth": 0,
+                "ticks": ""
+              }
+            },
+            "marker": {
+              "colorbar": {
+                "outlinewidth": 0,
+                "ticks": ""
+              }
+            }
+          }
+        ],
+        "scattermapbox": [
+          {
+            "type": "scattermapbox",
+            "marker": {
+              "colorbar": {
+                "outlinewidth": 0,
+                "ticks": ""
+              }
+            }
+          }
+        ],
+        "scatterternary": [
+          {
+            "type": "scatterternary",
+            "marker": {
+              "colorbar": {
+                "outlinewidth": 0,
+                "ticks": ""
+              }
+            }
+          }
+        ],
+        "scattercarpet": [
+          {
+            "type": "scattercarpet",
+            "marker": {
+              "colorbar": {
+                "outlinewidth": 0,
+                "ticks": ""
+              }
+            }
+          }
+        ],
+        "carpet": [
+          {
+            "aaxis": {
+              "endlinecolor": "#2a3f5f",
+              "gridcolor": "white",
+              "linecolor": "white",
+              "minorgridcolor": "white",
+              "startlinecolor": "#2a3f5f"
+            },
+            "baxis": {
+              "endlinecolor": "#2a3f5f",
+              "gridcolor": "white",
+              "linecolor": "white",
+              "minorgridcolor": "white",
+              "startlinecolor": "#2a3f5f"
+            },
+            "type": "carpet"
+          }
+        ],
+        "table": [
+          {
+            "cells": {
+              "fill": {
+                "color": "#EBF0F8"
+              },
+              "line": {
+                "color": "white"
+              }
+            },
+            "header": {
+              "fill": {
+                "color": "#C8D4E3"
+              },
+              "line": {
+                "color": "white"
+              }
+            },
+            "type": "table"
+          }
+        ],
+        "barpolar": [
+          {
+            "marker": {
+              "line": {
+                "color": "#E5ECF6",
+                "width": 0.5
+              },
+              "pattern": {
+                "fillmode": "overlay",
+                "size": 10,
+                "solidity": 0.2
+              }
+            },
+            "type": "barpolar"
+          }
+        ],
+        "pie": [
+          {
+            "automargin": true,
+            "type": "pie"
+          }
+        ]
+      },
+      "layout": {
+        "autotypenumbers": "strict",
+        "colorway": [
+          "#636efa",
+          "#EF553B",
+          "#00cc96",
+          "#ab63fa",
+          "#FFA15A",
+          "#19d3f3",
+          "#FF6692",
+          "#B6E880",
+          "#FF97FF",
+          "#FECB52"
+        ],
+        "font": {
+          "color": "#2a3f5f"
+        },
+        "hovermode": "closest",
+        "hoverlabel": {
+          "align": "left"
+        },
+        "paper_bgcolor": "white",
+        "plot_bgcolor": "#E5ECF6",
+        "polar": {
+          "bgcolor": "#E5ECF6",
+          "angularaxis": {
+            "gridcolor": "white",
+            "linecolor": "white",
+            "ticks": ""
+          },
+          "radialaxis": {
+            "gridcolor": "white",
+            "linecolor": "white",
+            "ticks": ""
+          }
+        },
+        "ternary": {
+          "bgcolor": "#E5ECF6",
+          "aaxis": {
+            "gridcolor": "white",
+            "linecolor": "white",
+            "ticks": ""
+          },
+          "baxis": {
+            "gridcolor": "white",
+            "linecolor": "white",
+            "ticks": ""
+          },
+          "caxis": {
+            "gridcolor": "white",
+            "linecolor": "white",
+            "ticks": ""
+          }
+        },
+        "coloraxis": {
+          "colorbar": {
+            "outlinewidth": 0,
+            "ticks": ""
+          }
+        },
+        "colorscale": {
+          "sequential": [
+            [
+              0.0,
+              "#0d0887"
+            ],
+            [
+              0.1111111111111111,
+              "#46039f"
+            ],
+            [
+              0.2222222222222222,
+              "#7201a8"
+            ],
+            [
+              0.3333333333333333,
+              "#9c179e"
+            ],
+            [
+              0.4444444444444444,
+              "#bd3786"
+            ],
+            [
+              0.5555555555555556,
+              "#d8576b"
+            ],
+            [
+              0.6666666666666666,
+              "#ed7953"
+            ],
+            [
+              0.7777777777777778,
+              "#fb9f3a"
+            ],
+            [
+              0.8888888888888888,
+              "#fdca26"
+            ],
+            [
+              1.0,
+              "#f0f921"
+            ]
+          ],
+          "sequentialminus": [
+            [
+              0.0,
+              "#0d0887"
+            ],
+            [
+              0.1111111111111111,
+              "#46039f"
+            ],
+            [
+              0.2222222222222222,
+              "#7201a8"
+            ],
+            [
+              0.3333333333333333,
+              "#9c179e"
+            ],
+            [
+              0.4444444444444444,
+              "#bd3786"
+            ],
+            [
+              0.5555555555555556,
+              "#d8576b"
+            ],
+            [
+              0.6666666666666666,
+              "#ed7953"
+            ],
+            [
+              0.7777777777777778,
+              "#fb9f3a"
+            ],
+            [
+              0.8888888888888888,
+              "#fdca26"
+            ],
+            [
+              1.0,
+              "#f0f921"
+            ]
+          ],
+          "diverging": [
+            [
+              0,
+              "#8e0152"
+            ],
+            [
+              0.1,
+              "#c51b7d"
+            ],
+            [
+              0.2,
+              "#de77ae"
+            ],
+            [
+              0.3,
+              "#f1b6da"
+            ],
+            [
+              0.4,
+              "#fde0ef"
+            ],
+            [
+              0.5,
+              "#f7f7f7"
+            ],
+            [
+              0.6,
+              "#e6f5d0"
+            ],
+            [
+              0.7,
+              "#b8e186"
+            ],
+            [
+              0.8,
+              "#7fbc41"
+            ],
+            [
+              0.9,
+              "#4d9221"
+            ],
+            [
+              1,
+              "#276419"
+            ]
+          ]
+        },
+        "xaxis": {
+          "gridcolor": "white",
+          "linecolor": "white",
+          "ticks": "",
+          "title": {
+            "standoff": 15
+          },
+          "zerolinecolor": "white",
+          "automargin": true,
+          "zerolinewidth": 2
+        },
+        "yaxis": {
+          "gridcolor": "white",
+          "linecolor": "white",
+          "ticks": "",
+          "title": {
+            "standoff": 15
+          },
+          "zerolinecolor": "white",
+          "automargin": true,
+          "zerolinewidth": 2
+        },
+        "scene": {
+          "xaxis": {
+            "backgroundcolor": "#E5ECF6",
+            "gridcolor": "white",
+            "linecolor": "white",
+            "showbackground": true,
+            "ticks": "",
+            "zerolinecolor": "white",
+            "gridwidth": 2
+          },
+          "yaxis": {
+            "backgroundcolor": "#E5ECF6",
+            "gridcolor": "white",
+            "linecolor": "white",
+            "showbackground": true,
+            "ticks": "",
+            "zerolinecolor": "white",
+            "gridwidth": 2
+          },
+          "zaxis": {
+            "backgroundcolor": "#E5ECF6",
+            "gridcolor": "white",
+            "linecolor": "white",
+            "showbackground": true,
+            "ticks": "",
+            "zerolinecolor": "white",
+            "gridwidth": 2
+          }
+        },
+        "shapedefaults": {
+          "line": {
+            "color": "#2a3f5f"
+          }
+        },
+        "annotationdefaults": {
+          "arrowcolor": "#2a3f5f",
+          "arrowhead": 0,
+          "arrowwidth": 1
+        },
+        "geo": {
+          "bgcolor": "white",
+          "landcolor": "#E5ECF6",
+          "subunitcolor": "white",
+          "showland": true,
+          "showlakes": true,
+          "lakecolor": "white"
+        },
+        "title": {
+          "x": 0.05
+        },
+        "mapbox": {
+          "style": "light"
+        }
+      }
+    },
+    "legend": {
+      "tracegroupgap": 0
+    },
+    "margin": {
+      "t": 100,
+      "l": 25,
+      "r": 25,
+      "b": 25
+    },
+    "title": {
+      "font": {
+        "size": 24
+      },
+      "text": " Where did Chilean Exports go in 2023?",
+      "y": 0.95,
+      "x": 0.5,
+      "xanchor": "center",
+      "yanchor": "top"
+    },
+    "annotations": [
+      {
+        "font": {
+          "size": 20
+        },
+        "showarrow": false,
+        "text": "% of total FOB value exported",
+        "x": 0.5,
+        "xref": "paper",
+        "y": 1.15,
+        "yref": "paper"
+      },
+      {
+        "font": {
+          "size": 100
+        },
+        "showarrow": false,
+        "text": "Source: COMTRADE API",
+        "x": 0,
+        "xref": "paper",
+        "y": -0.4,
+        "yref": "paper"
+      }
+    ],
+    "showlegend": true,
+    "xaxis": {
+      "showgrid": false
+    },
+    "yaxis": {
+      "showgrid": false
+    }
+  }
+>>>>>>> 411f9cbfbb392fcc65f7c9ccd3ab7bb938b197c6
+}
