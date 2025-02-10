@@ -149,7 +149,6 @@
       <div class="title is-5">
         <!-- This is a paragraph, it's the main way to display text on a web page -->
           <p><a href="../index.html">Return to main page</a><p>
-          <p><a href="../Project_2/Project_2.html">Go to Portfolio</a><p>
       </div>                  
     </section>
 
@@ -335,8 +334,7 @@
               </p>
           <br>
           <figure id="Location4" class="figure-center"></figure>  <!-- we give it an id so we can put a vega-lite graph here with VegaEmbed -->
-          <br>
-          <figure id="Location4b" class="figure-center"></figure>  <!-- we give it an id so we can put a vega-lite graph here with VegaEmbed -->
+                  <!-- <  <figure id="Location4b" class="figure-center"></figure>  <!-- we give it an id so we can put a vega-lite graph here with VegaEmbed -->
         <!-- <figure id="Location3b"></figure> --> <!-- we give it an id so we can put a vega-lite graph here with VegaEmbed -->
       </section>
 
@@ -428,8 +426,8 @@
           let figure_2c_spec = "Section2/figures/figure2c.json"; // We're storing the URL of the graph we want to display in a variable
           let figure_2d_spec = "Section2/figures/figure2d.json"; // We're storing the URL of the graph we want to display in a variable
           let figure_3_spec = "Section3/figures/figure3.json"; // We're storing the URL of the graph we want to display in a variable
-          let figure_4_spec = "Section4/figures/figure4_map.json"; // We're storing the URL of the graph we want to display in a variable
-          let figure_4b_spec = "Section4/figures/figure4_bar.json"; // We're storing the URL of the graph we want to display in a variable
+          let figure_4_spec = "Section4/figures/figure4_combined.json"; // We're storing the URL of the graph we want to display in a variable
+         // let figure_4b_spec = "Section4/figures/figure4_bar.json"; // We're storing the URL of the graph we want to display in a variable
           let figure_5_spec = "Section5/figures/figure5_combined.json"; // We're storing the URL of the graph we want to display in a variable
           let figure_6_spec = "Section6/figures/figure6_map.json"; // We're storing the URL of the graph we want to display in a variable
           // You should have a spec for a graph in this same folder. Just specify its name here, e.g. let figure_1_spec = "chart1.json"
@@ -441,7 +439,7 @@
           vegaEmbed('#Location2d', figure_2d_spec) // We're using the vegaEmbed function to put a graph in the element with id figure_2
           vegaEmbed('#Location3', figure_3_spec) // We're using the vegaEmbed function to put a graph in the element with id figure_3
           vegaEmbed('#Location4', figure_4_spec) // We're using the vegaEmbed function to put a graph in the element with id figure_3
-          vegaEmbed('#Location4b', figure_4b_spec) // We're using the vegaEmbed function to put a graph in the element with id figure_3
+         // vegaEmbed('#Location4b', figure_4b_spec) // We're using the vegaEmbed function to put a graph in the element with id figure_3
           vegaEmbed('#Location5', figure_5_spec) // We're using the vegaEmbed function to put a graph in the element with id figure_5
           vegaEmbed('#Location6', figure_6_spec) // We're using the vegaEmbed function to put a graph in the element with id figure_6
 

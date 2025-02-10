@@ -1,6 +1,6 @@
 ---
 title: "Market analysis for the pharmaceutical retail industry"
-author: "Candidate Number: 46191"
+author: "Ignacio Orueta"
 date: "15/01/2025"
 output: html_document
 ---
@@ -8,9 +8,6 @@ output: html_document
 ```{r setup, message=FALSE, echo=FALSE, warning=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
 ```
-
-
-**Prompt:** [3]
 
 **ChatGPT/AI disclosure statement:** 
 
