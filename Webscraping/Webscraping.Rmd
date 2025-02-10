@@ -5,7 +5,7 @@ date: "15/01/2025"
 output: html_document
 ---
 
-```{r setup, message=FALSE, warning=FALSE}
+```{r setup, message=FALSE, echo=FALSE, warning=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
 ```
 
@@ -16,7 +16,7 @@ knitr::opts_chunk$set(echo = TRUE)
 
 I used Copilot as a coding assistant for troubleshooting syntax coding problems, in the cleaning process to figure out the best Regex expressions and in adding options for my plots. 
 
-```{r libraries_path, message=FALSE, warning=FALSE}
+```{r libraries_path, echo=FALSE, message=FALSE, warning=FALSE}
 # Libraries used
 library(readxl)
 library(RSelenium)
@@ -27,10 +27,13 @@ library(sf)
 library(ggplot2)
 library(scales)
 library(olctools)
+library(magick)
+library(grid)
 
-root <- "C:/Users/iorueta/PC IGNACIO/0.LSE/MPA DSPP/1. Autumm Term 2024/MY472 Data for Data Scientists/Problem Sets/PS3 (50%)/my472-at24-final-IgnacioOrueta"
-ddir <- "C:/Users/iorueta/PC IGNACIO/0.LSE/MPA DSPP/1. Autumm Term 2024/MY472 Data for Data Scientists/Problem Sets/PS3 (50%)/my472-at24-final-IgnacioOrueta/data"
-odir <- "C:/Users/iorueta/PC IGNACIO/0.LSE/MPA DSPP/1. Autumm Term 2024/MY472 Data for Data Scientists/Problem Sets/PS3 (50%)/my472-at24-final-IgnacioOrueta/outputs"
+
+root <- "C:/Users/iorueta/PC IGNACIO/0.LSE/MPA DSPP/ignacioorueta.github.io/Webscraping"
+ddir <- "C:/Users/iorueta/PC IGNACIO/0.LSE/MPA DSPP/ignacioorueta.github.io/Webscraping/data"
+odir <- "C:/Users/iorueta/PC IGNACIO/0.LSE/MPA DSPP/ignacioorueta.github.io/Webscraping/outputs"
 
 ## NOTE: PLEASE REPLACE "YOUR_PATH" WITH THE PATH TO THE LOCATION ON YOUR COMPUTER 
 ##       WHERE YOU WOULD LIKE TO STORE ALL YOUR WORK FOR THESE EXERCISES!
@@ -50,7 +53,7 @@ In today's competitive retail markets, the location of businesses is crucial for
 
 By analyzing the above, this report provides invaluable guide for strategic decision-making and the pursue of long-term success of new pharmacy stores. Additionally, it offers a comprehensive view of the market dynamics in the city, which is an indispensable tool for every company's growth strategy, regardless their industry. In fact, the written code allows for changing the industry easily by selecting the business below:
 
-```{r choosing_business}
+```{r choosing_business, echo=FALSE, eval=FALSE}
 business <- 'pharmacy' 
 ```
 
@@ -60,7 +63,7 @@ Considering secondary data, I retrieved the names of all London's boroughs, allo
 
 Note: I change the position of sections 2 and 3. This allow me to run my code correctly.
 
-```{r Boroughs, warning=FALSE}
+```{r Boroughs, echo=FALSE, eval=FALSE, warning=FALSE}
 # Scraping London Boroughs from Wikipedia
 url_boroughs <-'https://en.wikipedia.org/wiki/List_of_London_boroughs'
 
@@ -88,7 +91,7 @@ First, I collect data on the number of entries and exits of each Transport for L
 
 To achieve this, I downloaded the data directly from the TfL website: https://crowding.data.tfl.gov.uk
 
-```{r TfL data, message=FALSE}
+```{r TfL data, echo=FALSE, eval=FALSE, message=FALSE}
 # Network statistics for 2023
 url_2023 <- 'https://crowding.data.tfl.gov.uk/Annual%20Station%20Counts/2023/AC2023_AnnualisedEntryExit.xlsx'
 
@@ -101,7 +104,7 @@ tfl_2023 <- read_excel(temp_file, sheet = "AC23", skip=6) # Importing it
 ### 2. Competition data
 Then, I scrape Google Maps to look for all pharmacies in each London Borough. This step includes collecting their names, addresses, georeferences and review scores. This is useful to assess the level of competition within each area of the city.
 
-```{r scrape_Google_Maps, eval=FALSE, message=FALSE, warning=FALSE}
+```{r scrape_Google_Maps, echo=FALSE, eval=FALSE, message=FALSE, warning=FALSE}
 # Note: I wrote eval=FALSE to avoid running all the scrape again when knitting.
 
 # Storing info in lists
@@ -266,7 +269,7 @@ remDr$close() # Closing the RDriver
 
 Finally, I collect data on the monthly rent cost per square foot for available commercial spaces suitable for retail businesses in each area from Rightmove. This is essential for understanding the rental market, their prices, and the availability of spaces near each station. Here, I collect information from each station on a radius of 1/4 mile, to look for places that are within a 5 minute walk from each station. This approach is important because the project's aim is to analyze foot traffic demand near train stations. Thus, expanding the radius would result in inaccurate estimations of potential demand, which I obtained from the TfL dataset.
 
-```{r rent prices, eval=FALSE}
+```{r rent prices, echo=FALSE, eval=FALSE}
 # Note: I wrote eval=FALSE to avoid running all the scrape again when knitting.
 
 ## Here, I look for retail rent prices near tube stations to see average costs of rent.
@@ -473,10 +476,10 @@ remDr$close() # Closing the RDriver
 
 ## 4. Transformations
 
-The different data sources collected through the scraping process needed to be cleaned and transformed in order to be analysed:
+The different data sources collected through the scraping process needed to be cleaned and transformed in order to be analysed.
 
+```{r cleaning Tfl, echo=FALSE, eval=FALSE}
 #### 1.1 Cleaning TfL
-```{r cleaning Tfl, eval=FALSE}
 # Note: I wrote eval=FALSE because I didn't run the scrape when knitting.
 
 tfl_2023 <- tfl_2023 %>% rename(annual_entry_exit = 'En/Ex...19') # Renaming key var. 
@@ -496,8 +499,8 @@ write.csv(tfl_2023, file.path(ddir, "tfl_2023.csv"), row.names = FALSE)
 stations_list <- as.list(tfl_2023$Station) # For the loop
 ```
 
+```{r google_maps_df, echo=FALSE, eval=FALSE}
 #### 1.2. Cleaning Google Maps
-```{r google_maps_df, eval=FALSE}
 # Note: I wrote eval=FALSE because I didn't run the scrape when knitting.
 
 # Creating a dataframe from the Google Maps scraping 
@@ -513,7 +516,7 @@ google_maps_df <- data.frame(
 ```
 
 
-```{r cleaning Google Maps, eval=FALSE}
+```{r cleaning Google Maps, echo=FALSE, eval=FALSE}
 # Note: I wrote eval=FALSE because I didn't run the scrape when knitting.
 
 ######## Cleaning process of Google Maps scraping #######
@@ -552,9 +555,9 @@ write.csv(google_maps_df, file.path(ddir, "google_maps.csv"), row.names = FALSE)
 
 ```
 
-#### 1.3. Cleaning RightMove 
 
-```{r rent_df, eval=FALSE}
+```{r rent_df, echo=FALSE, eval=FALSE}
+#### 1.3. Cleaning RightMove 
 # Note: I wrote eval=FALSE because I didn't run the scrape when knitting.
 
 # Creating a dataframe from the Rightmove scraping 
@@ -566,7 +569,7 @@ rent_df <- data.frame(
 ```
 
 
-```{r cleaning RightMove, eval=FALSE}
+```{r cleaning RightMove, echo=FALSE, eval=FALSE}
 # Note: I wrote eval=FALSE because I didn't run the scrape when knitting.
 
 ######## Cleaning process of rent scraping #######
@@ -626,7 +629,7 @@ Finally, the retrieved data from RightMove considers only retail spaces that are
 
 The data retrieved above allows to analyse the market in several useful ways. Here, I present three charts that illustrate the project's value for market analysis.
 
-```{r Importing GIS, message=FALSE, warning=FALSE}
+```{r Importing GIS, echo=FALSE, results='hide', message=FALSE, warning=FALSE}
 # GIS boundary London
 # Source: https://data.london.gov.uk/dataset?tag=shapefile
 
@@ -637,7 +640,7 @@ map_london <- st_read(file_path)
 
 ### 1. Potential demand data
 The chart below shows the annual entry and exits from each geolocated station. Immediately, we can distinguish which stations receive more passengers, which are commonly in the city center.
-```{r tfl_plot, warning=FALSE}
+```{r tfl_plot, echo=FALSE, warning=FALSE}
 
 # I used copilot to edit the details of this graph (transparency, adding legend colours, etc)
 file_path <- file.path(ddir, "tfl_2023.csv")
@@ -663,7 +666,7 @@ tfl_plot
 ### 2. Competition data
 The next chart shows the locations of pharmacy retail businesses across London's boroughs. Here, it is clear that some boroughs have a higher concentration of pharmacy stores than others.
 
-```{r competition_plot, warning=FALSE}
+```{r competition_plot, eval=FALSE, echo=FALSE, warning=FALSE}
 
 # 2)  Competition plot
 file_path <- file.path(ddir, "google_maps.csv")
@@ -681,13 +684,24 @@ ggsave(file.path(odir, "competition_plot.png"), plot = competition_plot, width =
 
 competition_plot
 ```
+Note: This is a sample of scraped pharmacies and don't represent the whole universe of open pharmacies. 
+
+
+
+```{r, message=FALSE, echo=FALSE, warning=FALSE}
+competition_plot <- image_read(paste0(odir,"/competition_plot.png"))
+
+# Display the image
+grid.raster(competition_plot)
+
+```
 
 Note: I couldn't finish the scraping before uploading my results since RStudio rebooted during the night.
 
 
 ### 3. Rent costs data
 Finally, here you can see the available places within a 1/4 radius from a station. I also calculated their respective rent cost per square foot. As expected, the city center is the most expensive place for rent commercial properties.
-```{r rent_plot, warning=FALSE}
+```{r rent_plot, echo=FALSE, warning=FALSE}
 
 # 3)  Adding color for high rent prices 
 file_path <- file.path(ddir, "rightmove.csv")
@@ -707,5 +721,4 @@ ggsave(file.path(odir, "rent_plot.png"), plot = rent_plot, width = 10, height = 
 rent_plot
 ```
 
-
-Note: I couldn't finish the scraping before uploading my results since RStudio rebooted during the night.
+Note: This is a sample of scraped properties and don't represent the whole universe of properties available. 
