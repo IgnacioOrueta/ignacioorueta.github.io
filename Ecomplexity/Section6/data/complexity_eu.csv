@@ -1,0 +1,75 @@
+<<<<<<< HEAD
+country,ISO3,hs_eci_rank_1995,hs_eci_rank_2022,hs_eci_rank_1995_2022
+Albania,ALB,97,85,-12
+Austria,AUT,6,9,3
+Belgium,BEL,10,24,14
+Bosnia and Herzegovina,BIH,54,42,-12
+Bulgaria,BGR,45,34,-11
+Belarus,BLR,37,36,-1
+Croatia,HRV,28,33,5
+Czechia,CZE,13,8,-5
+Denmark,DNK,14,27,13
+Estonia,EST,34,28,-6
+Finland,FIN,5,14,9
+France,FRA,8,20,12
+Germany,DEU,2,5,3
+Greece,GRC,58,53,-5
+Hungary,HUN,23,16,-7
+Ireland,IRL,17,11,-6
+Italy,ITA,11,17,6
+Latvia,LVA,38,39,1
+Lithuania,LTU,39,31,-8
+Moldova,MDA,47,66,19
+Netherlands,NLD,18,23,5
+Norway,NOR,20,48,28
+Poland,POL,26,30,4
+Portugal,PRT,42,41,-1
+Romania,ROU,32,26,-6
+Russia,RUS,46,68,22
+Serbia,SRB,67,37,-30
+Slovakia,SVK,19,19,0
+Slovenia,SVN,12,12,0
+Spain,ESP,21,35,14
+Sweden,SWE,3,10,7
+Switzerland,CHE,4,2,-2
+Ukraine,UKR,41,51,10
+North Macedonia,MKD,49,55,6
+United Kingdom,GBR,7,7,0
+=======
+country,ISO3,hs_eci_rank_1995,hs_eci_rank_2022,hs_eci_rank_1995_2022
+Albania,ALB,97,85,-12
+Austria,AUT,6,9,3
+Belgium,BEL,10,24,14
+Bosnia and Herzegovina,BIH,54,42,-12
+Bulgaria,BGR,45,34,-11
+Belarus,BLR,37,36,-1
+Croatia,HRV,28,33,5
+Czechia,CZE,13,8,-5
+Denmark,DNK,14,27,13
+Estonia,EST,34,28,-6
+Finland,FIN,5,14,9
+France,FRA,8,20,12
+Germany,DEU,2,5,3
+Greece,GRC,58,53,-5
+Hungary,HUN,23,16,-7
+Ireland,IRL,17,11,-6
+Italy,ITA,11,17,6
+Latvia,LVA,38,39,1
+Lithuania,LTU,39,31,-8
+Moldova,MDA,47,66,19
+Netherlands,NLD,18,23,5
+Norway,NOR,20,48,28
+Poland,POL,26,30,4
+Portugal,PRT,42,41,-1
+Romania,ROU,32,26,-6
+Russia,RUS,46,68,22
+Serbia,SRB,67,37,-30
+Slovakia,SVK,19,19,0
+Slovenia,SVN,12,12,0
+Spain,ESP,21,35,14
+Sweden,SWE,3,10,7
+Switzerland,CHE,4,2,-2
+Ukraine,UKR,41,51,10
+North Macedonia,MKD,49,55,6
+United Kingdom,GBR,7,7,0
+>>>>>>> 411f9cbfbb392fcc65f7c9ccd3ab7bb938b197c6

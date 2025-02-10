@@ -1,0 +1,577 @@
+country_id,year,country,ISO3,hs_eci_rank,GDP_2021,gini_2021,group_type,group_name,group_id
+4,2021,Afghanistan,AFG,128,2138.87024713086,,continent,Asia,931
+4,2021,Afghanistan,AFG,128,2138.87024713086,,region,Asia,142
+4,2021,Afghanistan,AFG,128,2138.87024713086,,subregion,Southern Asia,34
+4,2021,Afghanistan,AFG,128,2138.87024713086,,world,world,1
+8,2021,Albania,ALB,79,16261.804554188,,continent,Europe,933
+8,2021,Albania,ALB,79,16261.804554188,,region,Europe,150
+8,2021,Albania,ALB,79,16261.804554188,,subregion,Southern Europe,39
+8,2021,Albania,ALB,79,16261.804554188,,world,world,1
+12,2021,Algeria,DZA,114,14690.9162300571,,continent,Africa,932
+12,2021,Algeria,DZA,114,14690.9162300571,,region,Africa,2
+12,2021,Algeria,DZA,114,14690.9162300571,,subregion,Northern Africa,15
+12,2021,Algeria,DZA,114,14690.9162300571,,world,world,1
+24,2021,Angola,AGO,137,7414.27895783202,,continent,Africa,932
+24,2021,Angola,AGO,137,7414.27895783202,,region,Africa,2
+24,2021,Angola,AGO,137,7414.27895783202,,subregion,Middle Africa,17
+24,2021,Angola,AGO,137,7414.27895783202,,world,world,1
+31,2021,Azerbaijan,AZE,110,20111.3756952109,,continent,Asia,931
+31,2021,Azerbaijan,AZE,110,20111.3756952109,,region,Asia,142
+31,2021,Azerbaijan,AZE,110,20111.3756952109,,subregion,Western Asia,145
+31,2021,Azerbaijan,AZE,110,20111.3756952109,,world,world,1
+32,2021,Argentina,ARG,82,26086.8023552274,42.4,continent,South America,934
+32,2021,Argentina,ARG,82,26086.8023552274,42.4,region,Americas,19
+32,2021,Argentina,ARG,82,26086.8023552274,42.4,subregion,South America,5
+32,2021,Argentina,ARG,82,26086.8023552274,42.4,world,world,1
+36,2021,Australia,AUS,97,57406.1787604549,,continent,Oceania,936
+36,2021,Australia,AUS,97,57406.1787604549,,region,Oceania,9
+36,2021,Australia,AUS,97,57406.1787604549,,subregion,Australia and New Zealand,53
+36,2021,Australia,AUS,97,57406.1787604549,,world,world,1
+40,2021,Austria,AUT,9,63421.2035870778,30.7,continent,Europe,933
+40,2021,Austria,AUT,9,63421.2035870778,30.7,region,Europe,150
+40,2021,Austria,AUT,9,63421.2035870778,30.7,subregion,Western Europe,155
+40,2021,Austria,AUT,9,63421.2035870778,30.7,world,world,1
+48,2021,Bahrain,BHR,39,54351.8360757233,,continent,Asia,931
+48,2021,Bahrain,BHR,39,54351.8360757233,,region,Asia,142
+48,2021,Bahrain,BHR,39,54351.8360757233,,subregion,Western Asia,145
+48,2021,Bahrain,BHR,39,54351.8360757233,,world,world,1
+50,2021,Bangladesh,BGD,104,7366.48997079065,,continent,Asia,931
+50,2021,Bangladesh,BGD,104,7366.48997079065,,region,Asia,142
+50,2021,Bangladesh,BGD,104,7366.48997079065,,subregion,Southern Asia,34
+50,2021,Bangladesh,BGD,104,7366.48997079065,,world,world,1
+51,2021,Armenia,ARM,74,16899.0709181676,27.9,continent,Asia,931
+51,2021,Armenia,ARM,74,16899.0709181676,27.9,region,Asia,142
+51,2021,Armenia,ARM,74,16899.0709181676,27.9,subregion,Western Asia,145
+51,2021,Armenia,ARM,74,16899.0709181676,27.9,world,world,1
+56,2021,Belgium,BEL,23,62123.1613172906,26.6,continent,Europe,933
+56,2021,Belgium,BEL,23,62123.1613172906,26.6,region,Europe,150
+56,2021,Belgium,BEL,23,62123.1613172906,26.6,subregion,Western Europe,155
+56,2021,Belgium,BEL,23,62123.1613172906,26.6,world,world,1
+68,2021,Bolivia,BOL,123,9342.97184427306,40.9,continent,South America,934
+68,2021,Bolivia,BOL,123,9342.97184427306,40.9,region,Americas,19
+68,2021,Bolivia,BOL,123,9342.97184427306,40.9,subregion,South America,5
+68,2021,Bolivia,BOL,123,9342.97184427306,40.9,world,world,1
+70,2021,Bosnia and Herzegovina,BIH,43,18396.4690929752,,continent,Europe,933
+70,2021,Bosnia and Herzegovina,BIH,43,18396.4690929752,,region,Europe,150
+70,2021,Bosnia and Herzegovina,BIH,43,18396.4690929752,,subregion,Southern Europe,39
+70,2021,Bosnia and Herzegovina,BIH,43,18396.4690929752,,world,world,1
+72,2021,Botswana,BWA,122,16663.8685441919,,continent,Africa,932
+72,2021,Botswana,BWA,122,16663.8685441919,,region,Africa,2
+72,2021,Botswana,BWA,122,16663.8685441919,,subregion,Southern Africa,18
+72,2021,Botswana,BWA,122,16663.8685441919,,world,world,1
+76,2021,Brazil,BRA,68,17672.9168034655,52.9,continent,South America,934
+76,2021,Brazil,BRA,68,17672.9168034655,52.9,region,Americas,19
+76,2021,Brazil,BRA,68,17672.9168034655,52.9,subregion,South America,5
+76,2021,Brazil,BRA,68,17672.9168034655,52.9,world,world,1
+100,2021,Bulgaria,BGR,38,29404.9605099327,39.0,continent,Europe,933
+100,2021,Bulgaria,BGR,38,29404.9605099327,39.0,region,Europe,150
+100,2021,Bulgaria,BGR,38,29404.9605099327,39.0,subregion,Eastern Europe,151
+100,2021,Bulgaria,BGR,38,29404.9605099327,39.0,world,world,1
+104,2021,Myanmar,MMR,109,5138.88724952007,,continent,Asia,931
+104,2021,Myanmar,MMR,109,5138.88724952007,,region,Asia,142
+104,2021,Myanmar,MMR,109,5138.88724952007,,subregion,South-eastern Asia,35
+104,2021,Myanmar,MMR,109,5138.88724952007,,world,world,1
+112,2021,Belarus,BLR,33,27611.1801135156,,continent,Europe,933
+112,2021,Belarus,BLR,33,27611.1801135156,,region,Europe,150
+112,2021,Belarus,BLR,33,27611.1801135156,,subregion,Eastern Europe,151
+112,2021,Belarus,BLR,33,27611.1801135156,,world,world,1
+116,2021,Cambodia,KHM,78,4668.23777959985,,continent,Asia,931
+116,2021,Cambodia,KHM,78,4668.23777959985,,region,Asia,142
+116,2021,Cambodia,KHM,78,4668.23777959985,,subregion,South-eastern Asia,35
+116,2021,Cambodia,KHM,78,4668.23777959985,,world,world,1
+120,2021,Cameroon,CMR,129,4741.76177028658,42.2,continent,Africa,932
+120,2021,Cameroon,CMR,129,4741.76177028658,42.2,region,Africa,2
+120,2021,Cameroon,CMR,129,4741.76177028658,42.2,subregion,Middle Africa,17
+120,2021,Cameroon,CMR,129,4741.76177028658,42.2,world,world,1
+124,2021,Canada,CAN,41,55781.6990272912,,continent,North America,930
+124,2021,Canada,CAN,41,55781.6990272912,,region,Americas,19
+124,2021,Canada,CAN,41,55781.6990272912,,subregion,Northern America,21
+124,2021,Canada,CAN,41,55781.6990272912,,world,world,1
+144,2021,Sri Lanka,LKA,86,14316.1364925465,,continent,Asia,931
+144,2021,Sri Lanka,LKA,86,14316.1364925465,,region,Asia,142
+144,2021,Sri Lanka,LKA,86,14316.1364925465,,subregion,Southern Asia,34
+144,2021,Sri Lanka,LKA,86,14316.1364925465,,world,world,1
+148,2021,Chad,TCD,143,1764.34807562549,,continent,Africa,932
+148,2021,Chad,TCD,143,1764.34807562549,,region,Africa,2
+148,2021,Chad,TCD,143,1764.34807562549,,subregion,Middle Africa,17
+148,2021,Chad,TCD,143,1764.34807562549,,world,world,1
+152,2021,Chile,CHL,87,29050.0807938778,,continent,South America,934
+152,2021,Chile,CHL,87,29050.0807938778,,region,Americas,19
+152,2021,Chile,CHL,87,29050.0807938778,,subregion,South America,5
+152,2021,Chile,CHL,87,29050.0807938778,,world,world,1
+156,2021,China,CHN,17,20406.7296584605,35.7,continent,Asia,931
+156,2021,China,CHN,17,20406.7296584605,35.7,region,Asia,142
+156,2021,China,CHN,17,20406.7296584605,35.7,subregion,Eastern Asia,30
+156,2021,China,CHN,17,20406.7296584605,35.7,world,world,1
+170,2021,Colombia,COL,58,17587.2317932888,55.1,continent,South America,934
+170,2021,Colombia,COL,58,17587.2317932888,55.1,region,Americas,19
+170,2021,Colombia,COL,58,17587.2317932888,55.1,subregion,South America,5
+170,2021,Colombia,COL,58,17587.2317932888,55.1,world,world,1
+178,2021,Republic of the Congo,COG,135,6323.71757921482,,continent,Africa,932
+178,2021,Republic of the Congo,COG,135,6323.71757921482,,region,Africa,2
+178,2021,Republic of the Congo,COG,135,6323.71757921482,,subregion,Middle Africa,17
+178,2021,Republic of the Congo,COG,135,6323.71757921482,,world,world,1
+180,2021,Democratic Republic of the Congo,COD,145,1358.2047169909,,continent,Africa,932
+180,2021,Democratic Republic of the Congo,COD,145,1358.2047169909,,region,Africa,2
+180,2021,Democratic Republic of the Congo,COD,145,1358.2047169909,,subregion,Middle Africa,17
+180,2021,Democratic Republic of the Congo,COD,145,1358.2047169909,,world,world,1
+188,2021,Costa Rica,CRI,54,23700.2961313917,48.7,continent,North America,930
+188,2021,Costa Rica,CRI,54,23700.2961313917,48.7,region,Americas,19
+188,2021,Costa Rica,CRI,54,23700.2961313917,48.7,subregion,Central America,13
+188,2021,Costa Rica,CRI,54,23700.2961313917,48.7,world,world,1
+191,2021,Croatia,HRV,34,37232.5957719881,28.9,continent,Europe,933
+191,2021,Croatia,HRV,34,37232.5957719881,28.9,region,Europe,150
+191,2021,Croatia,HRV,34,37232.5957719881,28.9,subregion,Southern Europe,39
+191,2021,Croatia,HRV,34,37232.5957719881,28.9,world,world,1
+192,2021,Cuba,CUB,103,,,continent,North America,930
+192,2021,Cuba,CUB,103,,,region,Americas,19
+192,2021,Cuba,CUB,103,,,subregion,Caribbean,29
+192,2021,Cuba,CUB,103,,,world,world,1
+196,2021,Cyprus,CYP,48,48466.84375,31.3,continent,Asia,931
+196,2021,Cyprus,CYP,48,48466.84375,31.3,region,Asia,142
+196,2021,Cyprus,CYP,48,48466.84375,31.3,subregion,Western Asia,145
+196,2021,Cyprus,CYP,48,48466.84375,31.3,world,world,1
+203,2021,Czechia,CZE,7,48418.1157871868,26.2,continent,Europe,933
+203,2021,Czechia,CZE,7,48418.1157871868,26.2,region,Europe,150
+203,2021,Czechia,CZE,7,48418.1157871868,26.2,subregion,Eastern Europe,151
+203,2021,Czechia,CZE,7,48418.1157871868,26.2,world,world,1
+204,2021,Benin,BEN,108,3575.31148668734,34.4,continent,Africa,932
+204,2021,Benin,BEN,108,3575.31148668734,34.4,region,Africa,2
+204,2021,Benin,BEN,108,3575.31148668734,34.4,subregion,Western Africa,11
+204,2021,Benin,BEN,108,3575.31148668734,34.4,world,world,1
+208,2021,Denmark,DNK,27,69878.9348117258,28.3,continent,Europe,933
+208,2021,Denmark,DNK,27,69878.9348117258,28.3,region,Europe,150
+208,2021,Denmark,DNK,27,69878.9348117258,28.3,subregion,Northern Europe,154
+208,2021,Denmark,DNK,27,69878.9348117258,28.3,world,world,1
+214,2021,Dominican Republic,DOM,62,21923.3019358073,38.5,continent,North America,930
+214,2021,Dominican Republic,DOM,62,21923.3019358073,38.5,region,Americas,19
+214,2021,Dominican Republic,DOM,62,21923.3019358073,38.5,subregion,Caribbean,29
+214,2021,Dominican Republic,DOM,62,21923.3019358073,38.5,world,world,1
+218,2021,Ecuador,ECU,115,13452.0087723253,45.8,continent,South America,934
+218,2021,Ecuador,ECU,115,13452.0087723253,45.8,region,Americas,19
+218,2021,Ecuador,ECU,115,13452.0087723253,45.8,subregion,South America,5
+218,2021,Ecuador,ECU,115,13452.0087723253,45.8,world,world,1
+222,2021,El Salvador,SLV,63,10709.7595787161,39.0,continent,North America,930
+222,2021,El Salvador,SLV,63,10709.7595787161,39.0,region,Americas,19
+222,2021,El Salvador,SLV,63,10709.7595787161,39.0,subregion,Central America,13
+222,2021,El Salvador,SLV,63,10709.7595787161,39.0,world,world,1
+226,2021,Equatorial Guinea,GNQ,141,18100.9139254871,,continent,Africa,932
+226,2021,Equatorial Guinea,GNQ,141,18100.9139254871,,region,Africa,2
+226,2021,Equatorial Guinea,GNQ,141,18100.9139254871,,subregion,Middle Africa,17
+226,2021,Equatorial Guinea,GNQ,141,18100.9139254871,,world,world,1
+231,2021,Ethiopia,ETH,120,2628.34346412648,,continent,Africa,932
+231,2021,Ethiopia,ETH,120,2628.34346412648,,region,Africa,2
+231,2021,Ethiopia,ETH,120,2628.34346412648,,subregion,Eastern Africa,14
+231,2021,Ethiopia,ETH,120,2628.34346412648,,world,world,1
+233,2021,Estonia,EST,29,44651.9992190266,31.8,continent,Europe,933
+233,2021,Estonia,EST,29,44651.9992190266,31.8,region,Europe,150
+233,2021,Estonia,EST,29,44651.9992190266,31.8,subregion,Northern Europe,154
+233,2021,Estonia,EST,29,44651.9992190266,31.8,world,world,1
+246,2021,Finland,FIN,13,57788.9034581748,27.7,continent,Europe,933
+246,2021,Finland,FIN,13,57788.9034581748,27.7,region,Europe,150
+246,2021,Finland,FIN,13,57788.9034581748,27.7,subregion,Northern Europe,154
+246,2021,Finland,FIN,13,57788.9034581748,27.7,world,world,1
+250,2021,France,FRA,18,53834.7992971017,31.5,continent,Europe,933
+250,2021,France,FRA,18,53834.7992971017,31.5,region,Europe,150
+250,2021,France,FRA,18,53834.7992971017,31.5,subregion,Western Europe,155
+250,2021,France,FRA,18,53834.7992971017,31.5,world,world,1
+266,2021,Gabon,GAB,83,19552.3625334643,,continent,Africa,932
+266,2021,Gabon,GAB,83,19552.3625334643,,region,Africa,2
+266,2021,Gabon,GAB,83,19552.3625334643,,subregion,Middle Africa,17
+266,2021,Gabon,GAB,83,19552.3625334643,,world,world,1
+268,2021,Georgia,GEO,72,18915.6534005263,34.2,continent,Asia,931
+268,2021,Georgia,GEO,72,18915.6534005263,34.2,region,Asia,142
+268,2021,Georgia,GEO,72,18915.6534005263,34.2,subregion,Western Asia,145
+268,2021,Georgia,GEO,72,18915.6534005263,34.2,world,world,1
+276,2021,Germany,DEU,5,61939.6515850137,,continent,Europe,933
+276,2021,Germany,DEU,5,61939.6515850137,,region,Europe,150
+276,2021,Germany,DEU,5,61939.6515850137,,subregion,Western Europe,155
+276,2021,Germany,DEU,5,61939.6515850137,,world,world,1
+288,2021,Ghana,GHA,98,6544.2381999688,,continent,Africa,932
+288,2021,Ghana,GHA,98,6544.2381999688,,region,Africa,2
+288,2021,Ghana,GHA,98,6544.2381999688,,subregion,Western Africa,11
+288,2021,Ghana,GHA,98,6544.2381999688,,world,world,1
+300,2021,Greece,GRC,51,33018.2544152866,32.9,continent,Europe,933
+300,2021,Greece,GRC,51,33018.2544152866,32.9,region,Europe,150
+300,2021,Greece,GRC,51,33018.2544152866,32.9,subregion,Southern Europe,39
+300,2021,Greece,GRC,51,33018.2544152866,32.9,world,world,1
+320,2021,Guatemala,GTM,75,12106.4225430833,,continent,North America,930
+320,2021,Guatemala,GTM,75,12106.4225430833,,region,Americas,19
+320,2021,Guatemala,GTM,75,12106.4225430833,,subregion,Central America,13
+320,2021,Guatemala,GTM,75,12106.4225430833,,world,world,1
+324,2021,Guinea,GIN,144,3735.0898272933,,continent,Africa,932
+324,2021,Guinea,GIN,144,3735.0898272933,,region,Africa,2
+324,2021,Guinea,GIN,144,3735.0898272933,,subregion,Western Africa,11
+324,2021,Guinea,GIN,144,3735.0898272933,,world,world,1
+332,2021,Haiti,HTI,117,3114.96354203089,,continent,North America,930
+332,2021,Haiti,HTI,117,3114.96354203089,,region,Americas,19
+332,2021,Haiti,HTI,117,3114.96354203089,,subregion,Caribbean,29
+332,2021,Haiti,HTI,117,3114.96354203089,,world,world,1
+340,2021,Honduras,HND,96,6209.94034964984,,continent,North America,930
+340,2021,Honduras,HND,96,6209.94034964984,,region,Americas,19
+340,2021,Honduras,HND,96,6209.94034964984,,subregion,Central America,13
+340,2021,Honduras,HND,96,6209.94034964984,,world,world,1
+344,2021,Hong Kong,HKG,21,65884.9376260603,,continent,Asia,931
+344,2021,Hong Kong,HKG,21,65884.9376260603,,region,Asia,142
+344,2021,Hong Kong,HKG,21,65884.9376260603,,subregion,Eastern Asia,30
+344,2021,Hong Kong,HKG,21,65884.9376260603,,world,world,1
+348,2021,Hungary,HUN,16,38647.9980847097,29.2,continent,Europe,933
+348,2021,Hungary,HUN,16,38647.9980847097,29.2,region,Europe,150
+348,2021,Hungary,HUN,16,38647.9980847097,29.2,subregion,Eastern Europe,151
+348,2021,Hungary,HUN,16,38647.9980847097,29.2,world,world,1
+356,2021,India,IND,46,8087.9938026769,32.8,continent,Asia,931
+356,2021,India,IND,46,8087.9938026769,32.8,region,Asia,142
+356,2021,India,IND,46,8087.9938026769,32.8,subregion,Southern Asia,34
+356,2021,India,IND,46,8087.9938026769,32.8,world,world,1
+360,2021,Indonesia,IDN,65,12897.1031444698,35.5,continent,Asia,931
+360,2021,Indonesia,IDN,65,12897.1031444698,35.5,region,Asia,142
+360,2021,Indonesia,IDN,65,12897.1031444698,35.5,subregion,South-eastern Asia,35
+360,2021,Indonesia,IDN,65,12897.1031444698,35.5,world,world,1
+364,2021,Iran,IRN,69,15042.3741124724,35.5,continent,Asia,931
+364,2021,Iran,IRN,69,15042.3741124724,35.5,region,Asia,142
+364,2021,Iran,IRN,69,15042.3741124724,35.5,subregion,Southern Asia,34
+364,2021,Iran,IRN,69,15042.3741124724,35.5,world,world,1
+368,2021,Iraq,IRQ,106,12596.5264858209,,continent,Asia,931
+368,2021,Iraq,IRQ,106,12596.5264858209,,region,Asia,142
+368,2021,Iraq,IRQ,106,12596.5264858209,,subregion,Western Asia,145
+368,2021,Iraq,IRQ,106,12596.5264858209,,world,world,1
+372,2021,Ireland,IRL,14,114120.544516392,30.1,continent,Europe,933
+372,2021,Ireland,IRL,14,114120.544516392,30.1,region,Europe,150
+372,2021,Ireland,IRL,14,114120.544516392,30.1,subregion,Northern Europe,154
+372,2021,Ireland,IRL,14,114120.544516392,30.1,world,world,1
+376,2021,Israel,ISR,15,46126.6423137421,37.9,continent,Asia,931
+376,2021,Israel,ISR,15,46126.6423137421,37.9,region,Asia,142
+376,2021,Israel,ISR,15,46126.6423137421,37.9,subregion,Western Asia,145
+376,2021,Israel,ISR,15,46126.6423137421,37.9,world,world,1
+380,2021,Italy,ITA,19,49901.6121367429,34.8,continent,Europe,933
+380,2021,Italy,ITA,19,49901.6121367429,34.8,region,Europe,150
+380,2021,Italy,ITA,19,49901.6121367429,34.8,subregion,Southern Europe,39
+380,2021,Italy,ITA,19,49901.6121367429,34.8,world,world,1
+384,2021,Côte d'Ivoire,CIV,126,6520.73116025072,35.3,continent,Africa,932
+384,2021,Côte d'Ivoire,CIV,126,6520.73116025072,35.3,region,Africa,2
+384,2021,Côte d'Ivoire,CIV,126,6520.73116025072,35.3,subregion,Western Africa,11
+384,2021,Côte d'Ivoire,CIV,126,6520.73116025072,35.3,world,world,1
+388,2021,Jamaica,JAM,85,9610.98933709822,40.2,continent,North America,930
+388,2021,Jamaica,JAM,85,9610.98933709822,40.2,region,Americas,19
+388,2021,Jamaica,JAM,85,9610.98933709822,40.2,subregion,Caribbean,29
+388,2021,Jamaica,JAM,85,9610.98933709822,40.2,world,world,1
+392,2021,Japan,JPN,1,44549.3383411434,,continent,Asia,931
+392,2021,Japan,JPN,1,44549.3383411434,,region,Asia,142
+392,2021,Japan,JPN,1,44549.3383411434,,subregion,Eastern Asia,30
+392,2021,Japan,JPN,1,44549.3383411434,,world,world,1
+398,2021,Kazakhstan,KAZ,95,33893.8954572043,29.2,continent,Asia,931
+398,2021,Kazakhstan,KAZ,95,33893.8954572043,29.2,region,Asia,142
+398,2021,Kazakhstan,KAZ,95,33893.8954572043,29.2,subregion,Central Asia,143
+398,2021,Kazakhstan,KAZ,95,33893.8954572043,29.2,world,world,1
+400,2021,Jordan,JOR,66,9115.01951145213,,continent,Asia,931
+400,2021,Jordan,JOR,66,9115.01951145213,,region,Asia,142
+400,2021,Jordan,JOR,66,9115.01951145213,,subregion,Western Asia,145
+400,2021,Jordan,JOR,66,9115.01951145213,,world,world,1
+404,2021,Kenya,KEN,90,5360.36190289931,38.7,continent,Africa,932
+404,2021,Kenya,KEN,90,5360.36190289931,38.7,region,Africa,2
+404,2021,Kenya,KEN,90,5360.36190289931,38.7,subregion,Eastern Africa,14
+404,2021,Kenya,KEN,90,5360.36190289931,38.7,world,world,1
+410,2021,South Korea,KOR,4,48571.4322096427,32.9,continent,Asia,931
+410,2021,South Korea,KOR,4,48571.4322096427,32.9,region,Asia,142
+410,2021,South Korea,KOR,4,48571.4322096427,32.9,subregion,Eastern Asia,30
+410,2021,South Korea,KOR,4,48571.4322096427,32.9,world,world,1
+414,2021,Kuwait,KWT,81,49668.9974729809,,continent,Asia,931
+414,2021,Kuwait,KWT,81,49668.9974729809,,region,Asia,142
+414,2021,Kuwait,KWT,81,49668.9974729809,,subregion,Western Asia,145
+414,2021,Kuwait,KWT,81,49668.9974729809,,world,world,1
+417,2021,Kyrgyzstan,KGZ,77,5802.38897216037,28.8,continent,Asia,931
+417,2021,Kyrgyzstan,KGZ,77,5802.38897216037,28.8,region,Asia,142
+417,2021,Kyrgyzstan,KGZ,77,5802.38897216037,28.8,subregion,Central Asia,143
+417,2021,Kyrgyzstan,KGZ,77,5802.38897216037,28.8,world,world,1
+418,2021,Laos,LAO,93,8111.05606707263,,continent,Asia,931
+418,2021,Laos,LAO,93,8111.05606707263,,region,Asia,142
+418,2021,Laos,LAO,93,8111.05606707263,,subregion,South-eastern Asia,35
+418,2021,Laos,LAO,93,8111.05606707263,,world,world,1
+422,2021,Lebanon,LBN,55,11860.0586252712,,continent,Asia,931
+422,2021,Lebanon,LBN,55,11860.0586252712,,region,Asia,142
+422,2021,Lebanon,LBN,55,11860.0586252712,,subregion,Western Asia,145
+422,2021,Lebanon,LBN,55,11860.0586252712,,world,world,1
+428,2021,Latvia,LVA,44,36777.8928459839,34.3,continent,Europe,933
+428,2021,Latvia,LVA,44,36777.8928459839,34.3,region,Europe,150
+428,2021,Latvia,LVA,44,36777.8928459839,34.3,subregion,Northern Europe,154
+428,2021,Latvia,LVA,44,36777.8928459839,34.3,world,world,1
+430,2021,Liberia,LBR,138,1558.74224920002,,continent,Africa,932
+430,2021,Liberia,LBR,138,1558.74224920002,,region,Africa,2
+430,2021,Liberia,LBR,138,1558.74224920002,,subregion,Western Africa,11
+430,2021,Liberia,LBR,138,1558.74224920002,,world,world,1
+434,2021,Libya,LBY,136,18171.5229650604,,continent,Africa,932
+434,2021,Libya,LBY,136,18171.5229650604,,region,Africa,2
+434,2021,Libya,LBY,136,18171.5229650604,,subregion,Northern Africa,15
+434,2021,Libya,LBY,136,18171.5229650604,,world,world,1
+440,2021,Lithuania,LTU,31,46410.0676392912,36.7,continent,Europe,933
+440,2021,Lithuania,LTU,31,46410.0676392912,36.7,region,Europe,150
+440,2021,Lithuania,LTU,31,46410.0676392912,36.7,subregion,Northern Europe,154
+440,2021,Lithuania,LTU,31,46410.0676392912,36.7,world,world,1
+450,2021,Madagascar,MDG,116,1642.30416221094,,continent,Africa,932
+450,2021,Madagascar,MDG,116,1642.30416221094,,region,Africa,2
+450,2021,Madagascar,MDG,116,1642.30416221094,,subregion,Eastern Africa,14
+450,2021,Madagascar,MDG,116,1642.30416221094,,world,world,1
+454,2021,Malawi,MWI,101,1728.82539847128,,continent,Africa,932
+454,2021,Malawi,MWI,101,1728.82539847128,,region,Africa,2
+454,2021,Malawi,MWI,101,1728.82539847128,,subregion,Eastern Africa,14
+454,2021,Malawi,MWI,101,1728.82539847128,,world,world,1
+458,2021,Malaysia,MYS,22,30456.0928951741,40.7,continent,Asia,931
+458,2021,Malaysia,MYS,22,30456.0928951741,40.7,region,Asia,142
+458,2021,Malaysia,MYS,22,30456.0928951741,40.7,subregion,South-eastern Asia,35
+458,2021,Malaysia,MYS,22,30456.0928951741,40.7,world,world,1
+466,2021,Mali,MLI,113,2399.46153474407,35.7,continent,Africa,932
+466,2021,Mali,MLI,113,2399.46153474407,35.7,region,Africa,2
+466,2021,Mali,MLI,113,2399.46153474407,35.7,subregion,Western Africa,11
+466,2021,Mali,MLI,113,2399.46153474407,35.7,world,world,1
+478,2021,Mauritania,MRT,140,5988.20355101133,,continent,Africa,932
+478,2021,Mauritania,MRT,140,5988.20355101133,,region,Africa,2
+478,2021,Mauritania,MRT,140,5988.20355101133,,subregion,Western Africa,11
+478,2021,Mauritania,MRT,140,5988.20355101133,,world,world,1
+480,2021,Mauritius,MUS,67,22737.5729410543,,continent,Africa,932
+480,2021,Mauritius,MUS,67,22737.5729410543,,region,Africa,2
+480,2021,Mauritius,MUS,67,22737.5729410543,,subregion,Eastern Africa,14
+480,2021,Mauritius,MUS,67,22737.5729410543,,world,world,1
+484,2021,Mexico,MEX,28,21131.9157582539,,continent,North America,930
+484,2021,Mexico,MEX,28,21131.9157582539,,region,Americas,19
+484,2021,Mexico,MEX,28,21131.9157582539,,subregion,Central America,13
+484,2021,Mexico,MEX,28,21131.9157582539,,world,world,1
+496,2021,Mongolia,MNG,133,14951.1365679904,,continent,Asia,931
+496,2021,Mongolia,MNG,133,14951.1365679904,,region,Asia,142
+496,2021,Mongolia,MNG,133,14951.1365679904,,subregion,Eastern Asia,30
+496,2021,Mongolia,MNG,133,14951.1365679904,,world,world,1
+498,2021,Moldova,MDA,70,15682.0703284653,25.7,continent,Europe,933
+498,2021,Moldova,MDA,70,15682.0703284653,25.7,region,Europe,150
+498,2021,Moldova,MDA,70,15682.0703284653,25.7,subregion,Eastern Europe,151
+498,2021,Moldova,MDA,70,15682.0703284653,25.7,world,world,1
+504,2021,Morocco,MAR,89,8581.330078125,,continent,Africa,932
+504,2021,Morocco,MAR,89,8581.330078125,,region,Africa,2
+504,2021,Morocco,MAR,89,8581.330078125,,subregion,Northern Africa,15
+504,2021,Morocco,MAR,89,8581.330078125,,world,world,1
+508,2021,Mozambique,MOZ,130,1440.4596813034,,continent,Africa,932
+508,2021,Mozambique,MOZ,130,1440.4596813034,,region,Africa,2
+508,2021,Mozambique,MOZ,130,1440.4596813034,,subregion,Eastern Africa,14
+508,2021,Mozambique,MOZ,130,1440.4596813034,,world,world,1
+512,2021,Oman,OMN,88,38930.9938379577,,continent,Asia,931
+512,2021,Oman,OMN,88,38930.9938379577,,region,Asia,142
+512,2021,Oman,OMN,88,38930.9938379577,,subregion,Western Asia,145
+512,2021,Oman,OMN,88,38930.9938379577,,world,world,1
+516,2021,Namibia,NAM,105,10785.0834347808,,continent,Africa,932
+516,2021,Namibia,NAM,105,10785.0834347808,,region,Africa,2
+516,2021,Namibia,NAM,105,10785.0834347808,,subregion,Southern Africa,18
+516,2021,Namibia,NAM,105,10785.0834347808,,world,world,1
+524,2021,Nepal,NPL,80,4461.46878467812,,continent,Asia,931
+524,2021,Nepal,NPL,80,4461.46878467812,,region,Asia,142
+524,2021,Nepal,NPL,80,4461.46878467812,,subregion,Southern Asia,34
+524,2021,Nepal,NPL,80,4461.46878467812,,world,world,1
+528,2021,Netherlands,NLD,24,67693.3264311302,25.7,continent,Europe,933
+528,2021,Netherlands,NLD,24,67693.3264311302,25.7,region,Europe,150
+528,2021,Netherlands,NLD,24,67693.3264311302,25.7,subregion,Western Europe,155
+528,2021,Netherlands,NLD,24,67693.3264311302,25.7,world,world,1
+554,2021,New Zealand,NZL,57,48194.0410599758,,continent,Oceania,936
+554,2021,New Zealand,NZL,57,48194.0410599758,,region,Oceania,9
+554,2021,New Zealand,NZL,57,48194.0410599758,,subregion,Australia and New Zealand,53
+554,2021,New Zealand,NZL,57,48194.0410599758,,world,world,1
+558,2021,Nicaragua,NIC,119,6873.73117748359,,continent,North America,930
+558,2021,Nicaragua,NIC,119,6873.73117748359,,region,Americas,19
+558,2021,Nicaragua,NIC,119,6873.73117748359,,subregion,Central America,13
+558,2021,Nicaragua,NIC,119,6873.73117748359,,world,world,1
+562,2021,Niger,NER,125,1538.4707469366,32.9,continent,Africa,932
+562,2021,Niger,NER,125,1538.4707469366,32.9,region,Africa,2
+562,2021,Niger,NER,125,1538.4707469366,32.9,subregion,Western Africa,11
+562,2021,Niger,NER,125,1538.4707469366,32.9,world,world,1
+566,2021,Nigeria,NGA,142,5623.66407810605,,continent,Africa,932
+566,2021,Nigeria,NGA,142,5623.66407810605,,region,Africa,2
+566,2021,Nigeria,NGA,142,5623.66407810605,,subregion,Western Africa,11
+566,2021,Nigeria,NGA,142,5623.66407810605,,world,world,1
+578,2021,Norway,NOR,40,89209.1397773603,,continent,Europe,933
+578,2021,Norway,NOR,40,89209.1397773603,,region,Europe,150
+578,2021,Norway,NOR,40,89209.1397773603,,subregion,Northern Europe,154
+578,2021,Norway,NOR,40,89209.1397773603,,world,world,1
+586,2021,Pakistan,PAK,94,5554.58570149625,,continent,Asia,931
+586,2021,Pakistan,PAK,94,5554.58570149625,,region,Asia,142
+586,2021,Pakistan,PAK,94,5554.58570149625,,subregion,Southern Asia,34
+586,2021,Pakistan,PAK,94,5554.58570149625,,world,world,1
+591,2021,Panama,PAN,73,30895.8322499594,50.9,continent,North America,930
+591,2021,Panama,PAN,73,30895.8322499594,50.9,region,Americas,19
+591,2021,Panama,PAN,73,30895.8322499594,50.9,subregion,Central America,13
+591,2021,Panama,PAN,73,30895.8322499594,50.9,world,world,1
+598,2021,Papua New Guinea,PNG,131,3992.94122087936,,continent,Oceania,936
+598,2021,Papua New Guinea,PNG,131,3992.94122087936,,region,Oceania,9
+598,2021,Papua New Guinea,PNG,131,3992.94122087936,,subregion,Melanesia,54
+598,2021,Papua New Guinea,PNG,131,3992.94122087936,,world,world,1
+600,2021,Paraguay,PRY,92,15361.0847494949,42.9,continent,South America,934
+600,2021,Paraguay,PRY,92,15361.0847494949,42.9,region,Americas,19
+600,2021,Paraguay,PRY,92,15361.0847494949,42.9,subregion,South America,5
+600,2021,Paraguay,PRY,92,15361.0847494949,42.9,world,world,1
+604,2021,Peru,PER,99,15028.6277005836,40.1,continent,South America,934
+604,2021,Peru,PER,99,15028.6277005836,40.1,region,Americas,19
+604,2021,Peru,PER,99,15028.6277005836,40.1,subregion,South America,5
+604,2021,Peru,PER,99,15028.6277005836,40.1,world,world,1
+608,2021,Philippines,PHL,32,8797.16871184371,40.7,continent,Asia,931
+608,2021,Philippines,PHL,32,8797.16871184371,40.7,region,Asia,142
+608,2021,Philippines,PHL,32,8797.16871184371,40.7,subregion,South-eastern Asia,35
+608,2021,Philippines,PHL,32,8797.16871184371,40.7,world,world,1
+616,2021,Poland,POL,30,40462.6887122126,28.5,continent,Europe,933
+616,2021,Poland,POL,30,40462.6887122126,28.5,region,Europe,150
+616,2021,Poland,POL,30,40462.6887122126,28.5,subregion,Eastern Europe,151
+616,2021,Poland,POL,30,40462.6887122126,28.5,world,world,1
+620,2021,Portugal,PRT,42,38783.0115625218,34.6,continent,Europe,933
+620,2021,Portugal,PRT,42,38783.0115625218,34.6,region,Europe,150
+620,2021,Portugal,PRT,42,38783.0115625218,34.6,subregion,Southern Europe,39
+620,2021,Portugal,PRT,42,38783.0115625218,34.6,world,world,1
+634,2021,Qatar,QAT,84,108865.137778278,,continent,Asia,931
+634,2021,Qatar,QAT,84,108865.137778278,,region,Asia,142
+634,2021,Qatar,QAT,84,108865.137778278,,subregion,Western Asia,145
+634,2021,Qatar,QAT,84,108865.137778278,,world,world,1
+642,2021,Romania,ROU,25,37969.1538938334,33.9,continent,Europe,933
+642,2021,Romania,ROU,25,37969.1538938334,33.9,region,Europe,150
+642,2021,Romania,ROU,25,37969.1538938334,33.9,subregion,Eastern Europe,151
+642,2021,Romania,ROU,25,37969.1538938334,33.9,world,world,1
+643,2021,Russia,RUS,49,38938.49609375,35.1,continent,Europe,933
+643,2021,Russia,RUS,49,38938.49609375,35.1,region,Europe,150
+643,2021,Russia,RUS,49,38938.49609375,35.1,subregion,Eastern Europe,151
+643,2021,Russia,RUS,49,38938.49609375,35.1,world,world,1
+646,2021,Rwanda,RWA,107,2709.45782999207,,continent,Africa,932
+646,2021,Rwanda,RWA,107,2709.45782999207,,region,Africa,2
+646,2021,Rwanda,RWA,107,2709.45782999207,,subregion,Eastern Africa,14
+646,2021,Rwanda,RWA,107,2709.45782999207,,world,world,1
+682,2021,Saudi Arabia,SAU,35,47754.4314528841,,continent,Asia,931
+682,2021,Saudi Arabia,SAU,35,47754.4314528841,,region,Asia,142
+682,2021,Saudi Arabia,SAU,35,47754.4314528841,,subregion,Western Asia,145
+682,2021,Saudi Arabia,SAU,35,47754.4314528841,,world,world,1
+686,2021,Senegal,SEN,102,4258.78628355107,36.2,continent,Africa,932
+686,2021,Senegal,SEN,102,4258.78628355107,36.2,region,Africa,2
+686,2021,Senegal,SEN,102,4258.78628355107,36.2,subregion,Western Africa,11
+686,2021,Senegal,SEN,102,4258.78628355107,36.2,world,world,1
+688,2021,Serbia,SRB,37,22574.2304722328,33.1,continent,Europe,933
+688,2021,Serbia,SRB,37,22574.2304722328,33.1,region,Europe,150
+688,2021,Serbia,SRB,37,22574.2304722328,33.1,subregion,Southern Europe,39
+688,2021,Serbia,SRB,37,22574.2304722328,33.1,world,world,1
+702,2021,Singapore,SGP,2,131864.092335522,,continent,Asia,931
+702,2021,Singapore,SGP,2,131864.092335522,,region,Asia,142
+702,2021,Singapore,SGP,2,131864.092335522,,subregion,South-eastern Asia,35
+702,2021,Singapore,SGP,2,131864.092335522,,world,world,1
+703,2021,Slovakia,SVK,20,37790.7874369526,24.1,continent,Europe,933
+703,2021,Slovakia,SVK,20,37790.7874369526,24.1,region,Europe,150
+703,2021,Slovakia,SVK,20,37790.7874369526,24.1,subregion,Eastern Europe,151
+703,2021,Slovakia,SVK,20,37790.7874369526,24.1,world,world,1
+704,2021,Vietnam,VNM,52,12230.2596221026,,continent,Asia,931
+704,2021,Vietnam,VNM,52,12230.2596221026,,region,Asia,142
+704,2021,Vietnam,VNM,52,12230.2596221026,,subregion,South-eastern Asia,35
+704,2021,Vietnam,VNM,52,12230.2596221026,,world,world,1
+705,2021,Slovenia,SVN,11,46502.0978938704,24.3,continent,Europe,933
+705,2021,Slovenia,SVN,11,46502.0978938704,24.3,region,Europe,150
+705,2021,Slovenia,SVN,11,46502.0978938704,24.3,subregion,Southern Europe,39
+705,2021,Slovenia,SVN,11,46502.0978938704,24.3,world,world,1
+710,2021,South Africa,ZAF,60,14172.5442514653,,continent,Africa,932
+710,2021,South Africa,ZAF,60,14172.5442514653,,region,Africa,2
+710,2021,South Africa,ZAF,60,14172.5442514653,,subregion,Southern Africa,18
+710,2021,South Africa,ZAF,60,14172.5442514653,,world,world,1
+716,2021,Zimbabwe,ZWE,112,3276.26775276077,,continent,Africa,932
+716,2021,Zimbabwe,ZWE,112,3276.26775276077,,region,Africa,2
+716,2021,Zimbabwe,ZWE,112,3276.26775276077,,subregion,Eastern Africa,14
+716,2021,Zimbabwe,ZWE,112,3276.26775276077,,world,world,1
+724,2021,Spain,ESP,36,43620.6040614123,33.9,continent,Europe,933
+724,2021,Spain,ESP,36,43620.6040614123,33.9,region,Europe,150
+724,2021,Spain,ESP,36,43620.6040614123,33.9,subregion,Southern Europe,39
+724,2021,Spain,ESP,36,43620.6040614123,33.9,world,world,1
+729,2021,Sudan,SDN,134,3420.45190429688,,continent,Africa,932
+729,2021,Sudan,SDN,134,3420.45190429688,,region,Africa,2
+729,2021,Sudan,SDN,134,3420.45190429688,,subregion,Northern Africa,15
+729,2021,Sudan,SDN,134,3420.45190429688,,world,world,1
+748,2021,Eswatini,SWZ,53,10202.5096087228,,continent,Africa,932
+748,2021,Eswatini,SWZ,53,10202.5096087228,,region,Africa,2
+748,2021,Eswatini,SWZ,53,10202.5096087228,,subregion,Southern Africa,18
+748,2021,Eswatini,SWZ,53,10202.5096087228,,world,world,1
+752,2021,Sweden,SWE,10,63375.0446462412,29.8,continent,Europe,933
+752,2021,Sweden,SWE,10,63375.0446462412,29.8,region,Europe,150
+752,2021,Sweden,SWE,10,63375.0446462412,29.8,subregion,Northern Europe,154
+752,2021,Sweden,SWE,10,63375.0446462412,29.8,world,world,1
+756,2021,Switzerland,CHE,3,81603.2073073193,,continent,Europe,933
+756,2021,Switzerland,CHE,3,81603.2073073193,,region,Europe,150
+756,2021,Switzerland,CHE,3,81603.2073073193,,subregion,Western Europe,155
+756,2021,Switzerland,CHE,3,81603.2073073193,,world,world,1
+762,2021,Tajikistan,TJK,118,4074.56022293416,,continent,Asia,931
+762,2021,Tajikistan,TJK,118,4074.56022293416,,region,Asia,142
+762,2021,Tajikistan,TJK,118,4074.56022293416,,subregion,Central Asia,143
+762,2021,Tajikistan,TJK,118,4074.56022293416,,world,world,1
+764,2021,Thailand,THA,26,20280.9337147138,34.9,continent,Asia,931
+764,2021,Thailand,THA,26,20280.9337147138,34.9,region,Asia,142
+764,2021,Thailand,THA,26,20280.9337147138,34.9,subregion,South-eastern Asia,35
+764,2021,Thailand,THA,26,20280.9337147138,34.9,world,world,1
+768,2021,Togo,TGO,124,2646.82803893719,37.9,continent,Africa,932
+768,2021,Togo,TGO,124,2646.82803893719,37.9,region,Africa,2
+768,2021,Togo,TGO,124,2646.82803893719,37.9,subregion,Western Africa,11
+768,2021,Togo,TGO,124,2646.82803893719,37.9,world,world,1
+780,2021,Trinidad and Tobago,TTO,64,27631.6778146419,,continent,North America,930
+780,2021,Trinidad and Tobago,TTO,64,27631.6778146419,,region,Americas,19
+780,2021,Trinidad and Tobago,TTO,64,27631.6778146419,,subregion,Caribbean,29
+780,2021,Trinidad and Tobago,TTO,64,27631.6778146419,,world,world,1
+784,2021,United Arab Emirates,ARE,61,68912.5455452314,,continent,Asia,931
+784,2021,United Arab Emirates,ARE,61,68912.5455452314,,region,Asia,142
+784,2021,United Arab Emirates,ARE,61,68912.5455452314,,subregion,Western Asia,145
+784,2021,United Arab Emirates,ARE,61,68912.5455452314,,world,world,1
+788,2021,Tunisia,TUN,50,12159.0545314745,33.7,continent,Africa,932
+788,2021,Tunisia,TUN,50,12159.0545314745,33.7,region,Africa,2
+788,2021,Tunisia,TUN,50,12159.0545314745,33.7,subregion,Northern Africa,15
+788,2021,Tunisia,TUN,50,12159.0545314745,33.7,world,world,1
+792,2021,Turkiye,TUR,45,31637.5305444616,44.4,continent,Asia,931
+792,2021,Turkiye,TUR,45,31637.5305444616,44.4,region,Asia,142
+792,2021,Turkiye,TUR,45,31637.5305444616,44.4,subregion,Western Asia,145
+792,2021,Turkiye,TUR,45,31637.5305444616,44.4,world,world,1
+795,2021,Turkmenistan,TKM,132,,,continent,Asia,931
+795,2021,Turkmenistan,TKM,132,,,region,Asia,142
+795,2021,Turkmenistan,TKM,132,,,subregion,Central Asia,143
+795,2021,Turkmenistan,TKM,132,,,world,world,1
+800,2021,Uganda,UGA,91,2688.26683541475,,continent,Africa,932
+800,2021,Uganda,UGA,91,2688.26683541475,,region,Africa,2
+800,2021,Uganda,UGA,91,2688.26683541475,,subregion,Eastern Africa,14
+800,2021,Uganda,UGA,91,2688.26683541475,,world,world,1
+804,2021,Ukraine,UKR,47,18040.345703125,,continent,Europe,933
+804,2021,Ukraine,UKR,47,18040.345703125,,region,Europe,150
+804,2021,Ukraine,UKR,47,18040.345703125,,subregion,Eastern Europe,151
+804,2021,Ukraine,UKR,47,18040.345703125,,world,world,1
+807,2021,North Macedonia,MKD,56,22371.4967909767,,continent,Europe,933
+807,2021,North Macedonia,MKD,56,22371.4967909767,,region,Europe,150
+807,2021,North Macedonia,MKD,56,22371.4967909767,,subregion,Southern Europe,39
+807,2021,North Macedonia,MKD,56,22371.4967909767,,world,world,1
+818,2021,Egypt,EGY,71,15820.6713809388,,continent,Africa,932
+818,2021,Egypt,EGY,71,15820.6713809388,,region,Africa,2
+818,2021,Egypt,EGY,71,15820.6713809388,,subregion,Northern Africa,15
+818,2021,Egypt,EGY,71,15820.6713809388,,world,world,1
+826,2021,United Kingdom,GBR,8,52841.6345850474,32.4,continent,Europe,933
+826,2021,United Kingdom,GBR,8,52841.6345850474,32.4,region,Europe,150
+826,2021,United Kingdom,GBR,8,52841.6345850474,32.4,subregion,Northern Europe,154
+826,2021,United Kingdom,GBR,8,52841.6345850474,32.4,world,world,1
+834,2021,Tanzania,TZA,121,3451.4482421875,,continent,Africa,932
+834,2021,Tanzania,TZA,121,3451.4482421875,,region,Africa,2
+834,2021,Tanzania,TZA,121,3451.4482421875,,subregion,Eastern Africa,14
+834,2021,Tanzania,TZA,121,3451.4482421875,,world,world,1
+840,2021,United States of America,USA,12,71055.87619383,39.7,continent,North America,930
+840,2021,United States of America,USA,12,71055.87619383,39.7,region,Americas,19
+840,2021,United States of America,USA,12,71055.87619383,39.7,subregion,Northern America,21
+840,2021,United States of America,USA,12,71055.87619383,39.7,world,world,1
+854,2021,Burkina Faso,BFA,111,2467.74060013055,37.4,continent,Africa,932
+854,2021,Burkina Faso,BFA,111,2467.74060013055,37.4,region,Africa,2
+854,2021,Burkina Faso,BFA,111,2467.74060013055,37.4,subregion,Western Africa,11
+854,2021,Burkina Faso,BFA,111,2467.74060013055,37.4,world,world,1
+858,2021,Uruguay,URY,59,29187.42867517,40.8,continent,South America,934
+858,2021,Uruguay,URY,59,29187.42867517,40.8,region,Americas,19
+858,2021,Uruguay,URY,59,29187.42867517,40.8,subregion,South America,5
+858,2021,Uruguay,URY,59,29187.42867517,40.8,world,world,1
+860,2021,Uzbekistan,UZB,76,8162.19581678151,,continent,Asia,931
+860,2021,Uzbekistan,UZB,76,8162.19581678151,,region,Asia,142
+860,2021,Uzbekistan,UZB,76,8162.19581678151,,subregion,Central Asia,143
+860,2021,Uzbekistan,UZB,76,8162.19581678151,,world,world,1
+862,2021,Venezuela,VEN,127,,,continent,South America,934
+862,2021,Venezuela,VEN,127,,,region,Americas,19
+862,2021,Venezuela,VEN,127,,,subregion,South America,5
+862,2021,Venezuela,VEN,127,,,world,world,1
+887,2021,Yemen,YEM,139,,,continent,Asia,931
+887,2021,Yemen,YEM,139,,,region,Asia,142
+887,2021,Yemen,YEM,139,,,subregion,Western Asia,145
+887,2021,Yemen,YEM,139,,,world,world,1
+894,2021,Zambia,ZMB,100,3526.50741804083,,continent,Africa,932
+894,2021,Zambia,ZMB,100,3526.50741804083,,region,Africa,2
+894,2021,Zambia,ZMB,100,3526.50741804083,,subregion,Eastern Africa,14
+894,2021,Zambia,ZMB,100,3526.50741804083,,world,world,1

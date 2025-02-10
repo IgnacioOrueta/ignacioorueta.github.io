@@ -1,0 +1,711 @@
+---
+title: "Market analysis for the pharmaceutical retail industry"
+author: "Candidate Number: 46191"
+date: "15/01/2025"
+output: html_document
+---
+
+```{r setup, message=FALSE, warning=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+
+**Prompt:** [3]
+
+**ChatGPT/AI disclosure statement:** 
+
+I used Copilot as a coding assistant for troubleshooting syntax coding problems, in the cleaning process to figure out the best Regex expressions and in adding options for my plots. 
+
+```{r libraries_path, message=FALSE, warning=FALSE}
+# Libraries used
+library(readxl)
+library(RSelenium)
+library(rvest)
+library(dplyr)
+library(tidygeocoder)
+library(sf)
+library(ggplot2)
+library(scales)
+library(olctools)
+
+root <- "C:/Users/iorueta/PC IGNACIO/0.LSE/MPA DSPP/1. Autumm Term 2024/MY472 Data for Data Scientists/Problem Sets/PS3 (50%)/my472-at24-final-IgnacioOrueta"
+ddir <- "C:/Users/iorueta/PC IGNACIO/0.LSE/MPA DSPP/1. Autumm Term 2024/MY472 Data for Data Scientists/Problem Sets/PS3 (50%)/my472-at24-final-IgnacioOrueta/data"
+odir <- "C:/Users/iorueta/PC IGNACIO/0.LSE/MPA DSPP/1. Autumm Term 2024/MY472 Data for Data Scientists/Problem Sets/PS3 (50%)/my472-at24-final-IgnacioOrueta/outputs"
+
+## NOTE: PLEASE REPLACE "YOUR_PATH" WITH THE PATH TO THE LOCATION ON YOUR COMPUTER 
+##       WHERE YOU WOULD LIKE TO STORE ALL YOUR WORK FOR THESE EXERCISES!
+#root <- "YOUR_PATH" 
+#ddir <- "YOUR_PATH/data"
+#odir <- "YOUR_PATH/outputs"
+
+if(!dir.exists(root)) { dir.create(root) }
+if(!dir.exists(ddir)) { dir.create(ddir) }
+if(!dir.exists(odir)) { dir.create(odir) }
+
+```
+
+## 1. Introduction
+
+In today's competitive retail markets, the location of businesses is crucial for meeting companies' annual growth targets. The objective of this project is to retrieve useful data to elaborate a market analysis to assist a pharmacy company on selecting the best locations in London for open new stores. In order to choose these places, the analysis provides three key insights for a retail business to succeed. These are: 1) The Potential demand that they will face, 2) The competition intensity of the surrounding areas, and 3) The average rent costs of the neighbourhood. The data is retrieved from multiple sources, such as the Transport for London (TfL) website, Google Maps, and Rightmove, the UK's largest online real estate property portal.
+
+By analyzing the above, this report provides invaluable guide for strategic decision-making and the pursue of long-term success of new pharmacy stores. Additionally, it offers a comprehensive view of the market dynamics in the city, which is an indispensable tool for every company's growth strategy, regardless their industry. In fact, the written code allows for changing the industry easily by selecting the business below:
+
+```{r choosing_business}
+business <- 'pharmacy' 
+```
+
+## 2. Retrieving secondary data
+
+Considering secondary data, I retrieved the names of all London's boroughs, allowing me to create a list for searching pharmacies stores in each borough. This was made by scraping Wikipedia's webpage: https://en.wikipedia.org/wiki/List_of_London_boroughs.
+
+Note: I change the position of sections 2 and 3. This allow me to run my code correctly.
+
+```{r Boroughs, warning=FALSE}
+# Scraping London Boroughs from Wikipedia
+url_boroughs <-'https://en.wikipedia.org/wiki/List_of_London_boroughs'
+
+html <- read_html(url_boroughs)
+data <- html %>% html_nodes(xpath = '//*[@id="mw-content-text"]/div[1]/table[1]')
+Sys.sleep(1)
+ 
+# Extract the table data
+data_list <- data %>% html_table() # It returns me a list.
+ 
+boroughs <- data_list[[1]]
+boroughs <- boroughs['Borough'] # Keep only Borough
+boroughs$Borough <- gsub("\\[.*?\\]", "", boroughs$Borough) # Extract characters inside brackets. 
+boroughs_list <- as.list(boroughs$Borough) # Saving df in a list for the loop below.
+
+# Saving Boroughs as CSV
+write.csv(boroughs_list, file.path(ddir, "boroughs.csv"), row.names = FALSE)
+
+```
+
+## 3. Retrieving primary data
+
+### 1. Potential demand data
+First, I collect data on the number of entries and exits of each Transport for London's station. This accounts for the potential demand of clients in the areas nearby each station, based on foot traffic. Tube entries and exits are a good estimtaion of foot traffic in London, especially in central areas, where there is a large transient population and where there is a high tax on other ways of transport, such as cars.
+
+To achieve this, I downloaded the data directly from the TfL website: https://crowding.data.tfl.gov.uk
+
+```{r TfL data, message=FALSE}
+# Network statistics for 2023
+url_2023 <- 'https://crowding.data.tfl.gov.uk/Annual%20Station%20Counts/2023/AC2023_AnnualisedEntryExit.xlsx'
+
+# Entry/Exit counts for 2023
+temp_file <- tempfile(fileext = ".xlsx") # Telling it's .xlsx
+download.file(url_2023, temp_file, mode = "wb") # Downloading
+tfl_2023 <- read_excel(temp_file, sheet = "AC23", skip=6) # Importing it
+```
+
+### 2. Competition data
+Then, I scrape Google Maps to look for all pharmacies in each London Borough. This step includes collecting their names, addresses, georeferences and review scores. This is useful to assess the level of competition within each area of the city.
+
+```{r scrape_Google_Maps, eval=FALSE, message=FALSE, warning=FALSE}
+# Note: I wrote eval=FALSE to avoid running all the scrape again when knitting.
+
+# Storing info in lists
+maps_borough_list <- list()
+maps_names_list <- list() 
+maps_stars_list <- list() 
+maps_plus_code_list <- list() 
+maps_plus_code_list2 <- list() 
+maps_address_list <- list() 
+
+# RSelenium server and browser
+rD <- rsDriver(browser=c("firefox"), verbose = F, port = netstat::free_port(random = TRUE), chromever = NULL) 
+remDr <- rD$client
+
+# Opening Google Maps URL
+remDr$navigate('https://www.google.com/maps')
+
+Sys.sleep(1)
+
+# Clicking 'Accept all' button (is there is any)
+try({
+  accept_all <- remDr$findElement(using = 'xpath', value = '/html/body/c-wiz/div/div/div/div[2]/div[1]/div[3]/div[1]/div[1]/form[2]') # I found this by right-clicking -> copy -> xpath
+  accept_all$clickElement()
+  })
+Sys.sleep(1) # Wait for the page to load
+
+search_box <- remDr$findElement(using = 'id', value = 'searchboxinput') # Find the search box element
+
+search_box$clickElement() # Click on the search box
+
+# Note: The loop search for all pharmacies in each borough of interest. 
+
+###########################
+# Loop through all stations
+###########################
+
+for (borough in boroughs_list){
+
+  search_borough = borough # First search for the borough to zoom in the map 
+  search_box$sendKeysToElement(list(search_borough, key = "enter")) # Click
+  Sys.sleep(2) # Waiting to load map
+  search_box$clearElement() # Deleting the text in the search box (if any)
+  
+  search_maps = paste(business,'near', borough) # Then, searching for the businesses in the location 
+  search_box$sendKeysToElement(list(search_maps, key = "enter")) # Click
+  Sys.sleep(1)
+
+  # Scrolling down to display all elements
+  page_source <- remDr$getPageSource()[[1]] # Getting page source
+  
+  repeat {
+    # Current number of businesses displayed
+    businesses <- remDr$findElements(using = 'class', value = 'hfpxzc') 
+    Sys.sleep(1)
+  
+    # Scrolling to the last business element
+    remDr$executeScript("arguments[0].scrollIntoView();", list(businesses[[length(businesses)]]))
+    Sys.sleep(2) # Waiting to load new businesses
+    
+    # If new_page_source is equal to the last page_source, then stop scrolling. If not, then continue the loop.
+    new_page_source <- remDr$getPageSource()[[1]]
+    if (new_page_source == page_source) {
+      break
+    }
+    page_source <- new_page_source
+    
+    Sys.sleep(1)
+  }
+  
+  Sys.sleep(1)
+  
+  # Finding all elements with the class name 'hfpxzc' (These are the business shown)
+  businesses <- remDr$findElements(using = "css selector", value = ".hfpxzc")
+
+  #############################################
+  ## Loop through all pharmacies in each search
+  #############################################
+  
+  # Scrolling to the last business element
+  remDr$executeScript("arguments[0].scrollIntoView();", list(businesses[[length(businesses)]])) # If I don't do this, the last business is not scraped.
+      
+  # Loop through the found businesses
+  for (i in seq_along(businesses)) {
+  
+    Sys.sleep(1)
+    
+    # Find the business name element
+    businesses[[i]]$clickElement()
+    Sys.sleep(1)
+    
+    # 0) Borough name
+    maps_borough_list <- append(maps_borough_list, borough)
+
+    # 1) Business name
+    name <- remDr$findElement(using = 'class', value ='DUwDvf') # Find name
+    Sys.sleep(1)
+  
+    name_value <- name$getElementText()[[1]] # Extract name
+    maps_names_list <- append(maps_names_list, name_value) # Adding result to the list
+    Sys.sleep(1)
+  
+    # 2) Number of stars
+    tryCatch({
+      stars <- remDr$findElement(using = 'class', value = 'F7nice') # Find stars
+      Sys.sleep(1)
+    
+      stars_value <- stars$getElementText()[[1]] # Extract stars
+      maps_stars_list <- append(maps_stars_list, stars_value) # Adding result to the list
+      
+           }, error = function(e) { # If it's not found, then append a "."
+      maps_stars_list <<- append(maps_stars_list, ".")
+    })
+      Sys.sleep(1)
+      
+    # 3) Plus codes
+    elements <- remDr$findElements(using = 'class', value = 'rogA2c')
+    
+    tryCatch({
+    plus_code <- elements[[length(elements)]] # last element with class='rogA2c' is the Plus code
+    Sys.sleep(1)
+   
+    plus_code_value <- plus_code$getElementText()[[1]] # Extract plus code 
+    maps_plus_code_list <- append(maps_plus_code_list, plus_code_value) # Adding result to the list
+            }, error = function(e){ # If it's not found, then append a "."
+               maps_plus_code_list <<- append(maps_plus_code_list, ".") 
+            })
+    Sys.sleep(1)
+
+    tryCatch({
+    plus_code2 <- elements[[length(elements)-1]] # Sometimes is the penultimate element. I need to store it too.
+
+    Sys.sleep(1)
+   
+    plus_code_value2 <- plus_code2$getElementText()[[1]] # Extract plus code
+    maps_plus_code_list2 <- append(maps_plus_code_list2, plus_code_value2) # Adding result to the list
+            }, error = function(e){ # If it's not found, then append a "."
+               maps_plus_code_list2 <<- append(maps_plus_code_list2, ".") 
+            })
+    Sys.sleep(1)
+  
+    # 4) Address 
+    tryCatch({
+    address <- remDr$findElement(using = 'class', value = 'rogA2c') # Find address
+    
+    Sys.sleep(1)
+    
+    address_value <- address$getElementText()[[1]] # Extract address
+    maps_address_list <- append(maps_address_list, address_value) # Adding result to the list
+
+            }, error = function(e) { # If it's not found, then append a "."
+      maps_address_list <<- append(maps_address_list,".")
+    })
+    Sys.sleep(1)
+  }
+}
+
+remDr$close() # Closing the RDriver
+
+```
+
+### 3. Rent cost data
+
+Finally, I collect data on the monthly rent cost per square foot for available commercial spaces suitable for retail businesses in each area from Rightmove. This is essential for understanding the rental market, their prices, and the availability of spaces near each station. Here, I collect information from each station on a radius of 1/4 mile, to look for places that are within a 5 minute walk from each station. This approach is important because the project's aim is to analyze foot traffic demand near train stations. Thus, expanding the radius would result in inaccurate estimations of potential demand, which I obtained from the TfL dataset.
+
+```{r rent prices, eval=FALSE}
+# Note: I wrote eval=FALSE to avoid running all the scrape again when knitting.
+
+## Here, I look for retail rent prices near tube stations to see average costs of rent.
+# Storing info in lists
+rent_station_list <- list()
+rent_address_list <- list() 
+rent_price_list <- list() 
+rent_sq_list <- list()
+rent_elements_list <- list()
+
+# RSelenium server and browser
+rD <- rsDriver(browser=c("firefox"), verbose = F, port = netstat::free_port(random = TRUE), chromever = NULL) 
+remDr <- rD$client
+
+# Open the RightMove URL
+remDr$navigate('https://www.rightmove.co.uk/')
+
+Sys.sleep(5) # Giving more seconds to wait for the accept button to appear
+
+# Find 'Accept all' button (is there is any)
+try({ 
+  accept_all <- remDr$findElement(using = 'xpath', value = '//*[@id="onetrust-accept-btn-handler"]')
+  accept_all$clickElement()
+  })
+Sys.sleep(1) # Wait for the page to load
+
+search_box <- remDr$findElement(using = 'xpath', value = '//*[@id="ta_searchInput"]') # Find the search box element
+
+search_box$clickElement() # Click on the search box
+Sys.sleep(1)
+
+####################################################################################
+# These lines are only for the first element in the list, then the scrape is easier
+
+first_station = stations_list[[1]][1]
+
+# Writing in the searchbox and clicking it 
+search_box$sendKeysToElement(list(first_station, key = "enter")) # Enter 
+Sys.sleep(2)
+  
+# Clicking in the first result
+search_box$sendKeysToElement(list(key = "down_arrow")) # Click down arrow
+Sys.sleep(1)
+search_box$sendKeysToElement(list('', key = "enter")) # Enter
+Sys.sleep(3)
+  
+# Clicking on 'To rent' box  
+to_rent_box <- remDr$findElement(using = 'css selector', value = 'button.dsrm_button:nth-child(2)')
+to_rent_box$clickElement()
+  
+Sys.sleep(1)
+
+# Selecting commercial properties
+dropdown_menu <-remDr$findElement(using = 'xpath', value = '//*[@id="propertyTypes"]')
+dropdown_menu$clickElement()
+  
+Sys.sleep(1)
+  
+commercial_prop <- remDr$findElement(using = 'xpath', value = '/html/body/div[1]/main/main/div/div/div/section/form/fieldset[3]/div/div/select/option[6]')
+commercial_prop$clickElement()
+  
+Sys.sleep(1)
+
+# Clicking on the search button 
+search_button <- remDr$findElement(using = 'xpath', value = '/html/body/div[1]/main/main/div/div/div[1]/section/form/fieldset[6]/button/span')
+search_button$clickElement()  
+
+Sys.sleep(3)
+  
+# Filtering by property type (Only retails)
+property_type <- remDr$findElement(using = 'xpath', value = '/html/body/div[1]/div[1]/form/div/button[1]/div/span[1]')
+property_type$clickElement()  
+    
+Sys.sleep(3)
+  
+# Selecting only useful retails and shops
+retails = list('retail_shopping_centre','retail_parks','retail_high_street','retail_out_parks','retail_shops')
+retail_numbers = list(2,3,4,5,11)
+    
+for (i in seq_along(retails)) {
+  retail_number <- retail_numbers[[i]]
+  xpath_value <- paste('/html/body/div[1]/div[1]/div[2]/div[1]/div[1]/div[2]/div/div[4]/div[', retail_number, ']')
+  retail_element <- remDr$findElement(using = 'xpath', value = xpath_value)
+  retail_element$clickElement()  
+  Sys.sleep(1)      
+}
+  
+# Clicking on 'done' button
+done_button <- remDr$findElement(using = 'xpath', value = '/html/body/div[1]/div[1]/div[2]/div[3]/div/div[2]/button')
+done_button$clickElement()  
+  
+Sys.sleep(1)
+
+# Selecting 1/4 miles radius instead of 1/2 miles radius 
+miles <- remDr$findElement(using = 'xpath', value = '/html/body/div[1]/div[1]/form/div/div[1]/div[3]/div/select/option[2]')
+Sys.sleep(1)
+miles$clickElement()  
+Sys.sleep(1)
+  
+# All properties within each search
+properties <- remDr$findElements(using = "css selector", value = ".l-searchResult.is-list")  # Finding all proprerties within each search
+Sys.sleep(1)
+
+# Loop through each property
+for (property in properties) {
+  
+  # I will extract everything for each property and then I will separate price, address and square ft in the cleaning process
+  
+  # All information together: price, sq ft and address
+  element <- property$findElement(using = "css selector", value = ".propertyCard-address.property-card-updates")
+  Sys.sleep(1)
+  
+  element_text <- element$getElementText()
+  Sys.sleep(1)
+  
+  rent_elements_list <- append(rent_elements_list, element_text[[1]]) # Saving information
+  
+  # Station - appending all stations that I searched
+  rent_station_list <- append(rent_station_list, first_station) # Adding result to the list
+}
+
+
+##################################################################################
+# Clicking on the "clear" bottom and initiating the loop for the remaining stations
+  
+for (station in stations_list[-1]){ # Without considering the first element
+  
+  # Clicking "clear" bottom an initiating another search
+  clear_button <- remDr$findElement(using = 'xpath', value = '/html/body/div[1]/div[1]/form/div/div[1]/div[1]/div/div')
+  Sys.sleep(1)
+  clear_button$clickElement() 
+  Sys.sleep(1)
+
+  # Searchbox
+  search_box <- remDr$findElement(using = 'xpath', value = '/html/body/div[1]/div[1]/form/div/div[1]/div[1]/div/input
+  ') # Find the searchbox
+  Sys.sleep(1)
+  search_box$sendKeysToElement(list(station)) # Writing 
+  Sys.sleep(3)
+    
+  # Clicking in the first result
+  search_box$sendKeysToElement(list(key = "down_arrow")) # Down arrow
+  Sys.sleep(1)
+  search_box$sendKeysToElement(list('', key = "enter")) # Enter
+  Sys.sleep(3)
+  
+  # Checking if retail buttons are clicked 
+  retails = list('retail_shopping_centre','retail_parks','retail_high_street','retail_out_parks','retail_shops')
+  retail_numbers = list(2,3,4,5,11)
+    
+  for (i in seq_along(retails)) {
+    retail_number <- retail_numbers[[i]]
+    xpath_value <- paste('/html/body/div[1]/div[1]/div[2]/div[1]/div[1]/div[2]/div/div[4]/div[', retail_number, ']')
+    retail_element <- remDr$findElement(using = 'xpath', value = xpath_value)
+
+    Sys.sleep(1)
+
+    # Checking if it has the class 'propertyType-option--selected' (meaning is clicked)
+    is_clicked <- grepl("propertyType-option--selected", retail_element$getElementAttribute("class")[[1]])
+    
+    # If the button is not clicked, press it.
+    if (!is_clicked) {
+      retail_element$clickElement()
+    }
+    Sys.sleep(1)
+  }
+        
+  # Clicking on 'done' button
+  done_button <- remDr$findElement(using = 'xpath', value = '/html/body/div[1]/div[1]/div[2]/div[3]/div/div[2]/button')
+  done_button$clickElement()  
+      
+  Sys.sleep(1)
+      
+  # Selecting 1/4 miles radius instead of 1/2 miles radius
+  miles <- remDr$findElement(using = 'xpath', value = '/html/body/div[1]/div[1]/form/div/div[1]/div[3]/div/select/option[2]')
+  Sys.sleep(1)
+  miles$clickElement()  
+  Sys.sleep(1)
+    
+  # All properties within each search
+  properties <- remDr$findElements(using = "css selector", value = ".l-searchResult.is-list")  # Finding all proprerties within search
+  Sys.sleep(1)
+
+  # Loop through each property
+  for (property in properties) {
+
+    # All information together: price, sq ft and address
+    element <- property$findElement(using = "css selector", value = ".propertyCard-address.property-card-updates")
+    Sys.sleep(1)
+    
+    element_text <- element$getElementText()
+    Sys.sleep(1)
+    
+    rent_elements_list <- append(rent_elements_list, element_text[[1]]) # Saving information
+  
+    # Station - appending all stations that I searched
+    rent_station_list <- append(rent_station_list, station) # Adding result to the list
+  }
+}
+  
+remDr$close() # Closing the RDriver
+
+```
+
+## 4. Transformations
+
+The different data sources collected through the scraping process needed to be cleaned and transformed in order to be analysed:
+
+#### 1.1 Cleaning TfL
+```{r cleaning Tfl, eval=FALSE}
+# Note: I wrote eval=FALSE because I didn't run the scrape when knitting.
+
+tfl_2023 <- tfl_2023 %>% rename(annual_entry_exit = 'En/Ex...19') # Renaming key var. 
+
+
+tfl_2023 <- tfl_2023 %>% select('Mode','Station','annual_entry_exit') # Keeping only important variables
+tfl_2023$annual_entry_exit <- as.numeric(tfl_2023$annual_entry_exit) # To numeric
+
+tfl_2023$Station <- paste(tfl_2023$Station, "Station") # In each station name, add "Station" at the end of the character
+tfl_2023$Station_london <- paste(tfl_2023$Station, ", London") # Creating a second var with "London" added at the end of the character (this is to look only for addresses in London)
+
+tfl_2023 <- tfl_2023 %>% geocode(Station_london, method = 'osm', lat = latitude , long = longitude) # Retrieving lat and longitude of each address.
+
+# Saving Google Maps df as CSV
+write.csv(tfl_2023, file.path(ddir, "tfl_2023.csv"), row.names = FALSE)
+
+stations_list <- as.list(tfl_2023$Station) # For the loop
+```
+
+#### 1.2. Cleaning Google Maps
+```{r google_maps_df, eval=FALSE}
+# Note: I wrote eval=FALSE because I didn't run the scrape when knitting.
+
+# Creating a dataframe from the Google Maps scraping 
+google_maps_df <- data.frame(
+  borough = unlist(maps_borough_list),
+  business = unlist(maps_names_list),
+  stars = unlist(maps_stars_list),
+  plus_code = unlist(maps_plus_code_list),
+  plus_code2 = unlist(maps_plus_code_list2),
+  address = unlist(maps_address_list),
+  stringsAsFactors = FALSE # All to string to avoid problems
+)
+```
+
+
+```{r cleaning Google Maps, eval=FALSE}
+# Note: I wrote eval=FALSE because I didn't run the scrape when knitting.
+
+######## Cleaning process of Google Maps scraping #######
+# 1) Stars
+google_maps_df$stars <- gsub("\\(.*?\\)", "", google_maps_df$stars) # Erasing the number of reviews
+google_maps_df$stars <- as.numeric(gsub(",", ".", google_maps_df$stars)) # Converting to numeric
+
+# 2) Plus codes
+google_maps_df$plus_code <- gsub("LGTBI\\+", "", google_maps_df$plus_code) # drop +'s that are wrong
+google_maps_df$plus_code <- ifelse(grepl("\\+", google_maps_df$plus_code), google_maps_df$plus_code, google_maps_df$plus_code2)  # If plus_code is wrong, replace it with plus_code2
+google_maps_df$plus_code <- sub(" .*", "", google_maps_df$plus_code) # Deleting after " " 
+#google_maps_df$plus_code <- paste0("9C3X", google_maps_df$plus_code) # # 9C3X is for London. Insert "9C3W" at the beginning
+google_maps_df$plus_code <- gsub(" ", "", google_maps_df$plus_code) # drop spaces
+
+# 3) Address
+# Latitude and longitude (for plotting)
+google_maps_df$address <- gsub("^\\d+-", "\\1", google_maps_df$address) # When its something like '13-14 Watford Street', it only keeps '14 Watford Street'
+google_maps_df$address <- gsub("^Shop No\\. \\d+-", "\\1", google_maps_df$address) # Deletes "Shop No."
+google_maps_df$address <- gsub("Building Unit 6 Suite 3, ", "", google_maps_df$address) # Deletes ""
+	
+google_maps_df <- google_maps_df %>% geocode(address, method = 'osm', lat = latitude , long = longitude) # Getting lat and longitude
+
+google_maps_df <- google_maps_df %>% select('borough','business','stars', 'plus_code', 'address', 'latitude','longitude') # Keeping only important variables
+
+# For all variables
+google_maps_df <- google_maps_df %>%   # replacing "." with missing values
+  mutate(
+    business = ifelse(business == ".", NA, business),
+    stars = ifelse(stars == ".", NA, stars),
+    plus_code = ifelse(plus_code == ".", NA, plus_code),
+    address = ifelse(address == ".", NA, address),
+  )
+
+# Saving Google Maps df as CSV
+write.csv(google_maps_df, file.path(ddir, "google_maps.csv"), row.names = FALSE)
+
+```
+
+#### 1.3. Cleaning RightMove 
+
+```{r rent_df, eval=FALSE}
+# Note: I wrote eval=FALSE because I didn't run the scrape when knitting.
+
+# Creating a dataframe from the Rightmove scraping 
+rent_df <- data.frame(
+  station = unlist(rent_station_list),
+  elements = unlist(rent_elements_list), 
+  stringsAsFactors = FALSE # All to string to avoid problems
+)
+```
+
+
+```{r cleaning RightMove, eval=FALSE}
+# Note: I wrote eval=FALSE because I didn't run the scrape when knitting.
+
+######## Cleaning process of rent scraping #######
+
+# Drop if it didn't appear the rent price AND the sq. ft. in RightMove (cannot calculate price per sq_ft)
+rent_df <- rent_df[grepl("sq. ft.", rent_df$elements) & grepl("pcm", rent_df$elements), ]
+
+# 1) Price rent
+rent_df$price <- gsub(".*£\\s*([0-9,]+).*", "\\1", rent_df$elements) # Extracting number after £
+rent_df$price <- as.numeric(gsub(",", "", rent_df$price))
+
+# 2) Square feet
+rent_df$elements <- gsub("(.*)\\d{1,3}(?:,\\d{3})*–(\\d{1,3}(?:,\\d{3})* sq\\. ft\\..*)", "\\1\\2", rent_df$elements) # When its something like '13-14 sq. ft.', keep only 14 sq. ft.
+rent_df$sq_feet <- gsub(".*pcm\\s+([^\\s]+).*", "\\1", gsub(",", "", rent_df$elements)) # Deleting "," between numbers, and extracting numbers before "sq."
+rent_df$sq_feet <- as.numeric(rent_df$sq_feet)
+
+# 3) Address (I used Copilot for the regec)
+rent_df$address <- gsub(".*sq. ft.", "", rent_df$elements) # Extract after "sq. ft"
+rent_df$address <- gsub("Retail property.*", "", rent_df$address) # Extract before "Retail property"
+rent_df$address <- gsub("Shop.*", "", rent_df$address) # Extract before "Shop"
+rent_df$address <- gsub('Unit \\d+,', '', rent_df$address) # Delete Unit X
+rent_df$address <- gsub('Retail Unit, ', '', rent_df$address) # Delete Retail Unit
+rent_df$address <- gsub('Spitalfields Works, ', '', rent_df$address) # Delete Spitafields Work (is a constructor)
+rent_df$address <- gsub('Fourth Floor,  Aztec Row, ', '', rent_df$address) # Delete Fourth Floor
+rent_df$address <- gsub('Row', 'Road', rent_df$address) # Delete Fourth Floor
+rent_df$address <- gsub("(London).*", "\\1", rent_df$address)
+
+# Latitude and longitude (for plotting)
+rent_df <- rent_df %>% geocode(address, method = 'osm', lat = latitude , long = longitude) # getting lat and longitude
+
+# Replacing some geocode mistakes manually
+rent_df <- rent_df %>% slice(-which.min(longitude))
+rent_df <- rent_df %>% slice(-which.min(latitude))
+
+# Creating price per sq_ft
+rent_df$price_sq_ft <-rent_df$price/rent_df$sq_feet
+
+rent_df <- rent_df %>% select('station', 'price', 'sq_feet', 'address', 'latitude', 'longitude', 'price_sq_ft')
+
+# Saving RightMove df as CSV
+rent_df$address <- gsub("[^[:alnum:] ]", "", rent_df$address) # Address column was not being saved correctly
+
+write.csv(rent_df, file.path(ddir, "rightmove.csv"), row.names = FALSE)
+```
+
+
+## 5. Using the data 
+
+The retrieved data is useful for several purposes. First, it allows to estimate a significant share of the potential demand of pharmacy stores in locations near stations. Assuming that foot demand is the main demand that retail stores face in the streets, and that a significant part of the foot traffic comes from and to tube stations, the entries and exits in stations are a good proxy of potential demand for retail stores. 
+
+On the other hand, retrieving data from other pharmacy retail stores from Google Maps is useful to understand the competitive environment of the industry and to understand 
+This data helps provide a comprehensive view of the competitive landscape and the distribution of pharmacy stores across different areas."
+
+Finally, the retrieved data from RightMove considers only retail spaces that are available for rent within a radius 1/4 miles each station, which is approximately a 5-minute walk. This restriction helps target locations with high foot traffic, crucial for retail stores, especially pharmacies. In these businesses, clients often prioritize proximity over brand loyalty, seeking the nearest store for convenience.
+
+## 6. Output
+
+The data retrieved above allows to analyse the market in several useful ways. Here, I present three charts that illustrate the project's value for market analysis.
+
+```{r Importing GIS, message=FALSE, warning=FALSE}
+# GIS boundary London
+# Source: https://data.london.gov.uk/dataset?tag=shapefile
+
+# Loading the shapefile
+file_path <- file.path(ddir, "statistical-gis-boundaries-london/statistical-gis-boundaries-london/ESRI/London_Borough_Excluding_MHW.shp")
+map_london <- st_read(file_path)
+```
+
+### 1. Potential demand data
+The chart below shows the annual entry and exits from each geolocated station. Immediately, we can distinguish which stations receive more passengers, which are commonly in the city center.
+```{r tfl_plot, warning=FALSE}
+
+# I used copilot to edit the details of this graph (transparency, adding legend colours, etc)
+file_path <- file.path(ddir, "tfl_2023.csv")
+tfl_2023 <- read.csv(file_path)
+
+tfl_2023_2 <- na.omit(tfl_2023) # Dropping NA's
+tfl_2023_2 <- tfl_2023_2 %>% filter(longitude != min(longitude)) # Dropping the station that is outside London
+
+tfl_plot <- ggplot(data = map_london %>% st_transform(st_crs(4326))) +
+    geom_sf(fill = "lightblue", color = "black", alpha = 0.3) + # London Boroughs
+    geom_point(data = tfl_2023_2, aes(x = longitude, y = latitude, color = annual_entry_exit), size = 1) +
+    ggtitle("Traffic in TfL Stations") + 
+    xlab("Longitude") + 
+    ylab("Latitude") + 
+    scale_color_gradient(name = "No. of annual entry/exits", low = "blue", high = "red", labels = comma) +
+    theme_minimal() + 
+    theme(legend.position = "right")
+ggsave(file.path(odir, "tfl_plot.png"), plot = tfl_plot, width = 10, height = 8, dpi = 300)
+
+tfl_plot
+```
+
+### 2. Competition data
+The next chart shows the locations of pharmacy retail businesses across London's boroughs. Here, it is clear that some boroughs have a higher concentration of pharmacy stores than others.
+
+```{r competition_plot, warning=FALSE}
+
+# 2)  Competition plot
+file_path <- file.path(ddir, "google_maps.csv")
+google_maps_df <- read.csv(file_path)
+
+competition_plot <- ggplot(data = map_london %>% st_transform(st_crs(4326))) +
+    geom_sf(fill = "lightblue", color = "black", alpha = 0.3) + # London Boroughs
+    geom_point(data = google_maps_df, aes(x = longitude, y = latitude), color = "red", size = 0.6) + # Points in red
+    ggtitle("Competitors in London") + 
+    xlab("Longitude") + 
+    ylab("Latitude") + 
+    theme_minimal() + 
+    theme(legend.position = "right")
+ggsave(file.path(odir, "competition_plot.png"), plot = competition_plot, width = 10, height = 8, dpi = 300)
+
+competition_plot
+```
+
+Note: I couldn't finish the scraping before uploading my results since RStudio rebooted during the night.
+
+
+### 3. Rent costs data
+Finally, here you can see the available places within a 1/4 radius from a station. I also calculated their respective rent cost per square foot. As expected, the city center is the most expensive place for rent commercial properties.
+```{r rent_plot, warning=FALSE}
+
+# 3)  Adding color for high rent prices 
+file_path <- file.path(ddir, "rightmove.csv")
+rent_df <- read.csv(file_path)
+
+rent_plot <- ggplot(data = map_london %>% st_transform(st_crs(4326))) +
+    geom_sf(fill = "lightblue", color = "black", alpha = 0.3) + # London Boroughs
+    geom_point(data = rent_df, aes(x = longitude, y = latitude, color = price_sq_ft), size = 1) +
+    ggtitle("Rent spaces in London") + 
+    xlab("Longitude") + 
+    ylab("Latitude") + 
+    scale_color_gradient(name = "Monthly rent cost per Sq. ft.", low = "blue", high = "red", labels = comma) +
+    theme_minimal() + 
+    theme(legend.position = "right")
+ggsave(file.path(odir, "rent_plot.png"), plot = rent_plot, width = 10, height = 8, dpi = 300)
+
+rent_plot
+```
+
+
+Note: I couldn't finish the scraping before uploading my results since RStudio rebooted during the night.

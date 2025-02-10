@@ -1,0 +1,458 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <script src="https://cdn.jsdelivr.net/npm/vega@5"></script>
+  <script src="https://cdn.jsdelivr.net/npm/vega-lite@5"></script>
+  <script src="https://cdn.jsdelivr.net/npm/vega-embed@6"></script>
+
+  <title>Ignacio's Project</title>
+  <meta name="viewport" content="width=device-width, initial-scale=0.8">
+
+  <link rel="stylesheet" href="css/main.bundle.css">
+  <script src="https://kit.fontawesome.com/4e5a72c756.js"></script>
+  
+ 
+  <style>
+    body {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    .container {
+        width: 100%; /* Adjust the width as needed */
+        margin: 0 auto; /* Centers the container */
+        padding: 0px; /* Adjust the padding as needed */
+    }
+
+    .hero-body {
+        background: url('https://raw.githubusercontent.com/IgnacioOrueta/ignacioorueta.github.io/main/Project_1/img/IMG_1194.JPG') no-repeat center center;
+        background-size: cover;
+        position: relative;
+        height: 80vh; 
+        width: 100%; 
+        display: flex;
+        justify-content: center; /* Centers horizontally */
+        align-items: flex-end; /* Aligns to the bottom */
+    }
+
+    .hero-body-overlay {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: #111111;
+        opacity: .50;
+    }
+
+    .title-container {
+        background-color: rgba(6, 5, 5, 0.8); /* White background with transparency */
+        padding: 80px;
+        border-radius: 40px;
+        margin-top: 20px; /* Adjust the top margin */
+        margin-bottom: 0px; /* Adjust the bottom margin */
+        grid-template-columns: 5fr 1fr;
+        align-items: center;
+    }    
+      
+    .title.is-1, .title.is-2, .title.is-3, .title.is-4, .title.is-5, .title.is-6 {
+        text-align: justify; /* Center text */
+        margin: 0; /* Adjust the margins */
+    }
+
+    .figure-center {
+        display: flex;
+        justify-content: center; /* Centers horizontally */
+        justify-items: center;
+        align-items: center; /* Centers vertically */
+        align-content: center;
+    }
+    .figure-center_section3 {
+        display: flex;
+        justify-content: center; /* Centers horizontally */
+        justify-items: center;
+        align-items: center; /* Centers vertically */
+        align-content: center;
+        width: 1000px; /* Adjust width for smaller screens */
+        height: 500px;
+    }
+
+    .section {
+        justify-content: center; /* Centers horizontally */
+        justify-items: center;
+        align-items: center; /* Centers vertically */
+        align-content: center;
+        margin-left: 20%;
+        margin-right: 20%;
+    }    
+
+    @media (max-width: 1000px) {
+        .container {
+            width: 100%; /* Use full width on smaller screens */
+            margin: 0; /* No margin on smaller screens */
+        }
+        .section {    
+            margin-left: 0%;
+            margin-right: 0%;
+        }
+        body, html {
+            margin: 0 !important; /* No margin for mobile devices */
+        }
+        .figure-center {
+        display: flex;
+        justify-content: center; /* Centers horizontally */
+        justify-items: center;
+        align-items: center; /* Centers vertically */
+        align-content: center;
+        width: 155%; /* Adjust width for smaller screens */
+        margin-left: 0;
+        height: auto;
+    }
+    .figure-center_section3 {
+        display: flex;
+        justify-content: center; /* Centers horizontally */
+        justify-items: center;
+        align-items: center; /* Centers vertically */
+        align-content: center;
+        margin-left: 40%;
+        width: 600px; /* Adjust width for smaller screens */
+        height: 450px;
+    }
+
+    }
+  </style>
+
+  </head>
+  <body>
+
+    <section class="hero is-primary">
+      <div class="hero-body">
+        <div class="container">
+          <div class="columns has-text-centered">
+            <div class="column title-container">
+              <h1 class="title">
+                A comparative analysis of countries' Economic Complexity
+                <br><br>
+              </h1>
+              <h2 class="subtitle">
+                Project (80%)
+              </h2>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+    <section class="section">
+      <div class="title is-5">
+        <!-- This is a paragraph, it's the main way to display text on a web page -->
+          <p><a href="../index.html">Return to main page</a><p>
+          <p><a href="../Project_2/Project_2.html">Go to Portfolio</a><p>
+      </div>                  
+    </section>
+
+
+    <section class="section">
+      <p class="title is-2">
+        About the project  
+      </p> <br>
+
+
+      <p class="title is-5">
+          The aim of this project is to highlight the importance of Economic Complexity and its connection to economic growth and development. 
+          I also look into a successful example of increasing economic complexity, and extract valuable lessons that other countries can learn.
+      </p>
+        <br>
+      <p class="title is-3">
+          Data        
+      </p>
+
+      <p class="title is-5">
+        The data used for this project comes from 3 sources: <br><br>
+        1) <a href="https://comtradeplus.un.org/" target="_blank">COMTRADE</a>: This source aggregates detailed global annual and monthly trade statistics 
+        by product and trading partner. It covers approximately 200 countries and represents more than 99% of the world's merchandise trade. 
+        It also has an API developer tool, which I integrated to my workflow. 
+        <br><br>
+        2) <a href="https://atlas.hks.harvard.edu/data-downloads" target="_blank">Harvard Atlas of Economic Complexity</a>: Using COMTRADE data,
+        this website provides information about the Economic Complexity Index (ECI), Economic Complexity Rankings, and the Product Complexity Index (PCI).
+        <br><br>
+        3) <a href="https://data.worldbank.org/" target="_blank">World Bank</a>: This source offers data on various health, inequality, and environmental outcomes.
+        These datasets were analyzed with the previously mentioned data.
+      </p>
+      <br>
+      <p class="title is-3">
+        Analytical challenges        
+    </p> <br>
+
+    <p class="title is-5">
+      The biggest challenges in this project were the following: <br><br>
+      1) Data integration: 
+      Combining data from multiple sources was complex due to missing data and differences in data formats, codes and time periods available.
+      To address this, I needed to preprocess data to create a merged and unified dataset. 
+      <br><br>
+      2) Visualization of high-dimensional data:  
+      Since I had several dimensions to show (complexity rankings, products, years, population, etc) in different aggregation levels, 
+      I used advanced visualization techniques such as bubble charts, interactive dashboards and tooltips to represent multidimensional data clearly.
+      <br><br>
+      3) Communicating findings: 
+      Explaining complex relations in a few words is always difficult. 
+      For this, I tried to simplify my findings as much as possible, only highlighting the most important insights and using intuitive visualizations. 
+    </p>
+    </section>
+
+    <section class="section">
+      <h1 class="title is-1">What is Economic Complexity? How it's measured?</h1> <br>
+
+        
+        <p class="title is-5">
+          The Economic Complexity Index (ECI) measures the level of knowledge in a society as expressed in the products it makes <a href="https://atlas.hks.harvard.edu/glossary" target="_blank">(Harvard Atlas, 2022)</a>.            
+          In simple terms, it measures the country's <b>diversification</b> (i.e the variety of products a country is able to make) and <b>ubiquity</b> (i.e. the number of countries capable of producing a given product.) of their exports. 
+          <a href="https://www.pnas.org/cg/doi/10.1073/pnas.0900943106" target="_blank">(Hidalgo & Hausmann, 2009)</a>. 
+        </p>
+
+        <p class="title is-5">
+          Thus, a country’s total diversity and ubiquity is a way of expressing the amount of collective know-how held within that country, and the complexity of its knowledge.
+        </p>
+        <p class="title is-5">
+          <a href="https://www.pnas.org/cg/doi/10.1073/pnas.0900943106" target="_blank">Hidalgo & Hausmann (2009)</a> showed that complexity is correlated with a country's level of income, 
+          and that deviations from this relationship are predictive of future growth. Thus, development strategies should aim to create conditions that foster the emergence of complexity, leading to sustained growth and prosperity.        
+        </p>
+          
+    </section>
+
+
+      <!-- We're organising the page into sections, with each section containing a chart, title and a description -->
+      <section class="section">
+        <hr />
+        <h2 class="title is-2"> I. Which are the most complex economies? Which are fell behind?</h2> <br>
+
+              <p> <!-- This is a paragraph, it's the main way to display text on a web page -->
+
+                <p class="title is-5">
+                  Economic Complexity vary tremendously across countries.
+                  However, despite diversity, there are some regional patterns. For example, the USA and European countries consistently have high scores
+                  By contrast, African countries tend to be in the lower section of the ranking, showing a lag in economic complexity. 
+                  <br><br>
+                  In the other hand, some Asian countries have a notable increase in the ranking from 1995 to 2022. Some examples of this are China, Taiwan and Vietnam.  
+                  This shows that some countries diversified their exports substantially more than others, further enhancing economic complexity.
+                </p>    
+              <br>
+          <figure id="Location1" class="figure-center"></figure> <!-- we give it an id so we can put a vega-lite graph here with VegaEmbed -->
+      </section>
+
+      <!-- We're organizing the page into sections, with each section containing a chart, title and a description -->
+      <section class="section">
+        <hr />
+        <h2 class="title is-2">  II. The relation of Complexity with economic outcomes and wellbeing</h2>
+                  
+          <h2 class="title is-4">a) Income  </h2> <br>
+              <p class="title is-5">
+                As mentioned earlier, <a href="https://www.pnas.org/cg/doi/10.1073/pnas.0900943106" target="_blank">Hidalgo & Hausmann (2009)</a> 
+                showed that complexity is correlated with income.
+                This indicates that wealthier countries tend to have more complex economies, and vice versa. 
+                <br> <br>
+                While causality is not obvious, this indicates that development efforts should focus on generating 
+                the conditions for complexity to generate.
+              </p>
+              <br>
+
+              <figure id="Location2"  class="figure-center"></figure> <!-- we give it an id so we can put a vega-lite graph here with VegaEmbed -->
+            <br><br>
+          <h2 class="title is-4">b) Health  </h2> <br>
+              <p class="title is-5"> 
+                Complexity is also related to other non-economic measures, such as health outcomes.
+                <a href="https://www.sciencedirect.com/science/article/pii/S0277953620306997?casa_token=S1wl_znx2JUAAAAA:_AR5ImV57ikRnEGavcs7oY97ctPOjiyNrOKGxf9gxI4e1ScOLuPZUfjHzU2zhFPaPNNUc9GBAg" target="_blank">Trung V. Vu (2020)</a>
+                showed robust evidence that countries exporting complex products, on average, enjoy better health outcomes.
+                <br><br>
+                The key channel through which ECI transmits to health improvements is via strengthening employment opportunities. 
+                Thus, health improvements can be promoted through structural transformation toward producing more sophisticated products.
+              </p>
+              <br>
+              <figure id="Location2c" class="figure-center"></figure> <!-- we give it an id so we can put a vega-lite graph here with VegaEmbed -->
+     
+            <br><br>
+          <h2 class="title is-4">c) Inequality  </h2> <br>
+              <p class="title is-5"> 
+                
+                ECI is also associated with higher income inequality. Moreover, <a href="https://www.sciencedirect.com/science/article/pii/S0313592620304100?casa_token=2KnecJeORUAAAAAA:LhV8pAmyM5IaIAbtY4j4FenkK5QMI1_a9cTk3wAQuiPOTnd4CH4TRJJak9rTUPUMyzamXWBPrg" target="_blank">Khanh Chu & Phuong Hoang (2020)</a>
+                showed that this relationship is conditional on other factors, such as education, government and trade openness.
+                This means that, when these factors reach certain thresholds, the benefits of higher economic complexity in reducing income inequality are higher.
+              </p>
+              <br>
+              <figure id="Location2b" class="figure-center"></figure> <!-- we give it an id so we can put a vega-lite graph here with VegaEmbed -->
+            <br><br>
+            <h2 class="title is-4">d) Environment  </h2> <br>
+              <p class="title is-5"> 
+                Finally, <a href="https://www.sciencedirect.com/science/article/pii/S0305750X20304447?casa_token=I1wEPlE1AdEAAAAA:sqJftCUDAzWVF5n7_mWcROtrvKT92Yuwep7OSg2EWtkZzoW5B7jAjsWXJJSTFuTkPxsxLYX_OQ" target="_blank">Romero, J. & Gramkow, C. (2021)</a>
+                showed that economic complexity contributes to reduce greenhouse gas emissions, by 2 channels. 
+                Complex goods are often associated with high market values, leading to economic efficiency. 
+                Additionally, complex economies are more likely to develop capabilities that reduce pollution, such as through green innovations. 
+              </p>
+              <br>
+              <figure id="Location2d" class="figure-center"></figure> <!-- we give it an id so we can put a vega-lite graph here with VegaEmbed -->
+      </section>
+      
+          <!-- We're organising the page into sections, with each section containing a chart, title and a description -->
+      <section class="section">
+                <hr />
+                <h2 class="title is-2"> III. What exports a complex economy? What exports a non-complex economy? </h2> <br>
+
+                  <p class="title is-5">
+
+                    To understand what complexity looks like in practice, it's helpful to examine the export matrix of the top and bottom five countries in terms of complexity.
+                    <br><br>
+                    First, the most complex countries exhibit a diversified export matrix, with products that are relatively more difficult to produce and that fewer countries can elaborate. 
+                    This means that these countries have extensive collective knowledge to produce a variety of goods and do not need to rely on a single product for global trade.
+                  </p> <br>
+                  <iframe src="Section3/figures/figure3.html" class="figure-center_section3"></iframe>
+                  <br>
+                  
+                  <p class="title is-5">
+                    On the other hand, the least complex countries show a highly concentrated export matrix, mainly focused in raw materials, such as Minerals and Agricultural products which are the least complex products to create.
+                  </p> <br>
+                  <iframe src="Section3/figures/figure3b.html" class="figure-center_section3"></iframe>
+              
+      </section>
+      
+      <!-- We're organizing the page into sections, with each section containing a chart, title and a description -->
+      <section class="section">
+            <hr />
+            <h2 class="title is-2"> IV. The product space network </h2> 
+            <br>
+
+              <p class="title is-5">
+                  Another key concept in the complexity framework is the level of similarity between products. <a href="https://www.science.org/doi/abs/10.1126/science.1144581" target="_blank">Hidalgo & Hausmann (2007)</a>.
+                  The technology, capital, institutions, and skills needed to create new products are more easily adapted from some products than others. 
+                  This is called the level of <b>relatedness</b> between products, which is often visualized as a “product space" network. 
+                  Interestingly, the authors found that countries progress through the product space by developing goods closer to those they currently produce. 
+                  Additionally, more-sophisticated products are located in a densely connected core, while less-sophisticated products are located in a less-connected periphery.             
+                  <br><br>
+                  Thus, less complex countries can reach the core of the product space only by "jumping" infrequent distances. 
+                  This suggests an explanation on why poor countries have trouble developing more competitive exports 
+                  and fail to converge to the income of rich countries.
+              </p>
+          <br>
+          <figure id="Location4" class="figure-center"></figure>  <!-- we give it an id so we can put a vega-lite graph here with VegaEmbed -->
+          <br>
+          <figure id="Location4b" class="figure-center"></figure>  <!-- we give it an id so we can put a vega-lite graph here with VegaEmbed -->
+        <!-- <figure id="Location3b"></figure> --> <!-- we give it an id so we can put a vega-lite graph here with VegaEmbed -->
+      </section>
+
+      <section class="section">
+                <hr />
+                <h2 class="title is-2"> V. Policy Challenge: How economies turn more complex?</h2>
+                  <h3 class="title is-3">A successful case of transition: the last decades of Vietnam     <img src="https://raw.githubusercontent.com/IgnacioOrueta/ignacioorueta.github.io/main/Project_1/img/vietnam.png" alt="Vietnam Flag" style="width:60px;height:auto;"></h3>
+                <br>
+                  <p class="title is-5">
+                    Despite the difficulty for less complex countries to produce higher complex products, there are some successful cases of transitioning from less-to-more complex economies. 
+                    For example, in 1995, Vietnam was ranked 101st out of 146 countries, while in 2022 achieved the 53rd position, being the country with the biggest increase in the ranking during that period.
+                    <br><br>
+                    During the last decades, Vietnam's largest contribution to export growth came from Electrical Machinery and Equipment and Industrial Machinery, which are highly complex products. 
+                    This reallocation from low to high productivity sectors was driven by promoting foreign companies, such as the South Korea's Samsung, to transfer their production to the country.
+                    <a href="https://www.mitsui.com/mgssi/en/report/detail/__icsFiles/afieldfile/2023/09/05/2307h_kawamura_e.pdf
+                    " target="_blank">Mitsui & Co. (2023)</a>. 
+                    <br><br>
+                    Moreover, Vietnam has bilateral agreements and comprehensive economic partnership agreements with several countries and regions. 
+                    In recent years, through Free Trade Agreements (FTAs) with the EU and the UK, which have stringent decarbonization regulations, Vietnam has been striving to enhance its international competitiveness. 
+                    The country is doing this by setting up high-quality domestic production operations that comply with these international standards.                  
+                    <br><br>
+                    Finally, amidst the rising trade conflict between the US and China, Vietnam took the right steps to position themselves as an alternative destination for exporting goods to the US. 
+                    </p>
+                <br>    
+              <figure id="Location5" class="figure-center"></figure> <!-- we give it an id so we can put a vega-lite graph here with VegaEmbed -->
+      </section>    
+     
+      <section class="section">
+                <hr />
+                <h2 class="title is-2"> VI. Growth projections for the following years</h2> <br>
+                  <p class="title is-5">
+                    As mentioned earlier, the ECI has a strong relationship with GDP per capita. 
+                    However, <a href="https://atlas.cid.harvard.edu/growth-projections" target="_blank">Hidalgo, et. al, (2009)</a> noted that is also a good predictor for future growth.
+                    Analytically, this idea states that, within the same level of GDP per capita, countries with different complexities should have different growth paths.                    
+                    Thus, countries that are 'too complex' for their present GDP per capita, should have higher growth in the following years, while countries "too complex" for their GDP per capita levels are expected to slow down their growth.       
+                    <br><br>
+                    Based on this idea, the <a href="https://atlas.cid.harvard.edu/growth-projections" target="_blank">Harvard Atlas of Economic Complexity.</a>, estimated growth trends for the next decade, which is what I replicated in the next chart.
+                    As you see, highest growths are expected in East Asia and East Africa, especially UGanda (6.7%), Uzbekistan (6.1%) and Vietnam (5.8%). 
+                  </p>
+              <br>
+              <figure id="Location6" class="figure-center"></figure> <!-- we give it an id so we can put a vega-lite graph here with VegaEmbed -->
+      </section>    
+
+      <section class="section">
+        <hr />
+        <h2 class="title is-2"> Final thoughts</h2> <br>
+
+        <p class="title is-5">
+
+          This project highlights the role of Economic Complexity in economic growth and development. 
+          The analysis confirms that countries with higher economic complexity tend to have higher GDP per capita, higher life expectancy, lower inequality and lower CO2 emissions by dollar produced. 
+          This suggests that Economic Complexity is a strong indicator of economic prosperity. 
+          Therefore, policymakers should focus on strategies to enhance the complexity of their economies, such as investing in education, innovation, and infrastructure.
+          <br><br>          
+          Additionally, the are significant regional disparities in economic complexity, with developed countries in North America and Europe exhibiting higher complexity. 
+          However, there are some successful cases outside the developed world that showed a big improvement in their export matrix, such as Vietnam.
+          This demonstrates that increasing Economic Complexity can be addressed by disadvantaged countries by focusing on their advantages and coordinating key areas of their economies.
+        </p>
+        <br>
+        <br>
+      </section>
+
+      <section class="section">
+        <p style="color: black;">Template credits to
+          <a target="_blank"href="https://github.com/mmacneil/devfolio/blob/master/docs/devfolio-desktop.gif" target="_blank"><i style="color: black;" >
+             Mark Mcneil</a>.
+        </p>
+  
+      </section>
+      
+      <section class="section">
+        <p>Gen AI Disclosure
+          I used Copilot as a coding assistant for data cleaning and plot creation with the Altair package in Python.</p>  
+      </section>
+      
+      <!-- Do you want to add more sections? -->
+          <!-- Try copying pasting the section above -->
+          <!-- You'll need to change the id of the figure "<figure id="Location3"... -->
+          <!-- ... and add a new variable for the graph spec in the script at the bottom of the page -->
+
+
+      <!-- This is a script, it's a way to run JavaScript code on the page -->
+      <script>
+          // This is a comment in JavaScript - it's a different language to HTML and CSS
+
+          let figure_1_spec = "Section1/figures/figure1_combined.json"; // We're storing the URL of the graph we want to display in a variable
+          let figure_2_spec = "Section2/figures/figure2.json"; // We're storing the URL of the graph we want to display in a variable
+          let figure_2b_spec = "Section2/figures/figure2b.json"; // We're storing the URL of the graph we want to display in a variable
+          let figure_2c_spec = "Section2/figures/figure2c.json"; // We're storing the URL of the graph we want to display in a variable
+          let figure_2d_spec = "Section2/figures/figure2d.json"; // We're storing the URL of the graph we want to display in a variable
+          let figure_3_spec = "Section3/figures/figure3.json"; // We're storing the URL of the graph we want to display in a variable
+          let figure_4_spec = "Section4/figures/figure4_map.json"; // We're storing the URL of the graph we want to display in a variable
+          let figure_4b_spec = "Section4/figures/figure4_bar.json"; // We're storing the URL of the graph we want to display in a variable
+          let figure_5_spec = "Section5/figures/figure5_combined.json"; // We're storing the URL of the graph we want to display in a variable
+          let figure_6_spec = "Section6/figures/figure6_map.json"; // We're storing the URL of the graph we want to display in a variable
+          // You should have a spec for a graph in this same folder. Just specify its name here, e.g. let figure_1_spec = "chart1.json"
+
+          vegaEmbed('#Location1', figure_1_spec) // We're using the vegaEmbed function to put a graph in the element with id figure_1
+          vegaEmbed('#Location2', figure_2_spec) // We're using the vegaEmbed function to put a graph in the element with id figure_2
+          vegaEmbed('#Location2b', figure_2b_spec) // We're using the vegaEmbed function to put a graph in the element with id figure_2
+          vegaEmbed('#Location2c', figure_2c_spec) // We're using the vegaEmbed function to put a graph in the element with id figure_2
+          vegaEmbed('#Location2d', figure_2d_spec) // We're using the vegaEmbed function to put a graph in the element with id figure_2
+          vegaEmbed('#Location3', figure_3_spec) // We're using the vegaEmbed function to put a graph in the element with id figure_3
+          vegaEmbed('#Location4', figure_4_spec) // We're using the vegaEmbed function to put a graph in the element with id figure_3
+          vegaEmbed('#Location4b', figure_4b_spec) // We're using the vegaEmbed function to put a graph in the element with id figure_3
+          vegaEmbed('#Location5', figure_5_spec) // We're using the vegaEmbed function to put a graph in the element with id figure_5
+          vegaEmbed('#Location6', figure_6_spec) // We're using the vegaEmbed function to put a graph in the element with id figure_6
+
+          // Do you want to add more graphs?
+          // try defining a new variable for figure_3_spec, adding VegaEmbed for Location3, and adding a new section in the HTML
+          // e.g. 
+          // let figure_3_spec = ...
+          // vegaEmbed('#Location3', figure_3_spec)
+          //Credits to  Mark Macneil (2019)
+
+      </script>
+  </body>
+
+  </html>

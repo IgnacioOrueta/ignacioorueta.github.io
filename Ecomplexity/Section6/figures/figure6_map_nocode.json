@@ -1,0 +1,154 @@
+<<<<<<< HEAD
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "title": {
+    "text": "Economic Complexity Growth Projections to 2032",
+    "subtitle": [
+      "Projection of annualized growth for 2022-2032 (%).",
+      "Source: The Harvard Atlas of Economic Complexity.",
+      ""
+    ],
+    "fontSize": 16,
+    "subtitleFontSize": 12,
+    "subtitleFontWeight": "lighter",
+    "anchor": "middle"
+  },
+  "description": "2022 World Bank data, GDP per capita in current international $ and converted to purchasing power parity. Grey countries have missing data.",
+  "data": { 
+    "url": "https://raw.githubusercontent.com/IgnacioOrueta/ignacioorueta.github.io/refs/heads/main/Project/Section7/data/growth_projections.csv"
+  },
+  "width": 580,
+  "height": 330,
+
+  "transform": [
+    {
+      "lookup": "ISO3",
+      "from": {
+        "key": "properties.ISO3",
+        "fields": ["type", "geometry", "properties"],
+        "data": {
+          "url": "https://raw.githubusercontent.com/EconomicsObservatory/courses/main/datasets/advanced/map_world.geojson",
+          "format": {"property": "features"}
+        }
+      }
+    },
+      {
+      "calculate": "format(datum.growth_proj, '.1f') + '%'",
+      "as": "growth_proj_formatted"
+    }
+    ],
+  "projection": {
+    "type": "naturalEarth1",
+    "scale": 125,
+    "translate": [285, 180]
+  },
+  "mark": {
+    "type": "geoshape",
+    "stroke": "white",
+    "strokeWidth": 0.3
+  },
+  "encoding": {
+    "color": {
+      "condition": {
+        "value": "lightgrey",
+        "test": "!datum['growth_proj']"
+      },
+      "field": "growth_proj",
+      "type": "quantitative",
+      "legend": {
+        "title": "Annual growth",
+        "format": "d",
+        "direction": "vertical",
+        "labelExpr": "datum.label + '%'"
+      },
+      "scale": {
+        "type": "linear",
+        "nice": true,
+        "scheme": "redblue",
+        "reverse": true
+      } 
+    },
+    "tooltip": [
+      {"field": "country", "title": "Country"},
+      {"field": "growth_proj_formatted", "title": "Expected annual growth (%)"
+      }
+    ]
+  }
+=======
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "title": {
+    "text": "Economic Complexity Growth Projections to 2032",
+    "subtitle": [
+      "Projection of annualized growth for 2022-2032 (%).",
+      "Source: The Harvard Atlas of Economic Complexity.",
+      ""
+    ],
+    "fontSize": 16,
+    "subtitleFontSize": 12,
+    "subtitleFontWeight": "lighter",
+    "anchor": "middle"
+  },
+  "description": "2022 World Bank data, GDP per capita in current international $ and converted to purchasing power parity. Grey countries have missing data.",
+  "data": { 
+    "url": "https://raw.githubusercontent.com/IgnacioOrueta/ignacioorueta.github.io/refs/heads/main/Project/Section7/data/growth_projections.csv"
+  },
+  "width": 580,
+  "height": 330,
+
+  "transform": [
+    {
+      "lookup": "ISO3",
+      "from": {
+        "key": "properties.ISO3",
+        "fields": ["type", "geometry", "properties"],
+        "data": {
+          "url": "https://raw.githubusercontent.com/EconomicsObservatory/courses/main/datasets/advanced/map_world.geojson",
+          "format": {"property": "features"}
+        }
+      }
+    },
+      {
+      "calculate": "format(datum.growth_proj, '.1f') + '%'",
+      "as": "growth_proj_formatted"
+    }
+    ],
+  "projection": {
+    "type": "naturalEarth1",
+    "scale": 125,
+    "translate": [285, 180]
+  },
+  "mark": {
+    "type": "geoshape",
+    "stroke": "white",
+    "strokeWidth": 0.3
+  },
+  "encoding": {
+    "color": {
+      "condition": {
+        "value": "lightgrey",
+        "test": "!datum['growth_proj']"
+      },
+      "field": "growth_proj",
+      "type": "quantitative",
+      "legend": {
+        "title": "Annual growth",
+        "format": "d",
+        "direction": "vertical",
+        "labelExpr": "datum.label + '%'"
+      },
+      "scale": {
+        "type": "linear",
+        "nice": true,
+        "scheme": "redblue",
+        "reverse": true
+      } 
+    },
+    "tooltip": [
+      {"field": "country", "title": "Country"},
+      {"field": "growth_proj_formatted", "title": "Expected annual growth (%)"
+      }
+    ]
+  }
+>>>>>>> 411f9cbfbb392fcc65f7c9ccd3ab7bb938b197c6
+}
