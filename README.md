@@ -1,8 +1,8 @@
-# Personal Projects
+# Projects
 
-Hi! I am Ignacio, a first-year MPA - Data Science student at LSE. My expertise lies in Data Analysis, Data Science and Economics. In this website, you will find my personal projects.
+Hi! I am Ignacio, a first-year MPA - Data Science student at LSE. My expertise lies in Data Analysis, Data Science and Economics. In this website, you will find my projects.
 
-I hope you like it.
+I hope you like them.
 
 
 ## Ecomplexity: A comparative analysis of countries' Economic Complexity
